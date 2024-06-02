@@ -169,13 +169,14 @@ def open_csv_world_data_2023(data):
         # return the data as one dictionary with the country as key and all the info as values
         reader = csv.DictReader(f)
         for row in reader:
+            original_name = row['Country'].strip()
             row['Country']= treatCountryName(row['Country'])
             if row['Country'] not in data:
                 data[row['Country']] = {}
             old_data = data[row['Country']]
             if old_data == {}:
-                old_data = {
-                    'nome': '', 
+                data[row['Country']]['nome'] = []
+                old_data = { 
                     'area': '', 
                     'capital': '', 
                     'densidade populacional': '', 
@@ -206,9 +207,8 @@ def open_csv_world_data_2023(data):
                     }
                 
             
-            if old_data['nome'] == '':
-                data[row['Country']]['nome'] = row['Country']
-
+            if original_name not in data[row['Country']]['nome']:
+                data[row['Country']]['nome'].append(original_name)
             if old_data['area'] == '':
                 data[row['Country']]['area'] = row['Land Area(Km2)']
 
@@ -354,13 +354,14 @@ def open_csv_contry_profile_variables(data):
     with open(file, 'r') as f:
         reader = csv.DictReader(f)
         for row in reader:
+            original_name = row['country'].strip()
             row['country'] = treatCountryName(row['country'])
             if row['country'] not in data:
                 data[row['country']] = {}
             old_data = data[row['country']]
             if old_data == {}:
+                data[row['country']]['nome'] = []
                 old_data = {
-                    'nome': '', 
                     'area': '', 
                     'capital': '', 
                     'densidade populacional': '', 
@@ -390,8 +391,8 @@ def open_csv_contry_profile_variables(data):
                     'emissoes co2' : '', 
                 }
         
-            if old_data['nome'] == '':
-                data[row['country']]['nome'] = row['country']
+            if original_name not in data[row['country']]['nome']:
+                data[row['country']]['nome'].append(original_name)
             
             if old_data['area'] == '':
                 data[row['country']]['area'] = row['Surface area (km2)']
@@ -521,13 +522,14 @@ def open_csv_countries_of_the_world(data):
     with open(file, 'r') as f:
         reader = csv.DictReader(f)
         for row in reader:
+            original_name = row['Country'].strip()
             row['Country'] = treatCountryName(row['Country'])
             if row['Country'] not in data:
                 data[row['Country']] = {}
             old_data = data[row['Country']]
             if old_data == {}:
-                old_data = {
-                    'nome': '', 
+                data[row['Country']]['nome'] = []
+                old_data = { 
                     'area': '', 
                     'capital': '', 
                     'densidade populacional': '', 
@@ -556,9 +558,10 @@ def open_csv_countries_of_the_world(data):
                     'receita imposto': '', 
                     'emissoes co2' : '', 
                 }
+            
 
-            if old_data['nome'] == '':
-                data[row['Country']]['nome'] = row['Country']
+            if original_name not in data[row['Country']]['nome']:
+                data[row['Country']]['nome'].append(original_name)
             
             if old_data['populacao'] == '':
                 data[row['Country']]['populacao'] = row['Population']
@@ -642,44 +645,7 @@ def read_all_csv():
     return data
     
 def main():
-    #make a json object so its a template with this data, name, area
-    data_template = {
-        'nome': '', #check 3
-        'area': '', #check 3
-        'capital': '', #check 1
-        'densidade populacional': '', #check 3
-        'espetativa de vida' : '', #check 2
-        'exportacoes': '', #check 1
-        'gdp': '', #check 3
-        'hemisferio': '', # NOT FOUND, usar latitude
-        'importacoes': '', #check 1
-        'lado em que conduz': '', #NOT FOUND, xica trata
-        'latitude': '', #check 3
-        'literacia': '', #check 1
-        'longitude': '', #check 3
-        'migracao liquida': '', #check 1
-        'moeda': '', #check 1, usar currency_code
-        'mortalidade infantil': '', #check 3
-        'populacao': '', #check 3
-        'taxa de mortalidade': '', #check 1
-        'taxa de natalidade': '', #check 2
-        'telefones por 1000': '', #check 1
-        'costa' : '', #check 1
-        'temperatura media': '', #NOT FOUND, xica faz
-
-        #Meter no Protege
-        'racio sexos': '', #check 1
-        'taxa desemprego': '', #check 1
-        'taxa fertilidade': '', #check 1
-        'medicos por mil': '', #check 1
-        'receita imposto': '', #check 1
-        'emissoes co2' : '', #check 1
-    }
-
-
-
     data = read_all_csv()
-
     with open('datasets/countries.json', 'w') as f:
         json.dump(data, f, indent=4)
 

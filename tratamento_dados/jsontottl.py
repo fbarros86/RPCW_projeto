@@ -156,6 +156,11 @@ lines = """
                   rdfs:domain :Pais .
 
 
+###  http://www.rpcw.pt/rafa/ontologies/2024/paises#nome
+:nome rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Pais .
+
+
 #################################################################
 #    Classes
 #################################################################
@@ -174,11 +179,19 @@ with open('datasets/countriesInfo.json') as f:
     data = json.load(f)
 
     for country, attributes in data.items():
-        country_fixed = re.sub(r'(\&|\(|\)|\,)', r'\\\1', country).replace(' ', '_').replace("'", '').replace('.', '')
-        lines += f"""
+       country_fixed = re.sub(r'(\&|\(|\)|\,)', r'\\\1', country).replace(' ', '_').replace("'", '').replace('.', '')
+       nome = "\n".join([f':nome "{nome}";'for nome in attributes["nome"]])
+       receita_imposto = attributes.get('receita imposto', '')
+       if receita_imposto!='':
+            receita_imposto = f':receita_imposto "{receita_imposto}";'
+       medicos_por_mil = attributes.get('medicos por mil', '')
+       if medicos_por_mil!='':
+            medicos_por_mil = f':medicos_por_mil "{medicos_por_mil}";'
+       lines += f"""
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#{country_fixed}
 :{country_fixed} rdf:type owl:NamedIndividual ,
                       :Pais ;
+            {nome}
             :area "{attributes.get('area', '')}" ;
             :capital "{attributes.get('capital', '')}" ;
             :costa "{attributes.get('costa', '')}" ;
@@ -201,9 +214,9 @@ with open('datasets/countriesInfo.json') as f:
             :telefones_por_1000 "{attributes.get('telefones por 1000', '')}" ;
             :temperatura_media "{attributes.get('temperatura media', '')}" ;
             :emissoes_co2 "{attributes.get('emissoes co2', '')}" ;
-            :medicos_por_mil "{attributes.get('medicos por mil', '')}" ;
+            {medicos_por_mil}
             :racio_sexos "{attributes.get('racio sexos', '')}" ;
-            :receita_imposto "{attributes.get('receita imposto', '')}" ;
+            {receita_imposto}
             :taxa_desemprego "{attributes.get('taxa desemprego', '')}" ;
             :taxa_fertilidade "{attributes.get('taxa fertilidade', '')}" .
 """

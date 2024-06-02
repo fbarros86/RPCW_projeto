@@ -1,6 +1,8 @@
 {
     "Afghanistan": {
-        "nome": "Afghanistan",
+        "nome": [
+            "Afghanistan"
+        ],
         "area": "652,230",
         "capital": "Kabul",
         "densidade populacional": "60",
@@ -30,7 +32,9 @@
         "emissoes co2": "63"
     },
     "Albania": {
-        "nome": "Albania",
+        "nome": [
+            "Albania"
+        ],
         "area": "28,748",
         "capital": "Tirana",
         "densidade populacional": "105",
@@ -60,7 +64,9 @@
         "emissoes co2": "84"
     },
     "Algeria": {
-        "nome": "Algeria",
+        "nome": [
+            "Algeria"
+        ],
         "area": "2,381,741",
         "capital": "Algiers",
         "densidade populacional": "18",
@@ -90,7 +96,9 @@
         "emissoes co2": "5900"
     },
     "Andorra": {
-        "nome": "Andorra",
+        "nome": [
+            "Andorra"
+        ],
         "area": "468",
         "capital": "Andorra la Vella",
         "densidade populacional": "164",
@@ -120,7 +128,9 @@
         "emissoes co2": "1"
     },
     "Angola": {
-        "nome": "Angola",
+        "nome": [
+            "Angola"
+        ],
         "area": "1,246,700",
         "capital": "Luanda",
         "densidade populacional": "26",
@@ -150,7 +160,10 @@
         "emissoes co2": "3902"
     },
     "Antigua and Barbuda": {
-        "nome": "Antigua and Barbuda",
+        "nome": [
+            "Antigua and Barbuda",
+            "Antigua & Barbuda"
+        ],
         "area": "443",
         "capital": "St. John's, Saint John",
         "densidade populacional": "223",
@@ -180,7 +193,9 @@
         "emissoes co2": ""
     },
     "Argentina": {
-        "nome": "Argentina",
+        "nome": [
+            "Argentina"
+        ],
         "area": "2,780,400",
         "capital": "Buenos Aires",
         "densidade populacional": "17",
@@ -210,7 +225,9 @@
         "emissoes co2": "3167"
     },
     "Armenia": {
-        "nome": "Armenia",
+        "nome": [
+            "Armenia"
+        ],
         "area": "29,743",
         "capital": "Yerevan",
         "densidade populacional": "104",
@@ -240,7 +257,9 @@
         "emissoes co2": "48"
     },
     "Australia": {
-        "nome": "Australia",
+        "nome": [
+            "Australia"
+        ],
         "area": "7,741,220",
         "capital": "Canberra",
         "densidade populacional": "3",
@@ -270,7 +289,9 @@
         "emissoes co2": "15282"
     },
     "Austria": {
-        "nome": "Austria",
+        "nome": [
+            "Austria"
+        ],
         "area": "83,871",
         "capital": "Vienna",
         "densidade populacional": "109",
@@ -300,7 +321,9 @@
         "emissoes co2": "505"
     },
     "Azerbaijan": {
-        "nome": "Azerbaijan",
+        "nome": [
+            "Azerbaijan"
+        ],
         "area": "86,600",
         "capital": "Baku",
         "densidade populacional": "123",
@@ -330,7 +353,11 @@
         "emissoes co2": "2459"
     },
     "The Bahamas": {
-        "nome": "The Bahamas",
+        "nome": [
+            "The Bahamas",
+            "Bahamas",
+            "Bahamas, The"
+        ],
         "area": "13,880",
         "capital": "Nassau, Bahamas",
         "densidade populacional": "39",
@@ -360,7 +387,9 @@
         "emissoes co2": "0"
     },
     "Bahrain": {
-        "nome": "Bahrain",
+        "nome": [
+            "Bahrain"
+        ],
         "area": "765",
         "capital": "Manama",
         "densidade populacional": "2,239",
@@ -390,7 +419,9 @@
         "emissoes co2": "961"
     },
     "Bangladesh": {
-        "nome": "Bangladesh",
+        "nome": [
+            "Bangladesh"
+        ],
         "area": "148,460",
         "capital": "Dhaka",
         "densidade populacional": "1,265",
@@ -420,7 +451,9 @@
         "emissoes co2": "1438"
     },
     "Barbados": {
-        "nome": "Barbados",
+        "nome": [
+            "Barbados"
+        ],
         "area": "430",
         "capital": "Bridgetown",
         "densidade populacional": "668",
@@ -450,7 +483,9 @@
         "emissoes co2": "2"
     },
     "Belarus": {
-        "nome": "Belarus",
+        "nome": [
+            "Belarus"
+        ],
         "area": "207,600",
         "capital": "Minsk",
         "densidade populacional": "47",
@@ -480,7 +515,9 @@
         "emissoes co2": "155"
     },
     "Belgium": {
-        "nome": "Belgium",
+        "nome": [
+            "Belgium"
+        ],
         "area": "30,528",
         "capital": "City of Brussels",
         "densidade populacional": "383",
@@ -510,7 +547,9 @@
         "emissoes co2": "520"
     },
     "Belize": {
-        "nome": "Belize",
+        "nome": [
+            "Belize"
+        ],
         "area": "22,966",
         "capital": "Belmopan",
         "densidade populacional": "17",
@@ -540,7 +579,9 @@
         "emissoes co2": "9"
     },
     "Benin": {
-        "nome": "Benin",
+        "nome": [
+            "Benin"
+        ],
         "area": "112,622",
         "capital": "Porto-Novo",
         "densidade populacional": "108",
@@ -570,7 +611,9 @@
         "emissoes co2": "96"
     },
     "Bhutan": {
-        "nome": "Bhutan",
+        "nome": [
+            "Bhutan"
+        ],
         "area": "38,394",
         "capital": "Thimphu",
         "densidade populacional": "20",
@@ -600,7 +643,10 @@
         "emissoes co2": "75"
     },
     "Bolivia": {
-        "nome": "Bolivia",
+        "nome": [
+            "Bolivia",
+            "Bolivia (Plurinational State of)"
+        ],
         "area": "1,098,581",
         "capital": "Sucre",
         "densidade populacional": "11",
@@ -630,7 +676,10 @@
         "emissoes co2": "962"
     },
     "Bosnia and Herzegovina": {
-        "nome": "Bosnia and Herzegovina",
+        "nome": [
+            "Bosnia and Herzegovina",
+            "Bosnia & Herzegovina"
+        ],
         "area": "51,197",
         "capital": "Sarajevo",
         "densidade populacional": "64",
@@ -660,7 +709,9 @@
         "emissoes co2": "252"
     },
     "Botswana": {
-        "nome": "Botswana",
+        "nome": [
+            "Botswana"
+        ],
         "area": "581,730",
         "capital": "Gaborone",
         "densidade populacional": "4",
@@ -690,7 +741,9 @@
         "emissoes co2": "47"
     },
     "Brazil": {
-        "nome": "Brazil",
+        "nome": [
+            "Brazil"
+        ],
         "area": "8,515,770",
         "capital": "Bras\ufffd\ufffd\ufffd",
         "densidade populacional": "25",
@@ -720,7 +773,10 @@
         "emissoes co2": "10948"
     },
     "Brunei": {
-        "nome": "Brunei",
+        "nome": [
+            "Brunei",
+            "Brunei Darussalam"
+        ],
         "area": "5,765",
         "capital": "Bandar Seri Begawan",
         "densidade populacional": "83",
@@ -750,7 +806,9 @@
         "emissoes co2": "679"
     },
     "Bulgaria": {
-        "nome": "Bulgaria",
+        "nome": [
+            "Bulgaria"
+        ],
         "area": "110,879",
         "capital": "Sofia",
         "densidade populacional": "64",
@@ -780,7 +838,9 @@
         "emissoes co2": "474"
     },
     "BurkinaFaso": {
-        "nome": "BurkinaFaso",
+        "nome": [
+            "Burkina Faso"
+        ],
         "area": "274,200",
         "capital": "Ouagadougou",
         "densidade populacional": "76",
@@ -810,7 +870,9 @@
         "emissoes co2": "123"
     },
     "Burundi": {
-        "nome": "Burundi",
+        "nome": [
+            "Burundi"
+        ],
         "area": "27,830",
         "capital": "Bujumbura",
         "densidade populacional": "463",
@@ -840,7 +902,10 @@
         "emissoes co2": "56"
     },
     "Ivory Coast": {
-        "nome": "Ivory Coast",
+        "nome": [
+            "Ivory Coast",
+            "Cote d'Ivoire"
+        ],
         "area": "322,463",
         "capital": "Yamoussoukro",
         "densidade populacional": "83",
@@ -870,7 +935,10 @@
         "emissoes co2": ""
     },
     "Cape Verde": {
-        "nome": "Cape Verde",
+        "nome": [
+            "Cape Verde",
+            "Cabo Verde"
+        ],
         "area": "4,033",
         "capital": "Praia",
         "densidade populacional": "138",
@@ -900,7 +968,9 @@
         "emissoes co2": "2"
     },
     "Cambodia": {
-        "nome": "Cambodia",
+        "nome": [
+            "Cambodia"
+        ],
         "area": "181,035",
         "capital": "Phnom Penh",
         "densidade populacional": "95",
@@ -930,7 +1000,9 @@
         "emissoes co2": "178"
     },
     "Cameroon": {
-        "nome": "Cameroon",
+        "nome": [
+            "Cameroon"
+        ],
         "area": "475,440",
         "capital": "Yaound\ufffd",
         "densidade populacional": "56",
@@ -960,7 +1032,9 @@
         "emissoes co2": "408"
     },
     "Canada": {
-        "nome": "Canada",
+        "nome": [
+            "Canada"
+        ],
         "area": "9,984,670",
         "capital": "Ottawa",
         "densidade populacional": "4",
@@ -990,7 +1064,10 @@
         "emissoes co2": "19276"
     },
     "Central African Republic": {
-        "nome": "Central African Republic",
+        "nome": [
+            "Central African Republic",
+            "Central African Rep."
+        ],
         "area": "622,984",
         "capital": "Bangui",
         "densidade populacional": "8",
@@ -1020,7 +1097,9 @@
         "emissoes co2": "19"
     },
     "Chad": {
-        "nome": "Chad",
+        "nome": [
+            "Chad"
+        ],
         "area": "1,284,000",
         "capital": "N'Djamena",
         "densidade populacional": "13",
@@ -1050,7 +1129,9 @@
         "emissoes co2": "288"
     },
     "Chile": {
-        "nome": "Chile",
+        "nome": [
+            "Chile"
+        ],
         "area": "756,096",
         "capital": "Santiago",
         "densidade populacional": "26",
@@ -1080,7 +1161,9 @@
         "emissoes co2": "540"
     },
     "China": {
-        "nome": "China",
+        "nome": [
+            "China"
+        ],
         "area": "9,596,960",
         "capital": "Beijing",
         "densidade populacional": "153",
@@ -1110,7 +1193,9 @@
         "emissoes co2": "101394"
     },
     "Colombia": {
-        "nome": "Colombia",
+        "nome": [
+            "Colombia"
+        ],
         "area": "1,138,910",
         "capital": "Bogot\ufffd",
         "densidade populacional": "46",
@@ -1140,7 +1225,9 @@
         "emissoes co2": "5380"
     },
     "Comoros": {
-        "nome": "Comoros",
+        "nome": [
+            "Comoros"
+        ],
         "area": "2,235",
         "capital": "Moroni, Comoros",
         "densidade populacional": "467",
@@ -1170,7 +1257,12 @@
         "emissoes co2": "3"
     },
     "Republic of the Congo": {
-        "nome": "Republic of the Congo",
+        "nome": [
+            "Republic of the Congo",
+            "Congo",
+            "Congo, Dem. Rep.",
+            "Congo, Repub. of the"
+        ],
         "area": "342,000",
         "capital": "Brazzaville",
         "densidade populacional": "16",
@@ -1200,7 +1292,9 @@
         "emissoes co2": "648"
     },
     "Costa Rica": {
-        "nome": "Costa Rica",
+        "nome": [
+            "Costa Rica"
+        ],
         "area": "51,100",
         "capital": "San Jos\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
         "densidade populacional": "100",
@@ -1230,7 +1324,9 @@
         "emissoes co2": "110"
     },
     "Croatia": {
-        "nome": "Croatia",
+        "nome": [
+            "Croatia"
+        ],
         "area": "56,594",
         "capital": "Zagreb",
         "densidade populacional": "73",
@@ -1260,7 +1356,9 @@
         "emissoes co2": "182"
     },
     "Cuba": {
-        "nome": "Cuba",
+        "nome": [
+            "Cuba"
+        ],
         "area": "110,860",
         "capital": "Havana",
         "densidade populacional": "106",
@@ -1290,7 +1388,9 @@
         "emissoes co2": "212"
     },
     "Cyprus": {
-        "nome": "Cyprus",
+        "nome": [
+            "Cyprus"
+        ],
         "area": "9,251",
         "capital": "Nicosia",
         "densidade populacional": "131",
@@ -1320,7 +1420,10 @@
         "emissoes co2": "5"
     },
     "Czech Republic": {
-        "nome": "Czech Republic",
+        "nome": [
+            "Czech Republic",
+            "Czechia"
+        ],
         "area": "78,867",
         "capital": "Prague",
         "densidade populacional": "139",
@@ -1350,7 +1453,9 @@
         "emissoes co2": "1221"
     },
     "Democratic Republic of the Congo": {
-        "nome": "Democratic Republic of the Congo",
+        "nome": [
+            "Democratic Republic of the Congo"
+        ],
         "area": "2,344,858",
         "capital": "Kinshasa",
         "densidade populacional": "40",
@@ -1380,7 +1485,9 @@
         "emissoes co2": "1179"
     },
     "Denmark": {
-        "nome": "Denmark",
+        "nome": [
+            "Denmark"
+        ],
         "area": "43,094",
         "capital": "Copenhagen",
         "densidade populacional": "137",
@@ -1410,7 +1517,9 @@
         "emissoes co2": "666"
     },
     "Djibouti": {
-        "nome": "Djibouti",
+        "nome": [
+            "Djibouti"
+        ],
         "area": "23,200",
         "capital": "Djibouti City",
         "densidade populacional": "43",
@@ -1440,7 +1549,9 @@
         "emissoes co2": "3"
     },
     "Dominica": {
-        "nome": "Dominica",
+        "nome": [
+            "Dominica"
+        ],
         "area": "751",
         "capital": "Roseau",
         "densidade populacional": "96",
@@ -1470,7 +1581,9 @@
         "emissoes co2": "0"
     },
     "Dominican Republic": {
-        "nome": "Dominican Republic",
+        "nome": [
+            "Dominican Republic"
+        ],
         "area": "48,670",
         "capital": "Santo Domingo",
         "densidade populacional": "225",
@@ -1500,7 +1613,9 @@
         "emissoes co2": "28"
     },
     "Ecuador": {
-        "nome": "Ecuador",
+        "nome": [
+            "Ecuador"
+        ],
         "area": "283,561",
         "capital": "Quito",
         "densidade populacional": "71",
@@ -1530,7 +1645,9 @@
         "emissoes co2": "1247"
     },
     "Egypt": {
-        "nome": "Egypt",
+        "nome": [
+            "Egypt"
+        ],
         "area": "1,001,450",
         "capital": "Cairo",
         "densidade populacional": "103",
@@ -1560,7 +1677,9 @@
         "emissoes co2": "3509"
     },
     "El Salvador": {
-        "nome": "El Salvador",
+        "nome": [
+            "El Salvador"
+        ],
         "area": "21,041",
         "capital": "San Salvador",
         "densidade populacional": "313",
@@ -1590,7 +1709,9 @@
         "emissoes co2": "86"
     },
     "EquatorialGuinea": {
-        "nome": "EquatorialGuinea",
+        "nome": [
+            "Equatorial Guinea"
+        ],
         "area": "28,051",
         "capital": "Malabo",
         "densidade populacional": "50",
@@ -1620,7 +1741,9 @@
         "emissoes co2": "841"
     },
     "Eritrea": {
-        "nome": "Eritrea",
+        "nome": [
+            "Eritrea"
+        ],
         "area": "117,600",
         "capital": "Asmara",
         "densidade populacional": "35",
@@ -1650,7 +1773,9 @@
         "emissoes co2": "27"
     },
     "Estonia": {
-        "nome": "Estonia",
+        "nome": [
+            "Estonia"
+        ],
         "area": "45,228",
         "capital": "Tallinn",
         "densidade populacional": "31",
@@ -1680,7 +1805,10 @@
         "emissoes co2": "242"
     },
     "Eswatini": {
-        "nome": "Eswatini",
+        "nome": [
+            "Eswatini",
+            "Swaziland"
+        ],
         "area": "17,364",
         "capital": "Mbabane",
         "densidade populacional": "67",
@@ -1710,7 +1838,9 @@
         "emissoes co2": "39"
     },
     "Ethiopia": {
-        "nome": "Ethiopia",
+        "nome": [
+            "Ethiopia"
+        ],
         "area": "1,104,300",
         "capital": "Addis Ababa",
         "densidade populacional": "115",
@@ -1740,7 +1870,9 @@
         "emissoes co2": "1308"
     },
     "Fiji": {
-        "nome": "Fiji",
+        "nome": [
+            "Fiji"
+        ],
         "area": "18,274",
         "capital": "Suva",
         "densidade populacional": "49",
@@ -1770,7 +1902,9 @@
         "emissoes co2": "8"
     },
     "Finland": {
-        "nome": "Finland",
+        "nome": [
+            "Finland"
+        ],
         "area": "338,145",
         "capital": "Helsinki",
         "densidade populacional": "18",
@@ -1800,7 +1934,9 @@
         "emissoes co2": "757"
     },
     "France": {
-        "nome": "France",
+        "nome": [
+            "France"
+        ],
         "area": "643,801",
         "capital": "Paris",
         "densidade populacional": "119",
@@ -1830,7 +1966,9 @@
         "emissoes co2": "5694"
     },
     "Gabon": {
-        "nome": "Gabon",
+        "nome": [
+            "Gabon"
+        ],
         "area": "267,667",
         "capital": "Libreville",
         "densidade populacional": "9",
@@ -1860,7 +1998,11 @@
         "emissoes co2": "559"
     },
     "TheGambia": {
-        "nome": "TheGambia",
+        "nome": [
+            "The Gambia",
+            "Gambia",
+            "Gambia, The"
+        ],
         "area": "11,300",
         "capital": "Banjul",
         "densidade populacional": "239",
@@ -1890,7 +2032,9 @@
         "emissoes co2": "7"
     },
     "Georgia": {
-        "nome": "Georgia",
+        "nome": [
+            "Georgia"
+        ],
         "area": "69,700",
         "capital": "Tbilisi",
         "densidade populacional": "57",
@@ -1920,7 +2064,9 @@
         "emissoes co2": "61"
     },
     "Germany": {
-        "nome": "Germany",
+        "nome": [
+            "Germany"
+        ],
         "area": "357,022",
         "capital": "Berlin",
         "densidade populacional": "240",
@@ -1950,7 +2096,9 @@
         "emissoes co2": "5004"
     },
     "Ghana": {
-        "nome": "Ghana",
+        "nome": [
+            "Ghana"
+        ],
         "area": "238,533",
         "capital": "Accra",
         "densidade populacional": "137",
@@ -1980,7 +2128,9 @@
         "emissoes co2": "410"
     },
     "Greece": {
-        "nome": "Greece",
+        "nome": [
+            "Greece"
+        ],
         "area": "131,957",
         "capital": "Athens",
         "densidade populacional": "81",
@@ -2010,7 +2160,9 @@
         "emissoes co2": "368"
     },
     "Grenada": {
-        "nome": "Grenada",
+        "nome": [
+            "Grenada"
+        ],
         "area": "349",
         "capital": "St. George's, Grenada",
         "densidade populacional": "331",
@@ -2040,7 +2192,9 @@
         "emissoes co2": "0"
     },
     "Guatemala": {
-        "nome": "Guatemala",
+        "nome": [
+            "Guatemala"
+        ],
         "area": "108,889",
         "capital": "Guatemala City",
         "densidade populacional": "167",
@@ -2070,7 +2224,9 @@
         "emissoes co2": "327"
     },
     "Guinea": {
-        "nome": "Guinea",
+        "nome": [
+            "Guinea"
+        ],
         "area": "245,857",
         "capital": "Conakry",
         "densidade populacional": "53",
@@ -2100,7 +2256,9 @@
         "emissoes co2": "113"
     },
     "Guinea-Bissau": {
-        "nome": "Guinea-Bissau",
+        "nome": [
+            "Guinea-Bissau"
+        ],
         "area": "36,125",
         "capital": "Bissau",
         "densidade populacional": "70",
@@ -2130,7 +2288,9 @@
         "emissoes co2": "25"
     },
     "Guyana": {
-        "nome": "Guyana",
+        "nome": [
+            "Guyana"
+        ],
         "area": "214,969",
         "capital": "Georgetown, Guyana",
         "densidade populacional": "4",
@@ -2160,7 +2320,9 @@
         "emissoes co2": "7"
     },
     "Haiti": {
-        "nome": "Haiti",
+        "nome": [
+            "Haiti"
+        ],
         "area": "27,750",
         "capital": "Port-au-Prince",
         "densidade populacional": "414",
@@ -2190,7 +2352,10 @@
         "emissoes co2": "136"
     },
     "Holy See": {
-        "nome": "Holy See",
+        "nome": [
+            "Vatican City",
+            "Holy See"
+        ],
         "area": "0",
         "capital": "Vatican City",
         "densidade populacional": "2,003",
@@ -2220,7 +2385,9 @@
         "emissoes co2": ""
     },
     "Honduras": {
-        "nome": "Honduras",
+        "nome": [
+            "Honduras"
+        ],
         "area": "112,090",
         "capital": "Tegucigalpa",
         "densidade populacional": "89",
@@ -2250,7 +2417,9 @@
         "emissoes co2": "105"
     },
     "Hungary": {
-        "nome": "Hungary",
+        "nome": [
+            "Hungary"
+        ],
         "area": "93,028",
         "capital": "Budapest",
         "densidade populacional": "107",
@@ -2280,7 +2449,9 @@
         "emissoes co2": "423"
     },
     "Iceland": {
-        "nome": "Iceland",
+        "nome": [
+            "Iceland"
+        ],
         "area": "103,000",
         "capital": "Reykjav\ufffd\ufffd",
         "densidade populacional": "3",
@@ -2310,7 +2481,9 @@
         "emissoes co2": "284"
     },
     "India": {
-        "nome": "India",
+        "nome": [
+            "India"
+        ],
         "area": "3,287,263",
         "capital": "New Delhi",
         "densidade populacional": "464",
@@ -2340,7 +2513,9 @@
         "emissoes co2": "23103"
     },
     "Indonesia": {
-        "nome": "Indonesia",
+        "nome": [
+            "Indonesia"
+        ],
         "area": "1,904,569",
         "capital": "Jakarta",
         "densidade populacional": "151",
@@ -2370,7 +2545,10 @@
         "emissoes co2": "19481"
     },
     "Iran": {
-        "nome": "Iran",
+        "nome": [
+            "Iran",
+            "Iran (Islamic Republic of)"
+        ],
         "area": "1,648,195",
         "capital": "Tehran",
         "densidade populacional": "52",
@@ -2400,7 +2578,9 @@
         "emissoes co2": "13291"
     },
     "Iraq": {
-        "nome": "Iraq",
+        "nome": [
+            "Iraq"
+        ],
         "area": "438,317",
         "capital": "Baghdad",
         "densidade populacional": "93",
@@ -2430,7 +2610,10 @@
         "emissoes co2": "6744"
     },
     "Ireland": {
-        "nome": "Ireland",
+        "nome": [
+            "Republic of Ireland",
+            "Ireland"
+        ],
         "area": "70,273",
         "capital": "Dublin",
         "densidade populacional": "72",
@@ -2460,7 +2643,9 @@
         "emissoes co2": "84"
     },
     "Israel": {
-        "nome": "Israel",
+        "nome": [
+            "Israel"
+        ],
         "area": "20,770",
         "capital": "Jerusalem",
         "densidade populacional": "400",
@@ -2490,7 +2675,9 @@
         "emissoes co2": "313"
     },
     "Italy": {
-        "nome": "Italy",
+        "nome": [
+            "Italy"
+        ],
         "area": "301,340",
         "capital": "Rome",
         "densidade populacional": "206",
@@ -2520,7 +2707,9 @@
         "emissoes co2": "1539"
     },
     "Jamaica": {
-        "nome": "Jamaica",
+        "nome": [
+            "Jamaica"
+        ],
         "area": "10,991",
         "capital": "Kingston, Jamaica",
         "densidade populacional": "273",
@@ -2550,7 +2739,9 @@
         "emissoes co2": "8"
     },
     "Japan": {
-        "nome": "Japan",
+        "nome": [
+            "Japan"
+        ],
         "area": "377,944",
         "capital": "Tokyo",
         "densidade populacional": "347",
@@ -2580,7 +2771,9 @@
         "emissoes co2": "1114"
     },
     "Jordan": {
-        "nome": "Jordan",
+        "nome": [
+            "Jordan"
+        ],
         "area": "89,342",
         "capital": "Amman",
         "densidade populacional": "115",
@@ -2610,7 +2803,9 @@
         "emissoes co2": "7"
     },
     "Kazakhstan": {
-        "nome": "Kazakhstan",
+        "nome": [
+            "Kazakhstan"
+        ],
         "area": "2,724,900",
         "capital": "Astana",
         "densidade populacional": "7",
@@ -2640,7 +2835,9 @@
         "emissoes co2": "7091"
     },
     "Kenya": {
-        "nome": "Kenya",
+        "nome": [
+            "Kenya"
+        ],
         "area": "580,367",
         "capital": "Nairobi",
         "densidade populacional": "94",
@@ -2670,7 +2867,9 @@
         "emissoes co2": "750"
     },
     "Kiribati": {
-        "nome": "Kiribati",
+        "nome": [
+            "Kiribati"
+        ],
         "area": "811",
         "capital": "South Tarawa",
         "densidade populacional": "147",
@@ -2700,7 +2899,9 @@
         "emissoes co2": "0"
     },
     "Kuwait": {
-        "nome": "Kuwait",
+        "nome": [
+            "Kuwait"
+        ],
         "area": "17,818",
         "capital": "Kuwait City",
         "densidade populacional": "240",
@@ -2730,7 +2931,9 @@
         "emissoes co2": "6941"
     },
     "Kyrgyzstan": {
-        "nome": "Kyrgyzstan",
+        "nome": [
+            "Kyrgyzstan"
+        ],
         "area": "199,951",
         "capital": "Bishkek",
         "densidade populacional": "34",
@@ -2760,7 +2963,10 @@
         "emissoes co2": "80"
     },
     "Laos": {
-        "nome": "Laos",
+        "nome": [
+            "Laos",
+            "Lao People's Democratic Republic"
+        ],
         "area": "236,800",
         "capital": "Vientiane",
         "densidade populacional": "32",
@@ -2790,7 +2996,9 @@
         "emissoes co2": "72"
     },
     "Latvia": {
-        "nome": "Latvia",
+        "nome": [
+            "Latvia"
+        ],
         "area": "64,589",
         "capital": "Riga",
         "densidade populacional": "30",
@@ -2820,7 +3028,9 @@
         "emissoes co2": "108"
     },
     "Lebanon": {
-        "nome": "Lebanon",
+        "nome": [
+            "Lebanon"
+        ],
         "area": "10,400",
         "capital": "Beirut",
         "densidade populacional": "667",
@@ -2850,7 +3060,9 @@
         "emissoes co2": "7"
     },
     "Lesotho": {
-        "nome": "Lesotho",
+        "nome": [
+            "Lesotho"
+        ],
         "area": "30,355",
         "capital": "Maseru",
         "densidade populacional": "71",
@@ -2880,7 +3092,9 @@
         "emissoes co2": "31"
     },
     "Liberia": {
-        "nome": "Liberia",
+        "nome": [
+            "Liberia"
+        ],
         "area": "111,369",
         "capital": "Monrovia",
         "densidade populacional": "53",
@@ -2910,7 +3124,9 @@
         "emissoes co2": "73"
     },
     "Libya": {
-        "nome": "Libya",
+        "nome": [
+            "Libya"
+        ],
         "area": "1,759,540",
         "capital": "",
         "densidade populacional": "4",
@@ -2940,7 +3156,9 @@
         "emissoes co2": "1505"
     },
     "Liechtenstein": {
-        "nome": "Liechtenstein",
+        "nome": [
+            "Liechtenstein"
+        ],
         "area": "160",
         "capital": "Vaduz",
         "densidade populacional": "238",
@@ -2970,7 +3188,9 @@
         "emissoes co2": "1"
     },
     "Lithuania": {
-        "nome": "Lithuania",
+        "nome": [
+            "Lithuania"
+        ],
         "area": "65,300",
         "capital": "Vilnius",
         "densidade populacional": "43",
@@ -3000,7 +3220,9 @@
         "emissoes co2": "74"
     },
     "Luxembourg": {
-        "nome": "Luxembourg",
+        "nome": [
+            "Luxembourg"
+        ],
         "area": "2,586",
         "capital": "Luxembourg City",
         "densidade populacional": "242",
@@ -3030,7 +3252,9 @@
         "emissoes co2": "6"
     },
     "Madagascar": {
-        "nome": "Madagascar",
+        "nome": [
+            "Madagascar"
+        ],
         "area": "587,041",
         "capital": "Antananarivo",
         "densidade populacional": "48",
@@ -3060,7 +3284,9 @@
         "emissoes co2": "129"
     },
     "Malawi": {
-        "nome": "Malawi",
+        "nome": [
+            "Malawi"
+        ],
         "area": "118,484",
         "capital": "Lilongwe",
         "densidade populacional": "203",
@@ -3090,7 +3316,9 @@
         "emissoes co2": "89"
     },
     "Malaysia": {
-        "nome": "Malaysia",
+        "nome": [
+            "Malaysia"
+        ],
         "area": "329,847",
         "capital": "Kuala Lumpur",
         "densidade populacional": "99",
@@ -3120,7 +3348,9 @@
         "emissoes co2": "3738"
     },
     "Maldives": {
-        "nome": "Maldives",
+        "nome": [
+            "Maldives"
+        ],
         "area": "298",
         "capital": "Mal\ufffd",
         "densidade populacional": "1,802",
@@ -3150,7 +3380,9 @@
         "emissoes co2": "0"
     },
     "Mali": {
-        "nome": "Mali",
+        "nome": [
+            "Mali"
+        ],
         "area": "1,240,192",
         "capital": "Bamako",
         "densidade populacional": "17",
@@ -3180,7 +3412,9 @@
         "emissoes co2": "55"
     },
     "Malta": {
-        "nome": "Malta",
+        "nome": [
+            "Malta"
+        ],
         "area": "316",
         "capital": "Valletta",
         "densidade populacional": "1,380",
@@ -3210,7 +3444,9 @@
         "emissoes co2": "1"
     },
     "Marshall Islands": {
-        "nome": "Marshall Islands",
+        "nome": [
+            "Marshall Islands"
+        ],
         "area": "181",
         "capital": "Majuro",
         "densidade populacional": "329",
@@ -3240,7 +3476,9 @@
         "emissoes co2": "0"
     },
     "Mauritania": {
-        "nome": "Mauritania",
+        "nome": [
+            "Mauritania"
+        ],
         "area": "1,030,700",
         "capital": "Nouakchott",
         "densidade populacional": "5",
@@ -3270,7 +3508,9 @@
         "emissoes co2": "31"
     },
     "Mauritius": {
-        "nome": "Mauritius",
+        "nome": [
+            "Mauritius"
+        ],
         "area": "2,040",
         "capital": "Port Louis",
         "densidade populacional": "626",
@@ -3300,7 +3540,9 @@
         "emissoes co2": "10"
     },
     "Mexico": {
-        "nome": "Mexico",
+        "nome": [
+            "Mexico"
+        ],
         "area": "1,964,375",
         "capital": "Mexico City",
         "densidade populacional": "66",
@@ -3330,7 +3572,11 @@
         "emissoes co2": "8514"
     },
     "Micronesia": {
-        "nome": "Micronesia",
+        "nome": [
+            "Federated States of Micronesia",
+            "Micronesia (Federated States of)",
+            "Micronesia, Fed. St."
+        ],
         "area": "702",
         "capital": "Palikir",
         "densidade populacional": "784",
@@ -3360,7 +3606,10 @@
         "emissoes co2": "0"
     },
     "Moldova": {
-        "nome": "Moldova",
+        "nome": [
+            "Moldova",
+            "Republic of Moldova"
+        ],
         "area": "33,851",
         "capital": "Chi\ufffd\ufffd\ufffd\ufffd",
         "densidade populacional": "123",
@@ -3390,7 +3639,9 @@
         "emissoes co2": "15"
     },
     "Monaco": {
-        "nome": "Monaco",
+        "nome": [
+            "Monaco"
+        ],
         "area": "2",
         "capital": "Monaco City",
         "densidade populacional": "26,337",
@@ -3420,7 +3671,9 @@
         "emissoes co2": ""
     },
     "Mongolia": {
-        "nome": "Mongolia",
+        "nome": [
+            "Mongolia"
+        ],
         "area": "1,564,116",
         "capital": "Ulaanbaatar",
         "densidade populacional": "2",
@@ -3450,7 +3703,9 @@
         "emissoes co2": "677"
     },
     "Montenegro": {
-        "nome": "Montenegro",
+        "nome": [
+            "Montenegro"
+        ],
         "area": "13,812",
         "capital": "Podgorica",
         "densidade populacional": "47",
@@ -3480,7 +3735,9 @@
         "emissoes co2": "29"
     },
     "Morocco": {
-        "nome": "Morocco",
+        "nome": [
+            "Morocco"
+        ],
         "area": "446,550",
         "capital": "Rabat",
         "densidade populacional": "83",
@@ -3510,7 +3767,9 @@
         "emissoes co2": "78"
     },
     "Mozambique": {
-        "nome": "Mozambique",
+        "nome": [
+            "Mozambique"
+        ],
         "area": "799,380",
         "capital": "Maputo",
         "densidade populacional": "40",
@@ -3540,7 +3799,10 @@
         "emissoes co2": "779"
     },
     "Myanmar": {
-        "nome": "Myanmar",
+        "nome": [
+            "Myanmar",
+            "Burma"
+        ],
         "area": "676,578",
         "capital": "Naypyidaw",
         "densidade populacional": "83",
@@ -3570,7 +3832,9 @@
         "emissoes co2": "1078"
     },
     "Namibia": {
-        "nome": "Namibia",
+        "nome": [
+            "Namibia"
+        ],
         "area": "824,292",
         "capital": "Windhoek",
         "densidade populacional": "3",
@@ -3600,7 +3864,9 @@
         "emissoes co2": "19"
     },
     "Nauru": {
-        "nome": "Nauru",
+        "nome": [
+            "Nauru"
+        ],
         "area": "21",
         "capital": "Yaren District",
         "densidade populacional": "541",
@@ -3630,7 +3896,9 @@
         "emissoes co2": "0"
     },
     "Nepal": {
-        "nome": "Nepal",
+        "nome": [
+            "Nepal"
+        ],
         "area": "147,181",
         "capital": "Kathmandu",
         "densidade populacional": "203",
@@ -3660,7 +3928,9 @@
         "emissoes co2": "451"
     },
     "Netherlands": {
-        "nome": "Netherlands",
+        "nome": [
+            "Netherlands"
+        ],
         "area": "41,543",
         "capital": "Amsterdam",
         "densidade populacional": "508",
@@ -3690,7 +3960,9 @@
         "emissoes co2": "2447"
     },
     "NewZealand": {
-        "nome": "NewZealand",
+        "nome": [
+            "New Zealand"
+        ],
         "area": "268,838",
         "capital": "Wellington",
         "densidade populacional": "18",
@@ -3720,7 +3992,9 @@
         "emissoes co2": "783"
     },
     "Nicaragua": {
-        "nome": "Nicaragua",
+        "nome": [
+            "Nicaragua"
+        ],
         "area": "130,370",
         "capital": "Managua",
         "densidade populacional": "55",
@@ -3750,7 +4024,9 @@
         "emissoes co2": "91"
     },
     "Niger": {
-        "nome": "Niger",
+        "nome": [
+            "Niger"
+        ],
         "area": "1,267,000",
         "capital": "Niamey",
         "densidade populacional": "19",
@@ -3780,7 +4056,9 @@
         "emissoes co2": "101"
     },
     "Nigeria": {
-        "nome": "Nigeria",
+        "nome": [
+            "Nigeria"
+        ],
         "area": "923,768",
         "capital": "Abuja",
         "densidade populacional": "226",
@@ -3810,7 +4088,11 @@
         "emissoes co2": "10851"
     },
     "North Korea": {
-        "nome": "North Korea",
+        "nome": [
+            "North Korea",
+            "Democratic People's Republic of Korea",
+            "Korea, North"
+        ],
         "area": "120,538",
         "capital": "Pyongyang",
         "densidade populacional": "214",
@@ -3840,7 +4122,11 @@
         "emissoes co2": "871"
     },
     "North Macedonia": {
-        "nome": "North Macedonia",
+        "nome": [
+            "North Macedonia",
+            "The former Yugoslav Republic of Macedonia",
+            "Macedonia"
+        ],
         "area": "25,713",
         "capital": "Skopje",
         "densidade populacional": "83",
@@ -3870,7 +4156,9 @@
         "emissoes co2": "53"
     },
     "Norway": {
-        "nome": "Norway",
+        "nome": [
+            "Norway"
+        ],
         "area": "323,802",
         "capital": "Oslo",
         "densidade populacional": "15",
@@ -3900,7 +4188,9 @@
         "emissoes co2": "8204"
     },
     "Oman": {
-        "nome": "Oman",
+        "nome": [
+            "Oman"
+        ],
         "area": "309,500",
         "capital": "Muscat",
         "densidade populacional": "16",
@@ -3930,7 +4220,9 @@
         "emissoes co2": "3101"
     },
     "Pakistan": {
-        "nome": "Pakistan",
+        "nome": [
+            "Pakistan"
+        ],
         "area": "796,095",
         "capital": "Islamabad",
         "densidade populacional": "287",
@@ -3960,7 +4252,9 @@
         "emissoes co2": "2202"
     },
     "Palau": {
-        "nome": "Palau",
+        "nome": [
+            "Palau"
+        ],
         "area": "459",
         "capital": "Ngerulmud",
         "densidade populacional": "39",
@@ -3990,7 +4284,10 @@
         "emissoes co2": ""
     },
     "Palestine": {
-        "nome": "Palestine",
+        "nome": [
+            "Palestinian National Authority",
+            "State of Palestine"
+        ],
         "area": "6020",
         "capital": "",
         "densidade populacional": "847",
@@ -4020,7 +4317,9 @@
         "emissoes co2": "9"
     },
     "Panama": {
-        "nome": "Panama",
+        "nome": [
+            "Panama"
+        ],
         "area": "75,420",
         "capital": "Panama City",
         "densidade populacional": "58",
@@ -4050,7 +4349,9 @@
         "emissoes co2": "31"
     },
     "Papua New Guinea": {
-        "nome": "Papua New Guinea",
+        "nome": [
+            "Papua New Guinea"
+        ],
         "area": "462,840",
         "capital": "Port Moresby",
         "densidade populacional": "20",
@@ -4080,7 +4381,9 @@
         "emissoes co2": "114"
     },
     "Paraguay": {
-        "nome": "Paraguay",
+        "nome": [
+            "Paraguay"
+        ],
         "area": "406,752",
         "capital": "Asunci\ufffd\ufffd",
         "densidade populacional": "18",
@@ -4110,7 +4413,9 @@
         "emissoes co2": "325"
     },
     "Peru": {
-        "nome": "Peru",
+        "nome": [
+            "Peru"
+        ],
         "area": "1,285,216",
         "capital": "Lima",
         "densidade populacional": "26",
@@ -4140,7 +4445,9 @@
         "emissoes co2": "1020"
     },
     "Philippines": {
-        "nome": "Philippines",
+        "nome": [
+            "Philippines"
+        ],
         "area": "300,000",
         "capital": "Manila",
         "densidade populacional": "368",
@@ -4170,7 +4477,9 @@
         "emissoes co2": "991"
     },
     "Poland": {
-        "nome": "Poland",
+        "nome": [
+            "Poland"
+        ],
         "area": "312,685",
         "capital": "Warsaw",
         "densidade populacional": "124",
@@ -4200,7 +4509,9 @@
         "emissoes co2": "2819"
     },
     "Portugal": {
-        "nome": "Portugal",
+        "nome": [
+            "Portugal"
+        ],
         "area": "92,212",
         "capital": "Lisbon",
         "densidade populacional": "111",
@@ -4230,7 +4541,9 @@
         "emissoes co2": "250"
     },
     "Qatar": {
-        "nome": "Qatar",
+        "nome": [
+            "Qatar"
+        ],
         "area": "11,586",
         "capital": "Doha",
         "densidade populacional": "248",
@@ -4260,7 +4573,9 @@
         "emissoes co2": "9166"
     },
     "Romania": {
-        "nome": "Romania",
+        "nome": [
+            "Romania"
+        ],
         "area": "238,391",
         "capital": "Bucharest",
         "densidade populacional": "84",
@@ -4290,7 +4605,10 @@
         "emissoes co2": "1109"
     },
     "Russia": {
-        "nome": "Russia",
+        "nome": [
+            "Russia",
+            "Russian Federation"
+        ],
         "area": "17,098,240",
         "capital": "Moscow",
         "densidade populacional": "9",
@@ -4320,7 +4638,9 @@
         "emissoes co2": "54829"
     },
     "Rwanda": {
-        "nome": "Rwanda",
+        "nome": [
+            "Rwanda"
+        ],
         "area": "26,338",
         "capital": "Kigali",
         "densidade populacional": "525",
@@ -4350,7 +4670,10 @@
         "emissoes co2": "84"
     },
     "Saint Kitts and Nevis": {
-        "nome": "Saint Kitts and Nevis",
+        "nome": [
+            "Saint Kitts and Nevis",
+            "Saint Kitts & Nevis"
+        ],
         "area": "261",
         "capital": "Basseterre",
         "densidade populacional": "205",
@@ -4380,7 +4703,9 @@
         "emissoes co2": "0"
     },
     "SaintLucia": {
-        "nome": "SaintLucia",
+        "nome": [
+            "Saint Lucia"
+        ],
         "area": "616",
         "capital": "Castries",
         "densidade populacional": "301",
@@ -4410,7 +4735,9 @@
         "emissoes co2": "0"
     },
     "SaintVincentandtheGrenadines": {
-        "nome": "SaintVincentandtheGrenadines",
+        "nome": [
+            "Saint Vincent and the Grenadines"
+        ],
         "area": "389",
         "capital": "Kingstown",
         "densidade populacional": "284",
@@ -4440,7 +4767,9 @@
         "emissoes co2": "0"
     },
     "Samoa": {
-        "nome": "Samoa",
+        "nome": [
+            "Samoa"
+        ],
         "area": "2,831",
         "capital": "Apia",
         "densidade populacional": "70",
@@ -4470,7 +4799,9 @@
         "emissoes co2": "2"
     },
     "San Marino": {
-        "nome": "San Marino",
+        "nome": [
+            "San Marino"
+        ],
         "area": "61",
         "capital": "City of San Marino",
         "densidade populacional": "566",
@@ -4500,7 +4831,9 @@
         "emissoes co2": ""
     },
     "S\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd": {
-        "nome": "S\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+        "nome": [
+            "S\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd"
+        ],
         "area": "964",
         "capital": "S\ufffd\ufffd\ufffd\ufffd",
         "densidade populacional": "228",
@@ -4530,7 +4863,9 @@
         "emissoes co2": ""
     },
     "SaudiArabia": {
-        "nome": "SaudiArabia",
+        "nome": [
+            "Saudi Arabia"
+        ],
         "area": "2,149,690",
         "capital": "Riyadh",
         "densidade populacional": "16",
@@ -4560,7 +4895,9 @@
         "emissoes co2": "25904"
     },
     "Senegal": {
-        "nome": "Senegal",
+        "nome": [
+            "Senegal"
+        ],
         "area": "196,722",
         "capital": "Dakar",
         "densidade populacional": "87",
@@ -4590,7 +4927,9 @@
         "emissoes co2": "77"
     },
     "Serbia": {
-        "nome": "Serbia",
+        "nome": [
+            "Serbia"
+        ],
         "area": "77,474",
         "capital": "Belgrade",
         "densidade populacional": "100",
@@ -4620,7 +4959,9 @@
         "emissoes co2": "393"
     },
     "Seychelles": {
-        "nome": "Seychelles",
+        "nome": [
+            "Seychelles"
+        ],
         "area": "455",
         "capital": "Victoria, Seychelles",
         "densidade populacional": "214",
@@ -4650,7 +4991,9 @@
         "emissoes co2": "0"
     },
     "SierraLeone": {
-        "nome": "SierraLeone",
+        "nome": [
+            "Sierra Leone"
+        ],
         "area": "71,740",
         "capital": "Freetown",
         "densidade populacional": "111",
@@ -4680,7 +5023,9 @@
         "emissoes co2": "53"
     },
     "Singapore": {
-        "nome": "Singapore",
+        "nome": [
+            "Singapore"
+        ],
         "area": "716",
         "capital": "",
         "densidade populacional": "8,358",
@@ -4710,7 +5055,9 @@
         "emissoes co2": "27"
     },
     "Slovakia": {
-        "nome": "Slovakia",
+        "nome": [
+            "Slovakia"
+        ],
         "area": "49,035",
         "capital": "Bratislava",
         "densidade populacional": "114",
@@ -4740,7 +5087,9 @@
         "emissoes co2": "264"
     },
     "Slovenia": {
-        "nome": "Slovenia",
+        "nome": [
+            "Slovenia"
+        ],
         "area": "20,273",
         "capital": "Ljubljana",
         "densidade populacional": "103",
@@ -4770,7 +5119,9 @@
         "emissoes co2": "154"
     },
     "SolomonIslands": {
-        "nome": "SolomonIslands",
+        "nome": [
+            "Solomon Islands"
+        ],
         "area": "28,896",
         "capital": "Honiara",
         "densidade populacional": "25",
@@ -4800,7 +5151,9 @@
         "emissoes co2": "3"
     },
     "Somalia": {
-        "nome": "Somalia",
+        "nome": [
+            "Somalia"
+        ],
         "area": "637,657",
         "capital": "Mogadishu",
         "densidade populacional": "25",
@@ -4830,7 +5183,9 @@
         "emissoes co2": "129"
     },
     "SouthAfrica": {
-        "nome": "SouthAfrica",
+        "nome": [
+            "South Africa"
+        ],
         "area": "1,219,090",
         "capital": "Pretoria",
         "densidade populacional": "49",
@@ -4860,7 +5215,11 @@
         "emissoes co2": "7102"
     },
     "South Korea": {
-        "nome": "South Korea",
+        "nome": [
+            "South Korea",
+            "Republic of Korea",
+            "Korea, South"
+        ],
         "area": "99,720",
         "capital": "Seoul",
         "densidade populacional": "527",
@@ -4890,7 +5249,9 @@
         "emissoes co2": "2023"
     },
     "SouthSudan": {
-        "nome": "SouthSudan",
+        "nome": [
+            "South Sudan"
+        ],
         "area": "644,329",
         "capital": "Juba",
         "densidade populacional": "18",
@@ -4920,7 +5281,9 @@
         "emissoes co2": "337"
     },
     "Spain": {
-        "nome": "Spain",
+        "nome": [
+            "Spain"
+        ],
         "area": "505,370",
         "capital": "Madrid",
         "densidade populacional": "94",
@@ -4950,7 +5313,9 @@
         "emissoes co2": "1432"
     },
     "SriLanka": {
-        "nome": "SriLanka",
+        "nome": [
+            "Sri Lanka"
+        ],
         "area": "65,610",
         "capital": "Colombo",
         "densidade populacional": "341",
@@ -4980,7 +5345,9 @@
         "emissoes co2": "179"
     },
     "Sudan": {
-        "nome": "Sudan",
+        "nome": [
+            "Sudan"
+        ],
         "area": "1,861,484",
         "capital": "Khartoum",
         "densidade populacional": "25",
@@ -5010,7 +5377,9 @@
         "emissoes co2": "682"
     },
     "Suriname": {
-        "nome": "Suriname",
+        "nome": [
+            "Suriname"
+        ],
         "area": "163,820",
         "capital": "Paramaribo",
         "densidade populacional": "4",
@@ -5040,7 +5409,9 @@
         "emissoes co2": "44"
     },
     "Sweden": {
-        "nome": "Sweden",
+        "nome": [
+            "Sweden"
+        ],
         "area": "450,295",
         "capital": "Stockholm",
         "densidade populacional": "25",
@@ -5070,7 +5441,9 @@
         "emissoes co2": "1428"
     },
     "Switzerland": {
-        "nome": "Switzerland",
+        "nome": [
+            "Switzerland"
+        ],
         "area": "41,277",
         "capital": "Bern",
         "densidade populacional": "219",
@@ -5100,7 +5473,10 @@
         "emissoes co2": "552"
     },
     "Syria": {
-        "nome": "Syria",
+        "nome": [
+            "Syria",
+            "Syrian Arab Republic"
+        ],
         "area": "185,180",
         "capital": "Damascus",
         "densidade populacional": "95",
@@ -5130,7 +5506,9 @@
         "emissoes co2": "237"
     },
     "Tajikistan": {
-        "nome": "Tajikistan",
+        "nome": [
+            "Tajikistan"
+        ],
         "area": "144,100",
         "capital": "Dushanbe",
         "densidade populacional": "68",
@@ -5160,7 +5538,10 @@
         "emissoes co2": "76"
     },
     "Tanzania": {
-        "nome": "Tanzania",
+        "nome": [
+            "Tanzania",
+            "United Republic of Tanzania"
+        ],
         "area": "947,300",
         "capital": "Dodoma",
         "densidade populacional": "67",
@@ -5190,7 +5571,9 @@
         "emissoes co2": "935"
     },
     "Thailand": {
-        "nome": "Thailand",
+        "nome": [
+            "Thailand"
+        ],
         "area": "513,120",
         "capital": "Bangkok",
         "densidade populacional": "137",
@@ -5220,7 +5603,10 @@
         "emissoes co2": "3338"
     },
     "East Timor": {
-        "nome": "East Timor",
+        "nome": [
+            "East Timor",
+            "Timor-Leste"
+        ],
         "area": "14,874",
         "capital": "Dili",
         "densidade populacional": "89",
@@ -5250,7 +5636,9 @@
         "emissoes co2": "143"
     },
     "Togo": {
-        "nome": "Togo",
+        "nome": [
+            "Togo"
+        ],
         "area": "56,785",
         "capital": "Lom\ufffd",
         "densidade populacional": "152",
@@ -5280,7 +5668,9 @@
         "emissoes co2": "111"
     },
     "Tonga": {
-        "nome": "Tonga",
+        "nome": [
+            "Tonga"
+        ],
         "area": "747",
         "capital": "Nuku\ufffd\ufffd\ufffd\ufffd",
         "densidade populacional": "147",
@@ -5310,7 +5700,10 @@
         "emissoes co2": "0"
     },
     "Trinidad and Tobago": {
-        "nome": "Trinidad and Tobago",
+        "nome": [
+            "Trinidad and Tobago",
+            "Trinidad & Tobago"
+        ],
         "area": "5,128",
         "capital": "Port of Spain",
         "densidade populacional": "273",
@@ -5340,7 +5733,9 @@
         "emissoes co2": "1663"
     },
     "Tunisia": {
-        "nome": "Tunisia",
+        "nome": [
+            "Tunisia"
+        ],
         "area": "163,610",
         "capital": "Tunis",
         "densidade populacional": "76",
@@ -5370,7 +5765,9 @@
         "emissoes co2": "274"
     },
     "Turkey": {
-        "nome": "Turkey",
+        "nome": [
+            "Turkey"
+        ],
         "area": "783,562",
         "capital": "Ankara",
         "densidade populacional": "110",
@@ -5400,7 +5797,9 @@
         "emissoes co2": "1303"
     },
     "Turkmenistan": {
-        "nome": "Turkmenistan",
+        "nome": [
+            "Turkmenistan"
+        ],
         "area": "488,100",
         "capital": "Ashgabat",
         "densidade populacional": "13",
@@ -5430,7 +5829,9 @@
         "emissoes co2": "3270"
     },
     "Tuvalu": {
-        "nome": "Tuvalu",
+        "nome": [
+            "Tuvalu"
+        ],
         "area": "26",
         "capital": "Funafuti",
         "densidade populacional": "393",
@@ -5460,7 +5861,9 @@
         "emissoes co2": ""
     },
     "Uganda": {
-        "nome": "Uganda",
+        "nome": [
+            "Uganda"
+        ],
         "area": "241,038",
         "capital": "Kampala",
         "densidade populacional": "229",
@@ -5490,7 +5893,9 @@
         "emissoes co2": "409"
     },
     "Ukraine": {
-        "nome": "Ukraine",
+        "nome": [
+            "Ukraine"
+        ],
         "area": "603,550",
         "capital": "Kyiv",
         "densidade populacional": "75",
@@ -5520,7 +5925,9 @@
         "emissoes co2": "3203"
     },
     "UnitedArabEmirates": {
-        "nome": "UnitedArabEmirates",
+        "nome": [
+            "United Arab Emirates"
+        ],
         "area": "83,600",
         "capital": "Abu Dhabi",
         "densidade populacional": "118",
@@ -5550,7 +5957,9 @@
         "emissoes co2": "8642"
     },
     "UnitedKingdom": {
-        "nome": "UnitedKingdom",
+        "nome": [
+            "United Kingdom"
+        ],
         "area": "243,610",
         "capital": "London",
         "densidade populacional": "281",
@@ -5580,7 +5989,11 @@
         "emissoes co2": "4482"
     },
     "United States": {
-        "nome": "United States",
+        "nome": [
+            "United States",
+            "United States of America",
+            "United States Virgin Islands"
+        ],
         "area": "9,833,517",
         "capital": "Washington, D.C.",
         "densidade populacional": "36",
@@ -5610,7 +6023,9 @@
         "emissoes co2": "83887"
     },
     "Uruguay": {
-        "nome": "Uruguay",
+        "nome": [
+            "Uruguay"
+        ],
         "area": "176,215",
         "capital": "Montevideo",
         "densidade populacional": "20",
@@ -5640,7 +6055,9 @@
         "emissoes co2": "113"
     },
     "Uzbekistan": {
-        "nome": "Uzbekistan",
+        "nome": [
+            "Uzbekistan"
+        ],
         "area": "447,400",
         "capital": "Tashkent",
         "densidade populacional": "79",
@@ -5670,7 +6087,9 @@
         "emissoes co2": "2339"
     },
     "Vanuatu": {
-        "nome": "Vanuatu",
+        "nome": [
+            "Vanuatu"
+        ],
         "area": "12,189",
         "capital": "Port Vila",
         "densidade populacional": "25",
@@ -5700,7 +6119,10 @@
         "emissoes co2": "1"
     },
     "Venezuela": {
-        "nome": "Venezuela",
+        "nome": [
+            "Venezuela",
+            "Venezuela (Bolivarian Republic of)"
+        ],
         "area": "912,050",
         "capital": "Caracas",
         "densidade populacional": "32",
@@ -5730,7 +6152,9 @@
         "emissoes co2": "7460"
     },
     "Vietnam": {
-        "nome": "Vietnam",
+        "nome": [
+            "Vietnam"
+        ],
         "area": "331,210",
         "capital": "Hanoi",
         "densidade populacional": "314",
@@ -5760,7 +6184,9 @@
         "emissoes co2": "2977"
     },
     "Yemen": {
-        "nome": "Yemen",
+        "nome": [
+            "Yemen"
+        ],
         "area": "527,968",
         "capital": "Sanaa",
         "densidade populacional": "56",
@@ -5790,7 +6216,9 @@
         "emissoes co2": "668"
     },
     "Zambia": {
-        "nome": "Zambia",
+        "nome": [
+            "Zambia"
+        ],
         "area": "752,618",
         "capital": "Lusaka",
         "densidade populacional": "25",
@@ -5820,7 +6248,9 @@
         "emissoes co2": "374"
     },
     "Zimbabwe": {
-        "nome": "Zimbabwe",
+        "nome": [
+            "Zimbabwe"
+        ],
         "area": "390,757",
         "capital": "Harare",
         "densidade populacional": "38",
@@ -5850,7 +6280,9 @@
         "emissoes co2": "482"
     },
     "American Samoa": {
-        "nome": "American Samoa",
+        "nome": [
+            "American Samoa"
+        ],
         "area": "199",
         "capital": "",
         "densidade populacional": "278.2",
@@ -5880,7 +6312,9 @@
         "emissoes co2": ""
     },
     "Anguilla": {
-        "nome": "Anguilla",
+        "nome": [
+            "Anguilla"
+        ],
         "area": "91",
         "capital": "",
         "densidade populacional": "165.7",
@@ -5909,7 +6343,9 @@
         "emissoes co2": "0"
     },
     "Aruba": {
-        "nome": "Aruba",
+        "nome": [
+            "Aruba"
+        ],
         "area": "180",
         "capital": "",
         "densidade populacional": "584.8",
@@ -5939,7 +6375,9 @@
         "emissoes co2": "1"
     },
     "Bermuda": {
-        "nome": "Bermuda",
+        "nome": [
+            "Bermuda"
+        ],
         "area": "53",
         "capital": "",
         "densidade populacional": "1227.0",
@@ -5969,7 +6407,9 @@
         "emissoes co2": "1"
     },
     "Bonaire": {
-        "nome": "Bonaire",
+        "nome": [
+            "Bonaire, Sint Eustatius and Saba"
+        ],
         "area": "",
         "capital": "",
         "densidade populacional": "77.4",
@@ -5998,7 +6438,10 @@
         "emissoes co2": "0"
     },
     "British Virgin Islands": {
-        "nome": "British Virgin Islands",
+        "nome": [
+            "British Virgin Islands",
+            "British Virgin Is."
+        ],
         "area": "151",
         "capital": "",
         "densidade populacional": "208.0",
@@ -6027,7 +6470,9 @@
         "emissoes co2": "0"
     },
     "CaymanIslands": {
-        "nome": "CaymanIslands",
+        "nome": [
+            "Cayman Islands"
+        ],
         "area": "264",
         "capital": "",
         "densidade populacional": "256.5",
@@ -6056,7 +6501,9 @@
         "emissoes co2": ""
     },
     "ChannelIslands": {
-        "nome": "ChannelIslands",
+        "nome": [
+            "Channel Islands"
+        ],
         "area": "180",
         "capital": "",
         "densidade populacional": "870.1",
@@ -6086,7 +6533,10 @@
         "emissoes co2": ""
     },
     "Hong Kong": {
-        "nome": "Hong Kong",
+        "nome": [
+            "China, Hong Kong SAR",
+            "Hong Kong"
+        ],
         "area": "1106",
         "capital": "",
         "densidade populacional": "7014.2",
@@ -6116,7 +6566,9 @@
         "emissoes co2": ""
     },
     "Macao": {
-        "nome": "Macao",
+        "nome": [
+            "China, Macao SAR"
+        ],
         "area": "30",
         "capital": "",
         "densidade populacional": "20821.6",
@@ -6146,7 +6598,9 @@
         "emissoes co2": "2"
     },
     "Cook Islands": {
-        "nome": "Cook Islands",
+        "nome": [
+            "Cook Islands"
+        ],
         "area": "236",
         "capital": "",
         "densidade populacional": "72.4",
@@ -6176,7 +6630,9 @@
         "emissoes co2": ""
     },
     "Falkland Islands": {
-        "nome": "Falkland Islands",
+        "nome": [
+            "Falkland Islands (Malvinas)"
+        ],
         "area": "12173",
         "capital": "",
         "densidade populacional": "0.2",
@@ -6205,7 +6661,9 @@
         "emissoes co2": "0"
     },
     "FaroeIslands": {
-        "nome": "FaroeIslands",
+        "nome": [
+            "Faroe Islands"
+        ],
         "area": "1393",
         "capital": "",
         "densidade populacional": "35.3",
@@ -6235,7 +6693,9 @@
         "emissoes co2": "1"
     },
     "FrenchGuiana": {
-        "nome": "FrenchGuiana",
+        "nome": [
+            "French Guiana"
+        ],
         "area": "83534",
         "capital": "",
         "densidade populacional": "3.4",
@@ -6265,7 +6725,9 @@
         "emissoes co2": "3"
     },
     "FrenchPolynesia": {
-        "nome": "FrenchPolynesia",
+        "nome": [
+            "French Polynesia"
+        ],
         "area": "4000",
         "capital": "",
         "densidade populacional": "77.3",
@@ -6295,7 +6757,9 @@
         "emissoes co2": "1"
     },
     "Gibraltar": {
-        "nome": "Gibraltar",
+        "nome": [
+            "Gibraltar"
+        ],
         "area": "6",
         "capital": "",
         "densidade populacional": "3457.1",
@@ -6324,7 +6788,9 @@
         "emissoes co2": ""
     },
     "Greenland": {
-        "nome": "Greenland",
+        "nome": [
+            "Greenland"
+        ],
         "area": "2166086",
         "capital": "",
         "densidade populacional": "0.1",
@@ -6354,7 +6820,9 @@
         "emissoes co2": "2"
     },
     "Guadeloupe": {
-        "nome": "Guadeloupe",
+        "nome": [
+            "Guadeloupe"
+        ],
         "area": "1705",
         "capital": "",
         "densidade populacional": "266.0",
@@ -6384,7 +6852,9 @@
         "emissoes co2": "5"
     },
     "Guam": {
-        "nome": "Guam",
+        "nome": [
+            "Guam"
+        ],
         "area": "549",
         "capital": "",
         "densidade populacional": "304.1",
@@ -6414,7 +6884,9 @@
         "emissoes co2": ""
     },
     "Isle of Man": {
-        "nome": "Isle of Man",
+        "nome": [
+            "Isle of Man"
+        ],
         "area": "572",
         "capital": "",
         "densidade populacional": "147.9",
@@ -6443,7 +6915,9 @@
         "emissoes co2": "0"
     },
     "Martinique": {
-        "nome": "Martinique",
+        "nome": [
+            "Martinique"
+        ],
         "area": "1128",
         "capital": "",
         "densidade populacional": "363.1",
@@ -6473,7 +6947,9 @@
         "emissoes co2": "1"
     },
     "Mayotte": {
-        "nome": "Mayotte",
+        "nome": [
+            "Mayotte"
+        ],
         "area": 1393.673619,
         "capital": "",
         "densidade populacional": "674.8",
@@ -6503,7 +6979,9 @@
         "emissoes co2": "0"
     },
     "Montserrat": {
-        "nome": "Montserrat",
+        "nome": [
+            "Montserrat"
+        ],
         "area": "103",
         "capital": "",
         "densidade populacional": "51.8",
@@ -6532,7 +7010,9 @@
         "emissoes co2": ""
     },
     "NewCaledonia": {
-        "nome": "NewCaledonia",
+        "nome": [
+            "New Caledonia"
+        ],
         "area": "18575",
         "capital": "",
         "densidade populacional": "15.1",
@@ -6562,7 +7042,9 @@
         "emissoes co2": "1"
     },
     "Niue": {
-        "nome": "Niue",
+        "nome": [
+            "Niue"
+        ],
         "area": "260",
         "capital": "",
         "densidade populacional": "6.2",
@@ -6592,7 +7074,9 @@
         "emissoes co2": "0"
     },
     "NorthernMarianaIslands": {
-        "nome": "NorthernMarianaIslands",
+        "nome": [
+            "Northern Mariana Islands"
+        ],
         "area": "457",
         "capital": "",
         "densidade populacional": "119.9",
@@ -6622,7 +7106,9 @@
         "emissoes co2": ""
     },
     "PuertoRico": {
-        "nome": "PuertoRico",
+        "nome": [
+            "Puerto Rico"
+        ],
         "area": "8868",
         "capital": "",
         "densidade populacional": "413.0",
@@ -6652,7 +7138,9 @@
         "emissoes co2": "1"
     },
     "SaintHelena": {
-        "nome": "SaintHelena",
+        "nome": [
+            "Saint Helena"
+        ],
         "area": "308",
         "capital": "",
         "densidade populacional": "10.4",
@@ -6681,7 +7169,9 @@
         "emissoes co2": "0"
     },
     "SaintPierreandMiquelon": {
-        "nome": "SaintPierreandMiquelon",
+        "nome": [
+            "Saint Pierre and Miquelon"
+        ],
         "area": "242",
         "capital": "",
         "densidade populacional": "27.5",
@@ -6710,7 +7200,10 @@
         "emissoes co2": "0"
     },
     "S\u00e3o Tom\u00e9 and Pr\u00edncipe": {
-        "nome": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+        "nome": [
+            "Sao Tome and Principe",
+            "Sao Tome & Principe"
+        ],
         "area": "964",
         "capital": "",
         "densidade populacional": "212.8",
@@ -6740,7 +7233,9 @@
         "emissoes co2": "1"
     },
     "Sint Maarten": {
-        "nome": "Sint Maarten",
+        "nome": [
+            "Sint Maarten (Dutch part)"
+        ],
         "area": "34",
         "capital": "",
         "densidade populacional": "1180.0",
@@ -6770,7 +7265,9 @@
         "emissoes co2": ""
     },
     "Tokelau": {
-        "nome": "Tokelau",
+        "nome": [
+            "Tokelau"
+        ],
         "area": "12",
         "capital": "",
         "densidade populacional": "130.0",
@@ -6799,7 +7296,9 @@
         "emissoes co2": ""
     },
     "TurksandCaicosIslands": {
-        "nome": "TurksandCaicosIslands",
+        "nome": [
+            "Turks and Caicos Islands"
+        ],
         "area": "948",
         "capital": "",
         "densidade populacional": "37.3",
@@ -6829,7 +7328,10 @@
         "emissoes co2": "0"
     },
     "Wallis and Futuna": {
-        "nome": "Wallis and Futuna",
+        "nome": [
+            "Wallis and Futuna Islands",
+            "Wallis and Futuna"
+        ],
         "area": "142",
         "capital": "",
         "densidade populacional": "84.1",
@@ -6859,7 +7361,9 @@
         "emissoes co2": ""
     },
     "WesternSahara": {
-        "nome": "WesternSahara",
+        "nome": [
+            "Western Sahara"
+        ],
         "area": "266000",
         "capital": "",
         "densidade populacional": "2.1",
@@ -6889,7 +7393,9 @@
         "emissoes co2": ""
     },
     "GazaStrip": {
-        "nome": "GazaStrip",
+        "nome": [
+            "Gaza Strip"
+        ],
         "populacao": "1428757.360",
         "area": 10279.152312,
         "densidade populacional": 4.289591851705992,
@@ -6903,7 +7409,9 @@
         "taxa de mortalidade": "0.283"
     },
     "Guernsey": {
-        "nome": "Guernsey",
+        "nome": [
+            "Guernsey"
+        ],
         "populacao": "65409.78",
         "area": 2171.9656139999997,
         "densidade populacional": 24.749130305522417,
@@ -6917,7 +7425,9 @@
         "taxa de mortalidade": "0.03"
     },
     "Jersey": {
-        "nome": "Jersey",
+        "nome": [
+            "Jersey"
+        ],
         "populacao": "91084.116",
         "area": 2033.660148,
         "densidade populacional": 23.29738724859942,
@@ -6931,7 +7441,9 @@
         "taxa de mortalidade": null
     },
     "Macau": {
-        "nome": "Macau",
+        "nome": [
+            "Macau"
+        ],
         "populacao": "453125.28",
         "area": 41913.80817,
         "densidade populacional": 56.53689782586034,
@@ -6945,7 +7457,9 @@
         "taxa de mortalidade": null
     },
     "NetherlandsAntilles": {
-        "nome": "NetherlandsAntilles",
+        "nome": [
+            "Netherlands Antilles"
+        ],
         "populacao": "221736.960",
         "area": 598.28769,
         "densidade populacional": 14.640983169819192,
@@ -6959,7 +7473,9 @@
         "taxa de mortalidade": null
     },
     "N.MarianaIslands": {
-        "nome": "N.MarianaIslands",
+        "nome": [
+            "N. Mariana Islands"
+        ],
         "populacao": "82459.477",
         "area": 447.80927099999997,
         "densidade populacional": 119.9579921157997,
@@ -6973,7 +7489,9 @@
         "taxa de mortalidade": ""
     },
     "Reunion": {
-        "nome": "Reunion",
+        "nome": [
+            "Reunion"
+        ],
         "populacao": "787584.2517",
         "area": 810.4078709999999,
         "densidade populacional": 3.1737574276348566,
@@ -6987,7 +7505,9 @@
         "taxa de mortalidade": "0.08"
     },
     "StPierre&Miquelon": {
-        "nome": "StPierre&Miquelon",
+        "nome": [
+            "St Pierre & Miquelon"
+        ],
         "populacao": "7026.242",
         "area": 75.10970999999999,
         "densidade populacional": 19.14679207255627,
@@ -7001,7 +7521,9 @@
         "taxa de mortalidade": ""
     },
     "Taiwan": {
-        "nome": "Taiwan",
+        "nome": [
+            "Taiwan"
+        ],
         "populacao": "23036087.35980",
         "area": 1658.3705969999999,
         "densidade populacional": 1.6795431642593215,
@@ -7015,7 +7537,9 @@
         "taxa de mortalidade": null
     },
     "Turks&CaicosIs": {
-        "nome": "Turks&CaicosIs",
+        "nome": [
+            "Turks & Caicos Is"
+        ],
         "populacao": "21152.430",
         "area": 127.427508,
         "densidade populacional": 34.93063679782548,
@@ -7029,7 +7553,9 @@
         "taxa de mortalidade": ""
     },
     "VirginIslands": {
-        "nome": "VirginIslands",
+        "nome": [
+            "Virgin Islands"
+        ],
         "populacao": "108605.1910",
         "area": 147.370431,
         "densidade populacional": 3.799242468117638,
@@ -7043,7 +7569,9 @@
         "taxa de mortalidade": "0.01"
     },
     "WestBank": {
-        "nome": "WestBank",
+        "nome": [
+            "West Bank"
+        ],
         "populacao": "2460492.5860",
         "area": 1087.5368009999997,
         "densidade populacional": 0.0,

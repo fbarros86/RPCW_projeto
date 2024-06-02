@@ -153,6 +153,11 @@
                   rdfs:domain :Pais .
 
 
+###  http://www.rpcw.pt/rafa/ontologies/2024/paises#nome
+:nome rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Pais .
+
+
 #################################################################
 #    Classes
 #################################################################
@@ -170,6 +175,7 @@
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Afghanistan
 :Afghanistan rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Afghanistan";
             :area "652,230" ;
             :capital "Kabul" ;
             :costa "2866.8081311999995" ;
@@ -192,15 +198,16 @@
             :telefones_por_1000 "0.8300000000000001" ;
             :temperatura_media "13.37" ;
             :emissoes_co2 "63" ;
-            :medicos_por_mil "0.3" ;
+            :medicos_por_mil "0.3";
             :racio_sexos "106.3" ;
-            :receita_imposto "9.30%" ;
+            :receita_imposto "9.30%";
             :taxa_desemprego "8.6" ;
             :taxa_fertilidade "5.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Albania
 :Albania rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Albania";
             :area "28,748" ;
             :capital "Tirana" ;
             :costa "-1590.9738772199996" ;
@@ -223,15 +230,16 @@
             :telefones_por_1000 "6.33" ;
             :temperatura_media "12.44" ;
             :emissoes_co2 "84" ;
-            :medicos_por_mil "1.3" ;
+            :medicos_por_mil "1.3";
             :racio_sexos "101.9" ;
-            :receita_imposto "18.60%" ;
+            :receita_imposto "18.60%";
             :taxa_desemprego "15.8" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Algeria
 :Algeria rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Algeria";
             :area "2,381,741" ;
             :capital "Algiers" ;
             :costa "-13.93932618" ;
@@ -254,15 +262,16 @@
             :telefones_por_1000 "3.8200000000000003" ;
             :temperatura_media "23.60" ;
             :emissoes_co2 "5900" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "102.0" ;
-            :receita_imposto "37.20%" ;
+            :receita_imposto "37.20%";
             :taxa_desemprego "11.4" ;
             :taxa_fertilidade "3.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Andorra
 :Andorra rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Andorra";
             :area "468" ;
             :capital "Andorra la Vella" ;
             :costa "2599.9873613999994" ;
@@ -285,15 +294,16 @@
             :telefones_por_1000 "9.690000000000001" ;
             :temperatura_media "8.27" ;
             :emissoes_co2 "1" ;
-            :medicos_por_mil "3.7" ;
+            :medicos_por_mil "3.7";
             :racio_sexos "102.3" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "3.7" ;
             :taxa_fertilidade "1.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Angola
 :Angola rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Angola";
             :area "1,246,700" ;
             :capital "Luanda" ;
             :costa "0.0" ;
@@ -316,15 +326,17 @@
             :telefones_por_1000 "1.24" ;
             :temperatura_media "21.77" ;
             :emissoes_co2 "3902" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "96.2" ;
-            :receita_imposto "9.20%" ;
+            :receita_imposto "9.20%";
             :taxa_desemprego "6.6" ;
             :taxa_fertilidade "6.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#AntiguaandBarbuda
 :AntiguaandBarbuda rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Antigua and Barbuda";
+:nome "Antigua & Barbuda";
             :area "443" ;
             :capital "St. John's, Saint John" ;
             :costa "-2484.836406" ;
@@ -347,15 +359,16 @@
             :telefones_por_1000 "6.5200000000000005" ;
             :temperatura_media "27.20" ;
             :emissoes_co2 "2.0" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "92.3" ;
-            :receita_imposto "16.50%" ;
+            :receita_imposto "16.50%";
             :taxa_desemprego "11.0" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Argentina
 :Argentina rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Argentina";
             :area "2,780,400" ;
             :capital "Buenos Aires" ;
             :costa "22.75047216" ;
@@ -378,15 +391,16 @@
             :telefones_por_1000 "6.94" ;
             :temperatura_media "15.11" ;
             :emissoes_co2 "3167" ;
-            :medicos_por_mil "3.8" ;
+            :medicos_por_mil "3.8";
             :racio_sexos "95.9" ;
-            :receita_imposto "10.10%" ;
+            :receita_imposto "10.10%";
             :taxa_desemprego "6.5" ;
             :taxa_fertilidade "2.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Armenia
 :Armenia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Armenia";
             :area "29,743" ;
             :capital "Yerevan" ;
             :costa "-1674.04780647" ;
@@ -409,15 +423,16 @@
             :telefones_por_1000 "5.82" ;
             :temperatura_media "7.82" ;
             :emissoes_co2 "48" ;
-            :medicos_por_mil "2.8" ;
+            :medicos_por_mil "2.8";
             :racio_sexos "88.8" ;
-            :receita_imposto "20.90%" ;
+            :receita_imposto "20.90%";
             :taxa_desemprego "16.6" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Australia
 :Australia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Australia";
             :area "7,741,220" ;
             :capital "Canberra" ;
             :costa "26.80121652" ;
@@ -440,15 +455,16 @@
             :telefones_por_1000 "8.459999999999999" ;
             :temperatura_media "22.05" ;
             :emissoes_co2 "15282" ;
-            :medicos_por_mil "3.4" ;
+            :medicos_por_mil "3.4";
             :racio_sexos "99.3" ;
-            :receita_imposto "23.00%" ;
+            :receita_imposto "23.00%";
             :taxa_desemprego "5.5" ;
             :taxa_fertilidade "1.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Austria
 :Austria rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Austria";
             :area "83,871" ;
             :capital "Vienna" ;
             :costa "506.084046" ;
@@ -471,15 +487,16 @@
             :telefones_por_1000 "8.39" ;
             :temperatura_media "7.44" ;
             :emissoes_co2 "505" ;
-            :medicos_por_mil "5.2" ;
+            :medicos_por_mil "5.2";
             :racio_sexos "96.2" ;
-            :receita_imposto "25.40%" ;
+            :receita_imposto "25.40%";
             :taxa_desemprego "6.2" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Azerbaijan
 :Azerbaijan rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Azerbaijan";
             :area "86,600" ;
             :capital "Baku" ;
             :costa "-1166.2983969000002" ;
@@ -502,15 +519,18 @@
             :telefones_por_1000 "7.7" ;
             :temperatura_media "12.96" ;
             :emissoes_co2 "2459" ;
-            :medicos_por_mil "3.4" ;
+            :medicos_por_mil "3.4";
             :racio_sexos "99.3" ;
-            :receita_imposto "13.00%" ;
+            :receita_imposto "13.00%";
             :taxa_desemprego "5.2" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#TheBahamas
 :TheBahamas rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "The Bahamas";
+:nome "Bahamas";
+:nome "Bahamas, The";
             :area "13,880" ;
             :capital "Nassau, Bahamas" ;
             :costa "-124.21592040000002" ;
@@ -533,15 +553,16 @@
             :telefones_por_1000 "7.8" ;
             :temperatura_media "25.58" ;
             :emissoes_co2 "0" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "95.9" ;
-            :receita_imposto "14.80%" ;
+            :receita_imposto "14.80%";
             :taxa_desemprego "14.7" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Bahrain
 :Bahrain rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Bahrain";
             :area "765" ;
             :capital "Manama" ;
             :costa "2856.82371975" ;
@@ -564,15 +585,16 @@
             :telefones_por_1000 "9.35" ;
             :temperatura_media "27.69" ;
             :emissoes_co2 "961" ;
-            :medicos_por_mil "0.9" ;
+            :medicos_por_mil "0.9";
             :racio_sexos "168.3" ;
-            :receita_imposto "4.20%" ;
+            :receita_imposto "4.20%";
             :taxa_desemprego "1.3" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Bangladesh
 :Bangladesh rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Bangladesh";
             :area "148,460" ;
             :capital "Dhaka" ;
             :costa "-1881.9229938599997" ;
@@ -595,15 +617,16 @@
             :telefones_por_1000 "1.44" ;
             :temperatura_media "25.71" ;
             :emissoes_co2 "1438" ;
-            :medicos_por_mil "0.4" ;
+            :medicos_por_mil "0.4";
             :racio_sexos "101.7" ;
-            :receita_imposto "8.80%" ;
+            :receita_imposto "8.80%";
             :taxa_desemprego "4.0" ;
             :taxa_fertilidade "2.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Barbados
 :Barbados rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Barbados";
             :area "430" ;
             :capital "Bridgetown" ;
             :costa "-521.48153655" ;
@@ -626,15 +649,16 @@
             :telefones_por_1000 "7.609999999999999" ;
             :temperatura_media "26.61" ;
             :emissoes_co2 "2" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "91.9" ;
-            :receita_imposto "27.50%" ;
+            :receita_imposto "27.50%";
             :taxa_desemprego "11.3" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Belarus
 :Belarus rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Belarus";
             :area "207,600" ;
             :capital "Minsk" ;
             :costa "326.29730016" ;
@@ -657,15 +681,16 @@
             :telefones_por_1000 "6.220000000000001" ;
             :temperatura_media "7.45" ;
             :emissoes_co2 "155" ;
-            :medicos_por_mil "4.1" ;
+            :medicos_por_mil "4.1";
             :racio_sexos "87.0" ;
-            :receita_imposto "14.70%" ;
+            :receita_imposto "14.70%";
             :taxa_desemprego "0.5" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Belgium
 :Belgium rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Belgium";
             :area "30,528" ;
             :capital "City of Brussels" ;
             :costa "1083.1338179999998" ;
@@ -688,15 +713,16 @@
             :telefones_por_1000 "8.51" ;
             :temperatura_media "10.67" ;
             :emissoes_co2 "520" ;
-            :medicos_por_mil "3.0" ;
+            :medicos_por_mil "3.0";
             :racio_sexos "97.3" ;
-            :receita_imposto "24.00%" ;
+            :receita_imposto "24.00%";
             :taxa_desemprego "8.3" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Belize
 :Belize rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Belize";
             :area "22,966" ;
             :capital "Belmopan" ;
             :costa "0.0" ;
@@ -719,15 +745,16 @@
             :telefones_por_1000 "4.16" ;
             :temperatura_media "25.70" ;
             :emissoes_co2 "9" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "99.2" ;
-            :receita_imposto "26.30%" ;
+            :receita_imposto "26.30%";
             :taxa_desemprego "11.5" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Benin
 :Benin rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Benin";
             :area "112,622" ;
             :capital "Porto-Novo" ;
             :costa "121" ;
@@ -750,15 +777,16 @@
             :telefones_por_1000 "0.6799999999999999" ;
             :temperatura_media "28.02" ;
             :emissoes_co2 "96" ;
-            :medicos_por_mil "0.1" ;
+            :medicos_por_mil "0.1";
             :racio_sexos "99.5" ;
-            :receita_imposto "10.80%" ;
+            :receita_imposto "10.80%";
             :taxa_desemprego "1.0" ;
             :taxa_fertilidade "5.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Bhutan
 :Bhutan rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Bhutan";
             :area "38,394" ;
             :capital "Thimphu" ;
             :costa "0.0" ;
@@ -781,15 +809,17 @@
             :telefones_por_1000 "3.9799999999999995" ;
             :temperatura_media "10.38" ;
             :emissoes_co2 "75" ;
-            :medicos_por_mil "0.3" ;
+            :medicos_por_mil "0.3";
             :racio_sexos "113.1" ;
-            :receita_imposto "16.00%" ;
+            :receita_imposto "16.00%";
             :taxa_desemprego "2.4" ;
             :taxa_fertilidade "2.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Bolivia
 :Bolivia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Bolivia";
+:nome "Bolivia (Plurinational State of)";
             :area "1,098,581" ;
             :capital "Sucre" ;
             :costa "-28.034051759999997" ;
@@ -812,15 +842,17 @@
             :telefones_por_1000 "4.51" ;
             :temperatura_media "20.76" ;
             :emissoes_co2 "962" ;
-            :medicos_por_mil "0.5" ;
+            :medicos_por_mil "0.5";
             :racio_sexos "100.2" ;
-            :receita_imposto "17.00%" ;
+            :receita_imposto "17.00%";
             :taxa_desemprego "3.8" ;
             :taxa_fertilidade "3.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#BosniaandHerzegovina
 :BosniaandHerzegovina rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Bosnia and Herzegovina";
+:nome "Bosnia & Herzegovina";
             :area "51,197" ;
             :capital "Sarajevo" ;
             :costa "70.6549272" ;
@@ -843,15 +875,16 @@
             :telefones_por_1000 "6.51" ;
             :temperatura_media "10.35" ;
             :emissoes_co2 "252" ;
-            :medicos_por_mil "1.9" ;
+            :medicos_por_mil "1.9";
             :racio_sexos "96.4" ;
-            :receita_imposto "20.40%" ;
+            :receita_imposto "20.40%";
             :taxa_desemprego "25.4" ;
             :taxa_fertilidade "1.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Botswana
 :Botswana rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Botswana";
             :area "581,730" ;
             :capital "Gaborone" ;
             :costa "0.0" ;
@@ -874,15 +907,16 @@
             :telefones_por_1000 "2.75" ;
             :temperatura_media "22.09" ;
             :emissoes_co2 "47" ;
-            :medicos_por_mil "0.4" ;
+            :medicos_por_mil "0.4";
             :racio_sexos "97.7" ;
-            :receita_imposto "19.50%" ;
+            :receita_imposto "19.50%";
             :taxa_desemprego "18.6" ;
             :taxa_fertilidade "2.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Brazil
 :Brazil rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Brazil";
             :area "8,515,770" ;
             :capital "Bras���" ;
             :costa "-1.71716337" ;
@@ -905,15 +939,17 @@
             :telefones_por_1000 "5.91" ;
             :temperatura_media "25.44" ;
             :emissoes_co2 "10948" ;
-            :medicos_por_mil "1.9" ;
+            :medicos_por_mil "1.9";
             :racio_sexos "96.6" ;
-            :receita_imposto "14.20%" ;
+            :receita_imposto "14.20%";
             :taxa_desemprego "12.4" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Brunei
 :Brunei rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Brunei";
+:nome "Brunei Darussalam";
             :area "5,765" ;
             :capital "Bandar Seri Begawan" ;
             :costa "611.8126177799999" ;
@@ -936,15 +972,16 @@
             :telefones_por_1000 "7.12" ;
             :temperatura_media "26.95" ;
             :emissoes_co2 "679" ;
-            :medicos_por_mil "1.5" ;
+            :medicos_por_mil "1.5";
             :racio_sexos "106.0" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "2.1" ;
             :taxa_fertilidade "1.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Bulgaria
 :Bulgaria rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Bulgaria";
             :area "110,879" ;
             :capital "Sofia" ;
             :costa "-790.0194697199998" ;
@@ -967,15 +1004,16 @@
             :telefones_por_1000 "5.67" ;
             :temperatura_media "11.35" ;
             :emissoes_co2 "474" ;
-            :medicos_por_mil "4.0" ;
+            :medicos_por_mil "4.0";
             :racio_sexos "94.6" ;
-            :receita_imposto "20.20%" ;
+            :receita_imposto "20.20%";
             :taxa_desemprego "8.1" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#BurkinaFaso
 :BurkinaFaso rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Burkina Faso";
             :area "274,200" ;
             :capital "Ouagadougou" ;
             :costa "0.0" ;
@@ -998,15 +1036,16 @@
             :telefones_por_1000 "1.1400000000000001" ;
             :temperatura_media "29.26" ;
             :emissoes_co2 "123" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "99.5" ;
-            :receita_imposto "15.00%" ;
+            :receita_imposto "15.00%";
             :taxa_desemprego "2.9" ;
             :taxa_fertilidade "5.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Burundi
 :Burundi rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Burundi";
             :area "27,830" ;
             :capital "Bujumbura" ;
             :costa "-45.17460558" ;
@@ -1029,15 +1068,17 @@
             :telefones_por_1000 "0.49000000000000005" ;
             :temperatura_media "20.51" ;
             :emissoes_co2 "56" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "96.9" ;
-            :receita_imposto "13.60%" ;
+            :receita_imposto "13.60%";
             :taxa_desemprego "1.7" ;
             :taxa_fertilidade "6.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#IvoryCoast
 :IvoryCoast rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Ivory Coast";
+:nome "Cote d'Ivoire";
             :area "322,463" ;
             :capital "Yamoussoukro" ;
             :costa "-9.93520164" ;
@@ -1060,15 +1101,17 @@
             :telefones_por_1000 "9.75" ;
             :temperatura_media "26.80" ;
             :emissoes_co2 "0.4" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "98.2" ;
-            :receita_imposto "11.80%" ;
+            :receita_imposto "11.80%";
             :taxa_desemprego "2.9" ;
             :taxa_fertilidade "4.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#CapeVerde
 :CapeVerde rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Cape Verde";
+:nome "Cabo Verde";
             :area "4,033" ;
             :capital "Praia" ;
             :costa "-3263.66711892" ;
@@ -1091,15 +1134,16 @@
             :telefones_por_1000 "4.3" ;
             :temperatura_media "22.53" ;
             :emissoes_co2 "2" ;
-            :medicos_por_mil "0.3" ;
+            :medicos_por_mil "0.3";
             :racio_sexos "99.3" ;
-            :receita_imposto "20.10%" ;
+            :receita_imposto "20.10%";
             :taxa_desemprego "10.5" ;
             :taxa_fertilidade "2.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Cambodia
 :Cambodia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Cambodia";
             :area "181,035" ;
             :capital "Phnom Penh" ;
             :costa "0.0" ;
@@ -1122,15 +1166,16 @@
             :telefones_por_1000 "1.9" ;
             :temperatura_media "27.41" ;
             :emissoes_co2 "178" ;
-            :medicos_por_mil "0.2" ;
+            :medicos_por_mil "0.2";
             :racio_sexos "95.3" ;
-            :receita_imposto "17.10%" ;
+            :receita_imposto "17.10%";
             :taxa_desemprego "0.3" ;
             :taxa_fertilidade "2.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Cameroon
 :Cameroon rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Cameroon";
             :area "475,440" ;
             :capital "Yaound�" ;
             :costa "0.0" ;
@@ -1153,15 +1198,16 @@
             :telefones_por_1000 "2.07" ;
             :temperatura_media "24.80" ;
             :emissoes_co2 "408" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "100.2" ;
-            :receita_imposto "12.80%" ;
+            :receita_imposto "12.80%";
             :taxa_desemprego "4.6" ;
             :taxa_fertilidade "5.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Canada
 :Canada rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Canada";
             :area "9,984,670" ;
             :capital "Ottawa" ;
             :costa "50.93992331999999" ;
@@ -1184,15 +1230,17 @@
             :telefones_por_1000 "8.85" ;
             :temperatura_media "−4.03" ;
             :emissoes_co2 "19276" ;
-            :medicos_por_mil "2.5" ;
+            :medicos_por_mil "2.5";
             :racio_sexos "98.5" ;
-            :receita_imposto "12.80%" ;
+            :receita_imposto "12.80%";
             :taxa_desemprego "7.1" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#CentralAfricanRepublic
 :CentralAfricanRepublic rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Central African Republic";
+:nome "Central African Rep.";
             :area "622,984" ;
             :capital "Bangui" ;
             :costa "0" ;
@@ -1215,15 +1263,16 @@
             :telefones_por_1000 "0.45999999999999996" ;
             :temperatura_media "25.47" ;
             :emissoes_co2 "19" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "97.3" ;
-            :receita_imposto "8.60%" ;
+            :receita_imposto "8.60%";
             :taxa_desemprego "6.9" ;
             :taxa_fertilidade "5.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Chad
 :Chad rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Chad";
             :area "1,284,000" ;
             :capital "N'Djamena" ;
             :costa "-2.19372153" ;
@@ -1246,15 +1295,16 @@
             :telefones_por_1000 "0.27" ;
             :temperatura_media "27.63" ;
             :emissoes_co2 "288" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "100.2" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "5.8" ;
             :taxa_fertilidade "6.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Chile
 :Chile rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Chile";
             :area "756,096" ;
             :capital "Santiago" ;
             :costa "0.0" ;
@@ -1277,15 +1327,16 @@
             :telefones_por_1000 "6.43" ;
             :temperatura_media "9.39" ;
             :emissoes_co2 "540" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "98.2" ;
-            :receita_imposto "18.20%" ;
+            :receita_imposto "18.20%";
             :taxa_desemprego "6.8" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#China
 :China rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "China";
             :area "9,596,960" ;
             :capital "Beijing" ;
             :costa "-141.8278524" ;
@@ -1308,15 +1359,16 @@
             :telefones_por_1000 "5.029999999999999" ;
             :temperatura_media "7.59" ;
             :emissoes_co2 "101394" ;
-            :medicos_por_mil "1.5" ;
+            :medicos_por_mil "1.5";
             :racio_sexos "106.3" ;
-            :receita_imposto "9.40%" ;
+            :receita_imposto "9.40%";
             :taxa_desemprego "4.6" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Colombia
 :Colombia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Colombia";
             :area "1,138,910" ;
             :capital "Bogot�" ;
             :costa "-30.750951269999995" ;
@@ -1339,15 +1391,16 @@
             :telefones_por_1000 "5.59" ;
             :temperatura_media "25.00" ;
             :emissoes_co2 "5380" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "96.8" ;
-            :receita_imposto "14.40%" ;
+            :receita_imposto "14.40%";
             :taxa_desemprego "10.5" ;
             :taxa_fertilidade "1.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Comoros
 :Comoros rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Comoros";
             :area "2,235" ;
             :capital "Moroni, Comoros" ;
             :costa "0.0" ;
@@ -1370,15 +1423,19 @@
             :telefones_por_1000 "0.75" ;
             :temperatura_media "23.73" ;
             :emissoes_co2 "3" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "101.8" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "20.0" ;
             :taxa_fertilidade "4.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#RepublicoftheCongo
 :RepublicoftheCongo rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Republic of the Congo";
+:nome "Congo";
+:nome "Congo, Dem. Rep.";
+:nome "Congo, Repub. of the";
             :area "342,000" ;
             :capital "Brazzaville" ;
             :costa "0.0" ;
@@ -1401,15 +1458,16 @@
             :telefones_por_1000 "0.76" ;
             :temperatura_media "24.74" ;
             :emissoes_co2 "648" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "100.1" ;
-            :receita_imposto "9.00%" ;
+            :receita_imposto "9.00%";
             :taxa_desemprego "11.5" ;
             :taxa_fertilidade "4.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#CostaRica
 :CostaRica rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Costa Rica";
             :area "51,100" ;
             :capital "San Jos������" ;
             :costa "105.40741301999999" ;
@@ -1432,15 +1490,16 @@
             :telefones_por_1000 "5.9799999999999995" ;
             :temperatura_media "24.83" ;
             :emissoes_co2 "110" ;
-            :medicos_por_mil "1.2" ;
+            :medicos_por_mil "1.2";
             :racio_sexos "100.1" ;
-            :receita_imposto "13.60%" ;
+            :receita_imposto "13.60%";
             :taxa_desemprego "8.6" ;
             :taxa_fertilidade "1.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Croatia
 :Croatia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Croatia";
             :area "56,594" ;
             :capital "Zagreb" ;
             :costa "325.3286439" ;
@@ -1463,15 +1522,16 @@
             :telefones_por_1000 "6.9799999999999995" ;
             :temperatura_media "11.96" ;
             :emissoes_co2 "182" ;
-            :medicos_por_mil "3.1" ;
+            :medicos_por_mil "3.1";
             :racio_sexos "93.1" ;
-            :receita_imposto "22.00%" ;
+            :receita_imposto "22.00%";
             :taxa_desemprego "11.7" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Cuba
 :Cuba rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Cuba";
             :area "110,860" ;
             :capital "Havana" ;
             :costa "-420.26731734000003" ;
@@ -1494,15 +1554,16 @@
             :telefones_por_1000 "3.1100000000000003" ;
             :temperatura_media "25.81" ;
             :emissoes_co2 "212" ;
-            :medicos_por_mil "7.5" ;
+            :medicos_por_mil "7.5";
             :racio_sexos "100.1" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "3.0" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Cyprus
 :Cyprus rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Cyprus";
             :area "9,251" ;
             :capital "Nicosia" ;
             :costa "94.44139535999999" ;
@@ -1525,15 +1586,17 @@
             :telefones_por_1000 "7.17" ;
             :temperatura_media "18.95" ;
             :emissoes_co2 "5" ;
-            :medicos_por_mil "2.5" ;
+            :medicos_por_mil "2.5";
             :racio_sexos "100.2" ;
-            :receita_imposto "24.50%" ;
+            :receita_imposto "24.50%";
             :taxa_desemprego "10.3" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#CzechRepublic
 :CzechRepublic rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Czech Republic";
+:nome "Czechia";
             :area "78,867" ;
             :capital "Prague" ;
             :costa "326.09528094" ;
@@ -1556,15 +1619,16 @@
             :telefones_por_1000 "8.129999999999999" ;
             :temperatura_media "8.60" ;
             :emissoes_co2 "1221" ;
-            :medicos_por_mil "3.7" ;
+            :medicos_por_mil "3.7";
             :racio_sexos "96.7" ;
-            :receita_imposto "14.90%" ;
+            :receita_imposto "14.90%";
             :taxa_desemprego "3.9" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#DemocraticRepublicoftheCongo
 :DemocraticRepublicoftheCongo rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Democratic Republic of the Congo";
             :area "2,344,858" ;
             :capital "Kinshasa" ;
             :costa "37" ;
@@ -1587,15 +1651,16 @@
             :telefones_por_1000 "0.38" ;
             :temperatura_media "24.35" ;
             :emissoes_co2 "1179" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "99.6" ;
-            :receita_imposto "10.70%" ;
+            :receita_imposto "10.70%";
             :taxa_desemprego "3.6" ;
             :taxa_fertilidade "6.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Denmark
 :Denmark rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Denmark";
             :area "43,094" ;
             :capital "Copenhagen" ;
             :costa "812.5316627999998" ;
@@ -1618,15 +1683,16 @@
             :telefones_por_1000 "9.629999999999999" ;
             :temperatura_media "8.90" ;
             :emissoes_co2 "666" ;
-            :medicos_por_mil "3.6" ;
+            :medicos_por_mil "3.6";
             :racio_sexos "99.0" ;
-            :receita_imposto "32.40%" ;
+            :receita_imposto "32.40%";
             :taxa_desemprego "6.0" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Djibouti
 :Djibouti rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Djibouti";
             :area "23,200" ;
             :capital "Djibouti City" ;
             :costa "0.0" ;
@@ -1649,15 +1715,16 @@
             :telefones_por_1000 "1.19" ;
             :temperatura_media "28.49" ;
             :emissoes_co2 "3" ;
-            :medicos_por_mil "0.2" ;
+            :medicos_por_mil "0.2";
             :racio_sexos "100.7" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "6.6" ;
             :taxa_fertilidade "3.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Dominica
 :Dominica rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Dominica";
             :area "751" ;
             :capital "Roseau" ;
             :costa "-3283.37694282" ;
@@ -1680,15 +1747,16 @@
             :telefones_por_1000 "6.76" ;
             :temperatura_media "26.83" ;
             :emissoes_co2 "0" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "103.0" ;
-            :receita_imposto "22.10%" ;
+            :receita_imposto "22.10%";
             :taxa_desemprego "23.0" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#DominicanRepublic
 :DominicanRepublic rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Dominican Republic";
             :area "48,670" ;
             :capital "Santo Domingo" ;
             :costa "-1572.0462303" ;
@@ -1711,15 +1779,16 @@
             :telefones_por_1000 "5.1899999999999995" ;
             :temperatura_media "24.55" ;
             :emissoes_co2 "28" ;
-            :medicos_por_mil "1.5" ;
+            :medicos_por_mil "1.5";
             :racio_sexos "99.2" ;
-            :receita_imposto "13.00%" ;
+            :receita_imposto "13.00%";
             :taxa_desemprego "14.4" ;
             :taxa_fertilidade "2.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Ecuador
 :Ecuador rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Ecuador";
             :area "283,561" ;
             :capital "Quito" ;
             :costa "-1062.2170587599999" ;
@@ -1742,15 +1811,16 @@
             :telefones_por_1000 "4.89" ;
             :temperatura_media "21.43" ;
             :emissoes_co2 "1247" ;
-            :medicos_por_mil "1.7" ;
+            :medicos_por_mil "1.7";
             :racio_sexos "99.9" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "5.8" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Egypt
 :Egypt rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Egypt";
             :area "1,001,450" ;
             :capital "Cairo" ;
             :costa "-44.90006663999999" ;
@@ -1773,15 +1843,16 @@
             :telefones_por_1000 "3.59" ;
             :temperatura_media "23.14" ;
             :emissoes_co2 "3509" ;
-            :medicos_por_mil "0.8" ;
+            :medicos_por_mil "0.8";
             :racio_sexos "102.3" ;
-            :receita_imposto "12.50%" ;
+            :receita_imposto "12.50%";
             :taxa_desemprego "11.5" ;
             :taxa_fertilidade "3.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#ElSalvador
 :ElSalvador rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "El Salvador";
             :area "21,041" ;
             :capital "San Salvador" ;
             :costa "-3141.3522511799997" ;
@@ -1804,15 +1875,16 @@
             :telefones_por_1000 "2.69" ;
             :temperatura_media "25.23" ;
             :emissoes_co2 "86" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "88.5" ;
-            :receita_imposto "18.10%" ;
+            :receita_imposto "18.10%";
             :taxa_desemprego "6.4" ;
             :taxa_fertilidade "2.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#EquatorialGuinea
 :EquatorialGuinea rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Equatorial Guinea";
             :area "28,051" ;
             :capital "Malabo" ;
             :costa "0.0" ;
@@ -1835,15 +1907,16 @@
             :telefones_por_1000 "2.13" ;
             :temperatura_media "24.66" ;
             :emissoes_co2 "841" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "124.0" ;
-            :receita_imposto "6.10%" ;
+            :receita_imposto "6.10%";
             :taxa_desemprego "7.7" ;
             :taxa_fertilidade "5.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Eritrea
 :Eritrea rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Eritrea";
             :area "117,600" ;
             :capital "Asmara" ;
             :costa "0.0" ;
@@ -1866,15 +1939,16 @@
             :telefones_por_1000 "0.11000000000000001" ;
             :temperatura_media "26.63" ;
             :emissoes_co2 "27" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "100.4" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "7.3" ;
             :taxa_fertilidade "4.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Estonia
 :Estonia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Estonia";
             :area "45,228" ;
             :capital "Tallinn" ;
             :costa "-239.80199412" ;
@@ -1897,15 +1971,17 @@
             :telefones_por_1000 "8.84" ;
             :temperatura_media "6.34" ;
             :emissoes_co2 "242" ;
-            :medicos_por_mil "3.3" ;
+            :medicos_por_mil "3.3";
             :racio_sexos "88.2" ;
-            :receita_imposto "20.90%" ;
+            :receita_imposto "20.90%";
             :taxa_desemprego "7.2" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Eswatini
 :Eswatini rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Eswatini";
+:nome "Swaziland";
             :area "17,364" ;
             :capital "Mbabane" ;
             :costa "0.0" ;
@@ -1928,15 +2004,16 @@
             :telefones_por_1000 "3.04" ;
             :temperatura_media "20.64" ;
             :emissoes_co2 "39" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "93.9" ;
-            :receita_imposto "28.60%" ;
+            :receita_imposto "28.60%";
             :taxa_desemprego "25.1" ;
             :taxa_fertilidade "3.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Ethiopia
 :Ethiopia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Ethiopia";
             :area "1,104,300" ;
             :capital "Addis Ababa" ;
             :costa "0.0" ;
@@ -1959,15 +2036,16 @@
             :telefones_por_1000 "1.16" ;
             :temperatura_media "23.37" ;
             :emissoes_co2 "1308" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "99.7" ;
-            :receita_imposto "7.50%" ;
+            :receita_imposto "7.50%";
             :taxa_desemprego "5.7" ;
             :taxa_fertilidade "4.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Fiji
 :Fiji rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Fiji";
             :area "18,274" ;
             :capital "Suva" ;
             :costa "-403.37540255999994" ;
@@ -1990,15 +2068,16 @@
             :telefones_por_1000 "4.63" ;
             :temperatura_media "24.68" ;
             :emissoes_co2 "8" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "103.1" ;
-            :receita_imposto "24.20%" ;
+            :receita_imposto "24.20%";
             :taxa_desemprego "7.7" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Finland
 :Finland rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Finland";
             :area "338,145" ;
             :capital "Helsinki" ;
             :costa "38.13760275" ;
@@ -2021,15 +2100,16 @@
             :telefones_por_1000 "9.27" ;
             :temperatura_media "2.46" ;
             :emissoes_co2 "757" ;
-            :medicos_por_mil "3.0" ;
+            :medicos_por_mil "3.0";
             :racio_sexos "97.2" ;
-            :receita_imposto "20.80%" ;
+            :receita_imposto "20.80%";
             :taxa_desemprego "8.9" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#France
 :France rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "France";
             :area "643,801" ;
             :capital "Paris" ;
             :costa "190.25548541999999" ;
@@ -2052,15 +2132,16 @@
             :telefones_por_1000 "8.47" ;
             :temperatura_media "11.65" ;
             :emissoes_co2 "5694" ;
-            :medicos_por_mil "3.2" ;
+            :medicos_por_mil "3.2";
             :racio_sexos "96.7" ;
-            :receita_imposto "24.20%" ;
+            :receita_imposto "24.20%";
             :taxa_desemprego "9.8" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Gabon
 :Gabon rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Gabon";
             :area "267,667" ;
             :capital "Libreville" ;
             :costa "0.0" ;
@@ -2083,15 +2164,18 @@
             :telefones_por_1000 "2.35" ;
             :temperatura_media "25.20" ;
             :emissoes_co2 "559" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "105.6" ;
-            :receita_imposto "10.20%" ;
+            :receita_imposto "10.20%";
             :taxa_desemprego "18.1" ;
             :taxa_fertilidade "4.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#TheGambia
 :TheGambia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "The Gambia";
+:nome "Gambia";
+:nome "Gambia, The";
             :area "11,300" ;
             :capital "Banjul" ;
             :costa "590.83110879" ;
@@ -2114,15 +2198,16 @@
             :telefones_por_1000 "1.7100000000000002" ;
             :temperatura_media "28.38" ;
             :emissoes_co2 "7" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "98.0" ;
-            :receita_imposto "9.40%" ;
+            :receita_imposto "9.40%";
             :taxa_desemprego "29.7" ;
             :taxa_fertilidade "5.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Georgia
 :Georgia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Georgia";
             :area "69,700" ;
             :capital "Tbilisi" ;
             :costa "-814.3705557000001" ;
@@ -2145,15 +2230,16 @@
             :telefones_por_1000 "4.5200000000000005" ;
             :temperatura_media "9.01" ;
             :emissoes_co2 "61" ;
-            :medicos_por_mil "4.8" ;
+            :medicos_por_mil "4.8";
             :racio_sexos "91.4" ;
-            :receita_imposto "21.70%" ;
+            :receita_imposto "21.70%";
             :taxa_desemprego "11.4" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Germany
 :Germany rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Germany";
             :area "357,022" ;
             :capital "Berlin" ;
             :costa "1303.70254638" ;
@@ -2176,15 +2262,16 @@
             :telefones_por_1000 "8.76" ;
             :temperatura_media "9.59" ;
             :emissoes_co2 "5004" ;
-            :medicos_por_mil "4.1" ;
+            :medicos_por_mil "4.1";
             :racio_sexos "97.0" ;
-            :receita_imposto "11.50%" ;
+            :receita_imposto "11.50%";
             :taxa_desemprego "4.2" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Ghana
 :Ghana rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Ghana";
             :area "238,533" ;
             :capital "Accra" ;
             :costa "-155.15076095999999" ;
@@ -2207,15 +2294,16 @@
             :telefones_por_1000 "2.35" ;
             :temperatura_media "27.66" ;
             :emissoes_co2 "410" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "99.3" ;
-            :receita_imposto "12.60%" ;
+            :receita_imposto "12.60%";
             :taxa_desemprego "5.9" ;
             :taxa_fertilidade "4.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Greece
 :Greece rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Greece";
             :area "131,957" ;
             :capital "Athens" ;
             :costa "493.00459649999993" ;
@@ -2238,15 +2326,16 @@
             :telefones_por_1000 "6.68" ;
             :temperatura_media "14.26" ;
             :emissoes_co2 "368" ;
-            :medicos_por_mil "6.3" ;
+            :medicos_por_mil "6.3";
             :racio_sexos "96.9" ;
-            :receita_imposto "26.20%" ;
+            :receita_imposto "26.20%";
             :taxa_desemprego "23.0" ;
             :taxa_fertilidade "1.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Grenada
 :Grenada rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Grenada";
             :area "349" ;
             :capital "St. George's, Grenada" ;
             :costa "-9402.53393664" ;
@@ -2269,15 +2358,16 @@
             :telefones_por_1000 "5.38" ;
             :temperatura_media "26.49" ;
             :emissoes_co2 "0" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "100.9" ;
-            :receita_imposto "19.40%" ;
+            :receita_imposto "19.40%";
             :taxa_desemprego "15.0" ;
             :taxa_fertilidade "2.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Guatemala
 :Guatemala rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Guatemala";
             :area "108,889" ;
             :capital "Guatemala City" ;
             :costa "-488.32448457" ;
@@ -2300,15 +2390,16 @@
             :telefones_por_1000 "2.71" ;
             :temperatura_media "23.65" ;
             :emissoes_co2 "327" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "96.9" ;
-            :receita_imposto "10.60%" ;
+            :receita_imposto "10.60%";
             :taxa_desemprego "2.4" ;
             :taxa_fertilidade "3.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Guinea
 :Guinea rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Guinea";
             :area "245,857" ;
             :capital "Conakry" ;
             :costa "-312.25955436" ;
@@ -2331,15 +2422,16 @@
             :telefones_por_1000 "0.47000000000000003" ;
             :temperatura_media "25.86" ;
             :emissoes_co2 "113" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "100.6" ;
-            :receita_imposto "10.80%" ;
+            :receita_imposto "10.80%";
             :taxa_desemprego "6.8" ;
             :taxa_fertilidade "5.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Guinea-Bissau
 :Guinea-Bissau rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Guinea-Bissau";
             :area "36,125" ;
             :capital "Bissau" ;
             :costa "-162.24474357" ;
@@ -2362,15 +2454,16 @@
             :telefones_por_1000 "0.35" ;
             :temperatura_media "27.98" ;
             :emissoes_co2 "25" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "96.9" ;
-            :receita_imposto "10.30%" ;
+            :receita_imposto "10.30%";
             :taxa_desemprego "6.5" ;
             :taxa_fertilidade "4.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Guyana
 :Guyana rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Guyana";
             :area "214,969" ;
             :capital "Georgetown, Guyana" ;
             :costa "-19.300605479999998" ;
@@ -2393,15 +2486,16 @@
             :telefones_por_1000 "3.8200000000000003" ;
             :temperatura_media "26.12" ;
             :emissoes_co2 "7" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "101.9" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "11.3" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Haiti
 :Haiti rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Haiti";
             :area "27,750" ;
             :capital "Port-au-Prince" ;
             :costa "-2636.5062203999996" ;
@@ -2424,15 +2518,17 @@
             :telefones_por_1000 "1.22" ;
             :temperatura_media "24.95" ;
             :emissoes_co2 "136" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "97.8" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "12.9" ;
             :taxa_fertilidade "3.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#HolySee
 :HolySee rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Vatican City";
+:nome "Holy See";
             :area "0" ;
             :capital "Vatican City" ;
             :costa "0" ;
@@ -2455,15 +2551,16 @@
             :telefones_por_1000 "0" ;
             :temperatura_media "16.34" ;
             :emissoes_co2 "0" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "219.2" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "0" ;
             :taxa_fertilidade "0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Honduras
 :Honduras rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Honduras";
             :area "112,090" ;
             :capital "Tegucigalpa" ;
             :costa "-337.07683854000004" ;
@@ -2486,15 +2583,16 @@
             :telefones_por_1000 "2.04" ;
             :temperatura_media "24.72" ;
             :emissoes_co2 "105" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "99.4" ;
-            :receita_imposto "17.30%" ;
+            :receita_imposto "17.30%";
             :taxa_desemprego "5.6" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Hungary
 :Hungary rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Hungary";
             :area "93,028" ;
             :capital "Budapest" ;
             :costa "238.99909721999995" ;
@@ -2517,15 +2615,16 @@
             :telefones_por_1000 "7.279999999999999" ;
             :temperatura_media "11.50" ;
             :emissoes_co2 "423" ;
-            :medicos_por_mil "3.3" ;
+            :medicos_por_mil "3.3";
             :racio_sexos "90.7" ;
-            :receita_imposto "23.00%" ;
+            :receita_imposto "23.00%";
             :taxa_desemprego "4.5" ;
             :taxa_fertilidade "1.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Iceland
 :Iceland rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Iceland";
             :area "103,000" ;
             :capital "Reykjav��" ;
             :costa "17.876110979999996" ;
@@ -2548,15 +2647,16 @@
             :telefones_por_1000 "9.82" ;
             :temperatura_media "1.85" ;
             :emissoes_co2 "284" ;
-            :medicos_por_mil "3.8" ;
+            :medicos_por_mil "3.8";
             :racio_sexos "100.7" ;
-            :receita_imposto "23.30%" ;
+            :receita_imposto "23.30%";
             :taxa_desemprego "3.6" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#India
 :India rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "India";
             :area "3,287,263" ;
             :capital "New Delhi" ;
             :costa "-60.40892676" ;
@@ -2579,15 +2679,16 @@
             :telefones_por_1000 "2.6" ;
             :temperatura_media "24.94" ;
             :emissoes_co2 "23103" ;
-            :medicos_por_mil "0.7" ;
+            :medicos_por_mil "0.7";
             :racio_sexos "107.6" ;
-            :receita_imposto "11.20%" ;
+            :receita_imposto "11.20%";
             :taxa_desemprego "3.4" ;
             :taxa_fertilidade "2.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Indonesia
 :Indonesia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Indonesia";
             :area "1,904,569" ;
             :capital "Jakarta" ;
             :costa "0.0" ;
@@ -2610,15 +2711,17 @@
             :telefones_por_1000 "2.2" ;
             :temperatura_media "25.96" ;
             :emissoes_co2 "19481" ;
-            :medicos_por_mil "0.2" ;
+            :medicos_por_mil "0.2";
             :racio_sexos "101.4" ;
-            :receita_imposto "10.20%" ;
+            :receita_imposto "10.20%";
             :taxa_desemprego "5.8" ;
             :taxa_fertilidade "2.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Iran
 :Iran rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Iran";
+:nome "Iran (Islamic Republic of)";
             :area "1,648,195" ;
             :capital "Tehran" ;
             :costa "-90.72216971999998" ;
@@ -2641,15 +2744,16 @@
             :telefones_por_1000 "4.41" ;
             :temperatura_media "18.34" ;
             :emissoes_co2 "13291" ;
-            :medicos_por_mil "1.5" ;
+            :medicos_por_mil "1.5";
             :racio_sexos "101.2" ;
-            :receita_imposto "7.40%" ;
+            :receita_imposto "7.40%";
             :taxa_desemprego "11.3" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Iraq
 :Iraq rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Iraq";
             :area "438,317" ;
             :capital "Baghdad" ;
             :costa "0.0" ;
@@ -2672,15 +2776,17 @@
             :telefones_por_1000 "1.72" ;
             :temperatura_media "22.95" ;
             :emissoes_co2 "6744" ;
-            :medicos_por_mil "0.9" ;
+            :medicos_por_mil "0.9";
             :racio_sexos "102.5" ;
-            :receita_imposto "2.00%" ;
+            :receita_imposto "2.00%";
             :taxa_desemprego "16.1" ;
             :taxa_fertilidade "4.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Ireland
 :Ireland rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Republic of Ireland";
+:nome "Ireland";
             :area "70,273" ;
             :capital "Dublin" ;
             :costa "747.01009578" ;
@@ -2703,15 +2809,16 @@
             :telefones_por_1000 "8.01" ;
             :temperatura_media "9.73" ;
             :emissoes_co2 "84" ;
-            :medicos_por_mil "2.8" ;
+            :medicos_por_mil "2.8";
             :racio_sexos "98.4" ;
-            :receita_imposto "18.30%" ;
+            :receita_imposto "18.30%";
             :taxa_desemprego "7.6" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Israel
 :Israel rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Israel";
             :area "20,770" ;
             :capital "Jerusalem" ;
             :costa "538.57288056" ;
@@ -2734,15 +2841,16 @@
             :telefones_por_1000 "7.890000000000001" ;
             :temperatura_media "19.99" ;
             :emissoes_co2 "313" ;
-            :medicos_por_mil "3.6" ;
+            :medicos_por_mil "3.6";
             :racio_sexos "98.7" ;
-            :receita_imposto "23.10%" ;
+            :receita_imposto "23.10%";
             :taxa_desemprego "5.9" ;
             :taxa_fertilidade "3.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Italy
 :Italy rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Italy";
             :area "301,340" ;
             :capital "Rome" ;
             :costa "1034.7269049" ;
@@ -2765,15 +2873,16 @@
             :telefones_por_1000 "6.56" ;
             :temperatura_media "13.22" ;
             :emissoes_co2 "1539" ;
-            :medicos_por_mil "3.9" ;
+            :medicos_por_mil "3.9";
             :racio_sexos "95.1" ;
-            :receita_imposto "24.30%" ;
+            :receita_imposto "24.30%";
             :taxa_desemprego "11.4" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Jamaica
 :Jamaica rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Jamaica";
             :area "10,991" ;
             :capital "Kingston, Jamaica" ;
             :costa "-3197.15617572" ;
@@ -2796,15 +2905,16 @@
             :telefones_por_1000 "4.32" ;
             :temperatura_media "25.91" ;
             :emissoes_co2 "8" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "99.0" ;
-            :receita_imposto "26.80%" ;
+            :receita_imposto "26.80%";
             :taxa_desemprego "13.1" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Japan
 :Japan rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Japan";
             :area "377,944" ;
             :capital "Tokyo" ;
             :costa "0.0" ;
@@ -2827,15 +2937,16 @@
             :telefones_por_1000 "9.33" ;
             :temperatura_media "11.78" ;
             :emissoes_co2 "1114" ;
-            :medicos_por_mil "2.3" ;
+            :medicos_por_mil "2.3";
             :racio_sexos "95.4" ;
-            :receita_imposto "11.90%" ;
+            :receita_imposto "11.90%";
             :taxa_desemprego "3.0" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Jordan
 :Jordan rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Jordan";
             :area "89,342" ;
             :capital "Amman" ;
             :costa "1092.3541824" ;
@@ -2858,15 +2969,16 @@
             :telefones_por_1000 "5.34" ;
             :temperatura_media "19.52" ;
             :emissoes_co2 "7" ;
-            :medicos_por_mil "2.6" ;
+            :medicos_por_mil "2.6";
             :racio_sexos "102.6" ;
-            :receita_imposto "15.10%" ;
+            :receita_imposto "15.10%";
             :taxa_desemprego "13.4" ;
             :taxa_fertilidade "3.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Kazakhstan
 :Kazakhstan rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Kazakhstan";
             :area "2,724,900" ;
             :capital "Astana" ;
             :costa "-48.58821239999999" ;
@@ -2889,15 +3001,16 @@
             :telefones_por_1000 "7.290000000000001" ;
             :temperatura_media "7.11" ;
             :emissoes_co2 "7091" ;
-            :medicos_por_mil "3.3" ;
+            :medicos_por_mil "3.3";
             :racio_sexos "93.9" ;
-            :receita_imposto "11.70%" ;
+            :receita_imposto "11.70%";
             :taxa_desemprego "5.6" ;
             :taxa_fertilidade "2.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Kenya
 :Kenya rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Kenya";
             :area "580,367" ;
             :capital "Nairobi" ;
             :costa "-15.4363404" ;
@@ -2920,15 +3033,16 @@
             :telefones_por_1000 "4.5600000000000005" ;
             :temperatura_media "25.08" ;
             :emissoes_co2 "750" ;
-            :medicos_por_mil "0.2" ;
+            :medicos_por_mil "0.2";
             :racio_sexos "98.8" ;
-            :receita_imposto "15.10%" ;
+            :receita_imposto "15.10%";
             :taxa_desemprego "10.8" ;
             :taxa_fertilidade "4.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Kiribati
 :Kiribati rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Kiribati";
             :area "811" ;
             :capital "South Tarawa" ;
             :costa "0.0" ;
@@ -2951,15 +3065,16 @@
             :telefones_por_1000 "1.3" ;
             :temperatura_media "27.77" ;
             :emissoes_co2 "0" ;
-            :medicos_por_mil "0.2" ;
+            :medicos_por_mil "0.2";
             :racio_sexos "97.3" ;
-            :receita_imposto "22.00%" ;
+            :receita_imposto "22.00%";
             :taxa_desemprego "30.6" ;
             :taxa_fertilidade "3.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Kuwait
 :Kuwait rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Kuwait";
             :area "17,818" ;
             :capital "Kuwait City" ;
             :costa "4983.726097739999" ;
@@ -2982,15 +3097,16 @@
             :telefones_por_1000 "8.209999999999999" ;
             :temperatura_media "26.31" ;
             :emissoes_co2 "6941" ;
-            :medicos_por_mil "1.9" ;
+            :medicos_por_mil "1.9";
             :racio_sexos "134.9" ;
-            :receita_imposto "1.40%" ;
+            :receita_imposto "1.40%";
             :taxa_desemprego "2.2" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Kyrgyzstan
 :Kyrgyzstan rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Kyrgyzstan";
             :area "199,951" ;
             :capital "Bishkek" ;
             :costa "-166.88600565" ;
@@ -3013,15 +3129,17 @@
             :telefones_por_1000 "3.02" ;
             :temperatura_media "2.65" ;
             :emissoes_co2 "80" ;
-            :medicos_por_mil "1.9" ;
+            :medicos_por_mil "1.9";
             :racio_sexos "98.4" ;
-            :receita_imposto "18.00%" ;
+            :receita_imposto "18.00%";
             :taxa_desemprego "7.7" ;
             :taxa_fertilidade "3.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Laos
 :Laos rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Laos";
+:nome "Lao People's Democratic Republic";
             :area "236,800" ;
             :capital "Vientiane" ;
             :costa "0.0" ;
@@ -3044,15 +3162,16 @@
             :telefones_por_1000 "1.8199999999999998" ;
             :temperatura_media "24.16" ;
             :emissoes_co2 "72" ;
-            :medicos_por_mil "0.2" ;
+            :medicos_por_mil "0.2";
             :racio_sexos "99.5" ;
-            :receita_imposto "12.90%" ;
+            :receita_imposto "12.90%";
             :taxa_desemprego "1.5" ;
             :taxa_fertilidade "2.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Latvia
 :Latvia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Latvia";
             :area "64,589" ;
             :capital "Riga" ;
             :costa "-203.30385504" ;
@@ -3075,15 +3194,16 @@
             :telefones_por_1000 "7.92" ;
             :temperatura_media "6.87" ;
             :emissoes_co2 "108" ;
-            :medicos_por_mil "3.2" ;
+            :medicos_por_mil "3.2";
             :racio_sexos "84.9" ;
-            :receita_imposto "22.90%" ;
+            :receita_imposto "22.90%";
             :taxa_desemprego "9.6" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Lebanon
 :Lebanon rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Lebanon";
             :area "10,400" ;
             :capital "Beirut" ;
             :costa "0.0" ;
@@ -3106,15 +3226,16 @@
             :telefones_por_1000 "7.4" ;
             :temperatura_media "15.45" ;
             :emissoes_co2 "7" ;
-            :medicos_por_mil "2.4" ;
+            :medicos_por_mil "2.4";
             :racio_sexos "100.6" ;
-            :receita_imposto "15.30%" ;
+            :receita_imposto "15.30%";
             :taxa_desemprego "7.0" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Lesotho
 :Lesotho rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Lesotho";
             :area "30,355" ;
             :capital "Maseru" ;
             :costa "-127.64506715999997" ;
@@ -3137,15 +3258,16 @@
             :telefones_por_1000 "1.61" ;
             :temperatura_media "12.38" ;
             :emissoes_co2 "31" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "94.4" ;
-            :receita_imposto "31.60%" ;
+            :receita_imposto "31.60%";
             :taxa_desemprego "27.5" ;
             :taxa_fertilidade "3.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Liberia
 :Liberia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Liberia";
             :area "111,369" ;
             :capital "Monrovia" ;
             :costa "0.0" ;
@@ -3168,15 +3290,16 @@
             :telefones_por_1000 "0.5900000000000001" ;
             :temperatura_media "25.45" ;
             :emissoes_co2 "73" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "101.8" ;
-            :receita_imposto "12.90%" ;
+            :receita_imposto "12.90%";
             :taxa_desemprego "4.1" ;
             :taxa_fertilidade "4.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Libya
 :Libya rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Libya";
             :area "1,759,540" ;
             :capital "Tripoli, Libya" ;
             :costa "0.0" ;
@@ -3199,15 +3322,16 @@
             :telefones_por_1000 "1.9" ;
             :temperatura_media "22.81" ;
             :emissoes_co2 "1505" ;
-            :medicos_por_mil "2.1" ;
+            :medicos_por_mil "2.1";
             :racio_sexos "101.7" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "19.2" ;
             :taxa_fertilidade "2.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Liechtenstein
 :Liechtenstein rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Liechtenstein";
             :area "160" ;
             :capital "Vaduz" ;
             :costa "2668.0522985999996" ;
@@ -3230,15 +3354,16 @@
             :telefones_por_1000 "9.66" ;
             :temperatura_media "7.55" ;
             :emissoes_co2 "1" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "98.4" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "2.6" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Lithuania
 :Lithuania rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Lithuania";
             :area "65,300" ;
             :capital "Vilnius" ;
             :costa "-101.13910949999999" ;
@@ -3261,15 +3386,16 @@
             :telefones_por_1000 "7.140000000000001" ;
             :temperatura_media "7.38" ;
             :emissoes_co2 "74" ;
-            :medicos_por_mil "4.3" ;
+            :medicos_por_mil "4.3";
             :racio_sexos "85.4" ;
-            :receita_imposto "16.90%" ;
+            :receita_imposto "16.90%";
             :taxa_desemprego "9.2" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Luxembourg
 :Luxembourg rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Luxembourg";
             :area "2,586" ;
             :capital "Luxembourg City" ;
             :costa "4263.11059005" ;
@@ -3292,15 +3418,16 @@
             :telefones_por_1000 "9.73" ;
             :temperatura_media "10.02" ;
             :emissoes_co2 "6" ;
-            :medicos_por_mil "2.9" ;
+            :medicos_por_mil "2.9";
             :racio_sexos "101.0" ;
-            :receita_imposto "26.50%" ;
+            :receita_imposto "26.50%";
             :taxa_desemprego "5.6" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Madagascar
 :Madagascar rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Madagascar";
             :area "587,041" ;
             :capital "Antananarivo" ;
             :costa "0.0" ;
@@ -3323,15 +3450,16 @@
             :telefones_por_1000 "0.42000000000000004" ;
             :temperatura_media "22.64" ;
             :emissoes_co2 "129" ;
-            :medicos_por_mil "0.1" ;
+            :medicos_por_mil "0.1";
             :racio_sexos "99.5" ;
-            :receita_imposto "10.20%" ;
+            :receita_imposto "10.20%";
             :taxa_desemprego "2.3" ;
             :taxa_fertilidade "4.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Malawi
 :Malawi rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Malawi";
             :area "118,484" ;
             :capital "Lilongwe" ;
             :costa "0.0" ;
@@ -3354,15 +3482,16 @@
             :telefones_por_1000 "0.93" ;
             :temperatura_media "22.66" ;
             :emissoes_co2 "89" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "98.2" ;
-            :receita_imposto "17.30%" ;
+            :receita_imposto "17.30%";
             :taxa_desemprego "6.8" ;
             :taxa_fertilidade "4.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Malaysia
 :Malaysia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Malaysia";
             :area "329,847" ;
             :capital "Kuala Lumpur" ;
             :costa "0.0" ;
@@ -3385,15 +3514,16 @@
             :telefones_por_1000 "7.109999999999999" ;
             :temperatura_media "26.38" ;
             :emissoes_co2 "3738" ;
-            :medicos_por_mil "1.3" ;
+            :medicos_por_mil "1.3";
             :racio_sexos "106.7" ;
-            :receita_imposto "12.00%" ;
+            :receita_imposto "12.00%";
             :taxa_desemprego "3.3" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Maldives
 :Maldives rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Maldives";
             :area "298" ;
             :capital "Mal�" ;
             :costa "0.0" ;
@@ -3416,15 +3546,16 @@
             :telefones_por_1000 "5.45" ;
             :temperatura_media "28.11" ;
             :emissoes_co2 "0" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "131.8" ;
-            :receita_imposto "19.50%" ;
+            :receita_imposto "19.50%";
             :taxa_desemprego "2.9" ;
             :taxa_fertilidade "2.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Mali
 :Mali rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Mali";
             :area "1,240,192" ;
             :capital "Bamako" ;
             :costa "-8.11961865" ;
@@ -3447,15 +3578,16 @@
             :telefones_por_1000 "1.03" ;
             :temperatura_media "29.21" ;
             :emissoes_co2 "55" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "100.2" ;
-            :receita_imposto "11.60%" ;
+            :receita_imposto "11.60%";
             :taxa_desemprego "8.1" ;
             :taxa_fertilidade "6.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Malta
 :Malta rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Malta";
             :area "316" ;
             :capital "Valletta" ;
             :costa "6790.060233449999" ;
@@ -3478,15 +3610,16 @@
             :telefones_por_1000 "7.62" ;
             :temperatura_media "19.58" ;
             :emissoes_co2 "1" ;
-            :medicos_por_mil "3.9" ;
+            :medicos_por_mil "3.9";
             :racio_sexos "100.9" ;
-            :receita_imposto "26.20%" ;
+            :receita_imposto "26.20%";
             :taxa_desemprego "5.4" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#MarshallIslands
 :MarshallIslands rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Marshall Islands";
             :area "181" ;
             :capital "Majuro" ;
             :costa "-79.78205195999999" ;
@@ -3509,15 +3642,16 @@
             :telefones_por_1000 "1.9300000000000002" ;
             :temperatura_media "28.01" ;
             :emissoes_co2 "0" ;
-            :medicos_por_mil "0.5" ;
+            :medicos_por_mil "0.5";
             :racio_sexos "104.5" ;
-            :receita_imposto "17.80%" ;
+            :receita_imposto "17.80%";
             :taxa_desemprego "4.7" ;
             :taxa_fertilidade "4.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Mauritania
 :Mauritania rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Mauritania";
             :area "1,030,700" ;
             :capital "Nouakchott" ;
             :costa "0.0" ;
@@ -3540,15 +3674,16 @@
             :telefones_por_1000 "1.52" ;
             :temperatura_media "28.82" ;
             :emissoes_co2 "31" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "101.6" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "12.0" ;
             :taxa_fertilidade "4.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Mauritius
 :Mauritius rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Mauritius";
             :area "2,040" ;
             :capital "Port Louis" ;
             :costa "-1417.9418253" ;
@@ -3571,15 +3706,16 @@
             :telefones_por_1000 "5.01" ;
             :temperatura_media "23.33" ;
             :emissoes_co2 "10" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "97.9" ;
-            :receita_imposto "19.10%" ;
+            :receita_imposto "19.10%";
             :taxa_desemprego "7.6" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Mexico
 :Mexico rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Mexico";
             :area "1,964,375" ;
             :capital "Mexico City" ;
             :costa "-687.42219585" ;
@@ -3602,15 +3738,18 @@
             :telefones_por_1000 "5.74" ;
             :temperatura_media "21.31" ;
             :emissoes_co2 "8514" ;
-            :medicos_por_mil "2.1" ;
+            :medicos_por_mil "2.1";
             :racio_sexos "99.2" ;
-            :receita_imposto "13.10%" ;
+            :receita_imposto "13.10%";
             :taxa_desemprego "4.1" ;
             :taxa_fertilidade "2.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Micronesia
 :Micronesia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Federated States of Micronesia";
+:nome "Micronesia (Federated States of)";
+:nome "Micronesia, Fed. St.";
             :area "702" ;
             :capital "Palikir" ;
             :costa "-8366.602686389999" ;
@@ -3633,15 +3772,17 @@
             :telefones_por_1000 "3.15" ;
             :temperatura_media "27.28" ;
             :emissoes_co2 "0" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "105.1" ;
-            :receita_imposto "25.20%" ;
+            :receita_imposto "25.20%";
             :taxa_desemprego "16.2" ;
             :taxa_fertilidade "3.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Moldova
 :Moldova rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Moldova";
+:nome "Republic of Moldova";
             :area "33,851" ;
             :capital "Chi����" ;
             :costa "-88.8884568" ;
@@ -3664,15 +3805,16 @@
             :telefones_por_1000 "4.9799999999999995" ;
             :temperatura_media "10.89" ;
             :emissoes_co2 "15" ;
-            :medicos_por_mil "2.5" ;
+            :medicos_por_mil "2.5";
             :racio_sexos "92.2" ;
-            :receita_imposto "17.70%" ;
+            :receita_imposto "17.70%";
             :taxa_desemprego "5.0" ;
             :taxa_fertilidade "1.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Monaco
 :Monaco rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Monaco";
             :area "2" ;
             :capital "Monaco City" ;
             :costa "326608.42270874995" ;
@@ -3695,15 +3837,16 @@
             :telefones_por_1000 "9.34" ;
             :temperatura_media "13.53" ;
             :emissoes_co2 "4.2" ;
-            :medicos_por_mil "6.6" ;
+            :medicos_por_mil "6.6";
             :racio_sexos "94.7" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "2.0" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Mongolia
 :Mongolia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Mongolia";
             :area "1,564,116" ;
             :capital "Ulaanbaatar" ;
             :costa "0.0" ;
@@ -3726,15 +3869,16 @@
             :telefones_por_1000 "2.1399999999999997" ;
             :temperatura_media "1.07" ;
             :emissoes_co2 "677" ;
-            :medicos_por_mil "2.9" ;
+            :medicos_por_mil "2.9";
             :racio_sexos "97.9" ;
-            :receita_imposto "16.80%" ;
+            :receita_imposto "16.80%";
             :taxa_desemprego "6.3" ;
             :taxa_fertilidade "2.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Montenegro
 :Montenegro rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Montenegro";
             :area "13,812" ;
             :capital "Podgorica" ;
             :costa "293.5" ;
@@ -3757,15 +3901,16 @@
             :telefones_por_1000 "6.459999999999999" ;
             :temperatura_media "9.93" ;
             :emissoes_co2 "29" ;
-            :medicos_por_mil "2.3" ;
+            :medicos_por_mil "2.3";
             :racio_sexos "97.4" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "17.4" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Morocco
 :Morocco rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Morocco";
             :area "446,550" ;
             :capital "Rabat" ;
             :costa "-188.84135088" ;
@@ -3788,15 +3933,16 @@
             :telefones_por_1000 "5.71" ;
             :temperatura_media "18.14" ;
             :emissoes_co2 "78" ;
-            :medicos_por_mil "0.6" ;
+            :medicos_por_mil "0.6";
             :racio_sexos "98.1" ;
-            :receita_imposto "21.90%" ;
+            :receita_imposto "21.90%";
             :taxa_desemprego "10.4" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Mozambique
 :Mozambique rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Mozambique";
             :area "799,380" ;
             :capital "Maputo" ;
             :costa "0.0" ;
@@ -3819,15 +3965,17 @@
             :telefones_por_1000 "0.9" ;
             :temperatura_media "24.41" ;
             :emissoes_co2 "779" ;
-            :medicos_por_mil "0.1" ;
+            :medicos_por_mil "0.1";
             :racio_sexos "95.5" ;
-            :receita_imposto "0.00%" ;
+            :receita_imposto "0.00%";
             :taxa_desemprego "24.1" ;
             :taxa_fertilidade "5.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Myanmar
 :Myanmar rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Myanmar";
+:nome "Burma";
             :area "676,578" ;
             :capital "Naypyidaw" ;
             :costa "-325.40634359999996" ;
@@ -3850,15 +3998,16 @@
             :telefones_por_1000 "2.18" ;
             :temperatura_media "23.82" ;
             :emissoes_co2 "1078" ;
-            :medicos_por_mil "0.6" ;
+            :medicos_por_mil "0.6";
             :racio_sexos "95.5" ;
-            :receita_imposto "5.40%" ;
+            :receita_imposto "5.40%";
             :taxa_desemprego "0.8" ;
             :taxa_fertilidade "2.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Namibia
 :Namibia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Namibia";
             :area "824,292" ;
             :capital "Windhoek" ;
             :costa "0.0" ;
@@ -3881,15 +4030,16 @@
             :telefones_por_1000 "2.23" ;
             :temperatura_media "20.45" ;
             :emissoes_co2 "19" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "94.7" ;
-            :receita_imposto "27.10%" ;
+            :receita_imposto "27.10%";
             :taxa_desemprego "24.9" ;
             :taxa_fertilidade "3.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Nauru
 :Nauru rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Nauru";
             :area "21" ;
             :capital "Yaren District" ;
             :costa "0.0" ;
@@ -3912,15 +4062,16 @@
             :telefones_por_1000 "5.4" ;
             :temperatura_media "27.83" ;
             :emissoes_co2 "0" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "101.9" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "23.0" ;
             :taxa_fertilidade "3.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Nepal
 :Nepal rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Nepal";
             :area "147,181" ;
             :capital "Kathmandu" ;
             :costa "0.0" ;
@@ -3943,15 +4094,16 @@
             :telefones_por_1000 "1.7600000000000002" ;
             :temperatura_media "14.17" ;
             :emissoes_co2 "451" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "94.3" ;
-            :receita_imposto "20.70%" ;
+            :receita_imposto "20.70%";
             :taxa_desemprego "3.0" ;
             :taxa_fertilidade "2.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Netherlands
 :Netherlands rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Netherlands";
             :area "41,543" ;
             :capital "Amsterdam" ;
             :costa "2992.89143439" ;
@@ -3974,15 +4126,16 @@
             :telefones_por_1000 "9.309999999999999" ;
             :temperatura_media "10.49" ;
             :emissoes_co2 "2447" ;
-            :medicos_por_mil "3.4" ;
+            :medicos_por_mil "3.4";
             :racio_sexos "99.0" ;
-            :receita_imposto "23.00%" ;
+            :receita_imposto "23.00%";
             :taxa_desemprego "5.6" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#NewZealand
 :NewZealand rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "New Zealand";
             :area "268,838" ;
             :capital "Wellington" ;
             :costa "159.43978439999998" ;
@@ -4005,15 +4158,16 @@
             :telefones_por_1000 "8.82" ;
             :temperatura_media "10.46" ;
             :emissoes_co2 "783" ;
-            :medicos_por_mil "2.9" ;
+            :medicos_por_mil "2.9";
             :racio_sexos "96.7" ;
-            :receita_imposto "29.00%" ;
+            :receita_imposto "29.00%";
             :taxa_desemprego "5.5" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Nicaragua
 :Nicaragua rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Nicaragua";
             :area "130,370" ;
             :capital "Managua" ;
             :costa "-135.8708754" ;
@@ -4036,15 +4190,16 @@
             :telefones_por_1000 "1.97" ;
             :temperatura_media "25.88" ;
             :emissoes_co2 "91" ;
-            :medicos_por_mil "0.9" ;
+            :medicos_por_mil "0.9";
             :racio_sexos "97.2" ;
-            :receita_imposto "15.60%" ;
+            :receita_imposto "15.60%";
             :taxa_desemprego "6.1" ;
             :taxa_fertilidade "2.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Niger
 :Niger rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Niger";
             :area "1,267,000" ;
             :capital "Niamey" ;
             :costa "-17.17940367" ;
@@ -4067,15 +4222,16 @@
             :telefones_por_1000 "0.22000000000000003" ;
             :temperatura_media "28.04" ;
             :emissoes_co2 "101" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "100.6" ;
-            :receita_imposto "11.80%" ;
+            :receita_imposto "11.80%";
             :taxa_desemprego "2.7" ;
             :taxa_fertilidade "7.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Nigeria
 :Nigeria rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Nigeria";
             :area "923,768" ;
             :capital "Abuja" ;
             :costa "96.09380897999998" ;
@@ -4098,15 +4254,18 @@
             :telefones_por_1000 "4.74" ;
             :temperatura_media "27.30" ;
             :emissoes_co2 "10851" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "102.7" ;
-            :receita_imposto "1.50%" ;
+            :receita_imposto "1.50%";
             :taxa_desemprego "5.4" ;
             :taxa_fertilidade "5.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#NorthKorea
 :NorthKorea rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "North Korea";
+:nome "Democratic People's Republic of Korea";
+:nome "Korea, North";
             :area "120,538" ;
             :capital "Pyongyang" ;
             :costa "0.0" ;
@@ -4129,15 +4288,18 @@
             :telefones_por_1000 "0.0" ;
             :temperatura_media "6.98" ;
             :emissoes_co2 "871" ;
-            :medicos_por_mil "2.8" ;
+            :medicos_por_mil "2.8";
             :racio_sexos "95.7" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "4.3" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#NorthMacedonia
 :NorthMacedonia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "North Macedonia";
+:nome "The former Yugoslav Republic of Macedonia";
+:nome "Macedonia";
             :area "25,713" ;
             :capital "Skopje" ;
             :costa "-303.81877695" ;
@@ -4160,15 +4322,16 @@
             :telefones_por_1000 "7.040000000000001" ;
             :temperatura_media "10.79" ;
             :emissoes_co2 "53" ;
-            :medicos_por_mil "2.8" ;
+            :medicos_por_mil "2.8";
             :racio_sexos "100.0" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "27.3" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Norway
 :Norway rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Norway";
             :area "323,802" ;
             :capital "Oslo" ;
             :costa "63.99347291999999" ;
@@ -4191,15 +4354,16 @@
             :telefones_por_1000 "9.68" ;
             :temperatura_media "2.21" ;
             :emissoes_co2 "8204" ;
-            :medicos_por_mil "4.4" ;
+            :medicos_por_mil "4.4";
             :racio_sexos "101.8" ;
-            :receita_imposto "23.90%" ;
+            :receita_imposto "23.90%";
             :taxa_desemprego "5.1" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Oman
 :Oman rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Oman";
             :area "309,500" ;
             :capital "Muscat" ;
             :costa "10.58787912" ;
@@ -4222,15 +4386,16 @@
             :telefones_por_1000 "7.42" ;
             :temperatura_media "27.64" ;
             :emissoes_co2 "3101" ;
-            :medicos_por_mil "1.5" ;
+            :medicos_por_mil "1.5";
             :racio_sexos "192.8" ;
-            :receita_imposto "2.50%" ;
+            :receita_imposto "2.50%";
             :taxa_desemprego "17.8" ;
             :taxa_fertilidade "2.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Pakistan
 :Pakistan rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Pakistan";
             :area "796,095" ;
             :capital "Islamabad" ;
             :costa "-1479.33494826" ;
@@ -4253,15 +4418,16 @@
             :telefones_por_1000 "1.8" ;
             :temperatura_media "21.38" ;
             :emissoes_co2 "2202" ;
-            :medicos_por_mil "0.8" ;
+            :medicos_por_mil "0.8";
             :racio_sexos "105.6" ;
-            :receita_imposto "9.20%" ;
+            :receita_imposto "9.20%";
             :taxa_desemprego "5.9" ;
             :taxa_fertilidade "3.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Palau
 :Palau rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Palau";
             :area "459" ;
             :capital "Ngerulmud" ;
             :costa "331.42807035" ;
@@ -4284,15 +4450,17 @@
             :telefones_por_1000 "8.7" ;
             :temperatura_media "27.90" ;
             :emissoes_co2 "15.8" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "113.3" ;
-            :receita_imposto "21.30%" ;
+            :receita_imposto "21.30%";
             :taxa_desemprego "1.7" ;
             :taxa_fertilidade "2.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Palestine
 :Palestine rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Palestinian National Authority";
+:nome "State of Palestine";
             :area "6020" ;
             :capital "Jerusalem" ;
             :costa "40" ;
@@ -4315,15 +4483,16 @@
             :telefones_por_1000 "5.74" ;
             :temperatura_media "19.50" ;
             :emissoes_co2 "9" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "102.9" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "24.2" ;
             :taxa_fertilidade "4.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Panama
 :Panama rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Panama";
             :area "75,420" ;
             :capital "Panama City" ;
             :costa "-96.16114871999999" ;
@@ -4346,15 +4515,16 @@
             :telefones_por_1000 "5.12" ;
             :temperatura_media "25.60" ;
             :emissoes_co2 "31" ;
-            :medicos_por_mil "1.6" ;
+            :medicos_por_mil "1.6";
             :racio_sexos "100.4" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "6.2" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#PapuaNewGuinea
 :PapuaNewGuinea rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Papua New Guinea";
             :area "462,840" ;
             :capital "Port Moresby" ;
             :costa "0.0" ;
@@ -4377,15 +4547,16 @@
             :telefones_por_1000 "0.79" ;
             :temperatura_media "24.74" ;
             :emissoes_co2 "114" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "103.5" ;
-            :receita_imposto "13.60%" ;
+            :receita_imposto "13.60%";
             :taxa_desemprego "2.5" ;
             :taxa_fertilidade "3.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Paraguay
 :Paraguay rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Paraguay";
             :area "406,752" ;
             :capital "Asunci��" ;
             :costa "-3.3151872" ;
@@ -4408,15 +4579,16 @@
             :telefones_por_1000 "4.4399999999999995" ;
             :temperatura_media "23.92" ;
             :emissoes_co2 "325" ;
-            :medicos_por_mil "1.3" ;
+            :medicos_por_mil "1.3";
             :racio_sexos "102.9" ;
-            :receita_imposto "10.00%" ;
+            :receita_imposto "10.00%";
             :taxa_desemprego "5.5" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Peru
 :Peru rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Peru";
             :area "1,285,216" ;
             :capital "Lima" ;
             :costa "-59.828769" ;
@@ -4439,15 +4611,16 @@
             :telefones_por_1000 "4.09" ;
             :temperatura_media "19.72" ;
             :emissoes_co2 "1020" ;
-            :medicos_por_mil "1.1" ;
+            :medicos_por_mil "1.1";
             :racio_sexos "99.8" ;
-            :receita_imposto "14.30%" ;
+            :receita_imposto "14.30%";
             :taxa_desemprego "5.3" ;
             :taxa_fertilidade "2.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Philippines
 :Philippines rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Philippines";
             :area "300,000" ;
             :capital "Manila" ;
             :costa "-1158.5025269999999" ;
@@ -4470,15 +4643,16 @@
             :telefones_por_1000 "4.07" ;
             :temperatura_media "26.27" ;
             :emissoes_co2 "991" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "101.3" ;
-            :receita_imposto "14.00%" ;
+            :receita_imposto "14.00%";
             :taxa_desemprego "5.9" ;
             :taxa_fertilidade "3.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Poland
 :Poland rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Poland";
             :area "312,685" ;
             :capital "Warsaw" ;
             :costa "-156.47942582999997" ;
@@ -4501,15 +4675,16 @@
             :telefones_por_1000 "6.8" ;
             :temperatura_media "8.78" ;
             :emissoes_co2 "2819" ;
-            :medicos_por_mil "2.3" ;
+            :medicos_por_mil "2.3";
             :racio_sexos "93.4" ;
-            :receita_imposto "17.40%" ;
+            :receita_imposto "17.40%";
             :taxa_desemprego "5.3" ;
             :taxa_fertilidade "1.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Portugal
 :Portugal rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Portugal";
             :area "92,212" ;
             :capital "Lisbon" ;
             :costa "1061.4711416399998" ;
@@ -4532,15 +4707,16 @@
             :telefones_por_1000 "6.859999999999999" ;
             :temperatura_media "15.85" ;
             :emissoes_co2 "250" ;
-            :medicos_por_mil "4.4" ;
+            :medicos_por_mil "4.4";
             :racio_sexos "89.8" ;
-            :receita_imposto "22.80%" ;
+            :receita_imposto "22.80%";
             :taxa_desemprego "10.5" ;
             :taxa_fertilidade "1.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Qatar
 :Qatar rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Qatar";
             :area "11,586" ;
             :capital "Doha" ;
             :costa "3265.57853154" ;
@@ -4563,15 +4739,16 @@
             :telefones_por_1000 "9.290000000000001" ;
             :temperatura_media "28.02" ;
             :emissoes_co2 "9166" ;
-            :medicos_por_mil "2.0" ;
+            :medicos_por_mil "2.0";
             :racio_sexos "301.2" ;
-            :receita_imposto "14.70%" ;
+            :receita_imposto "14.70%";
             :taxa_desemprego "0.3" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Romania
 :Romania rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Romania";
             :area "238,391" ;
             :capital "Bucharest" ;
             :costa "-31.61600793" ;
@@ -4594,15 +4771,17 @@
             :telefones_por_1000 "5.58" ;
             :temperatura_media "10.18" ;
             :emissoes_co2 "1109" ;
-            :medicos_por_mil "2.7" ;
+            :medicos_por_mil "2.7";
             :racio_sexos "94.0" ;
-            :receita_imposto "14.60%" ;
+            :receita_imposto "14.60%";
             :taxa_desemprego "7.1" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Russia
 :Russia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Russia";
+:nome "Russian Federation";
             :area "17,098,240" ;
             :capital "Moscow" ;
             :costa "22.191034320000004" ;
@@ -4625,15 +4804,16 @@
             :telefones_por_1000 "7.340000000000001" ;
             :temperatura_media "−3.79" ;
             :emissoes_co2 "54829" ;
-            :medicos_por_mil "3.3" ;
+            :medicos_por_mil "3.3";
             :racio_sexos "86.8" ;
-            :receita_imposto "11.40%" ;
+            :receita_imposto "11.40%";
             :taxa_desemprego "5.8" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Rwanda
 :Rwanda rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Rwanda";
             :area "26,338" ;
             :capital "Kigali" ;
             :costa "0.0" ;
@@ -4656,15 +4836,17 @@
             :telefones_por_1000 "1.8" ;
             :temperatura_media "19.20" ;
             :emissoes_co2 "84" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "96.2" ;
-            :receita_imposto "14.30%" ;
+            :receita_imposto "14.30%";
             :taxa_desemprego "2.4" ;
             :taxa_fertilidade "4.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SaintKittsandNevis
 :SaintKittsandNevis rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Saint Kitts and Nevis";
+:nome "Saint Kitts & Nevis";
             :area "261" ;
             :capital "Basseterre" ;
             :costa "-2760.38285211" ;
@@ -4687,15 +4869,16 @@
             :telefones_por_1000 "7.57" ;
             :temperatura_media "27.47" ;
             :emissoes_co2 "0" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "97.0" ;
-            :receita_imposto "18.50%" ;
+            :receita_imposto "18.50%";
             :taxa_desemprego "4.5" ;
             :taxa_fertilidade "2.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SaintLucia
 :SaintLucia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Saint Lucia";
             :area "616" ;
             :capital "Castries" ;
             :costa "-1891.3272475499998" ;
@@ -4718,15 +4901,16 @@
             :telefones_por_1000 "5.24" ;
             :temperatura_media "27.00" ;
             :emissoes_co2 "0" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "95.9" ;
-            :receita_imposto "18.20%" ;
+            :receita_imposto "18.20%";
             :taxa_desemprego "19.0" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SaintVincentandtheGrenadines
 :SaintVincentandtheGrenadines rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Saint Vincent and the Grenadines";
             :area "389" ;
             :capital "Kingstown" ;
             :costa "-5995.619650799999" ;
@@ -4749,15 +4933,16 @@
             :telefones_por_1000 "5.18" ;
             :temperatura_media "26.17" ;
             :emissoes_co2 "0" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "101.7" ;
-            :receita_imposto "25.40%" ;
+            :receita_imposto "25.40%";
             :taxa_desemprego "19.1" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Samoa
 :Samoa rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Samoa";
             :area "2,831" ;
             :capital "Apia" ;
             :costa "-1821.2032682999998" ;
@@ -4780,15 +4965,16 @@
             :telefones_por_1000 "2.54" ;
             :temperatura_media "27.58" ;
             :emissoes_co2 "2" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "106.6" ;
-            :receita_imposto "25.50%" ;
+            :receita_imposto "25.50%";
             :taxa_desemprego "6.5" ;
             :taxa_fertilidade "4.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SanMarino
 :SanMarino rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "San Marino";
             :area "61" ;
             :capital "City of San Marino" ;
             :costa "13636.064250899999" ;
@@ -4811,15 +4997,16 @@
             :telefones_por_1000 "4.96" ;
             :temperatura_media "12.83" ;
             :emissoes_co2 "1.8" ;
-            :medicos_por_mil "6.4" ;
+            :medicos_por_mil "6.4";
             :racio_sexos "94.9" ;
-            :receita_imposto "18.10%" ;
+            :receita_imposto "18.10%";
             :taxa_desemprego "6.6" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SaudiArabia
 :SaudiArabia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Saudi Arabia";
             :area "2,149,690" ;
             :capital "Riyadh" ;
             :costa "-96.86044602" ;
@@ -4842,15 +5029,16 @@
             :telefones_por_1000 "6.959999999999999" ;
             :temperatura_media "25.94" ;
             :emissoes_co2 "25904" ;
-            :medicos_por_mil "2.6" ;
+            :medicos_por_mil "2.6";
             :racio_sexos "132.9" ;
-            :receita_imposto "8.90%" ;
+            :receita_imposto "8.90%";
             :taxa_desemprego "5.5" ;
             :taxa_fertilidade "2.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Senegal
 :Senegal rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Senegal";
             :area "196,722" ;
             :capital "Dakar" ;
             :costa "31.6496778" ;
@@ -4873,15 +5061,16 @@
             :telefones_por_1000 "2.17" ;
             :temperatura_media "28.90" ;
             :emissoes_co2 "77" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "96.6" ;
-            :receita_imposto "16.30%" ;
+            :receita_imposto "16.30%";
             :taxa_desemprego "9.3" ;
             :taxa_fertilidade "5.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Serbia
 :Serbia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Serbia";
             :area "77,474" ;
             :capital "Belgrade" ;
             :costa "-366.17019621" ;
@@ -4904,15 +5093,16 @@
             :telefones_por_1000 "6.529999999999999" ;
             :temperatura_media "11.40" ;
             :emissoes_co2 "393" ;
-            :medicos_por_mil "2.5" ;
+            :medicos_por_mil "2.5";
             :racio_sexos "95.6" ;
-            :receita_imposto "18.60%" ;
+            :receita_imposto "18.60%";
             :taxa_desemprego "15.5" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Seychelles
 :Seychelles rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Seychelles";
             :area "455" ;
             :capital "Victoria, Seychelles" ;
             :costa "-2640.87812352" ;
@@ -4935,15 +5125,16 @@
             :telefones_por_1000 "5.8100000000000005" ;
             :temperatura_media "27.09" ;
             :emissoes_co2 "0" ;
-            :medicos_por_mil "1.0" ;
+            :medicos_por_mil "1.0";
             :racio_sexos "97.2" ;
-            :receita_imposto "34.10%" ;
+            :receita_imposto "34.10%";
             :taxa_desemprego "4.1" ;
             :taxa_fertilidade "2.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SierraLeone
 :SierraLeone rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Sierra Leone";
             :area "71,740" ;
             :capital "Freetown" ;
             :costa "0.0" ;
@@ -4966,15 +5157,16 @@
             :telefones_por_1000 "0.25" ;
             :temperatura_media "26.54" ;
             :emissoes_co2 "53" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "98.1" ;
-            :receita_imposto "8.60%" ;
+            :receita_imposto "8.60%";
             :taxa_desemprego "3.1" ;
             :taxa_fertilidade "4.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Singapore
 :Singapore rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Singapore";
             :area "716" ;
             :capital "Singapore" ;
             :costa "193575.24654233994" ;
@@ -4997,15 +5189,16 @@
             :telefones_por_1000 "8.209999999999999" ;
             :temperatura_media "27.68" ;
             :emissoes_co2 "27" ;
-            :medicos_por_mil "1.9" ;
+            :medicos_por_mil "1.9";
             :racio_sexos "97.7" ;
-            :receita_imposto "13.10%" ;
+            :receita_imposto "13.10%";
             :taxa_desemprego "2.0" ;
             :taxa_fertilidade "1.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Slovakia
 :Slovakia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Slovakia";
             :area "49,035" ;
             :capital "Bratislava" ;
             :costa "86.5574658" ;
@@ -5028,15 +5221,16 @@
             :telefones_por_1000 "8.5" ;
             :temperatura_media "8.83" ;
             :emissoes_co2 "264" ;
-            :medicos_por_mil "3.4" ;
+            :medicos_por_mil "3.4";
             :racio_sexos "94.6" ;
-            :receita_imposto "18.70%" ;
+            :receita_imposto "18.70%";
             :taxa_desemprego "9.9" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Slovenia
 :Slovenia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Slovenia";
             :area "20,273" ;
             :capital "Ljubljana" ;
             :costa "287.75824896" ;
@@ -5059,15 +5253,16 @@
             :telefones_por_1000 "7.31" ;
             :temperatura_media "9.86" ;
             :emissoes_co2 "154" ;
-            :medicos_por_mil "2.8" ;
+            :medicos_por_mil "2.8";
             :racio_sexos "98.6" ;
-            :receita_imposto "18.60%" ;
+            :receita_imposto "18.60%";
             :taxa_desemprego "8.1" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SolomonIslands
 :SolomonIslands rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Solomon Islands";
             :area "28,896" ;
             :capital "Honiara" ;
             :costa "0.0" ;
@@ -5090,15 +5285,16 @@
             :telefones_por_1000 "1.0" ;
             :temperatura_media "25.92" ;
             :emissoes_co2 "3" ;
-            :medicos_por_mil "0.2" ;
+            :medicos_por_mil "0.2";
             :racio_sexos "103.4" ;
-            :receita_imposto "29.50%" ;
+            :receita_imposto "29.50%";
             :taxa_desemprego "31.4" ;
             :taxa_fertilidade "4.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Somalia
 :Somalia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Somalia";
             :area "637,657" ;
             :capital "Mogadishu" ;
             :costa "193.32462357" ;
@@ -5121,15 +5317,16 @@
             :telefones_por_1000 "0.18" ;
             :temperatura_media "26.95" ;
             :emissoes_co2 "129" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "99.3" ;
-            :receita_imposto "0.00%" ;
+            :receita_imposto "0.00%";
             :taxa_desemprego "6.6" ;
             :taxa_fertilidade "6.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SouthAfrica
 :SouthAfrica rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "South Africa";
             :area "1,219,090" ;
             :capital "Pretoria" ;
             :costa "-27.189715019999998" ;
@@ -5152,15 +5349,18 @@
             :telefones_por_1000 "5.1899999999999995" ;
             :temperatura_media "18.23" ;
             :emissoes_co2 "7102" ;
-            :medicos_por_mil "0.8" ;
+            :medicos_por_mil "0.8";
             :racio_sexos "96.4" ;
-            :receita_imposto "27.50%" ;
+            :receita_imposto "27.50%";
             :taxa_desemprego "26.0" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SouthKorea
 :SouthKorea rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "South Korea";
+:nome "Republic of Korea";
+:nome "Korea, South";
             :area "99,720" ;
             :capital "Seoul" ;
             :costa "0.0" ;
@@ -5183,15 +5383,16 @@
             :telefones_por_1000 "8.99" ;
             :temperatura_media "12.22" ;
             :emissoes_co2 "2023" ;
-            :medicos_por_mil "2.2" ;
+            :medicos_por_mil "2.2";
             :racio_sexos "100.2" ;
-            :receita_imposto "15.60%" ;
+            :receita_imposto "15.60%";
             :taxa_desemprego "3.6" ;
             :taxa_fertilidade "1.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SouthSudan
 :SouthSudan rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "South Sudan";
             :area "644,329" ;
             :capital "Juba" ;
             :costa "0" ;
@@ -5214,15 +5415,16 @@
             :telefones_por_1000 "1.7899999999999998" ;
             :temperatura_media "27.97" ;
             :emissoes_co2 "337" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "100.4" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "12.0" ;
             :taxa_fertilidade "5.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Spain
 :Spain rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Spain";
             :area "505,370" ;
             :capital "Madrid" ;
             :costa "205.127208" ;
@@ -5245,15 +5447,16 @@
             :telefones_por_1000 "7.87" ;
             :temperatura_media "14.07" ;
             :emissoes_co2 "1432" ;
-            :medicos_por_mil "3.8" ;
+            :medicos_por_mil "3.8";
             :racio_sexos "96.2" ;
-            :receita_imposto "14.20%" ;
+            :receita_imposto "14.20%";
             :taxa_desemprego "18.3" ;
             :taxa_fertilidade "1.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SriLanka
 :SriLanka rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Sri Lanka";
             :area "65,610" ;
             :capital "Colombo" ;
             :costa "-1045.68774258" ;
@@ -5276,15 +5479,16 @@
             :telefones_por_1000 "3.0" ;
             :temperatura_media "27.25" ;
             :emissoes_co2 "179" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "92.5" ;
-            :receita_imposto "11.90%" ;
+            :receita_imposto "11.90%";
             :taxa_desemprego "5.2" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Sudan
 :Sudan rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Sudan";
             :area "1,861,484" ;
             :capital "Khartoum" ;
             :costa "-0.8546967" ;
@@ -5307,15 +5511,16 @@
             :telefones_por_1000 "2.66" ;
             :temperatura_media "27.95" ;
             :emissoes_co2 "682" ;
-            :medicos_por_mil "3.1" ;
+            :medicos_por_mil "3.1";
             :racio_sexos "99.9" ;
-            :receita_imposto "8.00%" ;
+            :receita_imposto "8.00%";
             :taxa_desemprego "13.4" ;
             :taxa_fertilidade "4.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Suriname
 :Suriname rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Suriname";
             :area "163,820" ;
             :capital "Paramaribo" ;
             :costa "-61.60809213" ;
@@ -5338,15 +5543,16 @@
             :telefones_por_1000 "4.279999999999999" ;
             :temperatura_media "26.58" ;
             :emissoes_co2 "44" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "100.7" ;
-            :receita_imposto "19.50%" ;
+            :receita_imposto "19.50%";
             :taxa_desemprego "9.9" ;
             :taxa_fertilidade "2.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Sweden
 :Sweden rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Sweden";
             :area "450,295" ;
             :capital "Stockholm" ;
             :costa "86.50566599999999" ;
@@ -5369,15 +5575,16 @@
             :telefones_por_1000 "9.059999999999999" ;
             :temperatura_media "3.23" ;
             :emissoes_co2 "1428" ;
-            :medicos_por_mil "4.1" ;
+            :medicos_por_mil "4.1";
             :racio_sexos "100.2" ;
-            :receita_imposto "27.90%" ;
+            :receita_imposto "27.90%";
             :taxa_desemprego "7.3" ;
             :taxa_fertilidade "1.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Switzerland
 :Switzerland rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Switzerland";
             :area "41,277" ;
             :capital "Bern" ;
             :costa "1911.1795208999997" ;
@@ -5400,15 +5607,17 @@
             :telefones_por_1000 "8.8" ;
             :temperatura_media "6.47" ;
             :emissoes_co2 "552" ;
-            :medicos_por_mil "4.1" ;
+            :medicos_por_mil "4.1";
             :racio_sexos "98.2" ;
-            :receita_imposto "10.10%" ;
+            :receita_imposto "10.10%";
             :taxa_desemprego "4.6" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Syria
 :Syria rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Syria";
+:nome "Syrian Arab Republic";
             :area "185,180" ;
             :capital "Damascus" ;
             :costa "0.0" ;
@@ -5431,15 +5640,16 @@
             :telefones_por_1000 "3.0" ;
             :temperatura_media "18.75" ;
             :emissoes_co2 "237" ;
-            :medicos_por_mil "1.5" ;
+            :medicos_por_mil "1.5";
             :racio_sexos "102.1" ;
-            :receita_imposto "14.20%" ;
+            :receita_imposto "14.20%";
             :taxa_desemprego "13.8" ;
             :taxa_fertilidade "3.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Tajikistan
 :Tajikistan rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Tajikistan";
             :area "144,100" ;
             :capital "Dushanbe" ;
             :costa "-379.25741567999995" ;
@@ -5462,15 +5672,17 @@
             :telefones_por_1000 "1.9" ;
             :temperatura_media "3.85" ;
             :emissoes_co2 "76" ;
-            :medicos_por_mil "1.7" ;
+            :medicos_por_mil "1.7";
             :racio_sexos "100.9" ;
-            :receita_imposto "9.80%" ;
+            :receita_imposto "9.80%";
             :taxa_desemprego "10.8" ;
             :taxa_fertilidade "3.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Tanzania
 :Tanzania rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Tanzania";
+:nome "United Republic of Tanzania";
             :area "947,300" ;
             :capital "Dodoma" ;
             :costa "-211.28102424" ;
@@ -5493,15 +5705,16 @@
             :telefones_por_1000 "0.54" ;
             :temperatura_media "22.92" ;
             :emissoes_co2 "935" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "97.8" ;
-            :receita_imposto "11.50%" ;
+            :receita_imposto "11.50%";
             :taxa_desemprego "2.7" ;
             :taxa_fertilidade "5.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Thailand
 :Thailand rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Thailand";
             :area "513,120" ;
             :capital "Bangkok" ;
             :costa "0.0" ;
@@ -5524,15 +5737,17 @@
             :telefones_por_1000 "3.9299999999999997" ;
             :temperatura_media "26.85" ;
             :emissoes_co2 "3338" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "95.2" ;
-            :receita_imposto "14.90%" ;
+            :receita_imposto "14.90%";
             :taxa_desemprego "0.6" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#EastTimor
 :EastTimor rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "East Timor";
+:nome "Timor-Leste";
             :area "14,874" ;
             :capital "Dili" ;
             :costa "0.0" ;
@@ -5555,15 +5770,16 @@
             :telefones_por_1000 "1.34" ;
             :temperatura_media "24.57" ;
             :emissoes_co2 "143" ;
-            :medicos_por_mil "0.1" ;
+            :medicos_por_mil "0.1";
             :racio_sexos "103.2" ;
-            :receita_imposto "25.00%" ;
+            :receita_imposto "25.00%";
             :taxa_desemprego "4.3" ;
             :taxa_fertilidade "5.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Togo
 :Togo rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Togo";
             :area "56,785" ;
             :capital "Lom�" ;
             :costa "0.0" ;
@@ -5586,15 +5802,16 @@
             :telefones_por_1000 "0.71" ;
             :temperatura_media "27.33" ;
             :emissoes_co2 "111" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "99.4" ;
-            :receita_imposto "16.90%" ;
+            :receita_imposto "16.90%";
             :taxa_desemprego "6.8" ;
             :taxa_fertilidade "4.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Tonga
 :Tonga rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Tonga";
             :area "747" ;
             :capital "Nuku����" ;
             :costa "0.0" ;
@@ -5617,15 +5834,17 @@
             :telefones_por_1000 "4.5" ;
             :temperatura_media "25.01" ;
             :emissoes_co2 "0" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "100.7" ;
-            :receita_imposto "22.30%" ;
+            :receita_imposto "22.30%";
             :taxa_desemprego "4.8" ;
             :taxa_fertilidade "3.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#TrinidadandTobago
 :TrinidadandTobago rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Trinidad and Tobago";
+:nome "Trinidad & Tobago";
             :area "5,128" ;
             :capital "Port of Spain" ;
             :costa "-5831.510114430001" ;
@@ -5648,15 +5867,16 @@
             :telefones_por_1000 "6.92" ;
             :temperatura_media "26.55" ;
             :emissoes_co2 "1663" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "97.1" ;
-            :receita_imposto "19.50%" ;
+            :receita_imposto "19.50%";
             :taxa_desemprego "4.2" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Tunisia
 :Tunisia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Tunisia";
             :area "163,610" ;
             :capital "Tunis" ;
             :costa "-91.82550545999999" ;
@@ -5679,15 +5899,16 @@
             :telefones_por_1000 "4.85" ;
             :temperatura_media "20.53" ;
             :emissoes_co2 "274" ;
-            :medicos_por_mil "1.6" ;
+            :medicos_por_mil "1.6";
             :racio_sexos "97.6" ;
-            :receita_imposto "21.10%" ;
+            :receita_imposto "21.10%";
             :taxa_desemprego "14.6" ;
             :taxa_fertilidade "2.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Turkey
 :Turkey rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Turkey";
             :area "783,562" ;
             :capital "Ankara" ;
             :costa "0.0" ;
@@ -5710,15 +5931,16 @@
             :telefones_por_1000 "5.37" ;
             :temperatura_media "11.66" ;
             :emissoes_co2 "1303" ;
-            :medicos_por_mil "1.7" ;
+            :medicos_por_mil "1.7";
             :racio_sexos "97.0" ;
-            :receita_imposto "17.90%" ;
+            :receita_imposto "17.90%";
             :taxa_desemprego "10.8" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Turkmenistan
 :Turkmenistan rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Turkmenistan";
             :area "488,100" ;
             :capital "Ashgabat" ;
             :costa "-22.94213142" ;
@@ -5741,15 +5963,16 @@
             :telefones_por_1000 "1.5" ;
             :temperatura_media "16.66" ;
             :emissoes_co2 "3270" ;
-            :medicos_por_mil "2.3" ;
+            :medicos_por_mil "2.3";
             :racio_sexos "97.0" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "8.6" ;
             :taxa_fertilidade "3.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Tuvalu
 :Tuvalu rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Tuvalu";
             :area "26" ;
             :capital "Funafuti" ;
             :costa "0.0" ;
@@ -5772,15 +5995,16 @@
             :telefones_por_1000 "4.2700000000000005" ;
             :temperatura_media "28.62" ;
             :emissoes_co2 "0.1" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "102.0" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "6.0" ;
             :taxa_fertilidade "3.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Uganda
 :Uganda rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Uganda";
             :area "241,038" ;
             :capital "Kampala" ;
             :costa "0.0" ;
@@ -5803,15 +6027,16 @@
             :telefones_por_1000 "1.92" ;
             :temperatura_media "23.25" ;
             :emissoes_co2 "409" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "99.0" ;
-            :receita_imposto "11.70%" ;
+            :receita_imposto "11.70%";
             :taxa_desemprego "2.4" ;
             :taxa_fertilidade "5.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Ukraine
 :Ukraine rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Ukraine";
             :area "603,550" ;
             :capital "Kyiv" ;
             :costa "-78.18143814" ;
@@ -5834,15 +6059,16 @@
             :telefones_por_1000 "4.93" ;
             :temperatura_media "9.27" ;
             :emissoes_co2 "3203" ;
-            :medicos_por_mil "3.0" ;
+            :medicos_por_mil "3.0";
             :racio_sexos "86.0" ;
-            :receita_imposto "20.10%" ;
+            :receita_imposto "20.10%";
             :taxa_desemprego "8.8" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#UnitedArabEmirates
 :UnitedArabEmirates rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "United Arab Emirates";
             :area "83,600" ;
             :capital "Abu Dhabi" ;
             :costa "83.76545657999999" ;
@@ -5865,15 +6091,16 @@
             :telefones_por_1000 "9.120000000000001" ;
             :temperatura_media "28.17" ;
             :emissoes_co2 "8642" ;
-            :medicos_por_mil "1.6" ;
+            :medicos_por_mil "1.6";
             :racio_sexos "262.4" ;
-            :receita_imposto "0.10%" ;
+            :receita_imposto "0.10%";
             :taxa_desemprego "3.7" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#UnitedKingdom
 :UnitedKingdom rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "United Kingdom";
             :area "243,610" ;
             :capital "London" ;
             :costa "1404.40653756" ;
@@ -5896,15 +6123,18 @@
             :telefones_por_1000 "9.2" ;
             :temperatura_media "9.24" ;
             :emissoes_co2 "4482" ;
-            :medicos_por_mil "2.8" ;
+            :medicos_por_mil "2.8";
             :racio_sexos "97.4" ;
-            :receita_imposto "25.50%" ;
+            :receita_imposto "25.50%";
             :taxa_desemprego "5.0" ;
             :taxa_fertilidade "1.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#UnitedStates
 :UnitedStates rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "United States";
+:nome "United States of America";
+:nome "United States Virgin Islands";
             :area "9,833,517" ;
             :capital "Washington, D.C." ;
             :costa "273.7878429" ;
@@ -5927,15 +6157,16 @@
             :telefones_por_1000 "7.459999999999999" ;
             :temperatura_media "9.46" ;
             :emissoes_co2 "83887" ;
-            :medicos_por_mil "2.6" ;
+            :medicos_por_mil "2.6";
             :racio_sexos "98.0" ;
-            :receita_imposto "9.60%" ;
+            :receita_imposto "9.60%";
             :taxa_desemprego "4.9" ;
             :taxa_fertilidade "1.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Uruguay
 :Uruguay rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Uruguay";
             :area "176,215" ;
             :capital "Montevideo" ;
             :costa "-16.1615376" ;
@@ -5958,15 +6189,16 @@
             :telefones_por_1000 "6.459999999999999" ;
             :temperatura_media "17.97" ;
             :emissoes_co2 "113" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "93.5" ;
-            :receita_imposto "20.10%" ;
+            :receita_imposto "20.10%";
             :taxa_desemprego "8.8" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Uzbekistan
 :Uzbekistan rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Uzbekistan";
             :area "447,400" ;
             :capital "Tashkent" ;
             :costa "-271.7417508" ;
@@ -5989,15 +6221,16 @@
             :telefones_por_1000 "4.279999999999999" ;
             :temperatura_media "13.69" ;
             :emissoes_co2 "2339" ;
-            :medicos_por_mil "2.5" ;
+            :medicos_por_mil "2.5";
             :racio_sexos "99.4" ;
-            :receita_imposto "14.80%" ;
+            :receita_imposto "14.80%";
             :taxa_desemprego "8.9" ;
             :taxa_fertilidade "2.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Vanuatu
 :Vanuatu rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Vanuatu";
             :area "12,189" ;
             :capital "Port Vila" ;
             :costa "0.0" ;
@@ -6020,15 +6253,17 @@
             :telefones_por_1000 "2.2399999999999998" ;
             :temperatura_media "24.44" ;
             :emissoes_co2 "1" ;
-            :medicos_por_mil "0.2" ;
+            :medicos_por_mil "0.2";
             :racio_sexos "102.4" ;
-            :receita_imposto "17.80%" ;
+            :receita_imposto "17.80%";
             :taxa_desemprego "5.3" ;
             :taxa_fertilidade "3.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Venezuela
 :Venezuela rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Venezuela";
+:nome "Venezuela (Bolivarian Republic of)";
             :area "912,050" ;
             :capital "Caracas" ;
             :costa "-2.9215087199999994" ;
@@ -6051,15 +6286,16 @@
             :telefones_por_1000 "6.1899999999999995" ;
             :temperatura_media "25.71" ;
             :emissoes_co2 "7460" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "99.0" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "6.6" ;
             :taxa_fertilidade "2.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Vietnam
 :Vietnam rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Vietnam";
             :area "331,210" ;
             :capital "Hanoi" ;
             :costa "-298.48339755" ;
@@ -6082,15 +6318,16 @@
             :telefones_por_1000 "5.2700000000000005" ;
             :temperatura_media "24.79" ;
             :emissoes_co2 "2977" ;
-            :medicos_por_mil "1.2" ;
+            :medicos_por_mil "1.2";
             :racio_sexos "98.0" ;
-            :receita_imposto "19.10%" ;
+            :receita_imposto "19.10%";
             :taxa_desemprego "2.2" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Yemen
 :Yemen rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Yemen";
             :area "527,968" ;
             :capital "Sanaa" ;
             :costa "0.0" ;
@@ -6113,15 +6350,16 @@
             :telefones_por_1000 "2.5100000000000002" ;
             :temperatura_media "25.54" ;
             :emissoes_co2 "668" ;
-            :medicos_por_mil "0.3" ;
+            :medicos_por_mil "0.3";
             :racio_sexos "102.1" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "16.1" ;
             :taxa_fertilidade "4.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Zambia
 :Zambia rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Zambia";
             :area "752,618" ;
             :capital "Lusaka" ;
             :costa "0.0" ;
@@ -6144,15 +6382,16 @@
             :telefones_por_1000 "2.1" ;
             :temperatura_media "22.23" ;
             :emissoes_co2 "374" ;
-            :medicos_por_mil "0.2" ;
+            :medicos_por_mil "0.2";
             :racio_sexos "98.5" ;
-            :receita_imposto "16.20%" ;
+            :receita_imposto "16.20%";
             :taxa_desemprego "7.4" ;
             :taxa_fertilidade "5.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Zimbabwe
 :Zimbabwe rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Zimbabwe";
             :area "390,757" ;
             :capital "Harare" ;
             :costa "0.0" ;
@@ -6175,15 +6414,17 @@
             :telefones_por_1000 "1.64" ;
             :temperatura_media "21.90" ;
             :emissoes_co2 "482" ;
-            :medicos_por_mil "0.1" ;
+            :medicos_por_mil "0.1";
             :racio_sexos "95.0" ;
-            :receita_imposto "20.70%" ;
+            :receita_imposto "20.70%";
             :taxa_desemprego "5.0" ;
             :taxa_fertilidade "4.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SãoToméandPríncipe
 :SãoToméandPríncipe rdf:type owl:NamedIndividual ,
                       :Pais ;
+            :nome "Sao Tome and Principe";
+:nome "Sao Tome & Principe";
             :area "964" ;
             :capital "São Tomé" ;
             :costa "-1361.05010496" ;
@@ -6206,8 +6447,8 @@
             :telefones_por_1000 "2.58" ;
             :temperatura_media "24.49" ;
             :emissoes_co2 "1" ;
-            :medicos_por_mil "" ;
+            
             :racio_sexos "99.2" ;
-            :receita_imposto "" ;
+            
             :taxa_desemprego "13.6" ;
             :taxa_fertilidade "4.7" .

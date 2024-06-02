@@ -455,7 +455,7 @@ def open_csv_contry_profile_variables(data):
             if old_data['telefones por 1000'] == '':
                 #check if this is possible float(row['Mobile-cellular subscriptions (per 100 inhabitants)'])
                 if is_float(row['Mobile-cellular subscriptions (per 100 inhabitants)']):
-                    data[row['country']]['telefones por 1000'] = float(row['Mobile-cellular subscriptions (per 100 inhabitants)'])/10.0
+                    data[row['country']]['telefones por 1000'] = float(row['Mobile-cellular subscriptions (per 100 inhabitants)'])*10.0
                 else:
                     data[row['country']]['telefones por 1000'] = ''
 

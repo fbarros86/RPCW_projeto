@@ -195,7 +195,7 @@
             :populacao "38,041,754" ;
             :taxa_de_mortalidade "0.38" ;
             :taxa_de_natalidade "32.49" ;
-            :telefones_por_1000 "0.8300000000000001" ;
+            :telefones_por_1000 "83.0" ;
             :temperatura_media "13.37" ;
             :emissoes_co2 "63" ;
             :medicos_por_mil "0.3";
@@ -227,7 +227,7 @@
             :populacao "2,854,191" ;
             :taxa_de_mortalidade "0.232" ;
             :taxa_de_natalidade "11.78" ;
-            :telefones_por_1000 "6.33" ;
+            :telefones_por_1000 "633.0" ;
             :temperatura_media "12.44" ;
             :emissoes_co2 "84" ;
             :medicos_por_mil "1.3";
@@ -259,7 +259,7 @@
             :populacao "43,053,054" ;
             :taxa_de_mortalidade "0.6" ;
             :taxa_de_natalidade "24.28" ;
-            :telefones_por_1000 "3.8200000000000003" ;
+            :telefones_por_1000 "382.0" ;
             :temperatura_media "23.60" ;
             :emissoes_co2 "5900" ;
             
@@ -291,7 +291,7 @@
             :populacao "77,142" ;
             :taxa_de_mortalidade "6.9" ;
             :taxa_de_natalidade "7.2" ;
-            :telefones_por_1000 "9.690000000000001" ;
+            :telefones_por_1000 "969.0" ;
             :temperatura_media "8.27" ;
             :emissoes_co2 "1" ;
             :medicos_por_mil "3.7";
@@ -323,7 +323,7 @@
             :populacao "31,825,295" ;
             :taxa_de_mortalidade "0.096" ;
             :taxa_de_natalidade "40.73" ;
-            :telefones_por_1000 "1.24" ;
+            :telefones_por_1000 "124.0" ;
             :temperatura_media "21.77" ;
             :emissoes_co2 "3902" ;
             
@@ -356,7 +356,7 @@
             :populacao "97,118" ;
             :taxa_de_mortalidade "0.038" ;
             :taxa_de_natalidade "15.33" ;
-            :telefones_por_1000 "6.5200000000000005" ;
+            :telefones_por_1000 "652.0" ;
             :temperatura_media "27.20" ;
             :emissoes_co2 "2.0" ;
             
@@ -388,7 +388,7 @@
             :populacao "44,938,712" ;
             :taxa_de_mortalidade "0.095" ;
             :taxa_de_natalidade "17.02" ;
-            :telefones_por_1000 "6.94" ;
+            :telefones_por_1000 "694.0" ;
             :temperatura_media "15.11" ;
             :emissoes_co2 "3167" ;
             :medicos_por_mil "3.8";
@@ -420,7 +420,7 @@
             :populacao "2,957,731" ;
             :taxa_de_mortalidade "0.239" ;
             :taxa_de_natalidade "13.99" ;
-            :telefones_por_1000 "5.82" ;
+            :telefones_por_1000 "582.0" ;
             :temperatura_media "7.82" ;
             :emissoes_co2 "48" ;
             :medicos_por_mil "2.8";
@@ -452,7 +452,7 @@
             :populacao "25,766,605" ;
             :taxa_de_mortalidade "0.038" ;
             :taxa_de_natalidade "12.6" ;
-            :telefones_por_1000 "8.459999999999999" ;
+            :telefones_por_1000 "846.0" ;
             :temperatura_media "22.05" ;
             :emissoes_co2 "15282" ;
             :medicos_por_mil "3.4";
@@ -484,7 +484,7 @@
             :populacao "8,877,067" ;
             :taxa_de_mortalidade "0.018" ;
             :taxa_de_natalidade "9.7" ;
-            :telefones_por_1000 "8.39" ;
+            :telefones_por_1000 "839.0" ;
             :temperatura_media "7.44" ;
             :emissoes_co2 "505" ;
             :medicos_por_mil "5.2";
@@ -516,7 +516,7 @@
             :populacao "10,023,318" ;
             :taxa_de_mortalidade "0.141" ;
             :taxa_de_natalidade "14" ;
-            :telefones_por_1000 "7.7" ;
+            :telefones_por_1000 "770.0" ;
             :temperatura_media "12.96" ;
             :emissoes_co2 "2459" ;
             :medicos_por_mil "3.4";
@@ -550,7 +550,7 @@
             :populacao "389,482" ;
             :taxa_de_mortalidade "0.03" ;
             :taxa_de_natalidade "13.97" ;
-            :telefones_por_1000 "7.8" ;
+            :telefones_por_1000 "780.0" ;
             :temperatura_media "25.58" ;
             :emissoes_co2 "0" ;
             
@@ -582,7 +582,7 @@
             :populacao "1,501,635" ;
             :taxa_de_mortalidade "0.005" ;
             :taxa_de_natalidade "13.99" ;
-            :telefones_por_1000 "9.35" ;
+            :telefones_por_1000 "935.0" ;
             :temperatura_media "27.69" ;
             :emissoes_co2 "961" ;
             :medicos_por_mil "0.9";
@@ -614,7 +614,7 @@
             :populacao "167,310,838" ;
             :taxa_de_mortalidade "0.199" ;
             :taxa_de_natalidade "18.18" ;
-            :telefones_por_1000 "1.44" ;
+            :telefones_por_1000 "144.0" ;
             :temperatura_media "25.71" ;
             :emissoes_co2 "1438" ;
             :medicos_por_mil "0.4";
@@ -646,7 +646,7 @@
             :populacao "287,025" ;
             :taxa_de_mortalidade "0.06" ;
             :taxa_de_natalidade "10.65" ;
-            :telefones_por_1000 "7.609999999999999" ;
+            :telefones_por_1000 "761.0" ;
             :temperatura_media "26.61" ;
             :emissoes_co2 "2" ;
             
@@ -678,7 +678,7 @@
             :populacao "9,466,856" ;
             :taxa_de_mortalidade "0.093" ;
             :taxa_de_natalidade "9.9" ;
-            :telefones_por_1000 "6.220000000000001" ;
+            :telefones_por_1000 "622.0" ;
             :temperatura_media "7.45" ;
             :emissoes_co2 "155" ;
             :medicos_por_mil "4.1";
@@ -710,7 +710,7 @@
             :populacao "11,484,055" ;
             :taxa_de_mortalidade "0.01" ;
             :taxa_de_natalidade "10.3" ;
-            :telefones_por_1000 "8.51" ;
+            :telefones_por_1000 "851.0" ;
             :temperatura_media "10.67" ;
             :emissoes_co2 "520" ;
             :medicos_por_mil "3.0";
@@ -742,7 +742,7 @@
             :populacao "390,353" ;
             :taxa_de_mortalidade "0.142" ;
             :taxa_de_natalidade "20.79" ;
-            :telefones_por_1000 "4.16" ;
+            :telefones_por_1000 "416.0" ;
             :temperatura_media "25.70" ;
             :emissoes_co2 "9" ;
             
@@ -774,7 +774,7 @@
             :populacao "11,801,151" ;
             :taxa_de_mortalidade "0.546" ;
             :taxa_de_natalidade "36.22" ;
-            :telefones_por_1000 "0.6799999999999999" ;
+            :telefones_por_1000 "68.0" ;
             :temperatura_media "28.02" ;
             :emissoes_co2 "96" ;
             :medicos_por_mil "0.1";
@@ -806,7 +806,7 @@
             :populacao "727,145" ;
             :taxa_de_mortalidade "0.258" ;
             :taxa_de_natalidade "17.26" ;
-            :telefones_por_1000 "3.9799999999999995" ;
+            :telefones_por_1000 "398.0" ;
             :temperatura_media "10.38" ;
             :emissoes_co2 "75" ;
             :medicos_por_mil "0.3";
@@ -839,7 +839,7 @@
             :populacao "11,513,100" ;
             :taxa_de_mortalidade "0.128" ;
             :taxa_de_natalidade "21.75" ;
-            :telefones_por_1000 "4.51" ;
+            :telefones_por_1000 "451.0" ;
             :temperatura_media "20.76" ;
             :emissoes_co2 "962" ;
             :medicos_por_mil "0.5";
@@ -872,7 +872,7 @@
             :populacao "3,301,000" ;
             :taxa_de_mortalidade "0.142" ;
             :taxa_de_natalidade "8.11" ;
-            :telefones_por_1000 "6.51" ;
+            :telefones_por_1000 "651.0" ;
             :temperatura_media "10.35" ;
             :emissoes_co2 "252" ;
             :medicos_por_mil "1.9";
@@ -904,7 +904,7 @@
             :populacao "2,346,179" ;
             :taxa_de_mortalidade "0.024" ;
             :taxa_de_natalidade "24.82" ;
-            :telefones_por_1000 "2.75" ;
+            :telefones_por_1000 "275.0" ;
             :temperatura_media "22.09" ;
             :emissoes_co2 "47" ;
             :medicos_por_mil "0.4";
@@ -936,7 +936,7 @@
             :populacao "212,559,417" ;
             :taxa_de_mortalidade "0.084" ;
             :taxa_de_natalidade "13.92" ;
-            :telefones_por_1000 "5.91" ;
+            :telefones_por_1000 "591.0" ;
             :temperatura_media "25.44" ;
             :emissoes_co2 "10948" ;
             :medicos_por_mil "1.9";
@@ -969,7 +969,7 @@
             :populacao "433,285" ;
             :taxa_de_mortalidade "0.036" ;
             :taxa_de_natalidade "14.9" ;
-            :telefones_por_1000 "7.12" ;
+            :telefones_por_1000 "712.0" ;
             :temperatura_media "26.95" ;
             :emissoes_co2 "679" ;
             :medicos_por_mil "1.5";
@@ -1001,7 +1001,7 @@
             :populacao "6,975,761" ;
             :taxa_de_mortalidade "0.093" ;
             :taxa_de_natalidade "8.9" ;
-            :telefones_por_1000 "5.67" ;
+            :telefones_por_1000 "567.0" ;
             :temperatura_media "11.35" ;
             :emissoes_co2 "474" ;
             :medicos_por_mil "4.0";
@@ -1033,7 +1033,7 @@
             :populacao "20,321,378" ;
             :taxa_de_mortalidade "0.322" ;
             :taxa_de_natalidade "37.93" ;
-            :telefones_por_1000 "1.1400000000000001" ;
+            :telefones_por_1000 "114.0" ;
             :temperatura_media "29.26" ;
             :emissoes_co2 "123" ;
             
@@ -1065,7 +1065,7 @@
             :populacao "11,530,580" ;
             :taxa_de_mortalidade "0.463" ;
             :taxa_de_natalidade "39.01" ;
-            :telefones_por_1000 "0.49000000000000005" ;
+            :telefones_por_1000 "49.0" ;
             :temperatura_media "20.51" ;
             :emissoes_co2 "56" ;
             
@@ -1131,7 +1131,7 @@
             :populacao "483,628" ;
             :taxa_de_mortalidade "0.121" ;
             :taxa_de_natalidade "19.49" ;
-            :telefones_por_1000 "4.3" ;
+            :telefones_por_1000 "430.0" ;
             :temperatura_media "22.53" ;
             :emissoes_co2 "2" ;
             :medicos_por_mil "0.3";
@@ -1163,7 +1163,7 @@
             :populacao "16,486,542" ;
             :taxa_de_mortalidade "0.35" ;
             :taxa_de_natalidade "22.46" ;
-            :telefones_por_1000 "1.9" ;
+            :telefones_por_1000 "190.0" ;
             :temperatura_media "27.41" ;
             :emissoes_co2 "178" ;
             :medicos_por_mil "0.2";
@@ -1195,7 +1195,7 @@
             :populacao "25,876,380" ;
             :taxa_de_mortalidade "0.448" ;
             :taxa_de_natalidade "35.39" ;
-            :telefones_por_1000 "2.07" ;
+            :telefones_por_1000 "207.0" ;
             :temperatura_media "24.80" ;
             :emissoes_co2 "408" ;
             
@@ -1227,7 +1227,7 @@
             :populacao "36,991,981" ;
             :taxa_de_mortalidade "0.022" ;
             :taxa_de_natalidade "10.1" ;
-            :telefones_por_1000 "8.85" ;
+            :telefones_por_1000 "885.0" ;
             :temperatura_media "−4.03" ;
             :emissoes_co2 "19276" ;
             :medicos_por_mil "2.5";
@@ -1260,7 +1260,7 @@
             :populacao "4,745,185" ;
             :taxa_de_mortalidade "0.25" ;
             :taxa_de_natalidade "35.35" ;
-            :telefones_por_1000 "0.45999999999999996" ;
+            :telefones_por_1000 "46.0" ;
             :temperatura_media "25.47" ;
             :emissoes_co2 "19" ;
             
@@ -1292,7 +1292,7 @@
             :populacao "15,946,876" ;
             :taxa_de_mortalidade "0.335" ;
             :taxa_de_natalidade "42.17" ;
-            :telefones_por_1000 "0.27" ;
+            :telefones_por_1000 "27.0" ;
             :temperatura_media "27.63" ;
             :emissoes_co2 "288" ;
             
@@ -1324,7 +1324,7 @@
             :populacao "18,952,038" ;
             :taxa_de_mortalidade "0.06" ;
             :taxa_de_natalidade "12.43" ;
-            :telefones_por_1000 "6.43" ;
+            :telefones_por_1000 "643.0" ;
             :temperatura_media "9.39" ;
             :emissoes_co2 "540" ;
             
@@ -1356,7 +1356,7 @@
             :populacao "1,397,715,000" ;
             :taxa_de_mortalidade "0.125" ;
             :taxa_de_natalidade "10.9" ;
-            :telefones_por_1000 "5.029999999999999" ;
+            :telefones_por_1000 "503.0" ;
             :temperatura_media "7.59" ;
             :emissoes_co2 "101394" ;
             :medicos_por_mil "1.5";
@@ -1388,7 +1388,7 @@
             :populacao "50,339,443" ;
             :taxa_de_mortalidade "0.125" ;
             :taxa_de_natalidade "14.88" ;
-            :telefones_por_1000 "5.59" ;
+            :telefones_por_1000 "559.0" ;
             :temperatura_media "25.00" ;
             :emissoes_co2 "5380" ;
             
@@ -1420,7 +1420,7 @@
             :populacao "850,886" ;
             :taxa_de_mortalidade "0.4" ;
             :taxa_de_natalidade "31.88" ;
-            :telefones_por_1000 "0.75" ;
+            :telefones_por_1000 "75.0" ;
             :temperatura_media "23.73" ;
             :emissoes_co2 "3" ;
             
@@ -1455,7 +1455,7 @@
             :populacao "5,380,508" ;
             :taxa_de_mortalidade "0.55" ;
             :taxa_de_natalidade "32.86" ;
-            :telefones_por_1000 "0.76" ;
+            :telefones_por_1000 "76.0" ;
             :temperatura_media "24.74" ;
             :emissoes_co2 "648" ;
             
@@ -1487,7 +1487,7 @@
             :populacao "5,047,561" ;
             :taxa_de_mortalidade "0.088" ;
             :taxa_de_natalidade "13.97" ;
-            :telefones_por_1000 "5.9799999999999995" ;
+            :telefones_por_1000 "598.0" ;
             :temperatura_media "24.83" ;
             :emissoes_co2 "110" ;
             :medicos_por_mil "1.2";
@@ -1519,7 +1519,7 @@
             :populacao "4,067,500" ;
             :taxa_de_mortalidade "0.07" ;
             :taxa_de_natalidade "9" ;
-            :telefones_por_1000 "6.9799999999999995" ;
+            :telefones_por_1000 "698.0" ;
             :temperatura_media "11.96" ;
             :emissoes_co2 "182" ;
             :medicos_por_mil "3.1";
@@ -1551,7 +1551,7 @@
             :populacao "11,333,483" ;
             :taxa_de_mortalidade "0.055" ;
             :taxa_de_natalidade "10.17" ;
-            :telefones_por_1000 "3.1100000000000003" ;
+            :telefones_por_1000 "311.0" ;
             :temperatura_media "25.81" ;
             :emissoes_co2 "212" ;
             :medicos_por_mil "7.5";
@@ -1583,7 +1583,7 @@
             :populacao "1,198,575" ;
             :taxa_de_mortalidade "0.037" ;
             :taxa_de_natalidade "10.46" ;
-            :telefones_por_1000 "7.17" ;
+            :telefones_por_1000 "717.0" ;
             :temperatura_media "18.95" ;
             :emissoes_co2 "5" ;
             :medicos_por_mil "2.5";
@@ -1616,7 +1616,7 @@
             :populacao "10,669,709" ;
             :taxa_de_mortalidade "0.034" ;
             :taxa_de_natalidade "10.7" ;
-            :telefones_por_1000 "8.129999999999999" ;
+            :telefones_por_1000 "813.0" ;
             :temperatura_media "8.60" ;
             :emissoes_co2 "1221" ;
             :medicos_por_mil "3.7";
@@ -1648,7 +1648,7 @@
             :populacao "86,790,567" ;
             :taxa_de_mortalidade "14.3" ;
             :taxa_de_natalidade "41.18" ;
-            :telefones_por_1000 "0.38" ;
+            :telefones_por_1000 "38.0" ;
             :temperatura_media "24.35" ;
             :emissoes_co2 "1179" ;
             
@@ -1680,7 +1680,7 @@
             :populacao "5,818,553" ;
             :taxa_de_mortalidade "0.018" ;
             :taxa_de_natalidade "10.6" ;
-            :telefones_por_1000 "9.629999999999999" ;
+            :telefones_por_1000 "963.0" ;
             :temperatura_media "8.90" ;
             :emissoes_co2 "666" ;
             :medicos_por_mil "3.6";
@@ -1712,7 +1712,7 @@
             :populacao "973,560" ;
             :taxa_de_mortalidade "0.179" ;
             :taxa_de_natalidade "21.47" ;
-            :telefones_por_1000 "1.19" ;
+            :telefones_por_1000 "119.0" ;
             :temperatura_media "28.49" ;
             :emissoes_co2 "3" ;
             :medicos_por_mil "0.2";
@@ -1744,7 +1744,7 @@
             :populacao "71,808" ;
             :taxa_de_mortalidade "0.177" ;
             :taxa_de_natalidade "12" ;
-            :telefones_por_1000 "6.76" ;
+            :telefones_por_1000 "676.0" ;
             :temperatura_media "26.83" ;
             :emissoes_co2 "0" ;
             
@@ -1776,7 +1776,7 @@
             :populacao "10,738,958" ;
             :taxa_de_mortalidade "0.112" ;
             :taxa_de_natalidade "19.51" ;
-            :telefones_por_1000 "5.1899999999999995" ;
+            :telefones_por_1000 "519.0" ;
             :temperatura_media "24.55" ;
             :emissoes_co2 "28" ;
             :medicos_por_mil "1.5";
@@ -1808,7 +1808,7 @@
             :populacao "17,373,662" ;
             :taxa_de_mortalidade "0.07" ;
             :taxa_de_natalidade "19.72" ;
-            :telefones_por_1000 "4.89" ;
+            :telefones_por_1000 "489.0" ;
             :temperatura_media "21.43" ;
             :emissoes_co2 "1247" ;
             :medicos_por_mil "1.7";
@@ -1840,7 +1840,7 @@
             :populacao "100,388,073" ;
             :taxa_de_mortalidade "0.149" ;
             :taxa_de_natalidade "26.38" ;
-            :telefones_por_1000 "3.59" ;
+            :telefones_por_1000 "359.0" ;
             :temperatura_media "23.14" ;
             :emissoes_co2 "3509" ;
             :medicos_por_mil "0.8";
@@ -1872,7 +1872,7 @@
             :populacao "6,453,553" ;
             :taxa_de_mortalidade "0.099" ;
             :taxa_de_natalidade "18.25" ;
-            :telefones_por_1000 "2.69" ;
+            :telefones_por_1000 "269.0" ;
             :temperatura_media "25.23" ;
             :emissoes_co2 "86" ;
             
@@ -1904,7 +1904,7 @@
             :populacao "1,355,986" ;
             :taxa_de_mortalidade "0.03" ;
             :taxa_de_natalidade "33.24" ;
-            :telefones_por_1000 "2.13" ;
+            :telefones_por_1000 "213.0" ;
             :temperatura_media "24.66" ;
             :emissoes_co2 "841" ;
             
@@ -1936,7 +1936,7 @@
             :populacao "6,333,135" ;
             :taxa_de_mortalidade "0.102" ;
             :taxa_de_natalidade "30.3" ;
-            :telefones_por_1000 "0.11000000000000001" ;
+            :telefones_por_1000 "11.0" ;
             :temperatura_media "26.63" ;
             :emissoes_co2 "27" ;
             
@@ -1968,7 +1968,7 @@
             :populacao "1,331,824" ;
             :taxa_de_mortalidade "0.04" ;
             :taxa_de_natalidade "10.9" ;
-            :telefones_por_1000 "8.84" ;
+            :telefones_por_1000 "884.0" ;
             :temperatura_media "6.34" ;
             :emissoes_co2 "242" ;
             :medicos_por_mil "3.3";
@@ -2001,7 +2001,7 @@
             :populacao "1,093,238" ;
             :taxa_de_mortalidade "0.119" ;
             :taxa_de_natalidade "29.74" ;
-            :telefones_por_1000 "3.04" ;
+            :telefones_por_1000 "304.0" ;
             :temperatura_media "20.64" ;
             :emissoes_co2 "39" ;
             
@@ -2033,7 +2033,7 @@
             :populacao "112,078,730" ;
             :taxa_de_mortalidade "0.475" ;
             :taxa_de_natalidade "32.34" ;
-            :telefones_por_1000 "1.16" ;
+            :telefones_por_1000 "116.0" ;
             :temperatura_media "23.37" ;
             :emissoes_co2 "1308" ;
             
@@ -2065,7 +2065,7 @@
             :populacao "889,953" ;
             :taxa_de_mortalidade "0.089" ;
             :taxa_de_natalidade "21.28" ;
-            :telefones_por_1000 "4.63" ;
+            :telefones_por_1000 "463.0" ;
             :temperatura_media "24.68" ;
             :emissoes_co2 "8" ;
             
@@ -2097,7 +2097,7 @@
             :populacao "5,520,314" ;
             :taxa_de_mortalidade "0.028" ;
             :taxa_de_natalidade "8.6" ;
-            :telefones_por_1000 "9.27" ;
+            :telefones_por_1000 "927.0" ;
             :temperatura_media "2.46" ;
             :emissoes_co2 "757" ;
             :medicos_por_mil "3.0";
@@ -2129,7 +2129,7 @@
             :populacao "67,059,887" ;
             :taxa_de_mortalidade "0.022" ;
             :taxa_de_natalidade "11.3" ;
-            :telefones_por_1000 "8.47" ;
+            :telefones_por_1000 "847.0" ;
             :temperatura_media "11.65" ;
             :emissoes_co2 "5694" ;
             :medicos_por_mil "3.2";
@@ -2161,7 +2161,7 @@
             :populacao "2,172,579" ;
             :taxa_de_mortalidade "0.061" ;
             :taxa_de_natalidade "31.61" ;
-            :telefones_por_1000 "2.35" ;
+            :telefones_por_1000 "235.0" ;
             :temperatura_media "25.20" ;
             :emissoes_co2 "559" ;
             
@@ -2195,7 +2195,7 @@
             :populacao "2,347,706" ;
             :taxa_de_mortalidade "0.308" ;
             :taxa_de_natalidade "38.54" ;
-            :telefones_por_1000 "1.7100000000000002" ;
+            :telefones_por_1000 "171.0" ;
             :temperatura_media "28.38" ;
             :emissoes_co2 "7" ;
             
@@ -2227,7 +2227,7 @@
             :populacao "3,720,382" ;
             :taxa_de_mortalidade "0.172" ;
             :taxa_de_natalidade "13.47" ;
-            :telefones_por_1000 "4.5200000000000005" ;
+            :telefones_por_1000 "452.0" ;
             :temperatura_media "9.01" ;
             :emissoes_co2 "61" ;
             :medicos_por_mil "4.8";
@@ -2259,7 +2259,7 @@
             :populacao "83,132,799" ;
             :taxa_de_mortalidade "0.009" ;
             :taxa_de_natalidade "9.5" ;
-            :telefones_por_1000 "8.76" ;
+            :telefones_por_1000 "876.0" ;
             :temperatura_media "9.59" ;
             :emissoes_co2 "5004" ;
             :medicos_por_mil "4.1";
@@ -2291,7 +2291,7 @@
             :populacao "30,792,608" ;
             :taxa_de_mortalidade "0.366" ;
             :taxa_de_natalidade "29.41" ;
-            :telefones_por_1000 "2.35" ;
+            :telefones_por_1000 "235.0" ;
             :temperatura_media "27.66" ;
             :emissoes_co2 "410" ;
             
@@ -2323,7 +2323,7 @@
             :populacao "10,716,322" ;
             :taxa_de_mortalidade "0.054" ;
             :taxa_de_natalidade "8.1" ;
-            :telefones_por_1000 "6.68" ;
+            :telefones_por_1000 "668.0" ;
             :temperatura_media "14.26" ;
             :emissoes_co2 "368" ;
             :medicos_por_mil "6.3";
@@ -2355,7 +2355,7 @@
             :populacao "112,003" ;
             :taxa_de_mortalidade "0.054" ;
             :taxa_de_natalidade "16.47" ;
-            :telefones_por_1000 "5.38" ;
+            :telefones_por_1000 "538.0" ;
             :temperatura_media "26.49" ;
             :emissoes_co2 "0" ;
             
@@ -2387,7 +2387,7 @@
             :populacao "16,604,026" ;
             :taxa_de_mortalidade "0.227" ;
             :taxa_de_natalidade "24.56" ;
-            :telefones_por_1000 "2.71" ;
+            :telefones_por_1000 "271.0" ;
             :temperatura_media "23.65" ;
             :emissoes_co2 "327" ;
             
@@ -2419,7 +2419,7 @@
             :populacao "12,771,246" ;
             :taxa_de_mortalidade "0.237" ;
             :taxa_de_natalidade "36.36" ;
-            :telefones_por_1000 "0.47000000000000003" ;
+            :telefones_por_1000 "47.0" ;
             :temperatura_media "25.86" ;
             :emissoes_co2 "113" ;
             
@@ -2451,7 +2451,7 @@
             :populacao "1,920,922" ;
             :taxa_de_mortalidade "0.62" ;
             :taxa_de_natalidade "35.13" ;
-            :telefones_por_1000 "0.35" ;
+            :telefones_por_1000 "35.0" ;
             :temperatura_media "27.98" ;
             :emissoes_co2 "25" ;
             
@@ -2483,7 +2483,7 @@
             :populacao "782,766" ;
             :taxa_de_mortalidade "0.37" ;
             :taxa_de_natalidade "19.97" ;
-            :telefones_por_1000 "3.8200000000000003" ;
+            :telefones_por_1000 "382.0" ;
             :temperatura_media "26.12" ;
             :emissoes_co2 "7" ;
             
@@ -2515,7 +2515,7 @@
             :populacao "11,263,077" ;
             :taxa_de_mortalidade "0.28" ;
             :taxa_de_natalidade "24.35" ;
-            :telefones_por_1000 "1.22" ;
+            :telefones_por_1000 "122.0" ;
             :temperatura_media "24.95" ;
             :emissoes_co2 "136" ;
             
@@ -2580,7 +2580,7 @@
             :populacao "9,746,117" ;
             :taxa_de_mortalidade "0.139" ;
             :taxa_de_natalidade "21.6" ;
-            :telefones_por_1000 "2.04" ;
+            :telefones_por_1000 "204.0" ;
             :temperatura_media "24.72" ;
             :emissoes_co2 "105" ;
             
@@ -2612,7 +2612,7 @@
             :populacao "9,769,949" ;
             :taxa_de_mortalidade "0.037" ;
             :taxa_de_natalidade "9.6" ;
-            :telefones_por_1000 "7.279999999999999" ;
+            :telefones_por_1000 "728.0" ;
             :temperatura_media "11.50" ;
             :emissoes_co2 "423" ;
             :medicos_por_mil "3.3";
@@ -2644,7 +2644,7 @@
             :populacao "361,313" ;
             :taxa_de_mortalidade "0.086" ;
             :taxa_de_natalidade "12" ;
-            :telefones_por_1000 "9.82" ;
+            :telefones_por_1000 "982.0" ;
             :temperatura_media "1.85" ;
             :emissoes_co2 "284" ;
             :medicos_por_mil "3.8";
@@ -2676,7 +2676,7 @@
             :populacao "1,366,417,754" ;
             :taxa_de_mortalidade "0.186" ;
             :taxa_de_natalidade "17.86" ;
-            :telefones_por_1000 "2.6" ;
+            :telefones_por_1000 "260.0" ;
             :temperatura_media "24.94" ;
             :emissoes_co2 "23103" ;
             :medicos_por_mil "0.7";
@@ -2708,7 +2708,7 @@
             :populacao "270,203,917" ;
             :taxa_de_mortalidade "0.134" ;
             :taxa_de_natalidade "18.07" ;
-            :telefones_por_1000 "2.2" ;
+            :telefones_por_1000 "220.0" ;
             :temperatura_media "25.96" ;
             :emissoes_co2 "19481" ;
             :medicos_por_mil "0.2";
@@ -2741,7 +2741,7 @@
             :populacao "82,913,906" ;
             :taxa_de_mortalidade "0.424" ;
             :taxa_de_natalidade "18.78" ;
-            :telefones_por_1000 "4.41" ;
+            :telefones_por_1000 "441.0" ;
             :temperatura_media "18.34" ;
             :emissoes_co2 "13291" ;
             :medicos_por_mil "1.5";
@@ -2773,7 +2773,7 @@
             :populacao "39,309,783" ;
             :taxa_de_mortalidade "0.073" ;
             :taxa_de_natalidade "29.08" ;
-            :telefones_por_1000 "1.72" ;
+            :telefones_por_1000 "172.0" ;
             :temperatura_media "22.95" ;
             :emissoes_co2 "6744" ;
             :medicos_por_mil "0.9";
@@ -2806,7 +2806,7 @@
             :populacao "5,007,069" ;
             :taxa_de_mortalidade "0.05" ;
             :taxa_de_natalidade "12.5" ;
-            :telefones_por_1000 "8.01" ;
+            :telefones_por_1000 "801.0" ;
             :temperatura_media "9.73" ;
             :emissoes_co2 "84" ;
             :medicos_por_mil "2.8";
@@ -2838,7 +2838,7 @@
             :populacao "9,053,300" ;
             :taxa_de_mortalidade "0.026" ;
             :taxa_de_natalidade "20.8" ;
-            :telefones_por_1000 "7.890000000000001" ;
+            :telefones_por_1000 "789.0" ;
             :temperatura_media "19.99" ;
             :emissoes_co2 "313" ;
             :medicos_por_mil "3.6";
@@ -2870,7 +2870,7 @@
             :populacao "60,297,396" ;
             :taxa_de_mortalidade "0.021" ;
             :taxa_de_natalidade "7.3" ;
-            :telefones_por_1000 "6.56" ;
+            :telefones_por_1000 "656.0" ;
             :temperatura_media "13.22" ;
             :emissoes_co2 "1539" ;
             :medicos_por_mil "3.9";
@@ -2902,7 +2902,7 @@
             :populacao "2,948,279" ;
             :taxa_de_mortalidade "0.049" ;
             :taxa_de_natalidade "16.1" ;
-            :telefones_por_1000 "4.32" ;
+            :telefones_por_1000 "432.0" ;
             :temperatura_media "25.91" ;
             :emissoes_co2 "8" ;
             
@@ -2934,7 +2934,7 @@
             :populacao "126,226,568" ;
             :taxa_de_mortalidade "0.017" ;
             :taxa_de_natalidade "7.4" ;
-            :telefones_por_1000 "9.33" ;
+            :telefones_por_1000 "933.0" ;
             :temperatura_media "11.78" ;
             :emissoes_co2 "1114" ;
             :medicos_por_mil "2.3";
@@ -2966,7 +2966,7 @@
             :populacao "10,101,694" ;
             :taxa_de_mortalidade "0.033" ;
             :taxa_de_natalidade "21.98" ;
-            :telefones_por_1000 "5.34" ;
+            :telefones_por_1000 "534.0" ;
             :temperatura_media "19.52" ;
             :emissoes_co2 "7" ;
             :medicos_por_mil "2.6";
@@ -2998,7 +2998,7 @@
             :populacao "18,513,930" ;
             :taxa_de_mortalidade "0.386" ;
             :taxa_de_natalidade "21.77" ;
-            :telefones_por_1000 "7.290000000000001" ;
+            :telefones_por_1000 "729.0" ;
             :temperatura_media "7.11" ;
             :emissoes_co2 "7091" ;
             :medicos_por_mil "3.3";
@@ -3030,7 +3030,7 @@
             :populacao "52,573,973" ;
             :taxa_de_mortalidade "0.163" ;
             :taxa_de_natalidade "28.75" ;
-            :telefones_por_1000 "4.5600000000000005" ;
+            :telefones_por_1000 "456.0" ;
             :temperatura_media "25.08" ;
             :emissoes_co2 "750" ;
             :medicos_por_mil "0.2";
@@ -3062,7 +3062,7 @@
             :populacao "117,606" ;
             :taxa_de_mortalidade "0.089" ;
             :taxa_de_natalidade "27.89" ;
-            :telefones_por_1000 "1.3" ;
+            :telefones_por_1000 "130.0" ;
             :temperatura_media "27.77" ;
             :emissoes_co2 "0" ;
             :medicos_por_mil "0.2";
@@ -3094,7 +3094,7 @@
             :populacao "4,207,083" ;
             :taxa_de_mortalidade "0.004" ;
             :taxa_de_natalidade "13.94" ;
-            :telefones_por_1000 "8.209999999999999" ;
+            :telefones_por_1000 "821.0" ;
             :temperatura_media "26.31" ;
             :emissoes_co2 "6941" ;
             :medicos_por_mil "1.9";
@@ -3126,7 +3126,7 @@
             :populacao "6,456,900" ;
             :taxa_de_mortalidade "0.353" ;
             :taxa_de_natalidade "27.1" ;
-            :telefones_por_1000 "3.02" ;
+            :telefones_por_1000 "302.0" ;
             :temperatura_media "2.65" ;
             :emissoes_co2 "80" ;
             :medicos_por_mil "1.9";
@@ -3159,7 +3159,7 @@
             :populacao "7,169,455" ;
             :taxa_de_mortalidade "0.455" ;
             :taxa_de_natalidade "23.55" ;
-            :telefones_por_1000 "1.8199999999999998" ;
+            :telefones_por_1000 "182.0" ;
             :temperatura_media "24.16" ;
             :emissoes_co2 "72" ;
             :medicos_por_mil "0.2";
@@ -3191,7 +3191,7 @@
             :populacao "1,912,789" ;
             :taxa_de_mortalidade "0.04" ;
             :taxa_de_natalidade "10" ;
-            :telefones_por_1000 "7.92" ;
+            :telefones_por_1000 "792.0" ;
             :temperatura_media "6.87" ;
             :emissoes_co2 "108" ;
             :medicos_por_mil "3.2";
@@ -3223,7 +3223,7 @@
             :populacao "6,855,713" ;
             :taxa_de_mortalidade "0.12" ;
             :taxa_de_natalidade "17.55" ;
-            :telefones_por_1000 "7.4" ;
+            :telefones_por_1000 "740.0" ;
             :temperatura_media "15.45" ;
             :emissoes_co2 "7" ;
             :medicos_por_mil "2.4";
@@ -3255,7 +3255,7 @@
             :populacao "2,125,268" ;
             :taxa_de_mortalidade "0.443" ;
             :taxa_de_natalidade "26.81" ;
-            :telefones_por_1000 "1.61" ;
+            :telefones_por_1000 "161.0" ;
             :temperatura_media "12.38" ;
             :emissoes_co2 "31" ;
             
@@ -3287,7 +3287,7 @@
             :populacao "4,937,374" ;
             :taxa_de_mortalidade "0.769" ;
             :taxa_de_natalidade "33.04" ;
-            :telefones_por_1000 "0.5900000000000001" ;
+            :telefones_por_1000 "59.0" ;
             :temperatura_media "25.45" ;
             :emissoes_co2 "73" ;
             
@@ -3319,7 +3319,7 @@
             :populacao "6,777,452" ;
             :taxa_de_mortalidade "0.076" ;
             :taxa_de_natalidade "18.83" ;
-            :telefones_por_1000 "1.9" ;
+            :telefones_por_1000 "190.0" ;
             :temperatura_media "22.81" ;
             :emissoes_co2 "1505" ;
             :medicos_por_mil "2.1";
@@ -3351,7 +3351,7 @@
             :populacao "38,019" ;
             :taxa_de_mortalidade "7.3" ;
             :taxa_de_natalidade "9.9" ;
-            :telefones_por_1000 "9.66" ;
+            :telefones_por_1000 "966.0" ;
             :temperatura_media "7.55" ;
             :emissoes_co2 "1" ;
             
@@ -3383,7 +3383,7 @@
             :populacao "2,786,844" ;
             :taxa_de_mortalidade "0.055" ;
             :taxa_de_natalidade "10" ;
-            :telefones_por_1000 "7.140000000000001" ;
+            :telefones_por_1000 "714.0" ;
             :temperatura_media "7.38" ;
             :emissoes_co2 "74" ;
             :medicos_por_mil "4.3";
@@ -3415,7 +3415,7 @@
             :populacao "645,397" ;
             :taxa_de_mortalidade "0.01" ;
             :taxa_de_natalidade "10.3" ;
-            :telefones_por_1000 "9.73" ;
+            :telefones_por_1000 "973.0" ;
             :temperatura_media "10.02" ;
             :emissoes_co2 "6" ;
             :medicos_por_mil "2.9";
@@ -3447,7 +3447,7 @@
             :populacao "26,969,307" ;
             :taxa_de_mortalidade "0.276" ;
             :taxa_de_natalidade "32.66" ;
-            :telefones_por_1000 "0.42000000000000004" ;
+            :telefones_por_1000 "42.0" ;
             :temperatura_media "22.64" ;
             :emissoes_co2 "129" ;
             :medicos_por_mil "0.1";
@@ -3479,7 +3479,7 @@
             :populacao "18,628,747" ;
             :taxa_de_mortalidade "0.342" ;
             :taxa_de_natalidade "34.12" ;
-            :telefones_por_1000 "0.93" ;
+            :telefones_por_1000 "93.0" ;
             :temperatura_media "22.66" ;
             :emissoes_co2 "89" ;
             
@@ -3511,7 +3511,7 @@
             :populacao "32,447,385" ;
             :taxa_de_mortalidade "0.084" ;
             :taxa_de_natalidade "16.75" ;
-            :telefones_por_1000 "7.109999999999999" ;
+            :telefones_por_1000 "711.0" ;
             :temperatura_media "26.38" ;
             :emissoes_co2 "3738" ;
             :medicos_por_mil "1.3";
@@ -3543,7 +3543,7 @@
             :populacao "530,953" ;
             :taxa_de_mortalidade "0.18" ;
             :taxa_de_natalidade "14.2" ;
-            :telefones_por_1000 "5.45" ;
+            :telefones_por_1000 "545.0" ;
             :temperatura_media "28.11" ;
             :emissoes_co2 "0" ;
             
@@ -3575,7 +3575,7 @@
             :populacao "19,658,031" ;
             :taxa_de_mortalidade "0.45" ;
             :taxa_de_natalidade "41.54" ;
-            :telefones_por_1000 "1.03" ;
+            :telefones_por_1000 "103.0" ;
             :temperatura_media "29.21" ;
             :emissoes_co2 "55" ;
             
@@ -3607,7 +3607,7 @@
             :populacao "502,653" ;
             :taxa_de_mortalidade "0.03" ;
             :taxa_de_natalidade "9.2" ;
-            :telefones_por_1000 "7.62" ;
+            :telefones_por_1000 "762.0" ;
             :temperatura_media "19.58" ;
             :emissoes_co2 "1" ;
             :medicos_por_mil "3.9";
@@ -3639,7 +3639,7 @@
             :populacao "58,791" ;
             :taxa_de_mortalidade "0.317" ;
             :taxa_de_natalidade "29.03" ;
-            :telefones_por_1000 "1.9300000000000002" ;
+            :telefones_por_1000 "193.0" ;
             :temperatura_media "28.01" ;
             :emissoes_co2 "0" ;
             :medicos_por_mil "0.5";
@@ -3671,7 +3671,7 @@
             :populacao "4,525,696" ;
             :taxa_de_mortalidade "0.25" ;
             :taxa_de_natalidade "33.69" ;
-            :telefones_por_1000 "1.52" ;
+            :telefones_por_1000 "152.0" ;
             :temperatura_media "28.82" ;
             :emissoes_co2 "31" ;
             
@@ -3703,7 +3703,7 @@
             :populacao "1,265,711" ;
             :taxa_de_mortalidade "0.059" ;
             :taxa_de_natalidade "10.2" ;
-            :telefones_por_1000 "5.01" ;
+            :telefones_por_1000 "501.0" ;
             :temperatura_media "23.33" ;
             :emissoes_co2 "10" ;
             
@@ -3735,7 +3735,7 @@
             :populacao "126,014,024" ;
             :taxa_de_mortalidade "0.038" ;
             :taxa_de_natalidade "17.6" ;
-            :telefones_por_1000 "5.74" ;
+            :telefones_por_1000 "574.0" ;
             :temperatura_media "21.31" ;
             :emissoes_co2 "8514" ;
             :medicos_por_mil "2.1";
@@ -3769,7 +3769,7 @@
             :populacao "113,815" ;
             :taxa_de_mortalidade "0.289" ;
             :taxa_de_natalidade "22.82" ;
-            :telefones_por_1000 "3.15" ;
+            :telefones_por_1000 "315.0" ;
             :temperatura_media "27.28" ;
             :emissoes_co2 "0" ;
             
@@ -3802,7 +3802,7 @@
             :populacao "2,657,637" ;
             :taxa_de_mortalidade "0.213" ;
             :taxa_de_natalidade "10.1" ;
-            :telefones_por_1000 "4.9799999999999995" ;
+            :telefones_por_1000 "498.0" ;
             :temperatura_media "10.89" ;
             :emissoes_co2 "15" ;
             :medicos_por_mil "2.5";
@@ -3834,7 +3834,7 @@
             :populacao "38,964" ;
             :taxa_de_mortalidade "10.2" ;
             :taxa_de_natalidade "5.9" ;
-            :telefones_por_1000 "9.34" ;
+            :telefones_por_1000 "934.0" ;
             :temperatura_media "13.53" ;
             :emissoes_co2 "4.2" ;
             :medicos_por_mil "6.6";
@@ -3866,7 +3866,7 @@
             :populacao "3,225,167" ;
             :taxa_de_mortalidade "0.206" ;
             :taxa_de_natalidade "24.13" ;
-            :telefones_por_1000 "2.1399999999999997" ;
+            :telefones_por_1000 "214.0" ;
             :temperatura_media "1.07" ;
             :emissoes_co2 "677" ;
             :medicos_por_mil "2.9";
@@ -3898,7 +3898,7 @@
             :populacao "622,137" ;
             :taxa_de_mortalidade "9.6" ;
             :taxa_de_natalidade "11.73" ;
-            :telefones_por_1000 "6.459999999999999" ;
+            :telefones_por_1000 "646.0" ;
             :temperatura_media "9.93" ;
             :emissoes_co2 "29" ;
             :medicos_por_mil "2.3";
@@ -3930,7 +3930,7 @@
             :populacao "36,910,560" ;
             :taxa_de_mortalidade "0.217" ;
             :taxa_de_natalidade "18.94" ;
-            :telefones_por_1000 "5.71" ;
+            :telefones_por_1000 "571.0" ;
             :temperatura_media "18.14" ;
             :emissoes_co2 "78" ;
             :medicos_por_mil "0.6";
@@ -3962,7 +3962,7 @@
             :populacao "30,366,036" ;
             :taxa_de_mortalidade "0.262" ;
             :taxa_de_natalidade "37.52" ;
-            :telefones_por_1000 "0.9" ;
+            :telefones_por_1000 "90.0" ;
             :temperatura_media "24.41" ;
             :emissoes_co2 "779" ;
             :medicos_por_mil "0.1";
@@ -3995,7 +3995,7 @@
             :populacao "54,045,420" ;
             :taxa_de_mortalidade "0.564" ;
             :taxa_de_natalidade "17.55" ;
-            :telefones_por_1000 "2.18" ;
+            :telefones_por_1000 "218.0" ;
             :temperatura_media "23.82" ;
             :emissoes_co2 "1078" ;
             :medicos_por_mil "0.6";
@@ -4027,7 +4027,7 @@
             :populacao "2,494,530" ;
             :taxa_de_mortalidade "0.097" ;
             :taxa_de_natalidade "28.64" ;
-            :telefones_por_1000 "2.23" ;
+            :telefones_por_1000 "223.0" ;
             :temperatura_media "20.45" ;
             :emissoes_co2 "19" ;
             
@@ -4059,7 +4059,7 @@
             :populacao "10,084" ;
             :taxa_de_mortalidade "7.5" ;
             :taxa_de_natalidade "24.9" ;
-            :telefones_por_1000 "5.4" ;
+            :telefones_por_1000 "540.0" ;
             :temperatura_media "27.83" ;
             :emissoes_co2 "0" ;
             
@@ -4091,7 +4091,7 @@
             :populacao "28,608,710" ;
             :taxa_de_mortalidade "0.38" ;
             :taxa_de_natalidade "19.89" ;
-            :telefones_por_1000 "1.7600000000000002" ;
+            :telefones_por_1000 "176.0" ;
             :temperatura_media "14.17" ;
             :emissoes_co2 "451" ;
             
@@ -4123,7 +4123,7 @@
             :populacao "17,332,850" ;
             :taxa_de_mortalidade "0.021" ;
             :taxa_de_natalidade "9.7" ;
-            :telefones_por_1000 "9.309999999999999" ;
+            :telefones_por_1000 "931.0" ;
             :temperatura_media "10.49" ;
             :emissoes_co2 "2447" ;
             :medicos_por_mil "3.4";
@@ -4155,7 +4155,7 @@
             :populacao "4,841,000" ;
             :taxa_de_mortalidade "0.043" ;
             :taxa_de_natalidade "11.98" ;
-            :telefones_por_1000 "8.82" ;
+            :telefones_por_1000 "882.0" ;
             :temperatura_media "10.46" ;
             :emissoes_co2 "783" ;
             :medicos_por_mil "2.9";
@@ -4187,7 +4187,7 @@
             :populacao "6,545,502" ;
             :taxa_de_mortalidade "0.165" ;
             :taxa_de_natalidade "20.64" ;
-            :telefones_por_1000 "1.97" ;
+            :telefones_por_1000 "197.0" ;
             :temperatura_media "25.88" ;
             :emissoes_co2 "91" ;
             :medicos_por_mil "0.9";
@@ -4219,7 +4219,7 @@
             :populacao "23,310,715" ;
             :taxa_de_mortalidade "0.39" ;
             :taxa_de_natalidade "46.08" ;
-            :telefones_por_1000 "0.22000000000000003" ;
+            :telefones_por_1000 "22.0" ;
             :temperatura_media "28.04" ;
             :emissoes_co2 "101" ;
             
@@ -4251,7 +4251,7 @@
             :populacao "200,963,599" ;
             :taxa_de_mortalidade "0.269" ;
             :taxa_de_natalidade "37.91" ;
-            :telefones_por_1000 "4.74" ;
+            :telefones_por_1000 "474.0" ;
             :temperatura_media "27.30" ;
             :emissoes_co2 "10851" ;
             
@@ -4319,7 +4319,7 @@
             :populacao "1,836,713" ;
             :taxa_de_mortalidade "0.118" ;
             :taxa_de_natalidade "8.77" ;
-            :telefones_por_1000 "7.040000000000001" ;
+            :telefones_por_1000 "704.0" ;
             :temperatura_media "10.79" ;
             :emissoes_co2 "53" ;
             :medicos_por_mil "2.8";
@@ -4351,7 +4351,7 @@
             :populacao "5,347,896" ;
             :taxa_de_mortalidade "0.021" ;
             :taxa_de_natalidade "10.4" ;
-            :telefones_por_1000 "9.68" ;
+            :telefones_por_1000 "968.0" ;
             :temperatura_media "2.21" ;
             :emissoes_co2 "8204" ;
             :medicos_por_mil "4.4";
@@ -4383,7 +4383,7 @@
             :populacao "5,266,535" ;
             :taxa_de_mortalidade "0.027" ;
             :taxa_de_natalidade "19.19" ;
-            :telefones_por_1000 "7.42" ;
+            :telefones_por_1000 "742.0" ;
             :temperatura_media "27.64" ;
             :emissoes_co2 "3101" ;
             :medicos_por_mil "1.5";
@@ -4415,7 +4415,7 @@
             :populacao "216,565,318" ;
             :taxa_de_mortalidade "0.216" ;
             :taxa_de_natalidade "28.25" ;
-            :telefones_por_1000 "1.8" ;
+            :telefones_por_1000 "180.0" ;
             :temperatura_media "21.38" ;
             :emissoes_co2 "2202" ;
             :medicos_por_mil "0.8";
@@ -4480,7 +4480,7 @@
             :populacao "4921" ;
             :taxa_de_mortalidade "3.9" ;
             :taxa_de_natalidade "30.3" ;
-            :telefones_por_1000 "5.74" ;
+            :telefones_por_1000 "574.0" ;
             :temperatura_media "19.50" ;
             :emissoes_co2 "9" ;
             
@@ -4512,7 +4512,7 @@
             :populacao "4,246,439" ;
             :taxa_de_mortalidade "0.068" ;
             :taxa_de_natalidade "18.98" ;
-            :telefones_por_1000 "5.12" ;
+            :telefones_por_1000 "512.0" ;
             :temperatura_media "25.60" ;
             :emissoes_co2 "31" ;
             :medicos_por_mil "1.6";
@@ -4544,7 +4544,7 @@
             :populacao "8,776,109" ;
             :taxa_de_mortalidade "0.353" ;
             :taxa_de_natalidade "27.07" ;
-            :telefones_por_1000 "0.79" ;
+            :telefones_por_1000 "79.0" ;
             :temperatura_media "24.74" ;
             :emissoes_co2 "114" ;
             
@@ -4576,7 +4576,7 @@
             :populacao "7,044,636" ;
             :taxa_de_mortalidade "0.224" ;
             :taxa_de_natalidade "20.57" ;
-            :telefones_por_1000 "4.4399999999999995" ;
+            :telefones_por_1000 "444.0" ;
             :temperatura_media "23.92" ;
             :emissoes_co2 "325" ;
             :medicos_por_mil "1.3";
@@ -4608,7 +4608,7 @@
             :populacao "32,510,453" ;
             :taxa_de_mortalidade "0.08" ;
             :taxa_de_natalidade "17.95" ;
-            :telefones_por_1000 "4.09" ;
+            :telefones_por_1000 "409.0" ;
             :temperatura_media "19.72" ;
             :emissoes_co2 "1020" ;
             :medicos_por_mil "1.1";
@@ -4640,7 +4640,7 @@
             :populacao "108,116,615" ;
             :taxa_de_mortalidade "0.144" ;
             :taxa_de_natalidade "20.55" ;
-            :telefones_por_1000 "4.07" ;
+            :telefones_por_1000 "407.0" ;
             :temperatura_media "26.27" ;
             :emissoes_co2 "991" ;
             
@@ -4672,7 +4672,7 @@
             :populacao "37,970,874" ;
             :taxa_de_mortalidade "0.05" ;
             :taxa_de_natalidade "10.2" ;
-            :telefones_por_1000 "6.8" ;
+            :telefones_por_1000 "680.0" ;
             :temperatura_media "8.78" ;
             :emissoes_co2 "2819" ;
             :medicos_por_mil "2.3";
@@ -4704,7 +4704,7 @@
             :populacao "10,269,417" ;
             :taxa_de_mortalidade "0.053" ;
             :taxa_de_natalidade "8.5" ;
-            :telefones_por_1000 "6.859999999999999" ;
+            :telefones_por_1000 "686.0" ;
             :temperatura_media "15.85" ;
             :emissoes_co2 "250" ;
             :medicos_por_mil "4.4";
@@ -4736,7 +4736,7 @@
             :populacao "2,832,067" ;
             :taxa_de_mortalidade "0.002" ;
             :taxa_de_natalidade "9.54" ;
-            :telefones_por_1000 "9.290000000000001" ;
+            :telefones_por_1000 "929.0" ;
             :temperatura_media "28.02" ;
             :emissoes_co2 "9166" ;
             :medicos_por_mil "2.0";
@@ -4768,7 +4768,7 @@
             :populacao "19,356,544" ;
             :taxa_de_mortalidade "0.101" ;
             :taxa_de_natalidade "9.6" ;
-            :telefones_por_1000 "5.58" ;
+            :telefones_por_1000 "558.0" ;
             :temperatura_media "10.18" ;
             :emissoes_co2 "1109" ;
             :medicos_por_mil "2.7";
@@ -4801,7 +4801,7 @@
             :populacao "144,373,535" ;
             :taxa_de_mortalidade "0.054" ;
             :taxa_de_natalidade "11.5" ;
-            :telefones_por_1000 "7.340000000000001" ;
+            :telefones_por_1000 "734.0" ;
             :temperatura_media "−3.79" ;
             :emissoes_co2 "54829" ;
             :medicos_por_mil "3.3";
@@ -4833,7 +4833,7 @@
             :populacao "12,626,950" ;
             :taxa_de_mortalidade "0.401" ;
             :taxa_de_natalidade "31.7" ;
-            :telefones_por_1000 "1.8" ;
+            :telefones_por_1000 "180.0" ;
             :temperatura_media "19.20" ;
             :emissoes_co2 "84" ;
             
@@ -4866,7 +4866,7 @@
             :populacao "52,823" ;
             :taxa_de_mortalidade "0.035" ;
             :taxa_de_natalidade "12.6" ;
-            :telefones_por_1000 "7.57" ;
+            :telefones_por_1000 "757.0" ;
             :temperatura_media "27.47" ;
             :emissoes_co2 "0" ;
             
@@ -4898,7 +4898,7 @@
             :populacao "182,790" ;
             :taxa_de_mortalidade "0.07" ;
             :taxa_de_natalidade "12" ;
-            :telefones_por_1000 "5.24" ;
+            :telefones_por_1000 "524.0" ;
             :temperatura_media "27.00" ;
             :emissoes_co2 "0" ;
             
@@ -4930,7 +4930,7 @@
             :populacao "100,455" ;
             :taxa_de_mortalidade "0.1" ;
             :taxa_de_natalidade "14.24" ;
-            :telefones_por_1000 "5.18" ;
+            :telefones_por_1000 "518.0" ;
             :temperatura_media "26.17" ;
             :emissoes_co2 "0" ;
             
@@ -4962,7 +4962,7 @@
             :populacao "202,506" ;
             :taxa_de_mortalidade "0.114" ;
             :taxa_de_natalidade "24.38" ;
-            :telefones_por_1000 "2.54" ;
+            :telefones_por_1000 "254.0" ;
             :temperatura_media "27.58" ;
             :emissoes_co2 "2" ;
             
@@ -4994,7 +4994,7 @@
             :populacao "33,860" ;
             :taxa_de_mortalidade "8.7" ;
             :taxa_de_natalidade "6.8" ;
-            :telefones_por_1000 "4.96" ;
+            :telefones_por_1000 "496.0" ;
             :temperatura_media "12.83" ;
             :emissoes_co2 "1.8" ;
             :medicos_por_mil "6.4";
@@ -5026,7 +5026,7 @@
             :populacao "34,268,528" ;
             :taxa_de_mortalidade "0.033" ;
             :taxa_de_natalidade "17.8" ;
-            :telefones_por_1000 "6.959999999999999" ;
+            :telefones_por_1000 "696.0" ;
             :temperatura_media "25.94" ;
             :emissoes_co2 "25904" ;
             :medicos_por_mil "2.6";
@@ -5058,7 +5058,7 @@
             :populacao "16,296,364" ;
             :taxa_de_mortalidade "0.172" ;
             :taxa_de_natalidade "34.52" ;
-            :telefones_por_1000 "2.17" ;
+            :telefones_por_1000 "217.0" ;
             :temperatura_media "28.90" ;
             :emissoes_co2 "77" ;
             
@@ -5090,7 +5090,7 @@
             :populacao "6,944,975" ;
             :taxa_de_mortalidade "0.166" ;
             :taxa_de_natalidade "9.2" ;
-            :telefones_por_1000 "6.529999999999999" ;
+            :telefones_por_1000 "653.0" ;
             :temperatura_media "11.40" ;
             :emissoes_co2 "393" ;
             :medicos_por_mil "2.5";
@@ -5122,7 +5122,7 @@
             :populacao "97,625" ;
             :taxa_de_mortalidade "0.032" ;
             :taxa_de_natalidade "17.1" ;
-            :telefones_por_1000 "5.8100000000000005" ;
+            :telefones_por_1000 "581.0" ;
             :temperatura_media "27.09" ;
             :emissoes_co2 "0" ;
             :medicos_por_mil "1.0";
@@ -5154,7 +5154,7 @@
             :populacao "7,813,215" ;
             :taxa_de_mortalidade "0.49" ;
             :taxa_de_natalidade "33.41" ;
-            :telefones_por_1000 "0.25" ;
+            :telefones_por_1000 "25.0" ;
             :temperatura_media "26.54" ;
             :emissoes_co2 "53" ;
             
@@ -5186,7 +5186,7 @@
             :populacao "5,703,569" ;
             :taxa_de_mortalidade "0" ;
             :taxa_de_natalidade "8.8" ;
-            :telefones_por_1000 "8.209999999999999" ;
+            :telefones_por_1000 "821.0" ;
             :temperatura_media "27.68" ;
             :emissoes_co2 "27" ;
             :medicos_por_mil "1.9";
@@ -5218,7 +5218,7 @@
             :populacao "5,454,073" ;
             :taxa_de_mortalidade "0.035" ;
             :taxa_de_natalidade "10.6" ;
-            :telefones_por_1000 "8.5" ;
+            :telefones_por_1000 "850.0" ;
             :temperatura_media "8.83" ;
             :emissoes_co2 "264" ;
             :medicos_por_mil "3.4";
@@ -5250,7 +5250,7 @@
             :populacao "2,087,946" ;
             :taxa_de_mortalidade "0.028" ;
             :taxa_de_natalidade "9.4" ;
-            :telefones_por_1000 "7.31" ;
+            :telefones_por_1000 "731.0" ;
             :temperatura_media "9.86" ;
             :emissoes_co2 "154" ;
             :medicos_por_mil "2.8";
@@ -5282,7 +5282,7 @@
             :populacao "669,823" ;
             :taxa_de_mortalidade "0.42" ;
             :taxa_de_natalidade "32.44" ;
-            :telefones_por_1000 "1.0" ;
+            :telefones_por_1000 "100.0" ;
             :temperatura_media "25.92" ;
             :emissoes_co2 "3" ;
             :medicos_por_mil "0.2";
@@ -5314,7 +5314,7 @@
             :populacao "15,442,905" ;
             :taxa_de_mortalidade "0.65" ;
             :taxa_de_natalidade "41.75" ;
-            :telefones_por_1000 "0.18" ;
+            :telefones_por_1000 "18.0" ;
             :temperatura_media "26.95" ;
             :emissoes_co2 "129" ;
             
@@ -5346,7 +5346,7 @@
             :populacao "58,558,270" ;
             :taxa_de_mortalidade "0.025" ;
             :taxa_de_natalidade "20.51" ;
-            :telefones_por_1000 "5.1899999999999995" ;
+            :telefones_por_1000 "519.0" ;
             :temperatura_media "18.23" ;
             :emissoes_co2 "7102" ;
             :medicos_por_mil "0.8";
@@ -5380,7 +5380,7 @@
             :populacao "51,709,098" ;
             :taxa_de_mortalidade "0.403" ;
             :taxa_de_natalidade "6.4" ;
-            :telefones_por_1000 "8.99" ;
+            :telefones_por_1000 "899.0" ;
             :temperatura_media "12.22" ;
             :emissoes_co2 "2023" ;
             :medicos_por_mil "2.2";
@@ -5412,7 +5412,7 @@
             :populacao "11,062,113" ;
             :taxa_de_mortalidade "14.9" ;
             :taxa_de_natalidade "35.01" ;
-            :telefones_por_1000 "1.7899999999999998" ;
+            :telefones_por_1000 "179.0" ;
             :temperatura_media "27.97" ;
             :emissoes_co2 "337" ;
             
@@ -5444,7 +5444,7 @@
             :populacao "47,076,781" ;
             :taxa_de_mortalidade "0.04" ;
             :taxa_de_natalidade "7.9" ;
-            :telefones_por_1000 "7.87" ;
+            :telefones_por_1000 "787.0" ;
             :temperatura_media "14.07" ;
             :emissoes_co2 "1432" ;
             :medicos_por_mil "3.8";
@@ -5476,7 +5476,7 @@
             :populacao "21,803,000" ;
             :taxa_de_mortalidade "0.178" ;
             :taxa_de_natalidade "15.83" ;
-            :telefones_por_1000 "3.0" ;
+            :telefones_por_1000 "300.0" ;
             :temperatura_media "27.25" ;
             :emissoes_co2 "179" ;
             
@@ -5508,7 +5508,7 @@
             :populacao "42,813,238" ;
             :taxa_de_mortalidade "0.387" ;
             :taxa_de_natalidade "32.18" ;
-            :telefones_por_1000 "2.66" ;
+            :telefones_por_1000 "266.0" ;
             :temperatura_media "27.95" ;
             :emissoes_co2 "682" ;
             :medicos_por_mil "3.1";
@@ -5540,7 +5540,7 @@
             :populacao "581,372" ;
             :taxa_de_mortalidade "0.13" ;
             :taxa_de_natalidade "18.54" ;
-            :telefones_por_1000 "4.279999999999999" ;
+            :telefones_por_1000 "428.0" ;
             :temperatura_media "26.58" ;
             :emissoes_co2 "44" ;
             
@@ -5572,7 +5572,7 @@
             :populacao "10,285,453" ;
             :taxa_de_mortalidade "0.011" ;
             :taxa_de_natalidade "11.4" ;
-            :telefones_por_1000 "9.059999999999999" ;
+            :telefones_por_1000 "906.0" ;
             :temperatura_media "3.23" ;
             :emissoes_co2 "1428" ;
             :medicos_por_mil "4.1";
@@ -5604,7 +5604,7 @@
             :populacao "8,574,832" ;
             :taxa_de_mortalidade "0.015" ;
             :taxa_de_natalidade "10" ;
-            :telefones_por_1000 "8.8" ;
+            :telefones_por_1000 "880.0" ;
             :temperatura_media "6.47" ;
             :emissoes_co2 "552" ;
             :medicos_por_mil "4.1";
@@ -5637,7 +5637,7 @@
             :populacao "17,070,135" ;
             :taxa_de_mortalidade "0.249" ;
             :taxa_de_natalidade "23.69" ;
-            :telefones_por_1000 "3.0" ;
+            :telefones_por_1000 "300.0" ;
             :temperatura_media "18.75" ;
             :emissoes_co2 "237" ;
             :medicos_por_mil "1.5";
@@ -5669,7 +5669,7 @@
             :populacao "9,321,018" ;
             :taxa_de_mortalidade "0.234" ;
             :taxa_de_natalidade "30.76" ;
-            :telefones_por_1000 "1.9" ;
+            :telefones_por_1000 "190.0" ;
             :temperatura_media "3.85" ;
             :emissoes_co2 "76" ;
             :medicos_por_mil "1.7";
@@ -5702,7 +5702,7 @@
             :populacao "58,005,463" ;
             :taxa_de_mortalidade "0.432" ;
             :taxa_de_natalidade "36.7" ;
-            :telefones_por_1000 "0.54" ;
+            :telefones_por_1000 "54.0" ;
             :temperatura_media "22.92" ;
             :emissoes_co2 "935" ;
             
@@ -5734,7 +5734,7 @@
             :populacao "69,625,582" ;
             :taxa_de_mortalidade "0.099" ;
             :taxa_de_natalidade "10.34" ;
-            :telefones_por_1000 "3.9299999999999997" ;
+            :telefones_por_1000 "393.0" ;
             :temperatura_media "26.85" ;
             :emissoes_co2 "3338" ;
             
@@ -5767,7 +5767,7 @@
             :populacao "3,500,000" ;
             :taxa_de_mortalidade "0.085" ;
             :taxa_de_natalidade "29.42" ;
-            :telefones_por_1000 "1.34" ;
+            :telefones_por_1000 "134.0" ;
             :temperatura_media "24.57" ;
             :emissoes_co2 "143" ;
             :medicos_por_mil "0.1";
@@ -5799,7 +5799,7 @@
             :populacao "8,082,366" ;
             :taxa_de_mortalidade "0.395" ;
             :taxa_de_natalidade "33.11" ;
-            :telefones_por_1000 "0.71" ;
+            :telefones_por_1000 "71.0" ;
             :temperatura_media "27.33" ;
             :emissoes_co2 "111" ;
             
@@ -5831,7 +5831,7 @@
             :populacao "100,209" ;
             :taxa_de_mortalidade "0.23" ;
             :taxa_de_natalidade "24.3" ;
-            :telefones_por_1000 "4.5" ;
+            :telefones_por_1000 "450.0" ;
             :temperatura_media "25.01" ;
             :emissoes_co2 "0" ;
             
@@ -5864,7 +5864,7 @@
             :populacao "1,394,973" ;
             :taxa_de_mortalidade "0.007" ;
             :taxa_de_natalidade "12.94" ;
-            :telefones_por_1000 "6.92" ;
+            :telefones_por_1000 "692.0" ;
             :temperatura_media "26.55" ;
             :emissoes_co2 "1663" ;
             
@@ -5896,7 +5896,7 @@
             :populacao "11,694,719" ;
             :taxa_de_mortalidade "0.132" ;
             :taxa_de_natalidade "17.56" ;
-            :telefones_por_1000 "4.85" ;
+            :telefones_por_1000 "485.0" ;
             :temperatura_media "20.53" ;
             :emissoes_co2 "274" ;
             :medicos_por_mil "1.6";
@@ -5928,7 +5928,7 @@
             :populacao "83,429,615" ;
             :taxa_de_mortalidade "0.117" ;
             :taxa_de_natalidade "16.03" ;
-            :telefones_por_1000 "5.37" ;
+            :telefones_por_1000 "537.0" ;
             :temperatura_media "11.66" ;
             :emissoes_co2 "1303" ;
             :medicos_por_mil "1.7";
@@ -5960,7 +5960,7 @@
             :populacao "5,942,089" ;
             :taxa_de_mortalidade "0.209" ;
             :taxa_de_natalidade "23.83" ;
-            :telefones_por_1000 "1.5" ;
+            :telefones_por_1000 "150.0" ;
             :temperatura_media "16.66" ;
             :emissoes_co2 "3270" ;
             :medicos_por_mil "2.3";
@@ -5992,7 +5992,7 @@
             :populacao "11,646" ;
             :taxa_de_mortalidade "9.0" ;
             :taxa_de_natalidade "0.562" ;
-            :telefones_por_1000 "4.2700000000000005" ;
+            :telefones_por_1000 "427.0" ;
             :temperatura_media "28.62" ;
             :emissoes_co2 "0.1" ;
             
@@ -6024,7 +6024,7 @@
             :populacao "44,269,594" ;
             :taxa_de_mortalidade "0.311" ;
             :taxa_de_natalidade "38.14" ;
-            :telefones_por_1000 "1.92" ;
+            :telefones_por_1000 "192.0" ;
             :temperatura_media "23.25" ;
             :emissoes_co2 "409" ;
             
@@ -6056,7 +6056,7 @@
             :populacao "44,385,155" ;
             :taxa_de_mortalidade "0.187" ;
             :taxa_de_natalidade "8.7" ;
-            :telefones_por_1000 "4.93" ;
+            :telefones_por_1000 "493.0" ;
             :temperatura_media "9.27" ;
             :emissoes_co2 "3203" ;
             :medicos_por_mil "3.0";
@@ -6088,7 +6088,7 @@
             :populacao "9,770,529" ;
             :taxa_de_mortalidade "0.04" ;
             :taxa_de_natalidade "10.33" ;
-            :telefones_por_1000 "9.120000000000001" ;
+            :telefones_por_1000 "912.0" ;
             :temperatura_media "28.17" ;
             :emissoes_co2 "8642" ;
             :medicos_por_mil "1.6";
@@ -6120,7 +6120,7 @@
             :populacao "66,834,405" ;
             :taxa_de_mortalidade "0.005" ;
             :taxa_de_natalidade "11" ;
-            :telefones_por_1000 "9.2" ;
+            :telefones_por_1000 "920.0" ;
             :temperatura_media "9.24" ;
             :emissoes_co2 "4482" ;
             :medicos_por_mil "2.8";
@@ -6154,7 +6154,7 @@
             :populacao "328,239,523" ;
             :taxa_de_mortalidade "0.01" ;
             :taxa_de_natalidade "11.6" ;
-            :telefones_por_1000 "7.459999999999999" ;
+            :telefones_por_1000 "746.0" ;
             :temperatura_media "9.46" ;
             :emissoes_co2 "83887" ;
             :medicos_por_mil "2.6";
@@ -6186,7 +6186,7 @@
             :populacao "3,461,734" ;
             :taxa_de_mortalidade "0.093" ;
             :taxa_de_natalidade "13.86" ;
-            :telefones_por_1000 "6.459999999999999" ;
+            :telefones_por_1000 "646.0" ;
             :temperatura_media "17.97" ;
             :emissoes_co2 "113" ;
             
@@ -6218,7 +6218,7 @@
             :populacao "33,580,650" ;
             :taxa_de_mortalidade "0.342" ;
             :taxa_de_natalidade "23.3" ;
-            :telefones_por_1000 "4.279999999999999" ;
+            :telefones_por_1000 "428.0" ;
             :temperatura_media "13.69" ;
             :emissoes_co2 "2339" ;
             :medicos_por_mil "2.5";
@@ -6250,7 +6250,7 @@
             :populacao "299,882" ;
             :taxa_de_mortalidade "0.26" ;
             :taxa_de_natalidade "29.6" ;
-            :telefones_por_1000 "2.2399999999999998" ;
+            :telefones_por_1000 "224.0" ;
             :temperatura_media "24.44" ;
             :emissoes_co2 "1" ;
             :medicos_por_mil "0.2";
@@ -6283,7 +6283,7 @@
             :populacao "28,515,829" ;
             :taxa_de_mortalidade "0.04" ;
             :taxa_de_natalidade "17.88" ;
-            :telefones_por_1000 "6.1899999999999995" ;
+            :telefones_por_1000 "619.0" ;
             :temperatura_media "25.71" ;
             :emissoes_co2 "7460" ;
             
@@ -6315,7 +6315,7 @@
             :populacao "96,462,106" ;
             :taxa_de_mortalidade "0.209" ;
             :taxa_de_natalidade "16.75" ;
-            :telefones_por_1000 "5.2700000000000005" ;
+            :telefones_por_1000 "527.0" ;
             :temperatura_media "24.79" ;
             :emissoes_co2 "2977" ;
             :medicos_por_mil "1.2";
@@ -6347,7 +6347,7 @@
             :populacao "29,161,922" ;
             :taxa_de_mortalidade "0.135" ;
             :taxa_de_natalidade "30.45" ;
-            :telefones_por_1000 "2.5100000000000002" ;
+            :telefones_por_1000 "251.0" ;
             :temperatura_media "25.54" ;
             :emissoes_co2 "668" ;
             :medicos_por_mil "0.3";
@@ -6379,7 +6379,7 @@
             :populacao "17,861,030" ;
             :taxa_de_mortalidade "0.29" ;
             :taxa_de_natalidade "36.19" ;
-            :telefones_por_1000 "2.1" ;
+            :telefones_por_1000 "210.0" ;
             :temperatura_media "22.23" ;
             :emissoes_co2 "374" ;
             :medicos_por_mil "0.2";
@@ -6411,7 +6411,7 @@
             :populacao "14,645,468" ;
             :taxa_de_mortalidade "0.179" ;
             :taxa_de_natalidade "30.68" ;
-            :telefones_por_1000 "1.64" ;
+            :telefones_por_1000 "164.0" ;
             :temperatura_media "21.90" ;
             :emissoes_co2 "482" ;
             :medicos_por_mil "0.1";
@@ -6444,7 +6444,7 @@
             :populacao "204" ;
             :taxa_de_mortalidade "0.167" ;
             :taxa_de_natalidade "6.47" ;
-            :telefones_por_1000 "2.58" ;
+            :telefones_por_1000 "258.0" ;
             :temperatura_media "24.49" ;
             :emissoes_co2 "1" ;
             

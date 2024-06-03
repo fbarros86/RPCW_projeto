@@ -11,7 +11,7 @@ soup = BeautifulSoup(response.text, 'html.parser')
 table = soup.find("table")
 body = table.tbody
 
-data = json.loads(open('datasets/dbpediaCountries.json').read())
+data = json.loads(open('datasets/dbpediaCountries.json', encoding='UTF-8').read())
 
 countriesTemperature = {}
 for row in body.find_all("tr"):
@@ -38,7 +38,7 @@ for country in data:
         data[country]["temperatura media"] = countriesTemperature[country]
         
 
-f = open("datasets/final_countries2.json","w")
+f = open("datasets/final_countries2.json","w", encoding='UTF-8')
 json.dump(data,f,indent=4)
 
 

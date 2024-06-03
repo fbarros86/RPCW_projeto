@@ -23,14 +23,14 @@ countries_to_remove = ["American Samoa", "Anguilla", "Aruba", "Bermuda", "Bonair
                        "S\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd"]
 
 # Load the JSON data from the file
-with open('datasets/countries.json', 'r') as file:
+with open('datasets/countries.json', 'r', encoding='UTF-8') as file:
     data = json.load(file)
 
 # Remove the specified countries
 updated_data = remove_countries_from_json(data, countries_to_remove)
 
 # Save the updated JSON data back to the file
-with open('datasets/final_countries.json', 'w') as file:
+with open('datasets/final_countries.json', 'w', encoding='UTF-8') as file:
     json.dump(updated_data, file, indent=4)
 
 print(updated_data.keys())

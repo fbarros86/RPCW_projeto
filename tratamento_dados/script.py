@@ -31,7 +31,7 @@ def treatCountryName(name):
         return 'Wallis and Futuna'
     if 'Futuna' in name:
         return 'Wallis and Futuna'
-    if 'Congo' in name and not 'Democratic' in name:
+    if 'Congo' in name and not 'Dem' in name:
         return 'Republic of the Congo'
     if 'Sao' in name and 'Tome' in name:
         return 'São Tomé and Príncipe'
@@ -57,7 +57,7 @@ def treatCountryName(name):
         return 'El Salvador'
     if 'DominicanRepublic' in name:
         return 'Dominican Republic'
-    if 'Democratic' in name and 'Congo' in name and 'Republic':
+    if 'Dem' in name and 'Congo' in name:
         return 'Democratic Republic of the Congo'
     if 'Czech' in name:
         return 'Czech Republic'
@@ -165,7 +165,7 @@ def open_csv_world_data_2023(data):
     #Urban_population -> NOT USED (populacao_urbana)
     #Latitude -> latitude
     #Longitude -> longitude
-    with open(file, 'r') as f:
+    with open(file, 'r', encoding='UTF-8') as f:
         # return the data as one dictionary with the country as key and all the info as values
         reader = csv.DictReader(f)
         for row in reader:
@@ -351,7 +351,7 @@ def open_csv_contry_profile_variables(data):
     #Pop. using improved drinking water (urban/rural, %) -> NOT USED (agua_potavel)
     #Pop. using improved sanitation facilities (urban/rural, %) -> NOT USED (saneamento)
     #Net Official Development Assist. received (% of GNI) -> NOT USED (ajuda_desenvolvimento)
-    with open(file, 'r') as f:
+    with open(file, 'r', encoding='UTF-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
             original_name = row['country'].strip()
@@ -519,7 +519,7 @@ def open_csv_countries_of_the_world(data):
     #Agriculture -> NOT USED (agricultura)
     #Industry -> NOT USED (industria)
     #Service -> NOT USED (servicos)  
-    with open(file, 'r') as f:
+    with open(file, 'r', encoding='UTF-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
             original_name = row['Country'].strip()
@@ -609,7 +609,7 @@ def open_csv_countries_of_the_world(data):
             
 
 def clean_datasets():
-    with open('datasets/world-data-2023.csv', 'r+') as f:
+    with open('datasets/world-data-2023.csv', 'r+', encoding='UTF-8') as f:
         lines = f.readlines()
         f.seek(0)
         for line in lines:
@@ -617,7 +617,7 @@ def clean_datasets():
             f.write(line)
         f.truncate()
 
-    with open('datasets/country_profile_variables.csv', 'r+') as f:
+    with open('datasets/country_profile_variables.csv', 'r+', encoding='UTF-8') as f:
         lines = f.readlines()
         f.seek(0)
         for line in lines:
@@ -626,7 +626,7 @@ def clean_datasets():
             f.write(line)
         f.truncate()
 
-    with open('datasets/countries of the world.csv', 'r+') as f:
+    with open('datasets/countries of the world.csv', 'r+', encoding='UTF-8') as f:
         lines = f.readlines()
         f.seek(0)
         for line in lines:
@@ -646,7 +646,7 @@ def read_all_csv():
     
 def main():
     data = read_all_csv()
-    with open('datasets/countries.json', 'w') as f:
+    with open('datasets/countries.json', 'w', encoding='UTF-8') as f:
         json.dump(data, f, indent=4)
 
     

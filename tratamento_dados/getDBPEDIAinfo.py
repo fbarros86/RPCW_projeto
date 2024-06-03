@@ -78,7 +78,7 @@ if response.status_code == 200:
         paisNome = result["pais"]["value"].replace(" ","")
         if paisNome not in paises:
             paises[paisNome] = pais
-    data_original = json.loads(open('datasets/final_countries.json').read())
+    data_original = json.loads(open('datasets/final_countries.json', encoding='UTF-8').read())
     for pais,data in data_original.items():
         if pais in paises:
             if "conduz" in paises[pais]:
@@ -95,7 +95,7 @@ if response.status_code == 200:
                     data_original[pais]["capital"] = paises[pais]["capital"]
                 
             
-    f = open("datasets/dbpediaCountries.json","w")
+    f = open("datasets/dbpediaCountries.json","w", encoding='UTF-8')
     json.dump(data_original,f)
     f.close()
 else:

@@ -1,7 +1,7 @@
 import json
 
 
-data = json.loads(open('datasets/final_countries2.json').read())
+data = json.loads(open('datasets/final_countries2.json', encoding='UTF-8').read())
 
 
 
@@ -139,5 +139,5 @@ data["Tuvalu"]["emissoes co2"] = 0.1
 
 
 
-f = open("datasets/countriesInfo.json","w")
+f = open("datasets/countriesInfo.json","w", encoding='UTF-8')
 json.dump(data,f,indent=4)

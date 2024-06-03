@@ -175,7 +175,7 @@ lines = """
 
 
 """
-with open('datasets/countriesInfo.json') as f:
+with open('datasets/countriesInfo.json', encoding='UTF-8') as f:
     data = json.load(f)
 
     for country, attributes in data.items():
@@ -221,5 +221,5 @@ with open('datasets/countriesInfo.json') as f:
             :taxa_fertilidade "{attributes.get('taxa fertilidade', '')}" .
 """
 
-with open('datasets/countries.ttl', 'w') as f:
+with open('datasets/countries.ttl', 'w', encoding='UTF-8') as f:
     f.write(lines)

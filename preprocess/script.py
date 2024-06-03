@@ -56,20 +56,20 @@ def name_treatment(names_not_in_list):
     #for each of these comments, add the name to the countriesInfo.json file, knowing that the comments here are formatted as name_to_add -> name_in_json_file
 
     with open('../tratamento_dados/datasets/countriesInfo.json', 'r', encoding='utf-8') as f:
-    data = json.load(f)
+        data = json.load(f)
 
     # Modify the JSON data based on the provided names
     for name in names_not_in_list:
         if name == "Republic of Congo":
             data["Congo"]["nome"].append("Republic of Congo")
         elif name == "Dem. Rep. Korea":
-            data["North Korea"]["nome"].append("Dem. Rep. Korea")
+            data["NorthKorea"]["nome"].append("Dem. Rep. Korea")
         elif name == "Palestine":
             data["Palestine"]["nome"].append("Palestine")
         elif name == "Côte d'Ivoire":
-            data["Ivory Coast"]["nome"].append("Côte d'Ivoire")
+            data["IvoryCoast"]["nome"].append("Côte d'Ivoire")
         elif name == "São Tomé and Principe":
-            data["São Tomé and Príncipe"]["nome"].append("São Tomé and Principe")
+            data["SãoToméandPríncipe"]["nome"].append("São Tomé and Principe")
         elif name == "Lao PDR":
             data["Laos"]["nome"].append("Lao PDR")
         else:

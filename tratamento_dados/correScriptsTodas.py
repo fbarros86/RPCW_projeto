@@ -7,6 +7,7 @@ python_programs = [
     "getDBPEDIAinfo.py",
     "add_countries_temperature.py",
     "fillMissingData.py",
+    "get_country_flags.py",
     "jsontottl.py"
 ]
 
@@ -15,7 +16,7 @@ for program in python_programs:
     print(f"Running {program}...")
     try:
         # Run the program
-        result = subprocess.run(["python3", program], capture_output=True, text=True)
+        result = subprocess.run(["python", program], capture_output=True, text=True)
         
         # Print the output and error messages
         print(f"Output of {program}:\n{result.stdout}")

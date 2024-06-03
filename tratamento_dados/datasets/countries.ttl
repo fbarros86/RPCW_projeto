@@ -157,6 +157,9 @@
 :nome rdf:type owl:DatatypeProperty ;
                   rdfs:domain :Pais .
 
+###  http://www.rpcw.pt/rafa/ontologies/2024/paises#flag
+:flag rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Pais .
 
 #################################################################
 #    Classes
@@ -202,6 +205,7 @@
             :racio_sexos "106.3" ;
             :receita_imposto "9.30%";
             :taxa_desemprego "8.6" ;
+            :flag "https://www.worldometers.info/img/flags/af-flag.gif" ;
             :taxa_fertilidade "5.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Albania
@@ -234,6 +238,7 @@
             :racio_sexos "101.9" ;
             :receita_imposto "18.60%";
             :taxa_desemprego "15.8" ;
+            :flag "https://www.worldometers.info/img/flags/al-flag.gif" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Algeria
@@ -266,6 +271,7 @@
             :racio_sexos "102.0" ;
             :receita_imposto "37.20%";
             :taxa_desemprego "11.4" ;
+            :flag "https://www.worldometers.info/img/flags/ag-flag.gif" ;
             :taxa_fertilidade "3.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Andorra
@@ -298,6 +304,7 @@
             :racio_sexos "102.3" ;
             
             :taxa_desemprego "3.7" ;
+            :flag "https://www.worldometers.info/img/flags/an-flag.gif" ;
             :taxa_fertilidade "1.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Angola
@@ -330,6 +337,7 @@
             :racio_sexos "96.2" ;
             :receita_imposto "9.20%";
             :taxa_desemprego "6.6" ;
+            :flag "https://www.worldometers.info/img/flags/ao-flag.gif" ;
             :taxa_fertilidade "6.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#AntiguaandBarbuda
@@ -363,6 +371,7 @@
             :racio_sexos "92.3" ;
             :receita_imposto "16.50%";
             :taxa_desemprego "11.0" ;
+            :flag "https://www.worldometers.info/img/flags/ac-flag.gif" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Argentina
@@ -395,6 +404,7 @@
             :racio_sexos "95.9" ;
             :receita_imposto "10.10%";
             :taxa_desemprego "6.5" ;
+            :flag "https://www.worldometers.info/img/flags/ar-flag.gif" ;
             :taxa_fertilidade "2.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Armenia
@@ -427,6 +437,7 @@
             :racio_sexos "88.8" ;
             :receita_imposto "20.90%";
             :taxa_desemprego "16.6" ;
+            :flag "https://www.worldometers.info/img/flags/am-flag.gif" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Australia
@@ -459,6 +470,7 @@
             :racio_sexos "99.3" ;
             :receita_imposto "23.00%";
             :taxa_desemprego "5.5" ;
+            :flag "https://www.worldometers.info/img/flags/as-flag.gif" ;
             :taxa_fertilidade "1.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Austria
@@ -491,6 +503,7 @@
             :racio_sexos "96.2" ;
             :receita_imposto "25.40%";
             :taxa_desemprego "6.2" ;
+            :flag "https://www.worldometers.info/img/flags/au-flag.gif" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Azerbaijan
@@ -523,6 +536,7 @@
             :racio_sexos "99.3" ;
             :receita_imposto "13.00%";
             :taxa_desemprego "5.2" ;
+            :flag "https://www.worldometers.info/img/flags/aj-flag.gif" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#TheBahamas
@@ -557,6 +571,7 @@
             :racio_sexos "95.9" ;
             :receita_imposto "14.80%";
             :taxa_desemprego "14.7" ;
+            :flag "https://www.worldometers.info/img/flags/bf-flag.gif" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Bahrain
@@ -589,6 +604,7 @@
             :racio_sexos "168.3" ;
             :receita_imposto "4.20%";
             :taxa_desemprego "1.3" ;
+            :flag "https://www.worldometers.info/img/flags/ba-flag.gif" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Bangladesh
@@ -621,6 +637,7 @@
             :racio_sexos "101.7" ;
             :receita_imposto "8.80%";
             :taxa_desemprego "4.0" ;
+            :flag "https://www.worldometers.info/img/flags/bg-flag.gif" ;
             :taxa_fertilidade "2.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Barbados
@@ -653,6 +670,7 @@
             :racio_sexos "91.9" ;
             :receita_imposto "27.50%";
             :taxa_desemprego "11.3" ;
+            :flag "https://www.worldometers.info/img/flags/bb-flag.gif" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Belarus
@@ -685,6 +703,7 @@
             :racio_sexos "87.0" ;
             :receita_imposto "14.70%";
             :taxa_desemprego "0.5" ;
+            :flag "https://www.worldometers.info/img/flags/bo-flag.gif" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Belgium
@@ -717,6 +736,7 @@
             :racio_sexos "97.3" ;
             :receita_imposto "24.00%";
             :taxa_desemprego "8.3" ;
+            :flag "https://www.worldometers.info/img/flags/be-flag.gif" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Belize
@@ -749,6 +769,7 @@
             :racio_sexos "99.2" ;
             :receita_imposto "26.30%";
             :taxa_desemprego "11.5" ;
+            :flag "https://www.worldometers.info/img/flags/bh-flag.gif" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Benin
@@ -781,6 +802,7 @@
             :racio_sexos "99.5" ;
             :receita_imposto "10.80%";
             :taxa_desemprego "1.0" ;
+            :flag "https://www.worldometers.info/img/flags/bn-flag.gif" ;
             :taxa_fertilidade "5.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Bhutan
@@ -813,6 +835,7 @@
             :racio_sexos "113.1" ;
             :receita_imposto "16.00%";
             :taxa_desemprego "2.4" ;
+            :flag "https://www.worldometers.info/img/flags/bt-flag.gif" ;
             :taxa_fertilidade "2.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Bolivia
@@ -846,6 +869,7 @@
             :racio_sexos "100.2" ;
             :receita_imposto "17.00%";
             :taxa_desemprego "3.8" ;
+            :flag "https://www.worldometers.info/img/flags/bl-flag.gif" ;
             :taxa_fertilidade "3.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#BosniaandHerzegovina
@@ -879,6 +903,7 @@
             :racio_sexos "96.4" ;
             :receita_imposto "20.40%";
             :taxa_desemprego "25.4" ;
+            :flag "https://www.worldometers.info/img/flags/bk-flag.gif" ;
             :taxa_fertilidade "1.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Botswana
@@ -911,6 +936,7 @@
             :racio_sexos "97.7" ;
             :receita_imposto "19.50%";
             :taxa_desemprego "18.6" ;
+            :flag "https://www.worldometers.info/img/flags/bc-flag.gif" ;
             :taxa_fertilidade "2.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Brazil
@@ -943,6 +969,7 @@
             :racio_sexos "96.6" ;
             :receita_imposto "14.20%";
             :taxa_desemprego "12.4" ;
+            :flag "https://www.worldometers.info/img/flags/br-flag.gif" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Brunei
@@ -976,6 +1003,7 @@
             :racio_sexos "106.0" ;
             
             :taxa_desemprego "2.1" ;
+            :flag "https://www.worldometers.info/img/flags/bx-flag.gif" ;
             :taxa_fertilidade "1.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Bulgaria
@@ -1008,6 +1036,7 @@
             :racio_sexos "94.6" ;
             :receita_imposto "20.20%";
             :taxa_desemprego "8.1" ;
+            :flag "https://www.worldometers.info/img/flags/bu-flag.gif" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#BurkinaFaso
@@ -1040,6 +1069,7 @@
             :racio_sexos "99.5" ;
             :receita_imposto "15.00%";
             :taxa_desemprego "2.9" ;
+            :flag "https://www.worldometers.info/img/flags/uv-flag.gif" ;
             :taxa_fertilidade "5.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Burundi
@@ -1072,6 +1102,7 @@
             :racio_sexos "96.9" ;
             :receita_imposto "13.60%";
             :taxa_desemprego "1.7" ;
+            :flag "https://www.worldometers.info/img/flags/by-flag.gif" ;
             :taxa_fertilidade "6.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#IvoryCoast
@@ -1105,6 +1136,7 @@
             :racio_sexos "98.2" ;
             :receita_imposto "11.80%";
             :taxa_desemprego "2.9" ;
+            :flag "" ;
             :taxa_fertilidade "4.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#CapeVerde
@@ -1138,6 +1170,7 @@
             :racio_sexos "99.3" ;
             :receita_imposto "20.10%";
             :taxa_desemprego "10.5" ;
+            :flag "https://www.worldometers.info/img/flags/cv-flag.gif" ;
             :taxa_fertilidade "2.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Cambodia
@@ -1170,6 +1203,7 @@
             :racio_sexos "95.3" ;
             :receita_imposto "17.10%";
             :taxa_desemprego "0.3" ;
+            :flag "https://www.worldometers.info/img/flags/cb-flag.gif" ;
             :taxa_fertilidade "2.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Cameroon
@@ -1202,6 +1236,7 @@
             :racio_sexos "100.2" ;
             :receita_imposto "12.80%";
             :taxa_desemprego "4.6" ;
+            :flag "https://www.worldometers.info/img/flags/cm-flag.gif" ;
             :taxa_fertilidade "5.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Canada
@@ -1234,6 +1269,7 @@
             :racio_sexos "98.5" ;
             :receita_imposto "12.80%";
             :taxa_desemprego "7.1" ;
+            :flag "https://www.worldometers.info/img/flags/ca-flag.gif" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#CentralAfricanRepublic
@@ -1267,6 +1303,7 @@
             :racio_sexos "97.3" ;
             :receita_imposto "8.60%";
             :taxa_desemprego "6.9" ;
+            :flag "https://www.worldometers.info/img/flags/ct-flag.gif" ;
             :taxa_fertilidade "5.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Chad
@@ -1299,6 +1336,7 @@
             :racio_sexos "100.2" ;
             
             :taxa_desemprego "5.8" ;
+            :flag "https://www.worldometers.info/img/flags/cd-flag.gif" ;
             :taxa_fertilidade "6.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Chile
@@ -1331,6 +1369,7 @@
             :racio_sexos "98.2" ;
             :receita_imposto "18.20%";
             :taxa_desemprego "6.8" ;
+            :flag "https://www.worldometers.info/img/flags/ci-flag.gif" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#China
@@ -1363,6 +1402,7 @@
             :racio_sexos "106.3" ;
             :receita_imposto "9.40%";
             :taxa_desemprego "4.6" ;
+            :flag "https://www.worldometers.info/img/flags/ch-flag.gif" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Colombia
@@ -1395,6 +1435,7 @@
             :racio_sexos "96.8" ;
             :receita_imposto "14.40%";
             :taxa_desemprego "10.5" ;
+            :flag "https://www.worldometers.info/img/flags/co-flag.gif" ;
             :taxa_fertilidade "1.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Comoros
@@ -1427,6 +1468,7 @@
             :racio_sexos "101.8" ;
             
             :taxa_desemprego "20.0" ;
+            :flag "https://www.worldometers.info/img/flags/cn-flag.gif" ;
             :taxa_fertilidade "4.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#RepublicoftheCongo
@@ -1461,6 +1503,7 @@
             :racio_sexos "100.1" ;
             :receita_imposto "9.00%";
             :taxa_desemprego "11.5" ;
+            :flag "https://www.worldometers.info/img/flags/cg-flag.gif" ;
             :taxa_fertilidade "4.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#CostaRica
@@ -1493,6 +1536,7 @@
             :racio_sexos "100.1" ;
             :receita_imposto "13.60%";
             :taxa_desemprego "8.6" ;
+            :flag "https://www.worldometers.info/img/flags/cs-flag.gif" ;
             :taxa_fertilidade "1.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Croatia
@@ -1525,6 +1569,7 @@
             :racio_sexos "93.1" ;
             :receita_imposto "22.00%";
             :taxa_desemprego "11.7" ;
+            :flag "https://www.worldometers.info/img/flags/hr-flag.gif" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Cuba
@@ -1557,6 +1602,7 @@
             :racio_sexos "100.1" ;
             
             :taxa_desemprego "3.0" ;
+            :flag "https://www.worldometers.info/img/flags/cu-flag.gif" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Cyprus
@@ -1589,6 +1635,7 @@
             :racio_sexos "100.2" ;
             :receita_imposto "24.50%";
             :taxa_desemprego "10.3" ;
+            :flag "https://www.worldometers.info/img/flags/cy-flag.gif" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#CzechRepublic
@@ -1622,6 +1669,7 @@
             :racio_sexos "96.7" ;
             :receita_imposto "14.90%";
             :taxa_desemprego "3.9" ;
+            :flag "https://www.worldometers.info/img/flags/ez-flag.gif" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#DemocraticRepublicoftheCongo
@@ -1655,6 +1703,7 @@
             :racio_sexos "99.6" ;
             :receita_imposto "10.70%";
             :taxa_desemprego "3.6" ;
+            :flag "https://www.worldometers.info/img/flags/congo-flag.gif" ;
             :taxa_fertilidade "6.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Denmark
@@ -1687,6 +1736,7 @@
             :racio_sexos "99.0" ;
             :receita_imposto "32.40%";
             :taxa_desemprego "6.0" ;
+            :flag "https://www.worldometers.info/img/flags/da-flag.gif" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Djibouti
@@ -1719,6 +1769,7 @@
             :racio_sexos "100.7" ;
             
             :taxa_desemprego "6.6" ;
+            :flag "https://www.worldometers.info/img/flags/dj-flag.gif" ;
             :taxa_fertilidade "3.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Dominica
@@ -1751,6 +1802,7 @@
             :racio_sexos "103.0" ;
             :receita_imposto "22.10%";
             :taxa_desemprego "23.0" ;
+            :flag "https://www.worldometers.info/img/flags/do-flag.gif" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#DominicanRepublic
@@ -1783,6 +1835,7 @@
             :racio_sexos "99.2" ;
             :receita_imposto "13.00%";
             :taxa_desemprego "14.4" ;
+            :flag "https://www.worldometers.info/img/flags/dr-flag.gif" ;
             :taxa_fertilidade "2.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Ecuador
@@ -1815,6 +1868,7 @@
             :racio_sexos "99.9" ;
             
             :taxa_desemprego "5.8" ;
+            :flag "https://www.worldometers.info/img/flags/ec-flag.gif" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Egypt
@@ -1847,6 +1901,7 @@
             :racio_sexos "102.3" ;
             :receita_imposto "12.50%";
             :taxa_desemprego "11.5" ;
+            :flag "https://www.worldometers.info/img/flags/eg-flag.gif" ;
             :taxa_fertilidade "3.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#ElSalvador
@@ -1879,6 +1934,7 @@
             :racio_sexos "88.5" ;
             :receita_imposto "18.10%";
             :taxa_desemprego "6.4" ;
+            :flag "https://www.worldometers.info/img/flags/es-flag.gif" ;
             :taxa_fertilidade "2.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#EquatorialGuinea
@@ -1911,6 +1967,7 @@
             :racio_sexos "124.0" ;
             :receita_imposto "6.10%";
             :taxa_desemprego "7.7" ;
+            :flag "https://www.worldometers.info/img/flags/ek-flag.gif" ;
             :taxa_fertilidade "5.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Eritrea
@@ -1943,6 +2000,7 @@
             :racio_sexos "100.4" ;
             
             :taxa_desemprego "7.3" ;
+            :flag "https://www.worldometers.info/img/flags/er-flag.gif" ;
             :taxa_fertilidade "4.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Estonia
@@ -1975,6 +2033,7 @@
             :racio_sexos "88.2" ;
             :receita_imposto "20.90%";
             :taxa_desemprego "7.2" ;
+            :flag "https://www.worldometers.info/img/flags/en-flag.gif" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Eswatini
@@ -2008,6 +2067,7 @@
             :racio_sexos "93.9" ;
             :receita_imposto "28.60%";
             :taxa_desemprego "25.1" ;
+            :flag "https://www.worldometers.info/img/flags/wz-flag.gif" ;
             :taxa_fertilidade "3.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Ethiopia
@@ -2040,6 +2100,7 @@
             :racio_sexos "99.7" ;
             :receita_imposto "7.50%";
             :taxa_desemprego "5.7" ;
+            :flag "https://www.worldometers.info/img/flags/et-flag.gif" ;
             :taxa_fertilidade "4.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Fiji
@@ -2072,6 +2133,7 @@
             :racio_sexos "103.1" ;
             :receita_imposto "24.20%";
             :taxa_desemprego "7.7" ;
+            :flag "https://www.worldometers.info/img/flags/fj-flag.gif" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Finland
@@ -2104,6 +2166,7 @@
             :racio_sexos "97.2" ;
             :receita_imposto "20.80%";
             :taxa_desemprego "8.9" ;
+            :flag "https://www.worldometers.info/img/flags/fi-flag.gif" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#France
@@ -2136,6 +2199,7 @@
             :racio_sexos "96.7" ;
             :receita_imposto "24.20%";
             :taxa_desemprego "9.8" ;
+            :flag "https://www.worldometers.info/img/flags/fr-flag.gif" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Gabon
@@ -2168,6 +2232,7 @@
             :racio_sexos "105.6" ;
             :receita_imposto "10.20%";
             :taxa_desemprego "18.1" ;
+            :flag "https://www.worldometers.info/img/flags/gb-flag.gif" ;
             :taxa_fertilidade "4.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#TheGambia
@@ -2202,6 +2267,7 @@
             :racio_sexos "98.0" ;
             :receita_imposto "9.40%";
             :taxa_desemprego "29.7" ;
+            :flag "https://www.worldometers.info/img/flags/ga-flag.gif" ;
             :taxa_fertilidade "5.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Georgia
@@ -2234,6 +2300,7 @@
             :racio_sexos "91.4" ;
             :receita_imposto "21.70%";
             :taxa_desemprego "11.4" ;
+            :flag "https://www.worldometers.info/img/flags/gg-flag.gif" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Germany
@@ -2266,6 +2333,7 @@
             :racio_sexos "97.0" ;
             :receita_imposto "11.50%";
             :taxa_desemprego "4.2" ;
+            :flag "https://www.worldometers.info/img/flags/gm-flag.gif" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Ghana
@@ -2298,6 +2366,7 @@
             :racio_sexos "99.3" ;
             :receita_imposto "12.60%";
             :taxa_desemprego "5.9" ;
+            :flag "https://www.worldometers.info/img/flags/gh-flag.gif" ;
             :taxa_fertilidade "4.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Greece
@@ -2330,6 +2399,7 @@
             :racio_sexos "96.9" ;
             :receita_imposto "26.20%";
             :taxa_desemprego "23.0" ;
+            :flag "https://www.worldometers.info/img/flags/gr-flag.gif" ;
             :taxa_fertilidade "1.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Grenada
@@ -2362,6 +2432,7 @@
             :racio_sexos "100.9" ;
             :receita_imposto "19.40%";
             :taxa_desemprego "15.0" ;
+            :flag "https://www.worldometers.info/img/flags/gj-flag.gif" ;
             :taxa_fertilidade "2.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Guatemala
@@ -2394,6 +2465,7 @@
             :racio_sexos "96.9" ;
             :receita_imposto "10.60%";
             :taxa_desemprego "2.4" ;
+            :flag "https://www.worldometers.info/img/flags/gt-flag.gif" ;
             :taxa_fertilidade "3.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Guinea
@@ -2426,6 +2498,7 @@
             :racio_sexos "100.6" ;
             :receita_imposto "10.80%";
             :taxa_desemprego "6.8" ;
+            :flag "https://www.worldometers.info/img/flags/gv-flag.gif" ;
             :taxa_fertilidade "5.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Guinea-Bissau
@@ -2458,6 +2531,7 @@
             :racio_sexos "96.9" ;
             :receita_imposto "10.30%";
             :taxa_desemprego "6.5" ;
+            :flag "https://www.worldometers.info/img/flags/pu-flag.gif" ;
             :taxa_fertilidade "4.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Guyana
@@ -2490,6 +2564,7 @@
             :racio_sexos "101.9" ;
             
             :taxa_desemprego "11.3" ;
+            :flag "https://www.worldometers.info/img/flags/gy-flag.gif" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Haiti
@@ -2522,6 +2597,7 @@
             :racio_sexos "97.8" ;
             
             :taxa_desemprego "12.9" ;
+            :flag "https://www.worldometers.info/img/flags/ha-flag.gif" ;
             :taxa_fertilidade "3.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#HolySee
@@ -2555,6 +2631,7 @@
             :racio_sexos "219.2" ;
             
             :taxa_desemprego "0" ;
+            :flag "https://www.worldometers.info/img/flags/vt-flag.gif" ;
             :taxa_fertilidade "0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Honduras
@@ -2587,6 +2664,7 @@
             :racio_sexos "99.4" ;
             :receita_imposto "17.30%";
             :taxa_desemprego "5.6" ;
+            :flag "https://www.worldometers.info/img/flags/ho-flag.gif" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Hungary
@@ -2619,6 +2697,7 @@
             :racio_sexos "90.7" ;
             :receita_imposto "23.00%";
             :taxa_desemprego "4.5" ;
+            :flag "https://www.worldometers.info/img/flags/hu-flag.gif" ;
             :taxa_fertilidade "1.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Iceland
@@ -2651,6 +2730,7 @@
             :racio_sexos "100.7" ;
             :receita_imposto "23.30%";
             :taxa_desemprego "3.6" ;
+            :flag "https://www.worldometers.info/img/flags/ic-flag.gif" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#India
@@ -2683,6 +2763,7 @@
             :racio_sexos "107.6" ;
             :receita_imposto "11.20%";
             :taxa_desemprego "3.4" ;
+            :flag "https://www.worldometers.info/img/flags/in-flag.gif" ;
             :taxa_fertilidade "2.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Indonesia
@@ -2715,6 +2796,7 @@
             :racio_sexos "101.4" ;
             :receita_imposto "10.20%";
             :taxa_desemprego "5.8" ;
+            :flag "https://www.worldometers.info/img/flags/id-flag.gif" ;
             :taxa_fertilidade "2.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Iran
@@ -2748,6 +2830,7 @@
             :racio_sexos "101.2" ;
             :receita_imposto "7.40%";
             :taxa_desemprego "11.3" ;
+            :flag "https://www.worldometers.info/img/flags/ir-flag.gif" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Iraq
@@ -2780,6 +2863,7 @@
             :racio_sexos "102.5" ;
             :receita_imposto "2.00%";
             :taxa_desemprego "16.1" ;
+            :flag "https://www.worldometers.info/img/flags/iz-flag.gif" ;
             :taxa_fertilidade "4.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Ireland
@@ -2813,6 +2897,7 @@
             :racio_sexos "98.4" ;
             :receita_imposto "18.30%";
             :taxa_desemprego "7.6" ;
+            :flag "https://www.worldometers.info/img/flags/ei-flag.gif" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Israel
@@ -2845,6 +2930,7 @@
             :racio_sexos "98.7" ;
             :receita_imposto "23.10%";
             :taxa_desemprego "5.9" ;
+            :flag "https://www.worldometers.info/img/flags/is-flag.gif" ;
             :taxa_fertilidade "3.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Italy
@@ -2877,6 +2963,7 @@
             :racio_sexos "95.1" ;
             :receita_imposto "24.30%";
             :taxa_desemprego "11.4" ;
+            :flag "https://www.worldometers.info/img/flags/it-flag.gif" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Jamaica
@@ -2909,6 +2996,7 @@
             :racio_sexos "99.0" ;
             :receita_imposto "26.80%";
             :taxa_desemprego "13.1" ;
+            :flag "https://www.worldometers.info/img/flags/jm-flag.gif" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Japan
@@ -2941,6 +3029,7 @@
             :racio_sexos "95.4" ;
             :receita_imposto "11.90%";
             :taxa_desemprego "3.0" ;
+            :flag "https://www.worldometers.info/img/flags/ja-flag.gif" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Jordan
@@ -2973,6 +3062,7 @@
             :racio_sexos "102.6" ;
             :receita_imposto "15.10%";
             :taxa_desemprego "13.4" ;
+            :flag "https://www.worldometers.info/img/flags/jo-flag.gif" ;
             :taxa_fertilidade "3.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Kazakhstan
@@ -3005,6 +3095,7 @@
             :racio_sexos "93.9" ;
             :receita_imposto "11.70%";
             :taxa_desemprego "5.6" ;
+            :flag "https://www.worldometers.info/img/flags/kz-flag.gif" ;
             :taxa_fertilidade "2.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Kenya
@@ -3037,6 +3128,7 @@
             :racio_sexos "98.8" ;
             :receita_imposto "15.10%";
             :taxa_desemprego "10.8" ;
+            :flag "https://www.worldometers.info/img/flags/ke-flag.gif" ;
             :taxa_fertilidade "4.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Kiribati
@@ -3069,6 +3161,7 @@
             :racio_sexos "97.3" ;
             :receita_imposto "22.00%";
             :taxa_desemprego "30.6" ;
+            :flag "https://www.worldometers.info/img/flags/kr-flag.gif" ;
             :taxa_fertilidade "3.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Kuwait
@@ -3101,6 +3194,7 @@
             :racio_sexos "134.9" ;
             :receita_imposto "1.40%";
             :taxa_desemprego "2.2" ;
+            :flag "https://www.worldometers.info/img/flags/ku-flag.gif" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Kyrgyzstan
@@ -3133,6 +3227,7 @@
             :racio_sexos "98.4" ;
             :receita_imposto "18.00%";
             :taxa_desemprego "7.7" ;
+            :flag "https://www.worldometers.info/img/flags/kg-flag.gif" ;
             :taxa_fertilidade "3.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Laos
@@ -3166,6 +3261,7 @@
             :racio_sexos "99.5" ;
             :receita_imposto "12.90%";
             :taxa_desemprego "1.5" ;
+            :flag "https://www.worldometers.info/img/flags/la-flag.gif" ;
             :taxa_fertilidade "2.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Latvia
@@ -3198,6 +3294,7 @@
             :racio_sexos "84.9" ;
             :receita_imposto "22.90%";
             :taxa_desemprego "9.6" ;
+            :flag "https://www.worldometers.info/img/flags/lg-flag.gif" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Lebanon
@@ -3230,6 +3327,7 @@
             :racio_sexos "100.6" ;
             :receita_imposto "15.30%";
             :taxa_desemprego "7.0" ;
+            :flag "https://www.worldometers.info/img/flags/le-flag.gif" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Lesotho
@@ -3262,6 +3360,7 @@
             :racio_sexos "94.4" ;
             :receita_imposto "31.60%";
             :taxa_desemprego "27.5" ;
+            :flag "https://www.worldometers.info/img/flags/lt-flag.gif" ;
             :taxa_fertilidade "3.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Liberia
@@ -3294,6 +3393,7 @@
             :racio_sexos "101.8" ;
             :receita_imposto "12.90%";
             :taxa_desemprego "4.1" ;
+            :flag "https://www.worldometers.info/img/flags/li-flag.gif" ;
             :taxa_fertilidade "4.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Libya
@@ -3326,6 +3426,7 @@
             :racio_sexos "101.7" ;
             
             :taxa_desemprego "19.2" ;
+            :flag "https://www.worldometers.info/img/flags/ly-flag.gif" ;
             :taxa_fertilidade "2.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Liechtenstein
@@ -3358,6 +3459,7 @@
             :racio_sexos "98.4" ;
             
             :taxa_desemprego "2.6" ;
+            :flag "https://www.worldometers.info/img/flags/ls-flag.gif" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Lithuania
@@ -3390,6 +3492,7 @@
             :racio_sexos "85.4" ;
             :receita_imposto "16.90%";
             :taxa_desemprego "9.2" ;
+            :flag "https://www.worldometers.info/img/flags/lh-flag.gif" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Luxembourg
@@ -3422,6 +3525,7 @@
             :racio_sexos "101.0" ;
             :receita_imposto "26.50%";
             :taxa_desemprego "5.6" ;
+            :flag "https://www.worldometers.info/img/flags/lu-flag.gif" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Madagascar
@@ -3454,6 +3558,7 @@
             :racio_sexos "99.5" ;
             :receita_imposto "10.20%";
             :taxa_desemprego "2.3" ;
+            :flag "https://www.worldometers.info/img/flags/ma-flag.gif" ;
             :taxa_fertilidade "4.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Malawi
@@ -3486,6 +3591,7 @@
             :racio_sexos "98.2" ;
             :receita_imposto "17.30%";
             :taxa_desemprego "6.8" ;
+            :flag "https://www.worldometers.info/img/flags/mi-flag.gif" ;
             :taxa_fertilidade "4.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Malaysia
@@ -3518,6 +3624,7 @@
             :racio_sexos "106.7" ;
             :receita_imposto "12.00%";
             :taxa_desemprego "3.3" ;
+            :flag "https://www.worldometers.info/img/flags/my-flag.gif" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Maldives
@@ -3550,6 +3657,7 @@
             :racio_sexos "131.8" ;
             :receita_imposto "19.50%";
             :taxa_desemprego "2.9" ;
+            :flag "https://www.worldometers.info/img/flags/mv-flag.gif" ;
             :taxa_fertilidade "2.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Mali
@@ -3582,6 +3690,7 @@
             :racio_sexos "100.2" ;
             :receita_imposto "11.60%";
             :taxa_desemprego "8.1" ;
+            :flag "https://www.worldometers.info/img/flags/ml-flag.gif" ;
             :taxa_fertilidade "6.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Malta
@@ -3614,6 +3723,7 @@
             :racio_sexos "100.9" ;
             :receita_imposto "26.20%";
             :taxa_desemprego "5.4" ;
+            :flag "https://www.worldometers.info/img/flags/mt-flag.gif" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#MarshallIslands
@@ -3646,6 +3756,7 @@
             :racio_sexos "104.5" ;
             :receita_imposto "17.80%";
             :taxa_desemprego "4.7" ;
+            :flag "https://www.worldometers.info/img/flags/rm-flag.gif" ;
             :taxa_fertilidade "4.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Mauritania
@@ -3678,6 +3789,7 @@
             :racio_sexos "101.6" ;
             
             :taxa_desemprego "12.0" ;
+            :flag "https://www.worldometers.info/img/flags/mr-flag.gif" ;
             :taxa_fertilidade "4.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Mauritius
@@ -3710,6 +3822,7 @@
             :racio_sexos "97.9" ;
             :receita_imposto "19.10%";
             :taxa_desemprego "7.6" ;
+            :flag "https://www.worldometers.info/img/flags/mp-flag.gif" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Mexico
@@ -3742,6 +3855,7 @@
             :racio_sexos "99.2" ;
             :receita_imposto "13.10%";
             :taxa_desemprego "4.1" ;
+            :flag "https://www.worldometers.info/img/flags/mx-flag.gif" ;
             :taxa_fertilidade "2.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Micronesia
@@ -3776,6 +3890,7 @@
             :racio_sexos "105.1" ;
             :receita_imposto "25.20%";
             :taxa_desemprego "16.2" ;
+            :flag "https://www.worldometers.info/img/flags/fm-flag.gif" ;
             :taxa_fertilidade "3.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Moldova
@@ -3809,6 +3924,7 @@
             :racio_sexos "92.2" ;
             :receita_imposto "17.70%";
             :taxa_desemprego "5.0" ;
+            :flag "https://www.worldometers.info/img/flags/md-flag.gif" ;
             :taxa_fertilidade "1.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Monaco
@@ -3841,6 +3957,7 @@
             :racio_sexos "94.7" ;
             
             :taxa_desemprego "2.0" ;
+            :flag "https://www.worldometers.info/img/flags/mn-flag.gif" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Mongolia
@@ -3873,6 +3990,7 @@
             :racio_sexos "97.9" ;
             :receita_imposto "16.80%";
             :taxa_desemprego "6.3" ;
+            :flag "https://www.worldometers.info/img/flags/mg-flag.gif" ;
             :taxa_fertilidade "2.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Montenegro
@@ -3905,6 +4023,7 @@
             :racio_sexos "97.4" ;
             
             :taxa_desemprego "17.4" ;
+            :flag "https://www.worldometers.info/img/flags/mj-flag.gif" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Morocco
@@ -3937,6 +4056,7 @@
             :racio_sexos "98.1" ;
             :receita_imposto "21.90%";
             :taxa_desemprego "10.4" ;
+            :flag "https://www.worldometers.info/img/flags/mo-flag.gif" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Mozambique
@@ -3969,6 +4089,7 @@
             :racio_sexos "95.5" ;
             :receita_imposto "0.00%";
             :taxa_desemprego "24.1" ;
+            :flag "https://www.worldometers.info/img/flags/mz-flag.gif" ;
             :taxa_fertilidade "5.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Myanmar
@@ -4002,6 +4123,7 @@
             :racio_sexos "95.5" ;
             :receita_imposto "5.40%";
             :taxa_desemprego "0.8" ;
+            :flag "https://www.worldometers.info/img/flags/bm-flag.gif" ;
             :taxa_fertilidade "2.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Namibia
@@ -4034,6 +4156,7 @@
             :racio_sexos "94.7" ;
             :receita_imposto "27.10%";
             :taxa_desemprego "24.9" ;
+            :flag "https://www.worldometers.info/img/flags/wa-flag.gif" ;
             :taxa_fertilidade "3.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Nauru
@@ -4066,6 +4189,7 @@
             :racio_sexos "101.9" ;
             
             :taxa_desemprego "23.0" ;
+            :flag "https://www.worldometers.info/img/flags/nr-flag.gif" ;
             :taxa_fertilidade "3.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Nepal
@@ -4098,6 +4222,7 @@
             :racio_sexos "94.3" ;
             :receita_imposto "20.70%";
             :taxa_desemprego "3.0" ;
+            :flag "https://www.worldometers.info/img/flags/np-flag.gif" ;
             :taxa_fertilidade "2.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Netherlands
@@ -4130,6 +4255,7 @@
             :racio_sexos "99.0" ;
             :receita_imposto "23.00%";
             :taxa_desemprego "5.6" ;
+            :flag "https://www.worldometers.info/img/flags/nl-flag.gif" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#NewZealand
@@ -4162,6 +4288,7 @@
             :racio_sexos "96.7" ;
             :receita_imposto "29.00%";
             :taxa_desemprego "5.5" ;
+            :flag "https://www.worldometers.info/img/flags/nz-flag.gif" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Nicaragua
@@ -4194,6 +4321,7 @@
             :racio_sexos "97.2" ;
             :receita_imposto "15.60%";
             :taxa_desemprego "6.1" ;
+            :flag "https://www.worldometers.info/img/flags/nu-flag.gif" ;
             :taxa_fertilidade "2.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Niger
@@ -4226,6 +4354,7 @@
             :racio_sexos "100.6" ;
             :receita_imposto "11.80%";
             :taxa_desemprego "2.7" ;
+            :flag "https://www.worldometers.info/img/flags/ng-flag.gif" ;
             :taxa_fertilidade "7.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Nigeria
@@ -4258,6 +4387,7 @@
             :racio_sexos "102.7" ;
             :receita_imposto "1.50%";
             :taxa_desemprego "5.4" ;
+            :flag "https://www.worldometers.info/img/flags/ni-flag.gif" ;
             :taxa_fertilidade "5.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#NorthKorea
@@ -4292,6 +4422,7 @@
             :racio_sexos "95.7" ;
             
             :taxa_desemprego "4.3" ;
+            :flag "https://www.worldometers.info/img/flags/kn-flag.gif" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#NorthMacedonia
@@ -4326,6 +4457,7 @@
             :racio_sexos "100.0" ;
             
             :taxa_desemprego "27.3" ;
+            :flag "https://www.worldometers.info/img/flags/mk-flag.gif" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Norway
@@ -4358,6 +4490,7 @@
             :racio_sexos "101.8" ;
             :receita_imposto "23.90%";
             :taxa_desemprego "5.1" ;
+            :flag "https://www.worldometers.info/img/flags/no-flag.gif" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Oman
@@ -4390,6 +4523,7 @@
             :racio_sexos "192.8" ;
             :receita_imposto "2.50%";
             :taxa_desemprego "17.8" ;
+            :flag "https://www.worldometers.info/img/flags/mu-flag.gif" ;
             :taxa_fertilidade "2.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Pakistan
@@ -4422,6 +4556,7 @@
             :racio_sexos "105.6" ;
             :receita_imposto "9.20%";
             :taxa_desemprego "5.9" ;
+            :flag "https://www.worldometers.info/img/flags/pk-flag.gif" ;
             :taxa_fertilidade "3.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Palau
@@ -4454,6 +4589,7 @@
             :racio_sexos "113.3" ;
             :receita_imposto "21.30%";
             :taxa_desemprego "1.7" ;
+            :flag "https://www.worldometers.info/img/flags/ps-flag.gif" ;
             :taxa_fertilidade "2.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Palestine
@@ -4487,6 +4623,7 @@
             :racio_sexos "102.9" ;
             
             :taxa_desemprego "24.2" ;
+            :flag "https://www.worldometers.info/img/flags/palestine-flag.gif" ;
             :taxa_fertilidade "4.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Panama
@@ -4519,6 +4656,7 @@
             :racio_sexos "100.4" ;
             
             :taxa_desemprego "6.2" ;
+            :flag "https://www.worldometers.info/img/flags/pm-flag.gif" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#PapuaNewGuinea
@@ -4551,6 +4689,7 @@
             :racio_sexos "103.5" ;
             :receita_imposto "13.60%";
             :taxa_desemprego "2.5" ;
+            :flag "https://www.worldometers.info/img/flags/pp-flag.gif" ;
             :taxa_fertilidade "3.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Paraguay
@@ -4583,6 +4722,7 @@
             :racio_sexos "102.9" ;
             :receita_imposto "10.00%";
             :taxa_desemprego "5.5" ;
+            :flag "https://www.worldometers.info/img/flags/pa-flag.gif" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Peru
@@ -4615,6 +4755,7 @@
             :racio_sexos "99.8" ;
             :receita_imposto "14.30%";
             :taxa_desemprego "5.3" ;
+            :flag "https://www.worldometers.info/img/flags/pe-flag.gif" ;
             :taxa_fertilidade "2.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Philippines
@@ -4647,6 +4788,7 @@
             :racio_sexos "101.3" ;
             :receita_imposto "14.00%";
             :taxa_desemprego "5.9" ;
+            :flag "https://www.worldometers.info/img/flags/rp-flag.gif" ;
             :taxa_fertilidade "3.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Poland
@@ -4679,6 +4821,7 @@
             :racio_sexos "93.4" ;
             :receita_imposto "17.40%";
             :taxa_desemprego "5.3" ;
+            :flag "https://www.worldometers.info/img/flags/pl-flag.gif" ;
             :taxa_fertilidade "1.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Portugal
@@ -4711,6 +4854,7 @@
             :racio_sexos "89.8" ;
             :receita_imposto "22.80%";
             :taxa_desemprego "10.5" ;
+            :flag "https://www.worldometers.info/img/flags/po-flag.gif" ;
             :taxa_fertilidade "1.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Qatar
@@ -4743,6 +4887,7 @@
             :racio_sexos "301.2" ;
             :receita_imposto "14.70%";
             :taxa_desemprego "0.3" ;
+            :flag "https://www.worldometers.info/img/flags/qa-flag.gif" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Romania
@@ -4775,6 +4920,7 @@
             :racio_sexos "94.0" ;
             :receita_imposto "14.60%";
             :taxa_desemprego "7.1" ;
+            :flag "https://www.worldometers.info/img/flags/ro-flag.gif" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Russia
@@ -4808,6 +4954,7 @@
             :racio_sexos "86.8" ;
             :receita_imposto "11.40%";
             :taxa_desemprego "5.8" ;
+            :flag "https://www.worldometers.info/img/flags/rs-flag.gif" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Rwanda
@@ -4840,6 +4987,7 @@
             :racio_sexos "96.2" ;
             :receita_imposto "14.30%";
             :taxa_desemprego "2.4" ;
+            :flag "https://www.worldometers.info/img/flags/rw-flag.gif" ;
             :taxa_fertilidade "4.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SaintKittsandNevis
@@ -4873,6 +5021,7 @@
             :racio_sexos "97.0" ;
             :receita_imposto "18.50%";
             :taxa_desemprego "4.5" ;
+            :flag "https://www.worldometers.info/img/flags/sc-flag.gif" ;
             :taxa_fertilidade "2.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SaintLucia
@@ -4905,6 +5054,7 @@
             :racio_sexos "95.9" ;
             :receita_imposto "18.20%";
             :taxa_desemprego "19.0" ;
+            :flag "https://www.worldometers.info/img/flags/st-flag.gif" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SaintVincentandtheGrenadines
@@ -4937,6 +5087,7 @@
             :racio_sexos "101.7" ;
             :receita_imposto "25.40%";
             :taxa_desemprego "19.1" ;
+            :flag "https://www.worldometers.info/img/flags/vc-flag.gif" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Samoa
@@ -4969,6 +5120,7 @@
             :racio_sexos "106.6" ;
             :receita_imposto "25.50%";
             :taxa_desemprego "6.5" ;
+            :flag "https://www.worldometers.info/img/flags/ws-flag.gif" ;
             :taxa_fertilidade "4.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SanMarino
@@ -5001,6 +5153,7 @@
             :racio_sexos "94.9" ;
             :receita_imposto "18.10%";
             :taxa_desemprego "6.6" ;
+            :flag "https://www.worldometers.info/img/flags/sm-flag.gif" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SaudiArabia
@@ -5033,6 +5186,7 @@
             :racio_sexos "132.9" ;
             :receita_imposto "8.90%";
             :taxa_desemprego "5.5" ;
+            :flag "https://www.worldometers.info/img/flags/sa-flag.gif" ;
             :taxa_fertilidade "2.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Senegal
@@ -5065,6 +5219,7 @@
             :racio_sexos "96.6" ;
             :receita_imposto "16.30%";
             :taxa_desemprego "9.3" ;
+            :flag "https://www.worldometers.info/img/flags/sg-flag.gif" ;
             :taxa_fertilidade "5.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Serbia
@@ -5097,6 +5252,7 @@
             :racio_sexos "95.6" ;
             :receita_imposto "18.60%";
             :taxa_desemprego "15.5" ;
+            :flag "https://www.worldometers.info/img/flags/ri-flag.gif" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Seychelles
@@ -5129,6 +5285,7 @@
             :racio_sexos "97.2" ;
             :receita_imposto "34.10%";
             :taxa_desemprego "4.1" ;
+            :flag "https://www.worldometers.info/img/flags/se-flag.gif" ;
             :taxa_fertilidade "2.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SierraLeone
@@ -5161,6 +5318,7 @@
             :racio_sexos "98.1" ;
             :receita_imposto "8.60%";
             :taxa_desemprego "3.1" ;
+            :flag "https://www.worldometers.info/img/flags/sl-flag.gif" ;
             :taxa_fertilidade "4.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Singapore
@@ -5193,6 +5351,7 @@
             :racio_sexos "97.7" ;
             :receita_imposto "13.10%";
             :taxa_desemprego "2.0" ;
+            :flag "https://www.worldometers.info/img/flags/sn-flag.gif" ;
             :taxa_fertilidade "1.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Slovakia
@@ -5225,6 +5384,7 @@
             :racio_sexos "94.6" ;
             :receita_imposto "18.70%";
             :taxa_desemprego "9.9" ;
+            :flag "https://www.worldometers.info/img/flags/lo-flag.gif" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Slovenia
@@ -5257,6 +5417,7 @@
             :racio_sexos "98.6" ;
             :receita_imposto "18.60%";
             :taxa_desemprego "8.1" ;
+            :flag "https://www.worldometers.info/img/flags/si-flag.gif" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SolomonIslands
@@ -5289,6 +5450,7 @@
             :racio_sexos "103.4" ;
             :receita_imposto "29.50%";
             :taxa_desemprego "31.4" ;
+            :flag "https://www.worldometers.info/img/flags/bp-flag.gif" ;
             :taxa_fertilidade "4.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Somalia
@@ -5321,6 +5483,7 @@
             :racio_sexos "99.3" ;
             :receita_imposto "0.00%";
             :taxa_desemprego "6.6" ;
+            :flag "https://www.worldometers.info/img/flags/so-flag.gif" ;
             :taxa_fertilidade "6.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SouthAfrica
@@ -5353,6 +5516,7 @@
             :racio_sexos "96.4" ;
             :receita_imposto "27.50%";
             :taxa_desemprego "26.0" ;
+            :flag "https://www.worldometers.info/img/flags/sf-flag.gif" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SouthKorea
@@ -5387,6 +5551,7 @@
             :racio_sexos "100.2" ;
             :receita_imposto "15.60%";
             :taxa_desemprego "3.6" ;
+            :flag "https://www.worldometers.info/img/flags/ks-flag.gif" ;
             :taxa_fertilidade "1.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SouthSudan
@@ -5419,6 +5584,7 @@
             :racio_sexos "100.4" ;
             
             :taxa_desemprego "12.0" ;
+            :flag "https://www.worldometers.info/img/flags/od-flag.gif" ;
             :taxa_fertilidade "5.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Spain
@@ -5451,6 +5617,7 @@
             :racio_sexos "96.2" ;
             :receita_imposto "14.20%";
             :taxa_desemprego "18.3" ;
+            :flag "https://www.worldometers.info/img/flags/sp-flag.gif" ;
             :taxa_fertilidade "1.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SriLanka
@@ -5483,6 +5650,7 @@
             :racio_sexos "92.5" ;
             :receita_imposto "11.90%";
             :taxa_desemprego "5.2" ;
+            :flag "https://www.worldometers.info/img/flags/ce-flag.gif" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Sudan
@@ -5515,6 +5683,7 @@
             :racio_sexos "99.9" ;
             :receita_imposto "8.00%";
             :taxa_desemprego "13.4" ;
+            :flag "https://www.worldometers.info/img/flags/su-flag.gif" ;
             :taxa_fertilidade "4.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Suriname
@@ -5547,6 +5716,7 @@
             :racio_sexos "100.7" ;
             :receita_imposto "19.50%";
             :taxa_desemprego "9.9" ;
+            :flag "https://www.worldometers.info/img/flags/ns-flag.gif" ;
             :taxa_fertilidade "2.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Sweden
@@ -5579,6 +5749,7 @@
             :racio_sexos "100.2" ;
             :receita_imposto "27.90%";
             :taxa_desemprego "7.3" ;
+            :flag "https://www.worldometers.info/img/flags/sw-flag.gif" ;
             :taxa_fertilidade "1.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Switzerland
@@ -5611,6 +5782,7 @@
             :racio_sexos "98.2" ;
             :receita_imposto "10.10%";
             :taxa_desemprego "4.6" ;
+            :flag "https://www.worldometers.info/img/flags/sz-flag.gif" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Syria
@@ -5644,6 +5816,7 @@
             :racio_sexos "102.1" ;
             :receita_imposto "14.20%";
             :taxa_desemprego "13.8" ;
+            :flag "https://www.worldometers.info/img/flags/sy-flag.gif" ;
             :taxa_fertilidade "3.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Tajikistan
@@ -5676,6 +5849,7 @@
             :racio_sexos "100.9" ;
             :receita_imposto "9.80%";
             :taxa_desemprego "10.8" ;
+            :flag "https://www.worldometers.info/img/flags/ti-flag.gif" ;
             :taxa_fertilidade "3.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Tanzania
@@ -5709,6 +5883,7 @@
             :racio_sexos "97.8" ;
             :receita_imposto "11.50%";
             :taxa_desemprego "2.7" ;
+            :flag "https://www.worldometers.info/img/flags/tz-flag.gif" ;
             :taxa_fertilidade "5.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Thailand
@@ -5741,6 +5916,7 @@
             :racio_sexos "95.2" ;
             :receita_imposto "14.90%";
             :taxa_desemprego "0.6" ;
+            :flag "https://www.worldometers.info/img/flags/th-flag.gif" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#EastTimor
@@ -5774,6 +5950,7 @@
             :racio_sexos "103.2" ;
             :receita_imposto "25.00%";
             :taxa_desemprego "4.3" ;
+            :flag "https://www.worldometers.info/img/flags/tt-flag.gif" ;
             :taxa_fertilidade "5.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Togo
@@ -5806,6 +5983,7 @@
             :racio_sexos "99.4" ;
             :receita_imposto "16.90%";
             :taxa_desemprego "6.8" ;
+            :flag "https://www.worldometers.info/img/flags/to-flag.gif" ;
             :taxa_fertilidade "4.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Tonga
@@ -5838,6 +6016,7 @@
             :racio_sexos "100.7" ;
             :receita_imposto "22.30%";
             :taxa_desemprego "4.8" ;
+            :flag "https://www.worldometers.info/img/flags/tn-flag.gif" ;
             :taxa_fertilidade "3.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#TrinidadandTobago
@@ -5871,6 +6050,7 @@
             :racio_sexos "97.1" ;
             :receita_imposto "19.50%";
             :taxa_desemprego "4.2" ;
+            :flag "https://www.worldometers.info/img/flags/td-flag.gif" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Tunisia
@@ -5903,6 +6083,7 @@
             :racio_sexos "97.6" ;
             :receita_imposto "21.10%";
             :taxa_desemprego "14.6" ;
+            :flag "https://www.worldometers.info/img/flags/ts-flag.gif" ;
             :taxa_fertilidade "2.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Turkey
@@ -5935,6 +6116,7 @@
             :racio_sexos "97.0" ;
             :receita_imposto "17.90%";
             :taxa_desemprego "10.8" ;
+            :flag "https://www.worldometers.info/img/flags/tu-flag.gif" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Turkmenistan
@@ -5967,6 +6149,7 @@
             :racio_sexos "97.0" ;
             
             :taxa_desemprego "8.6" ;
+            :flag "https://www.worldometers.info/img/flags/tx-flag.gif" ;
             :taxa_fertilidade "3.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Tuvalu
@@ -5999,6 +6182,7 @@
             :racio_sexos "102.0" ;
             
             :taxa_desemprego "6.0" ;
+            :flag "https://www.worldometers.info/img/flags/tv-flag.gif" ;
             :taxa_fertilidade "3.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Uganda
@@ -6031,6 +6215,7 @@
             :racio_sexos "99.0" ;
             :receita_imposto "11.70%";
             :taxa_desemprego "2.4" ;
+            :flag "https://www.worldometers.info/img/flags/ug-flag.gif" ;
             :taxa_fertilidade "5.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Ukraine
@@ -6063,6 +6248,7 @@
             :racio_sexos "86.0" ;
             :receita_imposto "20.10%";
             :taxa_desemprego "8.8" ;
+            :flag "https://www.worldometers.info/img/flags/up-flag.gif" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#UnitedArabEmirates
@@ -6095,6 +6281,7 @@
             :racio_sexos "262.4" ;
             :receita_imposto "0.10%";
             :taxa_desemprego "3.7" ;
+            :flag "https://www.worldometers.info/img/flags/ae-flag.gif" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#UnitedKingdom
@@ -6127,6 +6314,7 @@
             :racio_sexos "97.4" ;
             :receita_imposto "25.50%";
             :taxa_desemprego "5.0" ;
+            :flag "https://www.worldometers.info/img/flags/uk-flag.gif" ;
             :taxa_fertilidade "1.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#UnitedStates
@@ -6161,6 +6349,7 @@
             :racio_sexos "98.0" ;
             :receita_imposto "9.60%";
             :taxa_desemprego "4.9" ;
+            :flag "https://www.worldometers.info/img/flags/us-flag.gif" ;
             :taxa_fertilidade "1.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Uruguay
@@ -6193,6 +6382,7 @@
             :racio_sexos "93.5" ;
             :receita_imposto "20.10%";
             :taxa_desemprego "8.8" ;
+            :flag "https://www.worldometers.info/img/flags/uy-flag.gif" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Uzbekistan
@@ -6225,6 +6415,7 @@
             :racio_sexos "99.4" ;
             :receita_imposto "14.80%";
             :taxa_desemprego "8.9" ;
+            :flag "https://www.worldometers.info/img/flags/uz-flag.gif" ;
             :taxa_fertilidade "2.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Vanuatu
@@ -6257,6 +6448,7 @@
             :racio_sexos "102.4" ;
             :receita_imposto "17.80%";
             :taxa_desemprego "5.3" ;
+            :flag "https://www.worldometers.info/img/flags/nh-flag.gif" ;
             :taxa_fertilidade "3.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Venezuela
@@ -6290,6 +6482,7 @@
             :racio_sexos "99.0" ;
             
             :taxa_desemprego "6.6" ;
+            :flag "https://www.worldometers.info/img/flags/ve-flag.gif" ;
             :taxa_fertilidade "2.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Vietnam
@@ -6322,6 +6515,7 @@
             :racio_sexos "98.0" ;
             :receita_imposto "19.10%";
             :taxa_desemprego "2.2" ;
+            :flag "https://www.worldometers.info/img/flags/vm-flag.gif" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Yemen
@@ -6354,6 +6548,7 @@
             :racio_sexos "102.1" ;
             
             :taxa_desemprego "16.1" ;
+            :flag "https://www.worldometers.info/img/flags/ym-flag.gif" ;
             :taxa_fertilidade "4.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Zambia
@@ -6386,6 +6581,7 @@
             :racio_sexos "98.5" ;
             :receita_imposto "16.20%";
             :taxa_desemprego "7.4" ;
+            :flag "https://www.worldometers.info/img/flags/za-flag.gif" ;
             :taxa_fertilidade "5.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Zimbabwe
@@ -6418,6 +6614,7 @@
             :racio_sexos "95.0" ;
             :receita_imposto "20.70%";
             :taxa_desemprego "5.0" ;
+            :flag "https://www.worldometers.info/img/flags/zi-flag.gif" ;
             :taxa_fertilidade "4.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SãoToméandPríncipe
@@ -6451,4 +6648,5 @@
             :racio_sexos "99.2" ;
             
             :taxa_desemprego "13.6" ;
+            :flag "https://www.worldometers.info/img/flags/tp-flag.gif" ;
             :taxa_fertilidade "4.7" .

@@ -29,7 +29,8 @@
         "taxa fertilidade": "5.3",
         "medicos por mil": "0.3",
         "receita imposto": "9.30%",
-        "emissoes co2": "63"
+        "emissoes co2": "63",
+        "flag": "https://www.worldometers.info/img/flags/af-flag.gif"
     },
     "Albania": {
         "nome": [
@@ -61,7 +62,8 @@
         "taxa fertilidade": "1.7",
         "medicos por mil": "1.3",
         "receita imposto": "18.60%",
-        "emissoes co2": "84"
+        "emissoes co2": "84",
+        "flag": "https://www.worldometers.info/img/flags/al-flag.gif"
     },
     "Algeria": {
         "nome": [
@@ -93,7 +95,8 @@
         "taxa fertilidade": "3.0",
         "medicos por mil": "",
         "receita imposto": "37.20%",
-        "emissoes co2": "5900"
+        "emissoes co2": "5900",
+        "flag": "https://www.worldometers.info/img/flags/ag-flag.gif"
     },
     "Andorra": {
         "nome": [
@@ -125,7 +128,8 @@
         "taxa fertilidade": "1.2",
         "medicos por mil": "3.7",
         "receita imposto": "",
-        "emissoes co2": "1"
+        "emissoes co2": "1",
+        "flag": "https://www.worldometers.info/img/flags/an-flag.gif"
     },
     "Angola": {
         "nome": [
@@ -157,7 +161,8 @@
         "taxa fertilidade": "6.0",
         "medicos por mil": "",
         "receita imposto": "9.20%",
-        "emissoes co2": "3902"
+        "emissoes co2": "3902",
+        "flag": "https://www.worldometers.info/img/flags/ao-flag.gif"
     },
     "AntiguaandBarbuda": {
         "nome": [
@@ -190,7 +195,8 @@
         "taxa fertilidade": "2.1",
         "medicos por mil": "",
         "receita imposto": "16.50%",
-        "emissoes co2": 2.0
+        "emissoes co2": 2.0,
+        "flag": "https://www.worldometers.info/img/flags/ac-flag.gif"
     },
     "Argentina": {
         "nome": [
@@ -222,7 +228,8 @@
         "taxa fertilidade": "2.3",
         "medicos por mil": "3.8",
         "receita imposto": "10.10%",
-        "emissoes co2": "3167"
+        "emissoes co2": "3167",
+        "flag": "https://www.worldometers.info/img/flags/ar-flag.gif"
     },
     "Armenia": {
         "nome": [
@@ -254,7 +261,8 @@
         "taxa fertilidade": "1.6",
         "medicos por mil": "2.8",
         "receita imposto": "20.90%",
-        "emissoes co2": "48"
+        "emissoes co2": "48",
+        "flag": "https://www.worldometers.info/img/flags/am-flag.gif"
     },
     "Australia": {
         "nome": [
@@ -286,7 +294,8 @@
         "taxa fertilidade": "1.9",
         "medicos por mil": "3.4",
         "receita imposto": "23.00%",
-        "emissoes co2": "15282"
+        "emissoes co2": "15282",
+        "flag": "https://www.worldometers.info/img/flags/as-flag.gif"
     },
     "Austria": {
         "nome": [
@@ -318,7 +327,8 @@
         "taxa fertilidade": "1.4",
         "medicos por mil": "5.2",
         "receita imposto": "25.40%",
-        "emissoes co2": "505"
+        "emissoes co2": "505",
+        "flag": "https://www.worldometers.info/img/flags/au-flag.gif"
     },
     "Azerbaijan": {
         "nome": [
@@ -350,7 +360,8 @@
         "taxa fertilidade": "2.1",
         "medicos por mil": "3.4",
         "receita imposto": "13.00%",
-        "emissoes co2": "2459"
+        "emissoes co2": "2459",
+        "flag": "https://www.worldometers.info/img/flags/aj-flag.gif"
     },
     "TheBahamas": {
         "nome": [
@@ -384,7 +395,8 @@
         "taxa fertilidade": "1.8",
         "medicos por mil": "",
         "receita imposto": "14.80%",
-        "emissoes co2": "0"
+        "emissoes co2": "0",
+        "flag": "https://www.worldometers.info/img/flags/bf-flag.gif"
     },
     "Bahrain": {
         "nome": [
@@ -416,7 +428,8 @@
         "taxa fertilidade": "2.1",
         "medicos por mil": "0.9",
         "receita imposto": "4.20%",
-        "emissoes co2": "961"
+        "emissoes co2": "961",
+        "flag": "https://www.worldometers.info/img/flags/ba-flag.gif"
     },
     "Bangladesh": {
         "nome": [
@@ -448,7 +461,8 @@
         "taxa fertilidade": "2.2",
         "medicos por mil": "0.4",
         "receita imposto": "8.80%",
-        "emissoes co2": "1438"
+        "emissoes co2": "1438",
+        "flag": "https://www.worldometers.info/img/flags/bg-flag.gif"
     },
     "Barbados": {
         "nome": [
@@ -480,7 +494,8 @@
         "taxa fertilidade": "1.8",
         "medicos por mil": "",
         "receita imposto": "27.50%",
-        "emissoes co2": "2"
+        "emissoes co2": "2",
+        "flag": "https://www.worldometers.info/img/flags/bb-flag.gif"
     },
     "Belarus": {
         "nome": [
@@ -512,7 +527,8 @@
         "taxa fertilidade": "1.6",
         "medicos por mil": "4.1",
         "receita imposto": "14.70%",
-        "emissoes co2": "155"
+        "emissoes co2": "155",
+        "flag": "https://www.worldometers.info/img/flags/bo-flag.gif"
     },
     "Belgium": {
         "nome": [
@@ -544,7 +560,8 @@
         "taxa fertilidade": "1.8",
         "medicos por mil": "3.0",
         "receita imposto": "24.00%",
-        "emissoes co2": "520"
+        "emissoes co2": "520",
+        "flag": "https://www.worldometers.info/img/flags/be-flag.gif"
     },
     "Belize": {
         "nome": [
@@ -576,7 +593,8 @@
         "taxa fertilidade": "2.6",
         "medicos por mil": "",
         "receita imposto": "26.30%",
-        "emissoes co2": "9"
+        "emissoes co2": "9",
+        "flag": "https://www.worldometers.info/img/flags/bh-flag.gif"
     },
     "Benin": {
         "nome": [
@@ -608,7 +626,8 @@
         "taxa fertilidade": "5.2",
         "medicos por mil": "0.1",
         "receita imposto": "10.80%",
-        "emissoes co2": "96"
+        "emissoes co2": "96",
+        "flag": "https://www.worldometers.info/img/flags/bn-flag.gif"
     },
     "Bhutan": {
         "nome": [
@@ -640,7 +659,8 @@
         "taxa fertilidade": "2.2",
         "medicos por mil": "0.3",
         "receita imposto": "16.00%",
-        "emissoes co2": "75"
+        "emissoes co2": "75",
+        "flag": "https://www.worldometers.info/img/flags/bt-flag.gif"
     },
     "Bolivia": {
         "nome": [
@@ -673,7 +693,8 @@
         "taxa fertilidade": "3.0",
         "medicos por mil": "0.5",
         "receita imposto": "17.00%",
-        "emissoes co2": "962"
+        "emissoes co2": "962",
+        "flag": "https://www.worldometers.info/img/flags/bl-flag.gif"
     },
     "BosniaandHerzegovina": {
         "nome": [
@@ -706,7 +727,8 @@
         "taxa fertilidade": "1.3",
         "medicos por mil": "1.9",
         "receita imposto": "20.40%",
-        "emissoes co2": "252"
+        "emissoes co2": "252",
+        "flag": "https://www.worldometers.info/img/flags/bk-flag.gif"
     },
     "Botswana": {
         "nome": [
@@ -738,7 +760,8 @@
         "taxa fertilidade": "2.9",
         "medicos por mil": "0.4",
         "receita imposto": "19.50%",
-        "emissoes co2": "47"
+        "emissoes co2": "47",
+        "flag": "https://www.worldometers.info/img/flags/bc-flag.gif"
     },
     "Brazil": {
         "nome": [
@@ -770,7 +793,8 @@
         "taxa fertilidade": "1.8",
         "medicos por mil": "1.9",
         "receita imposto": "14.20%",
-        "emissoes co2": "10948"
+        "emissoes co2": "10948",
+        "flag": "https://www.worldometers.info/img/flags/br-flag.gif"
     },
     "Brunei": {
         "nome": [
@@ -803,7 +827,8 @@
         "taxa fertilidade": "1.9",
         "medicos por mil": "1.5",
         "receita imposto": "",
-        "emissoes co2": "679"
+        "emissoes co2": "679",
+        "flag": "https://www.worldometers.info/img/flags/bx-flag.gif"
     },
     "Bulgaria": {
         "nome": [
@@ -835,7 +860,8 @@
         "taxa fertilidade": "1.5",
         "medicos por mil": "4.0",
         "receita imposto": "20.20%",
-        "emissoes co2": "474"
+        "emissoes co2": "474",
+        "flag": "https://www.worldometers.info/img/flags/bu-flag.gif"
     },
     "BurkinaFaso": {
         "nome": [
@@ -867,7 +893,8 @@
         "taxa fertilidade": "5.6",
         "medicos por mil": "",
         "receita imposto": "15.00%",
-        "emissoes co2": "123"
+        "emissoes co2": "123",
+        "flag": "https://www.worldometers.info/img/flags/uv-flag.gif"
     },
     "Burundi": {
         "nome": [
@@ -899,13 +926,13 @@
         "taxa fertilidade": "6.0",
         "medicos por mil": "",
         "receita imposto": "13.60%",
-        "emissoes co2": "56"
+        "emissoes co2": "56",
+        "flag": "https://www.worldometers.info/img/flags/by-flag.gif"
     },
     "IvoryCoast": {
         "nome": [
             "Ivory Coast",
-            "Cote d'Ivoire",
-            "Côte d'Ivoire"
+            "Cote d'Ivoire"
         ],
         "area": "322,463",
         "capital": "Yamoussoukro",
@@ -966,7 +993,8 @@
         "taxa fertilidade": "2.5",
         "medicos por mil": "0.3",
         "receita imposto": "20.10%",
-        "emissoes co2": "2"
+        "emissoes co2": "2",
+        "flag": "https://www.worldometers.info/img/flags/cv-flag.gif"
     },
     "Cambodia": {
         "nome": [
@@ -998,7 +1026,8 @@
         "taxa fertilidade": "2.7",
         "medicos por mil": "0.2",
         "receita imposto": "17.10%",
-        "emissoes co2": "178"
+        "emissoes co2": "178",
+        "flag": "https://www.worldometers.info/img/flags/cb-flag.gif"
     },
     "Cameroon": {
         "nome": [
@@ -1030,7 +1059,8 @@
         "taxa fertilidade": "5.0",
         "medicos por mil": "",
         "receita imposto": "12.80%",
-        "emissoes co2": "408"
+        "emissoes co2": "408",
+        "flag": "https://www.worldometers.info/img/flags/cm-flag.gif"
     },
     "Canada": {
         "nome": [
@@ -1062,7 +1092,8 @@
         "taxa fertilidade": "1.6",
         "medicos por mil": "2.5",
         "receita imposto": "12.80%",
-        "emissoes co2": "19276"
+        "emissoes co2": "19276",
+        "flag": "https://www.worldometers.info/img/flags/ca-flag.gif"
     },
     "CentralAfricanRepublic": {
         "nome": [
@@ -1095,7 +1126,8 @@
         "taxa fertilidade": "5.1",
         "medicos por mil": "",
         "receita imposto": "8.60%",
-        "emissoes co2": "19"
+        "emissoes co2": "19",
+        "flag": "https://www.worldometers.info/img/flags/ct-flag.gif"
     },
     "Chad": {
         "nome": [
@@ -1127,7 +1159,8 @@
         "taxa fertilidade": "6.3",
         "medicos por mil": "",
         "receita imposto": "",
-        "emissoes co2": "288"
+        "emissoes co2": "288",
+        "flag": "https://www.worldometers.info/img/flags/cd-flag.gif"
     },
     "Chile": {
         "nome": [
@@ -1159,7 +1192,8 @@
         "taxa fertilidade": "1.8",
         "medicos por mil": "",
         "receita imposto": "18.20%",
-        "emissoes co2": "540"
+        "emissoes co2": "540",
+        "flag": "https://www.worldometers.info/img/flags/ci-flag.gif"
     },
     "China": {
         "nome": [
@@ -1191,7 +1225,8 @@
         "taxa fertilidade": "1.6",
         "medicos por mil": "1.5",
         "receita imposto": "9.40%",
-        "emissoes co2": "101394"
+        "emissoes co2": "101394",
+        "flag": "https://www.worldometers.info/img/flags/ch-flag.gif"
     },
     "Colombia": {
         "nome": [
@@ -1223,7 +1258,8 @@
         "taxa fertilidade": "1.9",
         "medicos por mil": "",
         "receita imposto": "14.40%",
-        "emissoes co2": "5380"
+        "emissoes co2": "5380",
+        "flag": "https://www.worldometers.info/img/flags/co-flag.gif"
     },
     "Comoros": {
         "nome": [
@@ -1255,14 +1291,14 @@
         "taxa fertilidade": "4.6",
         "medicos por mil": "",
         "receita imposto": "",
-        "emissoes co2": "3"
+        "emissoes co2": "3",
+        "flag": "https://www.worldometers.info/img/flags/cn-flag.gif"
     },
     "RepublicoftheCongo": {
         "nome": [
             "Republic of the Congo",
             "Congo",
-            "Congo, Repub. of the",
-            "Republic of Congo"
+            "Congo, Repub. of the"
         ],
         "area": "342,000",
         "capital": "Brazzaville",
@@ -1290,7 +1326,8 @@
         "taxa fertilidade": "4.9",
         "medicos por mil": "",
         "receita imposto": "9.00%",
-        "emissoes co2": "648"
+        "emissoes co2": "648",
+        "flag": "https://www.worldometers.info/img/flags/cg-flag.gif"
     },
     "CostaRica": {
         "nome": [
@@ -1322,7 +1359,8 @@
         "taxa fertilidade": "1.9",
         "medicos por mil": "1.2",
         "receita imposto": "13.60%",
-        "emissoes co2": "110"
+        "emissoes co2": "110",
+        "flag": "https://www.worldometers.info/img/flags/cs-flag.gif"
     },
     "Croatia": {
         "nome": [
@@ -1354,7 +1392,8 @@
         "taxa fertilidade": "1.5",
         "medicos por mil": "3.1",
         "receita imposto": "22.00%",
-        "emissoes co2": "182"
+        "emissoes co2": "182",
+        "flag": "https://www.worldometers.info/img/flags/hr-flag.gif"
     },
     "Cuba": {
         "nome": [
@@ -1386,7 +1425,8 @@
         "taxa fertilidade": "1.7",
         "medicos por mil": "7.5",
         "receita imposto": "",
-        "emissoes co2": "212"
+        "emissoes co2": "212",
+        "flag": "https://www.worldometers.info/img/flags/cu-flag.gif"
     },
     "Cyprus": {
         "nome": [
@@ -1418,7 +1458,8 @@
         "taxa fertilidade": "1.4",
         "medicos por mil": "2.5",
         "receita imposto": "24.50%",
-        "emissoes co2": "5"
+        "emissoes co2": "5",
+        "flag": "https://www.worldometers.info/img/flags/cy-flag.gif"
     },
     "CzechRepublic": {
         "nome": [
@@ -1451,7 +1492,8 @@
         "taxa fertilidade": "1.5",
         "medicos por mil": "3.7",
         "receita imposto": "14.90%",
-        "emissoes co2": "1221"
+        "emissoes co2": "1221",
+        "flag": "https://www.worldometers.info/img/flags/ez-flag.gif"
     },
     "DemocraticRepublicoftheCongo": {
         "nome": [
@@ -1484,7 +1526,8 @@
         "taxa fertilidade": "6.4",
         "medicos por mil": "",
         "receita imposto": "10.70%",
-        "emissoes co2": "1179"
+        "emissoes co2": "1179",
+        "flag": "https://www.worldometers.info/img/flags/congo-flag.gif"
     },
     "Denmark": {
         "nome": [
@@ -1516,7 +1559,8 @@
         "taxa fertilidade": "1.7",
         "medicos por mil": "3.6",
         "receita imposto": "32.40%",
-        "emissoes co2": "666"
+        "emissoes co2": "666",
+        "flag": "https://www.worldometers.info/img/flags/da-flag.gif"
     },
     "Djibouti": {
         "nome": [
@@ -1548,7 +1592,8 @@
         "taxa fertilidade": "3.1",
         "medicos por mil": "0.2",
         "receita imposto": "",
-        "emissoes co2": "3"
+        "emissoes co2": "3",
+        "flag": "https://www.worldometers.info/img/flags/dj-flag.gif"
     },
     "Dominica": {
         "nome": [
@@ -1580,7 +1625,8 @@
         "taxa fertilidade": 2.1,
         "medicos por mil": "",
         "receita imposto": "22.10%",
-        "emissoes co2": "0"
+        "emissoes co2": "0",
+        "flag": "https://www.worldometers.info/img/flags/do-flag.gif"
     },
     "DominicanRepublic": {
         "nome": [
@@ -1612,7 +1658,8 @@
         "taxa fertilidade": "2.5",
         "medicos por mil": "1.5",
         "receita imposto": "13.00%",
-        "emissoes co2": "28"
+        "emissoes co2": "28",
+        "flag": "https://www.worldometers.info/img/flags/dr-flag.gif"
     },
     "Ecuador": {
         "nome": [
@@ -1644,7 +1691,8 @@
         "taxa fertilidade": "2.6",
         "medicos por mil": "1.7",
         "receita imposto": "",
-        "emissoes co2": "1247"
+        "emissoes co2": "1247",
+        "flag": "https://www.worldometers.info/img/flags/ec-flag.gif"
     },
     "Egypt": {
         "nome": [
@@ -1676,7 +1724,8 @@
         "taxa fertilidade": "3.4",
         "medicos por mil": "0.8",
         "receita imposto": "12.50%",
-        "emissoes co2": "3509"
+        "emissoes co2": "3509",
+        "flag": "https://www.worldometers.info/img/flags/eg-flag.gif"
     },
     "ElSalvador": {
         "nome": [
@@ -1708,7 +1757,8 @@
         "taxa fertilidade": "2.2",
         "medicos por mil": "",
         "receita imposto": "18.10%",
-        "emissoes co2": "86"
+        "emissoes co2": "86",
+        "flag": "https://www.worldometers.info/img/flags/es-flag.gif"
     },
     "EquatorialGuinea": {
         "nome": [
@@ -1740,7 +1790,8 @@
         "taxa fertilidade": "5.0",
         "medicos por mil": "",
         "receita imposto": "6.10%",
-        "emissoes co2": "841"
+        "emissoes co2": "841",
+        "flag": "https://www.worldometers.info/img/flags/ek-flag.gif"
     },
     "Eritrea": {
         "nome": [
@@ -1772,7 +1823,8 @@
         "taxa fertilidade": "4.4",
         "medicos por mil": "",
         "receita imposto": "",
-        "emissoes co2": "27"
+        "emissoes co2": "27",
+        "flag": "https://www.worldometers.info/img/flags/er-flag.gif"
     },
     "Estonia": {
         "nome": [
@@ -1804,7 +1856,8 @@
         "taxa fertilidade": "1.6",
         "medicos por mil": "3.3",
         "receita imposto": "20.90%",
-        "emissoes co2": "242"
+        "emissoes co2": "242",
+        "flag": "https://www.worldometers.info/img/flags/en-flag.gif"
     },
     "Eswatini": {
         "nome": [
@@ -1837,7 +1890,8 @@
         "taxa fertilidade": "3.3",
         "medicos por mil": "",
         "receita imposto": "28.60%",
-        "emissoes co2": "39"
+        "emissoes co2": "39",
+        "flag": "https://www.worldometers.info/img/flags/wz-flag.gif"
     },
     "Ethiopia": {
         "nome": [
@@ -1869,7 +1923,8 @@
         "taxa fertilidade": "4.6",
         "medicos por mil": "",
         "receita imposto": "7.50%",
-        "emissoes co2": "1308"
+        "emissoes co2": "1308",
+        "flag": "https://www.worldometers.info/img/flags/et-flag.gif"
     },
     "Fiji": {
         "nome": [
@@ -1901,7 +1956,8 @@
         "taxa fertilidade": "2.6",
         "medicos por mil": "",
         "receita imposto": "24.20%",
-        "emissoes co2": "8"
+        "emissoes co2": "8",
+        "flag": "https://www.worldometers.info/img/flags/fj-flag.gif"
     },
     "Finland": {
         "nome": [
@@ -1933,7 +1989,8 @@
         "taxa fertilidade": "1.8",
         "medicos por mil": "3.0",
         "receita imposto": "20.80%",
-        "emissoes co2": "757"
+        "emissoes co2": "757",
+        "flag": "https://www.worldometers.info/img/flags/fi-flag.gif"
     },
     "France": {
         "nome": [
@@ -1965,7 +2022,8 @@
         "taxa fertilidade": "2.0",
         "medicos por mil": "3.2",
         "receita imposto": "24.20%",
-        "emissoes co2": "5694"
+        "emissoes co2": "5694",
+        "flag": "https://www.worldometers.info/img/flags/fr-flag.gif"
     },
     "Gabon": {
         "nome": [
@@ -1997,7 +2055,8 @@
         "taxa fertilidade": "4.0",
         "medicos por mil": "",
         "receita imposto": "10.20%",
-        "emissoes co2": "559"
+        "emissoes co2": "559",
+        "flag": "https://www.worldometers.info/img/flags/gb-flag.gif"
     },
     "TheGambia": {
         "nome": [
@@ -2031,7 +2090,8 @@
         "taxa fertilidade": "5.6",
         "medicos por mil": "",
         "receita imposto": "9.40%",
-        "emissoes co2": "7"
+        "emissoes co2": "7",
+        "flag": "https://www.worldometers.info/img/flags/ga-flag.gif"
     },
     "Georgia": {
         "nome": [
@@ -2063,7 +2123,8 @@
         "taxa fertilidade": "2.0",
         "medicos por mil": "4.8",
         "receita imposto": "21.70%",
-        "emissoes co2": "61"
+        "emissoes co2": "61",
+        "flag": "https://www.worldometers.info/img/flags/gg-flag.gif"
     },
     "Germany": {
         "nome": [
@@ -2095,7 +2156,8 @@
         "taxa fertilidade": "1.4",
         "medicos por mil": "4.1",
         "receita imposto": "11.50%",
-        "emissoes co2": "5004"
+        "emissoes co2": "5004",
+        "flag": "https://www.worldometers.info/img/flags/gm-flag.gif"
     },
     "Ghana": {
         "nome": [
@@ -2127,7 +2189,8 @@
         "taxa fertilidade": "4.2",
         "medicos por mil": "",
         "receita imposto": "12.60%",
-        "emissoes co2": "410"
+        "emissoes co2": "410",
+        "flag": "https://www.worldometers.info/img/flags/gh-flag.gif"
     },
     "Greece": {
         "nome": [
@@ -2159,7 +2222,8 @@
         "taxa fertilidade": "1.3",
         "medicos por mil": "6.3",
         "receita imposto": "26.20%",
-        "emissoes co2": "368"
+        "emissoes co2": "368",
+        "flag": "https://www.worldometers.info/img/flags/gr-flag.gif"
     },
     "Grenada": {
         "nome": [
@@ -2191,7 +2255,8 @@
         "taxa fertilidade": "2.2",
         "medicos por mil": "",
         "receita imposto": "19.40%",
-        "emissoes co2": "0"
+        "emissoes co2": "0",
+        "flag": "https://www.worldometers.info/img/flags/gj-flag.gif"
     },
     "Guatemala": {
         "nome": [
@@ -2223,7 +2288,8 @@
         "taxa fertilidade": "3.2",
         "medicos por mil": "",
         "receita imposto": "10.60%",
-        "emissoes co2": "327"
+        "emissoes co2": "327",
+        "flag": "https://www.worldometers.info/img/flags/gt-flag.gif"
     },
     "Guinea": {
         "nome": [
@@ -2255,7 +2321,8 @@
         "taxa fertilidade": "5.1",
         "medicos por mil": "",
         "receita imposto": "10.80%",
-        "emissoes co2": "113"
+        "emissoes co2": "113",
+        "flag": "https://www.worldometers.info/img/flags/gv-flag.gif"
     },
     "Guinea-Bissau": {
         "nome": [
@@ -2287,7 +2354,8 @@
         "taxa fertilidade": "4.9",
         "medicos por mil": "",
         "receita imposto": "10.30%",
-        "emissoes co2": "25"
+        "emissoes co2": "25",
+        "flag": "https://www.worldometers.info/img/flags/pu-flag.gif"
     },
     "Guyana": {
         "nome": [
@@ -2319,7 +2387,8 @@
         "taxa fertilidade": "2.6",
         "medicos por mil": "",
         "receita imposto": "",
-        "emissoes co2": "7"
+        "emissoes co2": "7",
+        "flag": "https://www.worldometers.info/img/flags/gy-flag.gif"
     },
     "Haiti": {
         "nome": [
@@ -2351,7 +2420,8 @@
         "taxa fertilidade": "3.1",
         "medicos por mil": "",
         "receita imposto": "",
-        "emissoes co2": "136"
+        "emissoes co2": "136",
+        "flag": "https://www.worldometers.info/img/flags/ha-flag.gif"
     },
     "HolySee": {
         "nome": [
@@ -2384,7 +2454,8 @@
         "taxa fertilidade": 0,
         "medicos por mil": "",
         "receita imposto": "",
-        "emissoes co2": 0
+        "emissoes co2": 0,
+        "flag": "https://www.worldometers.info/img/flags/vt-flag.gif"
     },
     "Honduras": {
         "nome": [
@@ -2416,7 +2487,8 @@
         "taxa fertilidade": "2.6",
         "medicos por mil": "",
         "receita imposto": "17.30%",
-        "emissoes co2": "105"
+        "emissoes co2": "105",
+        "flag": "https://www.worldometers.info/img/flags/ho-flag.gif"
     },
     "Hungary": {
         "nome": [
@@ -2448,7 +2520,8 @@
         "taxa fertilidade": "1.3",
         "medicos por mil": "3.3",
         "receita imposto": "23.00%",
-        "emissoes co2": "423"
+        "emissoes co2": "423",
+        "flag": "https://www.worldometers.info/img/flags/hu-flag.gif"
     },
     "Iceland": {
         "nome": [
@@ -2480,7 +2553,8 @@
         "taxa fertilidade": "2.0",
         "medicos por mil": "3.8",
         "receita imposto": "23.30%",
-        "emissoes co2": "284"
+        "emissoes co2": "284",
+        "flag": "https://www.worldometers.info/img/flags/ic-flag.gif"
     },
     "India": {
         "nome": [
@@ -2512,7 +2586,8 @@
         "taxa fertilidade": "2.4",
         "medicos por mil": "0.7",
         "receita imposto": "11.20%",
-        "emissoes co2": "23103"
+        "emissoes co2": "23103",
+        "flag": "https://www.worldometers.info/img/flags/in-flag.gif"
     },
     "Indonesia": {
         "nome": [
@@ -2544,7 +2619,8 @@
         "taxa fertilidade": "2.4",
         "medicos por mil": "0.2",
         "receita imposto": "10.20%",
-        "emissoes co2": "19481"
+        "emissoes co2": "19481",
+        "flag": "https://www.worldometers.info/img/flags/id-flag.gif"
     },
     "Iran": {
         "nome": [
@@ -2577,7 +2653,8 @@
         "taxa fertilidade": "1.7",
         "medicos por mil": "1.5",
         "receita imposto": "7.40%",
-        "emissoes co2": "13291"
+        "emissoes co2": "13291",
+        "flag": "https://www.worldometers.info/img/flags/ir-flag.gif"
     },
     "Iraq": {
         "nome": [
@@ -2609,7 +2686,8 @@
         "taxa fertilidade": "4.6",
         "medicos por mil": "0.9",
         "receita imposto": "2.00%",
-        "emissoes co2": "6744"
+        "emissoes co2": "6744",
+        "flag": "https://www.worldometers.info/img/flags/iz-flag.gif"
     },
     "Ireland": {
         "nome": [
@@ -2642,7 +2720,8 @@
         "taxa fertilidade": "2.0",
         "medicos por mil": "2.8",
         "receita imposto": "18.30%",
-        "emissoes co2": "84"
+        "emissoes co2": "84",
+        "flag": "https://www.worldometers.info/img/flags/ei-flag.gif"
     },
     "Israel": {
         "nome": [
@@ -2674,7 +2753,8 @@
         "taxa fertilidade": "3.0",
         "medicos por mil": "3.6",
         "receita imposto": "23.10%",
-        "emissoes co2": "313"
+        "emissoes co2": "313",
+        "flag": "https://www.worldometers.info/img/flags/is-flag.gif"
     },
     "Italy": {
         "nome": [
@@ -2706,7 +2786,8 @@
         "taxa fertilidade": "1.4",
         "medicos por mil": "3.9",
         "receita imposto": "24.30%",
-        "emissoes co2": "1539"
+        "emissoes co2": "1539",
+        "flag": "https://www.worldometers.info/img/flags/it-flag.gif"
     },
     "Jamaica": {
         "nome": [
@@ -2738,7 +2819,8 @@
         "taxa fertilidade": "2.1",
         "medicos por mil": "",
         "receita imposto": "26.80%",
-        "emissoes co2": "8"
+        "emissoes co2": "8",
+        "flag": "https://www.worldometers.info/img/flags/jm-flag.gif"
     },
     "Japan": {
         "nome": [
@@ -2770,7 +2852,8 @@
         "taxa fertilidade": "1.4",
         "medicos por mil": "2.3",
         "receita imposto": "11.90%",
-        "emissoes co2": "1114"
+        "emissoes co2": "1114",
+        "flag": "https://www.worldometers.info/img/flags/ja-flag.gif"
     },
     "Jordan": {
         "nome": [
@@ -2802,7 +2885,8 @@
         "taxa fertilidade": "3.6",
         "medicos por mil": "2.6",
         "receita imposto": "15.10%",
-        "emissoes co2": "7"
+        "emissoes co2": "7",
+        "flag": "https://www.worldometers.info/img/flags/jo-flag.gif"
     },
     "Kazakhstan": {
         "nome": [
@@ -2834,7 +2918,8 @@
         "taxa fertilidade": "2.7",
         "medicos por mil": "3.3",
         "receita imposto": "11.70%",
-        "emissoes co2": "7091"
+        "emissoes co2": "7091",
+        "flag": "https://www.worldometers.info/img/flags/kz-flag.gif"
     },
     "Kenya": {
         "nome": [
@@ -2866,7 +2951,8 @@
         "taxa fertilidade": "4.1",
         "medicos por mil": "0.2",
         "receita imposto": "15.10%",
-        "emissoes co2": "750"
+        "emissoes co2": "750",
+        "flag": "https://www.worldometers.info/img/flags/ke-flag.gif"
     },
     "Kiribati": {
         "nome": [
@@ -2898,7 +2984,8 @@
         "taxa fertilidade": "3.8",
         "medicos por mil": "0.2",
         "receita imposto": "22.00%",
-        "emissoes co2": "0"
+        "emissoes co2": "0",
+        "flag": "https://www.worldometers.info/img/flags/kr-flag.gif"
     },
     "Kuwait": {
         "nome": [
@@ -2930,7 +3017,8 @@
         "taxa fertilidade": "2.0",
         "medicos por mil": "1.9",
         "receita imposto": "1.40%",
-        "emissoes co2": "6941"
+        "emissoes co2": "6941",
+        "flag": "https://www.worldometers.info/img/flags/ku-flag.gif"
     },
     "Kyrgyzstan": {
         "nome": [
@@ -2962,13 +3050,13 @@
         "taxa fertilidade": "3.1",
         "medicos por mil": "1.9",
         "receita imposto": "18.00%",
-        "emissoes co2": "80"
+        "emissoes co2": "80",
+        "flag": "https://www.worldometers.info/img/flags/kg-flag.gif"
     },
     "Laos": {
         "nome": [
             "Laos",
-            "Lao People's Democratic Republic",
-            "Lao PDR"
+            "Lao People's Democratic Republic"
         ],
         "area": "236,800",
         "capital": "Vientiane",
@@ -2996,7 +3084,8 @@
         "taxa fertilidade": "2.9",
         "medicos por mil": "0.2",
         "receita imposto": "12.90%",
-        "emissoes co2": "72"
+        "emissoes co2": "72",
+        "flag": "https://www.worldometers.info/img/flags/la-flag.gif"
     },
     "Latvia": {
         "nome": [
@@ -3028,7 +3117,8 @@
         "taxa fertilidade": "1.5",
         "medicos por mil": "3.2",
         "receita imposto": "22.90%",
-        "emissoes co2": "108"
+        "emissoes co2": "108",
+        "flag": "https://www.worldometers.info/img/flags/lg-flag.gif"
     },
     "Lebanon": {
         "nome": [
@@ -3060,7 +3150,8 @@
         "taxa fertilidade": "1.7",
         "medicos por mil": "2.4",
         "receita imposto": "15.30%",
-        "emissoes co2": "7"
+        "emissoes co2": "7",
+        "flag": "https://www.worldometers.info/img/flags/le-flag.gif"
     },
     "Lesotho": {
         "nome": [
@@ -3092,7 +3183,8 @@
         "taxa fertilidade": "3.3",
         "medicos por mil": "",
         "receita imposto": "31.60%",
-        "emissoes co2": "31"
+        "emissoes co2": "31",
+        "flag": "https://www.worldometers.info/img/flags/lt-flag.gif"
     },
     "Liberia": {
         "nome": [
@@ -3124,7 +3216,8 @@
         "taxa fertilidade": "4.8",
         "medicos por mil": "",
         "receita imposto": "12.90%",
-        "emissoes co2": "73"
+        "emissoes co2": "73",
+        "flag": "https://www.worldometers.info/img/flags/li-flag.gif"
     },
     "Libya": {
         "nome": [
@@ -3156,7 +3249,8 @@
         "taxa fertilidade": "2.4",
         "medicos por mil": "2.1",
         "receita imposto": "",
-        "emissoes co2": "1505"
+        "emissoes co2": "1505",
+        "flag": "https://www.worldometers.info/img/flags/ly-flag.gif"
     },
     "Liechtenstein": {
         "nome": [
@@ -3188,7 +3282,8 @@
         "taxa fertilidade": "1.5",
         "medicos por mil": "",
         "receita imposto": "",
-        "emissoes co2": "1"
+        "emissoes co2": "1",
+        "flag": "https://www.worldometers.info/img/flags/ls-flag.gif"
     },
     "Lithuania": {
         "nome": [
@@ -3220,7 +3315,8 @@
         "taxa fertilidade": "1.6",
         "medicos por mil": "4.3",
         "receita imposto": "16.90%",
-        "emissoes co2": "74"
+        "emissoes co2": "74",
+        "flag": "https://www.worldometers.info/img/flags/lh-flag.gif"
     },
     "Luxembourg": {
         "nome": [
@@ -3252,7 +3348,8 @@
         "taxa fertilidade": "1.5",
         "medicos por mil": "2.9",
         "receita imposto": "26.50%",
-        "emissoes co2": "6"
+        "emissoes co2": "6",
+        "flag": "https://www.worldometers.info/img/flags/lu-flag.gif"
     },
     "Madagascar": {
         "nome": [
@@ -3284,7 +3381,8 @@
         "taxa fertilidade": "4.4",
         "medicos por mil": "0.1",
         "receita imposto": "10.20%",
-        "emissoes co2": "129"
+        "emissoes co2": "129",
+        "flag": "https://www.worldometers.info/img/flags/ma-flag.gif"
     },
     "Malawi": {
         "nome": [
@@ -3316,7 +3414,8 @@
         "taxa fertilidade": "4.9",
         "medicos por mil": "",
         "receita imposto": "17.30%",
-        "emissoes co2": "89"
+        "emissoes co2": "89",
+        "flag": "https://www.worldometers.info/img/flags/mi-flag.gif"
     },
     "Malaysia": {
         "nome": [
@@ -3348,7 +3447,8 @@
         "taxa fertilidade": "2.1",
         "medicos por mil": "1.3",
         "receita imposto": "12.00%",
-        "emissoes co2": "3738"
+        "emissoes co2": "3738",
+        "flag": "https://www.worldometers.info/img/flags/my-flag.gif"
     },
     "Maldives": {
         "nome": [
@@ -3380,7 +3480,8 @@
         "taxa fertilidade": "2.2",
         "medicos por mil": "",
         "receita imposto": "19.50%",
-        "emissoes co2": "0"
+        "emissoes co2": "0",
+        "flag": "https://www.worldometers.info/img/flags/mv-flag.gif"
     },
     "Mali": {
         "nome": [
@@ -3412,7 +3513,8 @@
         "taxa fertilidade": "6.4",
         "medicos por mil": "",
         "receita imposto": "11.60%",
-        "emissoes co2": "55"
+        "emissoes co2": "55",
+        "flag": "https://www.worldometers.info/img/flags/ml-flag.gif"
     },
     "Malta": {
         "nome": [
@@ -3444,7 +3546,8 @@
         "taxa fertilidade": "1.4",
         "medicos por mil": "3.9",
         "receita imposto": "26.20%",
-        "emissoes co2": "1"
+        "emissoes co2": "1",
+        "flag": "https://www.worldometers.info/img/flags/mt-flag.gif"
     },
     "MarshallIslands": {
         "nome": [
@@ -3476,7 +3579,8 @@
         "taxa fertilidade": "4.1",
         "medicos por mil": "0.5",
         "receita imposto": "17.80%",
-        "emissoes co2": "0"
+        "emissoes co2": "0",
+        "flag": "https://www.worldometers.info/img/flags/rm-flag.gif"
     },
     "Mauritania": {
         "nome": [
@@ -3508,7 +3612,8 @@
         "taxa fertilidade": "4.9",
         "medicos por mil": "",
         "receita imposto": "",
-        "emissoes co2": "31"
+        "emissoes co2": "31",
+        "flag": "https://www.worldometers.info/img/flags/mr-flag.gif"
     },
     "Mauritius": {
         "nome": [
@@ -3540,7 +3645,8 @@
         "taxa fertilidade": "1.5",
         "medicos por mil": "",
         "receita imposto": "19.10%",
-        "emissoes co2": "10"
+        "emissoes co2": "10",
+        "flag": "https://www.worldometers.info/img/flags/mp-flag.gif"
     },
     "Mexico": {
         "nome": [
@@ -3572,7 +3678,8 @@
         "taxa fertilidade": "2.3",
         "medicos por mil": "2.1",
         "receita imposto": "13.10%",
-        "emissoes co2": "8514"
+        "emissoes co2": "8514",
+        "flag": "https://www.worldometers.info/img/flags/mx-flag.gif"
     },
     "Micronesia": {
         "nome": [
@@ -3606,7 +3713,8 @@
         "taxa fertilidade": "3.3",
         "medicos por mil": "",
         "receita imposto": "25.20%",
-        "emissoes co2": "0"
+        "emissoes co2": "0",
+        "flag": "https://www.worldometers.info/img/flags/fm-flag.gif"
     },
     "Moldova": {
         "nome": [
@@ -3639,7 +3747,8 @@
         "taxa fertilidade": "1.3",
         "medicos por mil": "2.5",
         "receita imposto": "17.70%",
-        "emissoes co2": "15"
+        "emissoes co2": "15",
+        "flag": "https://www.worldometers.info/img/flags/md-flag.gif"
     },
     "Monaco": {
         "nome": [
@@ -3671,7 +3780,8 @@
         "taxa fertilidade": 1.5,
         "medicos por mil": "6.6",
         "receita imposto": "",
-        "emissoes co2": 4.2
+        "emissoes co2": 4.2,
+        "flag": "https://www.worldometers.info/img/flags/mn-flag.gif"
     },
     "Mongolia": {
         "nome": [
@@ -3703,7 +3813,8 @@
         "taxa fertilidade": "2.8",
         "medicos por mil": "2.9",
         "receita imposto": "16.80%",
-        "emissoes co2": "677"
+        "emissoes co2": "677",
+        "flag": "https://www.worldometers.info/img/flags/mg-flag.gif"
     },
     "Montenegro": {
         "nome": [
@@ -3735,7 +3846,8 @@
         "taxa fertilidade": "1.7",
         "medicos por mil": "2.3",
         "receita imposto": "",
-        "emissoes co2": "29"
+        "emissoes co2": "29",
+        "flag": "https://www.worldometers.info/img/flags/mj-flag.gif"
     },
     "Morocco": {
         "nome": [
@@ -3767,7 +3879,8 @@
         "taxa fertilidade": "2.6",
         "medicos por mil": "0.6",
         "receita imposto": "21.90%",
-        "emissoes co2": "78"
+        "emissoes co2": "78",
+        "flag": "https://www.worldometers.info/img/flags/mo-flag.gif"
     },
     "Mozambique": {
         "nome": [
@@ -3799,7 +3912,8 @@
         "taxa fertilidade": "5.4",
         "medicos por mil": "0.1",
         "receita imposto": "0.00%",
-        "emissoes co2": "779"
+        "emissoes co2": "779",
+        "flag": "https://www.worldometers.info/img/flags/mz-flag.gif"
     },
     "Myanmar": {
         "nome": [
@@ -3832,7 +3946,8 @@
         "taxa fertilidade": "2.3",
         "medicos por mil": "0.6",
         "receita imposto": "5.40%",
-        "emissoes co2": "1078"
+        "emissoes co2": "1078",
+        "flag": "https://www.worldometers.info/img/flags/bm-flag.gif"
     },
     "Namibia": {
         "nome": [
@@ -3864,7 +3979,8 @@
         "taxa fertilidade": "3.6",
         "medicos por mil": "",
         "receita imposto": "27.10%",
-        "emissoes co2": "19"
+        "emissoes co2": "19",
+        "flag": "https://www.worldometers.info/img/flags/wa-flag.gif"
     },
     "Nauru": {
         "nome": [
@@ -3896,7 +4012,8 @@
         "taxa fertilidade": "3.9",
         "medicos por mil": "",
         "receita imposto": "",
-        "emissoes co2": "0"
+        "emissoes co2": "0",
+        "flag": "https://www.worldometers.info/img/flags/nr-flag.gif"
     },
     "Nepal": {
         "nome": [
@@ -3928,7 +4045,8 @@
         "taxa fertilidade": "2.3",
         "medicos por mil": "",
         "receita imposto": "20.70%",
-        "emissoes co2": "451"
+        "emissoes co2": "451",
+        "flag": "https://www.worldometers.info/img/flags/np-flag.gif"
     },
     "Netherlands": {
         "nome": [
@@ -3960,7 +4078,8 @@
         "taxa fertilidade": "1.7",
         "medicos por mil": "3.4",
         "receita imposto": "23.00%",
-        "emissoes co2": "2447"
+        "emissoes co2": "2447",
+        "flag": "https://www.worldometers.info/img/flags/nl-flag.gif"
     },
     "NewZealand": {
         "nome": [
@@ -3992,7 +4111,8 @@
         "taxa fertilidade": "2.0",
         "medicos por mil": "2.9",
         "receita imposto": "29.00%",
-        "emissoes co2": "783"
+        "emissoes co2": "783",
+        "flag": "https://www.worldometers.info/img/flags/nz-flag.gif"
     },
     "Nicaragua": {
         "nome": [
@@ -4024,7 +4144,8 @@
         "taxa fertilidade": "2.3",
         "medicos por mil": "0.9",
         "receita imposto": "15.60%",
-        "emissoes co2": "91"
+        "emissoes co2": "91",
+        "flag": "https://www.worldometers.info/img/flags/nu-flag.gif"
     },
     "Niger": {
         "nome": [
@@ -4056,7 +4177,8 @@
         "taxa fertilidade": "7.4",
         "medicos por mil": "",
         "receita imposto": "11.80%",
-        "emissoes co2": "101"
+        "emissoes co2": "101",
+        "flag": "https://www.worldometers.info/img/flags/ng-flag.gif"
     },
     "Nigeria": {
         "nome": [
@@ -4088,14 +4210,14 @@
         "taxa fertilidade": "5.7",
         "medicos por mil": "",
         "receita imposto": "1.50%",
-        "emissoes co2": "10851"
+        "emissoes co2": "10851",
+        "flag": "https://www.worldometers.info/img/flags/ni-flag.gif"
     },
     "NorthKorea": {
         "nome": [
             "North Korea",
             "Democratic People's Republic of Korea",
-            "Korea, North",
-            "Dem. Rep. Korea"
+            "Korea, North"
         ],
         "area": "120,538",
         "capital": "Pyongyang",
@@ -4123,7 +4245,8 @@
         "taxa fertilidade": "2.0",
         "medicos por mil": "2.8",
         "receita imposto": "",
-        "emissoes co2": "871"
+        "emissoes co2": "871",
+        "flag": "https://www.worldometers.info/img/flags/kn-flag.gif"
     },
     "NorthMacedonia": {
         "nome": [
@@ -4157,7 +4280,8 @@
         "taxa fertilidade": "1.5",
         "medicos por mil": "2.8",
         "receita imposto": "",
-        "emissoes co2": "53"
+        "emissoes co2": "53",
+        "flag": "https://www.worldometers.info/img/flags/mk-flag.gif"
     },
     "Norway": {
         "nome": [
@@ -4189,7 +4313,8 @@
         "taxa fertilidade": "1.8",
         "medicos por mil": "4.4",
         "receita imposto": "23.90%",
-        "emissoes co2": "8204"
+        "emissoes co2": "8204",
+        "flag": "https://www.worldometers.info/img/flags/no-flag.gif"
     },
     "Oman": {
         "nome": [
@@ -4221,7 +4346,8 @@
         "taxa fertilidade": "2.9",
         "medicos por mil": "1.5",
         "receita imposto": "2.50%",
-        "emissoes co2": "3101"
+        "emissoes co2": "3101",
+        "flag": "https://www.worldometers.info/img/flags/mu-flag.gif"
     },
     "Pakistan": {
         "nome": [
@@ -4253,7 +4379,8 @@
         "taxa fertilidade": "3.7",
         "medicos por mil": "0.8",
         "receita imposto": "9.20%",
-        "emissoes co2": "2202"
+        "emissoes co2": "2202",
+        "flag": "https://www.worldometers.info/img/flags/pk-flag.gif"
     },
     "Palau": {
         "nome": [
@@ -4285,13 +4412,13 @@
         "taxa fertilidade": "2.2",
         "medicos por mil": "",
         "receita imposto": "21.30%",
-        "emissoes co2": 15.8
+        "emissoes co2": 15.8,
+        "flag": "https://www.worldometers.info/img/flags/ps-flag.gif"
     },
     "Palestine": {
         "nome": [
             "Palestinian National Authority",
-            "State of Palestine",
-            "Palestine"
+            "State of Palestine"
         ],
         "area": "6020",
         "capital": "Jerusalem",
@@ -4319,7 +4446,8 @@
         "taxa fertilidade": "4.2",
         "medicos por mil": "",
         "receita imposto": "",
-        "emissoes co2": "9"
+        "emissoes co2": "9",
+        "flag": "https://www.worldometers.info/img/flags/palestine-flag.gif"
     },
     "Panama": {
         "nome": [
@@ -4351,7 +4479,8 @@
         "taxa fertilidade": "2.6",
         "medicos por mil": "1.6",
         "receita imposto": "",
-        "emissoes co2": "31"
+        "emissoes co2": "31",
+        "flag": "https://www.worldometers.info/img/flags/pm-flag.gif"
     },
     "PapuaNewGuinea": {
         "nome": [
@@ -4383,7 +4512,8 @@
         "taxa fertilidade": "3.8",
         "medicos por mil": "",
         "receita imposto": "13.60%",
-        "emissoes co2": "114"
+        "emissoes co2": "114",
+        "flag": "https://www.worldometers.info/img/flags/pp-flag.gif"
     },
     "Paraguay": {
         "nome": [
@@ -4415,7 +4545,8 @@
         "taxa fertilidade": "2.6",
         "medicos por mil": "1.3",
         "receita imposto": "10.00%",
-        "emissoes co2": "325"
+        "emissoes co2": "325",
+        "flag": "https://www.worldometers.info/img/flags/pa-flag.gif"
     },
     "Peru": {
         "nome": [
@@ -4447,7 +4578,8 @@
         "taxa fertilidade": "2.5",
         "medicos por mil": "1.1",
         "receita imposto": "14.30%",
-        "emissoes co2": "1020"
+        "emissoes co2": "1020",
+        "flag": "https://www.worldometers.info/img/flags/pe-flag.gif"
     },
     "Philippines": {
         "nome": [
@@ -4479,7 +4611,8 @@
         "taxa fertilidade": "3.0",
         "medicos por mil": "",
         "receita imposto": "14.00%",
-        "emissoes co2": "991"
+        "emissoes co2": "991",
+        "flag": "https://www.worldometers.info/img/flags/rp-flag.gif"
     },
     "Poland": {
         "nome": [
@@ -4511,7 +4644,8 @@
         "taxa fertilidade": "1.3",
         "medicos por mil": "2.3",
         "receita imposto": "17.40%",
-        "emissoes co2": "2819"
+        "emissoes co2": "2819",
+        "flag": "https://www.worldometers.info/img/flags/pl-flag.gif"
     },
     "Portugal": {
         "nome": [
@@ -4543,7 +4677,8 @@
         "taxa fertilidade": "1.3",
         "medicos por mil": "4.4",
         "receita imposto": "22.80%",
-        "emissoes co2": "250"
+        "emissoes co2": "250",
+        "flag": "https://www.worldometers.info/img/flags/po-flag.gif"
     },
     "Qatar": {
         "nome": [
@@ -4575,7 +4710,8 @@
         "taxa fertilidade": "2.0",
         "medicos por mil": "2.0",
         "receita imposto": "14.70%",
-        "emissoes co2": "9166"
+        "emissoes co2": "9166",
+        "flag": "https://www.worldometers.info/img/flags/qa-flag.gif"
     },
     "Romania": {
         "nome": [
@@ -4607,7 +4743,8 @@
         "taxa fertilidade": "1.5",
         "medicos por mil": "2.7",
         "receita imposto": "14.60%",
-        "emissoes co2": "1109"
+        "emissoes co2": "1109",
+        "flag": "https://www.worldometers.info/img/flags/ro-flag.gif"
     },
     "Russia": {
         "nome": [
@@ -4640,7 +4777,8 @@
         "taxa fertilidade": "1.7",
         "medicos por mil": "3.3",
         "receita imposto": "11.40%",
-        "emissoes co2": "54829"
+        "emissoes co2": "54829",
+        "flag": "https://www.worldometers.info/img/flags/rs-flag.gif"
     },
     "Rwanda": {
         "nome": [
@@ -4672,7 +4810,8 @@
         "taxa fertilidade": "4.2",
         "medicos por mil": "",
         "receita imposto": "14.30%",
-        "emissoes co2": "84"
+        "emissoes co2": "84",
+        "flag": "https://www.worldometers.info/img/flags/rw-flag.gif"
     },
     "SaintKittsandNevis": {
         "nome": [
@@ -4705,7 +4844,8 @@
         "taxa fertilidade": 2.2,
         "medicos por mil": "",
         "receita imposto": "18.50%",
-        "emissoes co2": "0"
+        "emissoes co2": "0",
+        "flag": "https://www.worldometers.info/img/flags/sc-flag.gif"
     },
     "SaintLucia": {
         "nome": [
@@ -4737,7 +4877,8 @@
         "taxa fertilidade": "1.5",
         "medicos por mil": "",
         "receita imposto": "18.20%",
-        "emissoes co2": "0"
+        "emissoes co2": "0",
+        "flag": "https://www.worldometers.info/img/flags/st-flag.gif"
     },
     "SaintVincentandtheGrenadines": {
         "nome": [
@@ -4769,7 +4910,8 @@
         "taxa fertilidade": "2.0",
         "medicos por mil": "",
         "receita imposto": "25.40%",
-        "emissoes co2": "0"
+        "emissoes co2": "0",
+        "flag": "https://www.worldometers.info/img/flags/vc-flag.gif"
     },
     "Samoa": {
         "nome": [
@@ -4801,7 +4943,8 @@
         "taxa fertilidade": "4.2",
         "medicos por mil": "",
         "receita imposto": "25.50%",
-        "emissoes co2": "2"
+        "emissoes co2": "2",
+        "flag": "https://www.worldometers.info/img/flags/ws-flag.gif"
     },
     "SanMarino": {
         "nome": [
@@ -4833,7 +4976,8 @@
         "taxa fertilidade": 1.4,
         "medicos por mil": "6.4",
         "receita imposto": "18.10%",
-        "emissoes co2": 1.8
+        "emissoes co2": 1.8,
+        "flag": "https://www.worldometers.info/img/flags/sm-flag.gif"
     },
     "SaudiArabia": {
         "nome": [
@@ -4865,7 +5009,8 @@
         "taxa fertilidade": "2.7",
         "medicos por mil": "2.6",
         "receita imposto": "8.90%",
-        "emissoes co2": "25904"
+        "emissoes co2": "25904",
+        "flag": "https://www.worldometers.info/img/flags/sa-flag.gif"
     },
     "Senegal": {
         "nome": [
@@ -4897,7 +5042,8 @@
         "taxa fertilidade": "5.0",
         "medicos por mil": "",
         "receita imposto": "16.30%",
-        "emissoes co2": "77"
+        "emissoes co2": "77",
+        "flag": "https://www.worldometers.info/img/flags/sg-flag.gif"
     },
     "Serbia": {
         "nome": [
@@ -4929,7 +5075,8 @@
         "taxa fertilidade": "1.6",
         "medicos por mil": "2.5",
         "receita imposto": "18.60%",
-        "emissoes co2": "393"
+        "emissoes co2": "393",
+        "flag": "https://www.worldometers.info/img/flags/ri-flag.gif"
     },
     "Seychelles": {
         "nome": [
@@ -4961,7 +5108,8 @@
         "taxa fertilidade": "2.4",
         "medicos por mil": "1.0",
         "receita imposto": "34.10%",
-        "emissoes co2": "0"
+        "emissoes co2": "0",
+        "flag": "https://www.worldometers.info/img/flags/se-flag.gif"
     },
     "SierraLeone": {
         "nome": [
@@ -4993,7 +5141,8 @@
         "taxa fertilidade": "4.8",
         "medicos por mil": "",
         "receita imposto": "8.60%",
-        "emissoes co2": "53"
+        "emissoes co2": "53",
+        "flag": "https://www.worldometers.info/img/flags/sl-flag.gif"
     },
     "Singapore": {
         "nome": [
@@ -5025,7 +5174,8 @@
         "taxa fertilidade": "1.2",
         "medicos por mil": "1.9",
         "receita imposto": "13.10%",
-        "emissoes co2": "27"
+        "emissoes co2": "27",
+        "flag": "https://www.worldometers.info/img/flags/sn-flag.gif"
     },
     "Slovakia": {
         "nome": [
@@ -5057,7 +5207,8 @@
         "taxa fertilidade": "1.4",
         "medicos por mil": "3.4",
         "receita imposto": "18.70%",
-        "emissoes co2": "264"
+        "emissoes co2": "264",
+        "flag": "https://www.worldometers.info/img/flags/lo-flag.gif"
     },
     "Slovenia": {
         "nome": [
@@ -5089,7 +5240,8 @@
         "taxa fertilidade": "1.6",
         "medicos por mil": "2.8",
         "receita imposto": "18.60%",
-        "emissoes co2": "154"
+        "emissoes co2": "154",
+        "flag": "https://www.worldometers.info/img/flags/si-flag.gif"
     },
     "SolomonIslands": {
         "nome": [
@@ -5121,7 +5273,8 @@
         "taxa fertilidade": "4.1",
         "medicos por mil": "0.2",
         "receita imposto": "29.50%",
-        "emissoes co2": "3"
+        "emissoes co2": "3",
+        "flag": "https://www.worldometers.info/img/flags/bp-flag.gif"
     },
     "Somalia": {
         "nome": [
@@ -5153,7 +5306,8 @@
         "taxa fertilidade": "6.6",
         "medicos por mil": "",
         "receita imposto": "0.00%",
-        "emissoes co2": "129"
+        "emissoes co2": "129",
+        "flag": "https://www.worldometers.info/img/flags/so-flag.gif"
     },
     "SouthAfrica": {
         "nome": [
@@ -5185,7 +5339,8 @@
         "taxa fertilidade": "2.6",
         "medicos por mil": "0.8",
         "receita imposto": "27.50%",
-        "emissoes co2": "7102"
+        "emissoes co2": "7102",
+        "flag": "https://www.worldometers.info/img/flags/sf-flag.gif"
     },
     "SouthKorea": {
         "nome": [
@@ -5219,7 +5374,8 @@
         "taxa fertilidade": "1.2",
         "medicos por mil": "2.2",
         "receita imposto": "15.60%",
-        "emissoes co2": "2023"
+        "emissoes co2": "2023",
+        "flag": "https://www.worldometers.info/img/flags/ks-flag.gif"
     },
     "SouthSudan": {
         "nome": [
@@ -5251,7 +5407,8 @@
         "taxa fertilidade": "5.2",
         "medicos por mil": "",
         "receita imposto": "",
-        "emissoes co2": "337"
+        "emissoes co2": "337",
+        "flag": "https://www.worldometers.info/img/flags/od-flag.gif"
     },
     "Spain": {
         "nome": [
@@ -5283,7 +5440,8 @@
         "taxa fertilidade": "1.3",
         "medicos por mil": "3.8",
         "receita imposto": "14.20%",
-        "emissoes co2": "1432"
+        "emissoes co2": "1432",
+        "flag": "https://www.worldometers.info/img/flags/sp-flag.gif"
     },
     "SriLanka": {
         "nome": [
@@ -5315,7 +5473,8 @@
         "taxa fertilidade": "2.1",
         "medicos por mil": "",
         "receita imposto": "11.90%",
-        "emissoes co2": "179"
+        "emissoes co2": "179",
+        "flag": "https://www.worldometers.info/img/flags/ce-flag.gif"
     },
     "Sudan": {
         "nome": [
@@ -5347,7 +5506,8 @@
         "taxa fertilidade": "4.8",
         "medicos por mil": "3.1",
         "receita imposto": "8.00%",
-        "emissoes co2": "682"
+        "emissoes co2": "682",
+        "flag": "https://www.worldometers.info/img/flags/su-flag.gif"
     },
     "Suriname": {
         "nome": [
@@ -5379,7 +5539,8 @@
         "taxa fertilidade": "2.5",
         "medicos por mil": "",
         "receita imposto": "19.50%",
-        "emissoes co2": "44"
+        "emissoes co2": "44",
+        "flag": "https://www.worldometers.info/img/flags/ns-flag.gif"
     },
     "Sweden": {
         "nome": [
@@ -5411,7 +5572,8 @@
         "taxa fertilidade": "1.9",
         "medicos por mil": "4.1",
         "receita imposto": "27.90%",
-        "emissoes co2": "1428"
+        "emissoes co2": "1428",
+        "flag": "https://www.worldometers.info/img/flags/sw-flag.gif"
     },
     "Switzerland": {
         "nome": [
@@ -5443,7 +5605,8 @@
         "taxa fertilidade": "1.5",
         "medicos por mil": "4.1",
         "receita imposto": "10.10%",
-        "emissoes co2": "552"
+        "emissoes co2": "552",
+        "flag": "https://www.worldometers.info/img/flags/sz-flag.gif"
     },
     "Syria": {
         "nome": [
@@ -5476,7 +5639,8 @@
         "taxa fertilidade": "3.1",
         "medicos por mil": "1.5",
         "receita imposto": "14.20%",
-        "emissoes co2": "237"
+        "emissoes co2": "237",
+        "flag": "https://www.worldometers.info/img/flags/sy-flag.gif"
     },
     "Tajikistan": {
         "nome": [
@@ -5508,7 +5672,8 @@
         "taxa fertilidade": "3.5",
         "medicos por mil": "1.7",
         "receita imposto": "9.80%",
-        "emissoes co2": "76"
+        "emissoes co2": "76",
+        "flag": "https://www.worldometers.info/img/flags/ti-flag.gif"
     },
     "Tanzania": {
         "nome": [
@@ -5541,7 +5706,8 @@
         "taxa fertilidade": "5.2",
         "medicos por mil": "",
         "receita imposto": "11.50%",
-        "emissoes co2": "935"
+        "emissoes co2": "935",
+        "flag": "https://www.worldometers.info/img/flags/tz-flag.gif"
     },
     "Thailand": {
         "nome": [
@@ -5573,7 +5739,8 @@
         "taxa fertilidade": "1.5",
         "medicos por mil": "",
         "receita imposto": "14.90%",
-        "emissoes co2": "3338"
+        "emissoes co2": "3338",
+        "flag": "https://www.worldometers.info/img/flags/th-flag.gif"
     },
     "EastTimor": {
         "nome": [
@@ -5606,7 +5773,8 @@
         "taxa fertilidade": "5.9",
         "medicos por mil": "0.1",
         "receita imposto": "25.00%",
-        "emissoes co2": "143"
+        "emissoes co2": "143",
+        "flag": "https://www.worldometers.info/img/flags/tt-flag.gif"
     },
     "Togo": {
         "nome": [
@@ -5638,7 +5806,8 @@
         "taxa fertilidade": "4.7",
         "medicos por mil": "",
         "receita imposto": "16.90%",
-        "emissoes co2": "111"
+        "emissoes co2": "111",
+        "flag": "https://www.worldometers.info/img/flags/to-flag.gif"
     },
     "Tonga": {
         "nome": [
@@ -5670,7 +5839,8 @@
         "taxa fertilidade": "3.8",
         "medicos por mil": "",
         "receita imposto": "22.30%",
-        "emissoes co2": "0"
+        "emissoes co2": "0",
+        "flag": "https://www.worldometers.info/img/flags/tn-flag.gif"
     },
     "TrinidadandTobago": {
         "nome": [
@@ -5703,7 +5873,8 @@
         "taxa fertilidade": "1.8",
         "medicos por mil": "",
         "receita imposto": "19.50%",
-        "emissoes co2": "1663"
+        "emissoes co2": "1663",
+        "flag": "https://www.worldometers.info/img/flags/td-flag.gif"
     },
     "Tunisia": {
         "nome": [
@@ -5735,7 +5906,8 @@
         "taxa fertilidade": "2.3",
         "medicos por mil": "1.6",
         "receita imposto": "21.10%",
-        "emissoes co2": "274"
+        "emissoes co2": "274",
+        "flag": "https://www.worldometers.info/img/flags/ts-flag.gif"
     },
     "Turkey": {
         "nome": [
@@ -5767,7 +5939,8 @@
         "taxa fertilidade": "2.1",
         "medicos por mil": "1.7",
         "receita imposto": "17.90%",
-        "emissoes co2": "1303"
+        "emissoes co2": "1303",
+        "flag": "https://www.worldometers.info/img/flags/tu-flag.gif"
     },
     "Turkmenistan": {
         "nome": [
@@ -5799,7 +5972,8 @@
         "taxa fertilidade": "3.0",
         "medicos por mil": "2.3",
         "receita imposto": "",
-        "emissoes co2": "3270"
+        "emissoes co2": "3270",
+        "flag": "https://www.worldometers.info/img/flags/tx-flag.gif"
     },
     "Tuvalu": {
         "nome": [
@@ -5831,7 +6005,8 @@
         "taxa fertilidade": "3.6",
         "medicos por mil": "",
         "receita imposto": "",
-        "emissoes co2": 0.1
+        "emissoes co2": 0.1,
+        "flag": "https://www.worldometers.info/img/flags/tv-flag.gif"
     },
     "Uganda": {
         "nome": [
@@ -5863,7 +6038,8 @@
         "taxa fertilidade": "5.9",
         "medicos por mil": "",
         "receita imposto": "11.70%",
-        "emissoes co2": "409"
+        "emissoes co2": "409",
+        "flag": "https://www.worldometers.info/img/flags/ug-flag.gif"
     },
     "Ukraine": {
         "nome": [
@@ -5895,7 +6071,8 @@
         "taxa fertilidade": "1.5",
         "medicos por mil": "3.0",
         "receita imposto": "20.10%",
-        "emissoes co2": "3203"
+        "emissoes co2": "3203",
+        "flag": "https://www.worldometers.info/img/flags/up-flag.gif"
     },
     "UnitedArabEmirates": {
         "nome": [
@@ -5927,7 +6104,8 @@
         "taxa fertilidade": "1.8",
         "medicos por mil": "1.6",
         "receita imposto": "0.10%",
-        "emissoes co2": "8642"
+        "emissoes co2": "8642",
+        "flag": "https://www.worldometers.info/img/flags/ae-flag.gif"
     },
     "UnitedKingdom": {
         "nome": [
@@ -5959,7 +6137,8 @@
         "taxa fertilidade": "1.9",
         "medicos por mil": "2.8",
         "receita imposto": "25.50%",
-        "emissoes co2": "4482"
+        "emissoes co2": "4482",
+        "flag": "https://www.worldometers.info/img/flags/uk-flag.gif"
     },
     "UnitedStates": {
         "nome": [
@@ -5993,7 +6172,8 @@
         "taxa fertilidade": "1.9",
         "medicos por mil": "2.6",
         "receita imposto": "9.60%",
-        "emissoes co2": "83887"
+        "emissoes co2": "83887",
+        "flag": "https://www.worldometers.info/img/flags/us-flag.gif"
     },
     "Uruguay": {
         "nome": [
@@ -6025,7 +6205,8 @@
         "taxa fertilidade": "2.0",
         "medicos por mil": "",
         "receita imposto": "20.10%",
-        "emissoes co2": "113"
+        "emissoes co2": "113",
+        "flag": "https://www.worldometers.info/img/flags/uy-flag.gif"
     },
     "Uzbekistan": {
         "nome": [
@@ -6057,7 +6238,8 @@
         "taxa fertilidade": "2.4",
         "medicos por mil": "2.5",
         "receita imposto": "14.80%",
-        "emissoes co2": "2339"
+        "emissoes co2": "2339",
+        "flag": "https://www.worldometers.info/img/flags/uz-flag.gif"
     },
     "Vanuatu": {
         "nome": [
@@ -6089,7 +6271,8 @@
         "taxa fertilidade": "3.4",
         "medicos por mil": "0.2",
         "receita imposto": "17.80%",
-        "emissoes co2": "1"
+        "emissoes co2": "1",
+        "flag": "https://www.worldometers.info/img/flags/nh-flag.gif"
     },
     "Venezuela": {
         "nome": [
@@ -6122,7 +6305,8 @@
         "taxa fertilidade": "2.4",
         "medicos por mil": "",
         "receita imposto": "",
-        "emissoes co2": "7460"
+        "emissoes co2": "7460",
+        "flag": "https://www.worldometers.info/img/flags/ve-flag.gif"
     },
     "Vietnam": {
         "nome": [
@@ -6154,7 +6338,8 @@
         "taxa fertilidade": "2.0",
         "medicos por mil": "1.2",
         "receita imposto": "19.10%",
-        "emissoes co2": "2977"
+        "emissoes co2": "2977",
+        "flag": "https://www.worldometers.info/img/flags/vm-flag.gif"
     },
     "Yemen": {
         "nome": [
@@ -6186,7 +6371,8 @@
         "taxa fertilidade": "4.4",
         "medicos por mil": "0.3",
         "receita imposto": "",
-        "emissoes co2": "668"
+        "emissoes co2": "668",
+        "flag": "https://www.worldometers.info/img/flags/ym-flag.gif"
     },
     "Zambia": {
         "nome": [
@@ -6218,7 +6404,8 @@
         "taxa fertilidade": "5.2",
         "medicos por mil": "0.2",
         "receita imposto": "16.20%",
-        "emissoes co2": "374"
+        "emissoes co2": "374",
+        "flag": "https://www.worldometers.info/img/flags/za-flag.gif"
     },
     "Zimbabwe": {
         "nome": [
@@ -6250,13 +6437,13 @@
         "taxa fertilidade": "4.0",
         "medicos por mil": "0.1",
         "receita imposto": "20.70%",
-        "emissoes co2": "482"
+        "emissoes co2": "482",
+        "flag": "https://www.worldometers.info/img/flags/zi-flag.gif"
     },
     "SãoToméandPríncipe": {
         "nome": [
             "Sao Tome and Principe",
-            "Sao Tome & Principe",
-            "São Tomé and Principe"
+            "Sao Tome & Principe"
         ],
         "area": "964",
         "capital": "São Tomé",
@@ -6284,6 +6471,7 @@
         "taxa fertilidade": "4.7",
         "medicos por mil": "",
         "receita imposto": "",
-        "emissoes co2": "1"
+        "emissoes co2": "1",
+        "flag": "https://www.worldometers.info/img/flags/tp-flag.gif"
     }
 }

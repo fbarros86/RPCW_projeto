@@ -160,6 +160,9 @@ lines = """
 :nome rdf:type owl:DatatypeProperty ;
                   rdfs:domain :Pais .
 
+###  http://www.rpcw.pt/rafa/ontologies/2024/paises#flag
+:flag rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Pais .
 
 #################################################################
 #    Classes
@@ -218,6 +221,7 @@ with open('datasets/countriesInfo.json', encoding='UTF-8') as f:
             :racio_sexos "{attributes.get('racio sexos', '')}" ;
             {receita_imposto}
             :taxa_desemprego "{attributes.get('taxa desemprego', '')}" ;
+            :flag "{attributes.get('flag', '')}" ;
             :taxa_fertilidade "{attributes.get('taxa fertilidade', '')}" .
 """
 

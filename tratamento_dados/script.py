@@ -646,7 +646,7 @@ def read_all_csv():
     
 def main():
     data = read_all_csv()
-    with open('datasets/countries.json', 'w', encoding='UTF-8') as f:
+    with open('datasets/countries.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=4)
 
     

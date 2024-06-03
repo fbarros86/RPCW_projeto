@@ -1434,11 +1434,10 @@
                       :Pais ;
             :nome "Republic of the Congo";
 :nome "Congo";
-:nome "Congo, Dem. Rep.";
 :nome "Congo, Repub. of the";
             :area "342,000" ;
             :capital "Brazzaville" ;
-            :costa "0.0" ;
+            :costa "-4.75522164" ;
             :densidade_populacional "16" ;
             :espetativa_de_vida "64.3" ;
             :exportacoes "2540" ;
@@ -1447,13 +1446,13 @@
             :importacoes "9793" ;
             :lado_em_que_conduz "right" ;
             :latitude "-0.228021" ;
-            :literacia "0.2" ;
+            :literacia "3.7" ;
             :longitude "15.827659" ;
-            :migracao_liquida "94.69" ;
+            :migracao_liquida "93.86" ;
             :moeda "Central African CFA franc" ;
             :mortalidade_infantil "36.2" ;
             :populacao "5,380,508" ;
-            :taxa_de_mortalidade "0.55" ;
+            :taxa_de_mortalidade "0.062" ;
             :taxa_de_natalidade "32.86" ;
             :telefones_por_1000 "76.0" ;
             :temperatura_media "24.74" ;
@@ -1629,6 +1628,7 @@
 :DemocraticRepublicoftheCongo rdf:type owl:NamedIndividual ,
                       :Pais ;
             :nome "Democratic Republic of the Congo";
+:nome "Congo, Dem. Rep.";
             :area "2,344,858" ;
             :capital "Kinshasa" ;
             :costa "37" ;

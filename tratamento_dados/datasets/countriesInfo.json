@@ -745,7 +745,7 @@
             "Brazil"
         ],
         "area": "8,515,770",
-        "capital": "Bras\ufffd\ufffd\ufffd",
+        "capital": "Bras���",
         "densidade populacional": "25",
         "espetativa de vida": "75.7",
         "exportacoes": "185235",
@@ -904,7 +904,8 @@
     "IvoryCoast": {
         "nome": [
             "Ivory Coast",
-            "Cote d'Ivoire"
+            "Cote d'Ivoire",
+            "Côte d'Ivoire"
         ],
         "area": "322,463",
         "capital": "Yamoussoukro",
@@ -1004,7 +1005,7 @@
             "Cameroon"
         ],
         "area": "475,440",
-        "capital": "Yaound\ufffd",
+        "capital": "Yaound�",
         "densidade populacional": "56",
         "espetativa de vida": "58.9",
         "exportacoes": "2130",
@@ -1055,7 +1056,7 @@
         "taxa de natalidade": "10.1",
         "telefones por 1000": 885.0,
         "costa": 50.93992331999999,
-        "temperatura media": "\u22124.03",
+        "temperatura media": "−4.03",
         "racio sexos": "98.5",
         "taxa desemprego": "7.1",
         "taxa fertilidade": "1.6",
@@ -1197,7 +1198,7 @@
             "Colombia"
         ],
         "area": "1,138,910",
-        "capital": "Bogot\ufffd",
+        "capital": "Bogot�",
         "densidade populacional": "46",
         "espetativa de vida": "77.1",
         "exportacoes": "31045",
@@ -1260,7 +1261,8 @@
         "nome": [
             "Republic of the Congo",
             "Congo",
-            "Congo, Repub. of the"
+            "Congo, Repub. of the",
+            "Republic of Congo"
         ],
         "area": "342,000",
         "capital": "Brazzaville",
@@ -1295,7 +1297,7 @@
             "Costa Rica"
         ],
         "area": "51,100",
-        "capital": "San Jos\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+        "capital": "San Jos������",
         "densidade populacional": "100",
         "espetativa de vida": "80.1",
         "exportacoes": "9908",
@@ -1307,7 +1309,7 @@
         "literacia": "340.7",
         "longitude": "-83.753428",
         "migracao liquida": "9.95",
-        "moeda": "Costa Rican col\u00f3n",
+        "moeda": "Costa Rican colón",
         "mortalidade infantil": "7.6",
         "populacao": "5,047,561",
         "taxa de mortalidade": "0.088",
@@ -2453,7 +2455,7 @@
             "Iceland"
         ],
         "area": "103,000",
-        "capital": "Reykjav\ufffd\ufffd",
+        "capital": "Reykjav��",
         "densidade populacional": "3",
         "espetativa de vida": "82.7",
         "exportacoes": "4450",
@@ -2465,7 +2467,7 @@
         "literacia": "647.7",
         "longitude": "-19.020835",
         "migracao liquida": "3.31",
-        "moeda": "Icelandic kr\u00f3na",
+        "moeda": "Icelandic króna",
         "mortalidade infantil": "1.5",
         "populacao": "361,313",
         "taxa de mortalidade": "0.086",
@@ -2965,7 +2967,8 @@
     "Laos": {
         "nome": [
             "Laos",
-            "Lao People's Democratic Republic"
+            "Lao People's Democratic Republic",
+            "Lao PDR"
         ],
         "area": "236,800",
         "capital": "Vientiane",
@@ -3352,7 +3355,7 @@
             "Maldives"
         ],
         "area": "298",
-        "capital": "Mal\ufffd",
+        "capital": "Mal�",
         "densidade populacional": "1,802",
         "espetativa de vida": "78.6",
         "exportacoes": "140",
@@ -3611,7 +3614,7 @@
             "Republic of Moldova"
         ],
         "area": "33,851",
-        "capital": "Chi\ufffd\ufffd\ufffd\ufffd",
+        "capital": "Chi����",
         "densidade populacional": "123",
         "espetativa de vida": "71.8",
         "exportacoes": "2045",
@@ -3687,7 +3690,7 @@
         "literacia": "55.1",
         "longitude": "103.846656",
         "migracao liquida": "53.79",
-        "moeda": "Mongolian t\u00f6gr\u00f6g",
+        "moeda": "Mongolian tögrög",
         "mortalidade infantil": "14",
         "populacao": "3,225,167",
         "taxa de mortalidade": "0.206",
@@ -4008,7 +4011,7 @@
         "literacia": "39.7",
         "longitude": "-85.207229",
         "migracao liquida": "29.11",
-        "moeda": "Nicaraguan c\u00f3rdoba",
+        "moeda": "Nicaraguan córdoba",
         "mortalidade infantil": "15.7",
         "populacao": "6,545,502",
         "taxa de mortalidade": "0.165",
@@ -4091,7 +4094,8 @@
         "nome": [
             "North Korea",
             "Democratic People's Republic of Korea",
-            "Korea, North"
+            "Korea, North",
+            "Dem. Rep. Korea"
         ],
         "area": "120,538",
         "capital": "Pyongyang",
@@ -4286,7 +4290,8 @@
     "Palestine": {
         "nome": [
             "Palestinian National Authority",
-            "State of Palestine"
+            "State of Palestine",
+            "Palestine"
         ],
         "area": "6020",
         "capital": "Jerusalem",
@@ -4385,7 +4390,7 @@
             "Paraguay"
         ],
         "area": "406,752",
-        "capital": "Asunci\ufffd\ufffd",
+        "capital": "Asunci��",
         "densidade populacional": "18",
         "espetativa de vida": "74.1",
         "exportacoes": "8494",
@@ -4397,7 +4402,7 @@
         "literacia": "49.2",
         "longitude": "-58.443832",
         "migracao liquida": "25.63",
-        "moeda": "Paraguayan guaran\u00ed",
+        "moeda": "Paraguayan guaraní",
         "mortalidade infantil": "17.2",
         "populacao": "7,044,636",
         "taxa de mortalidade": "0.224",
@@ -4493,7 +4498,7 @@
         "literacia": "306.3",
         "longitude": "19.145136",
         "migracao liquida": "8.51",
-        "moeda": "Polish z\u0142oty",
+        "moeda": "Polish złoty",
         "mortalidade infantil": "3.8",
         "populacao": "37,970,874",
         "taxa de mortalidade": "0.05",
@@ -4629,7 +4634,7 @@
         "taxa de natalidade": "11.5",
         "telefones por 1000": 734.0,
         "costa": 22.191034320000004,
-        "temperatura media": "\u22123.79",
+        "temperatura media": "−3.79",
         "racio sexos": "86.8",
         "taxa desemprego": "5.8",
         "taxa fertilidade": "1.7",
@@ -4783,7 +4788,7 @@
         "literacia": "75.2",
         "longitude": "-172.104629",
         "migracao liquida": "27.71",
-        "moeda": "Samoan t\u0101l\u0101",
+        "moeda": "Samoan tālā",
         "mortalidade infantil": "13.6",
         "populacao": "202,506",
         "taxa de mortalidade": "0.114",
@@ -5608,7 +5613,7 @@
             "Togo"
         ],
         "area": "56,785",
-        "capital": "Lom\ufffd",
+        "capital": "Lom�",
         "densidade populacional": "152",
         "espetativa de vida": "60.8",
         "exportacoes": "715",
@@ -5640,7 +5645,7 @@
             "Tonga"
         ],
         "area": "747",
-        "capital": "Nuku\ufffd\ufffd\ufffd\ufffd",
+        "capital": "Nuku����",
         "densidade populacional": "147",
         "espetativa de vida": "70.8",
         "exportacoes": "14",
@@ -5652,7 +5657,7 @@
         "literacia": "97.7",
         "longitude": "-175.198242",
         "migracao liquida": "12.62",
-        "moeda": "Tongan pa\u02bbanga",
+        "moeda": "Tongan paʻanga",
         "mortalidade infantil": "13.4",
         "populacao": "100,209",
         "taxa de mortalidade": "0.23",
@@ -6104,7 +6109,7 @@
         "literacia": "140.1",
         "longitude": "-66.58973",
         "migracao liquida": "22.2",
-        "moeda": "Venezuelan bol\u00edvar",
+        "moeda": "Venezuelan bolívar",
         "mortalidade infantil": "21.4",
         "populacao": "28,515,829",
         "taxa de mortalidade": "0.04",
@@ -6136,7 +6141,7 @@
         "literacia": "187.7",
         "longitude": "108.277199",
         "migracao liquida": "25.95",
-        "moeda": "Vietnamese \u0111\u1ed3ng",
+        "moeda": "Vietnamese đồng",
         "mortalidade infantil": "16.5",
         "populacao": "96,462,106",
         "taxa de mortalidade": "0.209",
@@ -6247,13 +6252,14 @@
         "receita imposto": "20.70%",
         "emissoes co2": "482"
     },
-    "S\u00e3oTom\u00e9andPr\u00edncipe": {
+    "SãoToméandPríncipe": {
         "nome": [
             "Sao Tome and Principe",
-            "Sao Tome & Principe"
+            "Sao Tome & Principe",
+            "São Tomé and Principe"
         ],
         "area": "964",
-        "capital": "S\u00e3o Tom\u00e9",
+        "capital": "São Tomé",
         "densidade populacional": "212.8",
         "espetativa de vida": 66.1,
         "exportacoes": "10",
@@ -6265,7 +6271,7 @@
         "literacia": "36.2",
         "longitude": "6.733333110809326",
         "migracao liquida": "43.11",
-        "moeda": "S\u00e3o Tom\u00e9 and Pr\u00edncipe dobra",
+        "moeda": "São Tomé and Príncipe dobra",
         "mortalidade infantil": "43.8",
         "populacao": "204",
         "taxa de mortalidade": "0.167",

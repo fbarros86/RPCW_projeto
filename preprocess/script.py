@@ -61,7 +61,7 @@ def name_treatment(names_not_in_list):
     # Modify the JSON data based on the provided names
     for name in names_not_in_list:
         if name == "Republic of Congo":
-            data["Congo"]["nome"].append("Republic of Congo")
+            data["RepublicoftheCongo"]["nome"].append("Republic of Congo")
         elif name == "Dem. Rep. Korea":
             data["NorthKorea"]["nome"].append("Dem. Rep. Korea")
         elif name == "Palestine":

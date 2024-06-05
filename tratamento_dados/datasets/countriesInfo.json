@@ -30,7 +30,8 @@
         "medicos por mil": "0.3",
         "receita imposto": "9.30%",
         "emissoes co2": "63",
-        "flag": "https://www.worldometers.info/img/flags/af-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/af-flag.gif",
+        "continente": "Asia"
     },
     "Albania": {
         "nome": [
@@ -63,7 +64,8 @@
         "medicos por mil": "1.3",
         "receita imposto": "18.60%",
         "emissoes co2": "84",
-        "flag": "https://www.worldometers.info/img/flags/al-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/al-flag.gif",
+        "continente": "Europa"
     },
     "Algeria": {
         "nome": [
@@ -96,7 +98,8 @@
         "medicos por mil": "",
         "receita imposto": "37.20%",
         "emissoes co2": "5900",
-        "flag": "https://www.worldometers.info/img/flags/ag-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ag-flag.gif",
+        "continente": "Africa"
     },
     "Andorra": {
         "nome": [
@@ -129,7 +132,8 @@
         "medicos por mil": "3.7",
         "receita imposto": "",
         "emissoes co2": "1",
-        "flag": "https://www.worldometers.info/img/flags/an-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/an-flag.gif",
+        "continente": "Europa"
     },
     "Angola": {
         "nome": [
@@ -162,7 +166,8 @@
         "medicos por mil": "",
         "receita imposto": "9.20%",
         "emissoes co2": "3902",
-        "flag": "https://www.worldometers.info/img/flags/ao-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ao-flag.gif",
+        "continente": "Africa"
     },
     "AntiguaandBarbuda": {
         "nome": [
@@ -196,7 +201,8 @@
         "medicos por mil": "",
         "receita imposto": "16.50%",
         "emissoes co2": 2.0,
-        "flag": "https://www.worldometers.info/img/flags/ac-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ac-flag.gif",
+        "continente": "America do Norte"
     },
     "Argentina": {
         "nome": [
@@ -229,7 +235,8 @@
         "medicos por mil": "3.8",
         "receita imposto": "10.10%",
         "emissoes co2": "3167",
-        "flag": "https://www.worldometers.info/img/flags/ar-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ar-flag.gif",
+        "continente": "America do Sul"
     },
     "Armenia": {
         "nome": [
@@ -262,7 +269,8 @@
         "medicos por mil": "2.8",
         "receita imposto": "20.90%",
         "emissoes co2": "48",
-        "flag": "https://www.worldometers.info/img/flags/am-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/am-flag.gif",
+        "continente": "Asia"
     },
     "Australia": {
         "nome": [
@@ -295,7 +303,8 @@
         "medicos por mil": "3.4",
         "receita imposto": "23.00%",
         "emissoes co2": "15282",
-        "flag": "https://www.worldometers.info/img/flags/as-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/as-flag.gif",
+        "continente": "Oceania"
     },
     "Austria": {
         "nome": [
@@ -328,7 +337,8 @@
         "medicos por mil": "5.2",
         "receita imposto": "25.40%",
         "emissoes co2": "505",
-        "flag": "https://www.worldometers.info/img/flags/au-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/au-flag.gif",
+        "continente": "Europa"
     },
     "Azerbaijan": {
         "nome": [
@@ -361,7 +371,8 @@
         "medicos por mil": "3.4",
         "receita imposto": "13.00%",
         "emissoes co2": "2459",
-        "flag": "https://www.worldometers.info/img/flags/aj-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/aj-flag.gif",
+        "continente": "Asia"
     },
     "TheBahamas": {
         "nome": [
@@ -396,7 +407,8 @@
         "medicos por mil": "",
         "receita imposto": "14.80%",
         "emissoes co2": "0",
-        "flag": "https://www.worldometers.info/img/flags/bf-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/bf-flag.gif",
+        "continente": "America do Norte"
     },
     "Bahrain": {
         "nome": [
@@ -429,7 +441,8 @@
         "medicos por mil": "0.9",
         "receita imposto": "4.20%",
         "emissoes co2": "961",
-        "flag": "https://www.worldometers.info/img/flags/ba-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ba-flag.gif",
+        "continente": "Asia"
     },
     "Bangladesh": {
         "nome": [
@@ -462,7 +475,8 @@
         "medicos por mil": "0.4",
         "receita imposto": "8.80%",
         "emissoes co2": "1438",
-        "flag": "https://www.worldometers.info/img/flags/bg-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/bg-flag.gif",
+        "continente": "Asia"
     },
     "Barbados": {
         "nome": [
@@ -495,7 +509,8 @@
         "medicos por mil": "",
         "receita imposto": "27.50%",
         "emissoes co2": "2",
-        "flag": "https://www.worldometers.info/img/flags/bb-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/bb-flag.gif",
+        "continente": "America do Norte"
     },
     "Belarus": {
         "nome": [
@@ -528,7 +543,8 @@
         "medicos por mil": "4.1",
         "receita imposto": "14.70%",
         "emissoes co2": "155",
-        "flag": "https://www.worldometers.info/img/flags/bo-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/bo-flag.gif",
+        "continente": "Europa"
     },
     "Belgium": {
         "nome": [
@@ -561,7 +577,8 @@
         "medicos por mil": "3.0",
         "receita imposto": "24.00%",
         "emissoes co2": "520",
-        "flag": "https://www.worldometers.info/img/flags/be-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/be-flag.gif",
+        "continente": "Europa"
     },
     "Belize": {
         "nome": [
@@ -594,7 +611,8 @@
         "medicos por mil": "",
         "receita imposto": "26.30%",
         "emissoes co2": "9",
-        "flag": "https://www.worldometers.info/img/flags/bh-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/bh-flag.gif",
+        "continente": "America do Norte"
     },
     "Benin": {
         "nome": [
@@ -627,7 +645,8 @@
         "medicos por mil": "0.1",
         "receita imposto": "10.80%",
         "emissoes co2": "96",
-        "flag": "https://www.worldometers.info/img/flags/bn-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/bn-flag.gif",
+        "continente": "Africa"
     },
     "Bhutan": {
         "nome": [
@@ -660,7 +679,8 @@
         "medicos por mil": "0.3",
         "receita imposto": "16.00%",
         "emissoes co2": "75",
-        "flag": "https://www.worldometers.info/img/flags/bt-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/bt-flag.gif",
+        "continente": "Asia"
     },
     "Bolivia": {
         "nome": [
@@ -694,7 +714,8 @@
         "medicos por mil": "0.5",
         "receita imposto": "17.00%",
         "emissoes co2": "962",
-        "flag": "https://www.worldometers.info/img/flags/bl-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/bl-flag.gif",
+        "continente": "America do Sul"
     },
     "BosniaandHerzegovina": {
         "nome": [
@@ -728,7 +749,8 @@
         "medicos por mil": "1.9",
         "receita imposto": "20.40%",
         "emissoes co2": "252",
-        "flag": "https://www.worldometers.info/img/flags/bk-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/bk-flag.gif",
+        "continente": "Europa"
     },
     "Botswana": {
         "nome": [
@@ -761,7 +783,8 @@
         "medicos por mil": "0.4",
         "receita imposto": "19.50%",
         "emissoes co2": "47",
-        "flag": "https://www.worldometers.info/img/flags/bc-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/bc-flag.gif",
+        "continente": "Africa"
     },
     "Brazil": {
         "nome": [
@@ -794,7 +817,8 @@
         "medicos por mil": "1.9",
         "receita imposto": "14.20%",
         "emissoes co2": "10948",
-        "flag": "https://www.worldometers.info/img/flags/br-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/br-flag.gif",
+        "continente": "America do Sul"
     },
     "Brunei": {
         "nome": [
@@ -828,7 +852,8 @@
         "medicos por mil": "1.5",
         "receita imposto": "",
         "emissoes co2": "679",
-        "flag": "https://www.worldometers.info/img/flags/bx-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/bx-flag.gif",
+        "continente": "Asia"
     },
     "Bulgaria": {
         "nome": [
@@ -861,7 +886,8 @@
         "medicos por mil": "4.0",
         "receita imposto": "20.20%",
         "emissoes co2": "474",
-        "flag": "https://www.worldometers.info/img/flags/bu-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/bu-flag.gif",
+        "continente": "Europa"
     },
     "BurkinaFaso": {
         "nome": [
@@ -894,7 +920,8 @@
         "medicos por mil": "",
         "receita imposto": "15.00%",
         "emissoes co2": "123",
-        "flag": "https://www.worldometers.info/img/flags/uv-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/uv-flag.gif",
+        "continente": "Africa"
     },
     "Burundi": {
         "nome": [
@@ -927,7 +954,8 @@
         "medicos por mil": "",
         "receita imposto": "13.60%",
         "emissoes co2": "56",
-        "flag": "https://www.worldometers.info/img/flags/by-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/by-flag.gif",
+        "continente": "Africa"
     },
     "IvoryCoast": {
         "nome": [
@@ -960,7 +988,9 @@
         "taxa fertilidade": 4.7,
         "medicos por mil": "",
         "receita imposto": "11.80%",
-        "emissoes co2": 0.4
+        "emissoes co2": 0.4,
+        "flag": "https://www.worldometers.info/img/flags/iv-flag.gif",
+        "continente": "Africa"
     },
     "CapeVerde": {
         "nome": [
@@ -994,7 +1024,8 @@
         "medicos por mil": "0.3",
         "receita imposto": "20.10%",
         "emissoes co2": "2",
-        "flag": "https://www.worldometers.info/img/flags/cv-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/cv-flag.gif",
+        "continente": "Africa"
     },
     "Cambodia": {
         "nome": [
@@ -1027,7 +1058,8 @@
         "medicos por mil": "0.2",
         "receita imposto": "17.10%",
         "emissoes co2": "178",
-        "flag": "https://www.worldometers.info/img/flags/cb-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/cb-flag.gif",
+        "continente": "Asia"
     },
     "Cameroon": {
         "nome": [
@@ -1060,7 +1092,8 @@
         "medicos por mil": "",
         "receita imposto": "12.80%",
         "emissoes co2": "408",
-        "flag": "https://www.worldometers.info/img/flags/cm-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/cm-flag.gif",
+        "continente": "Africa"
     },
     "Canada": {
         "nome": [
@@ -1093,7 +1126,8 @@
         "medicos por mil": "2.5",
         "receita imposto": "12.80%",
         "emissoes co2": "19276",
-        "flag": "https://www.worldometers.info/img/flags/ca-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ca-flag.gif",
+        "continente": "America do Norte"
     },
     "CentralAfricanRepublic": {
         "nome": [
@@ -1127,7 +1161,8 @@
         "medicos por mil": "",
         "receita imposto": "8.60%",
         "emissoes co2": "19",
-        "flag": "https://www.worldometers.info/img/flags/ct-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ct-flag.gif",
+        "continente": "Africa"
     },
     "Chad": {
         "nome": [
@@ -1160,7 +1195,8 @@
         "medicos por mil": "",
         "receita imposto": "",
         "emissoes co2": "288",
-        "flag": "https://www.worldometers.info/img/flags/cd-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/cd-flag.gif",
+        "continente": "Africa"
     },
     "Chile": {
         "nome": [
@@ -1193,7 +1229,8 @@
         "medicos por mil": "",
         "receita imposto": "18.20%",
         "emissoes co2": "540",
-        "flag": "https://www.worldometers.info/img/flags/ci-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ci-flag.gif",
+        "continente": "America do Sul"
     },
     "China": {
         "nome": [
@@ -1226,7 +1263,8 @@
         "medicos por mil": "1.5",
         "receita imposto": "9.40%",
         "emissoes co2": "101394",
-        "flag": "https://www.worldometers.info/img/flags/ch-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ch-flag.gif",
+        "continente": "Asia"
     },
     "Colombia": {
         "nome": [
@@ -1259,7 +1297,8 @@
         "medicos por mil": "",
         "receita imposto": "14.40%",
         "emissoes co2": "5380",
-        "flag": "https://www.worldometers.info/img/flags/co-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/co-flag.gif",
+        "continente": "America do Sul"
     },
     "Comoros": {
         "nome": [
@@ -1292,7 +1331,8 @@
         "medicos por mil": "",
         "receita imposto": "",
         "emissoes co2": "3",
-        "flag": "https://www.worldometers.info/img/flags/cn-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/cn-flag.gif",
+        "continente": "Africa"
     },
     "RepublicoftheCongo": {
         "nome": [
@@ -1327,7 +1367,8 @@
         "medicos por mil": "",
         "receita imposto": "9.00%",
         "emissoes co2": "648",
-        "flag": "https://www.worldometers.info/img/flags/cg-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/cg-flag.gif",
+        "continente": "Africa"
     },
     "CostaRica": {
         "nome": [
@@ -1360,7 +1401,8 @@
         "medicos por mil": "1.2",
         "receita imposto": "13.60%",
         "emissoes co2": "110",
-        "flag": "https://www.worldometers.info/img/flags/cs-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/cs-flag.gif",
+        "continente": "America do Norte"
     },
     "Croatia": {
         "nome": [
@@ -1393,7 +1435,8 @@
         "medicos por mil": "3.1",
         "receita imposto": "22.00%",
         "emissoes co2": "182",
-        "flag": "https://www.worldometers.info/img/flags/hr-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/hr-flag.gif",
+        "continente": "Europa"
     },
     "Cuba": {
         "nome": [
@@ -1426,7 +1469,8 @@
         "medicos por mil": "7.5",
         "receita imposto": "",
         "emissoes co2": "212",
-        "flag": "https://www.worldometers.info/img/flags/cu-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/cu-flag.gif",
+        "continente": "America do Norte"
     },
     "Cyprus": {
         "nome": [
@@ -1459,7 +1503,8 @@
         "medicos por mil": "2.5",
         "receita imposto": "24.50%",
         "emissoes co2": "5",
-        "flag": "https://www.worldometers.info/img/flags/cy-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/cy-flag.gif",
+        "continente": "Europa"
     },
     "CzechRepublic": {
         "nome": [
@@ -1493,7 +1538,8 @@
         "medicos por mil": "3.7",
         "receita imposto": "14.90%",
         "emissoes co2": "1221",
-        "flag": "https://www.worldometers.info/img/flags/ez-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ez-flag.gif",
+        "continente": "Europa"
     },
     "DemocraticRepublicoftheCongo": {
         "nome": [
@@ -1527,7 +1573,8 @@
         "medicos por mil": "",
         "receita imposto": "10.70%",
         "emissoes co2": "1179",
-        "flag": "https://www.worldometers.info/img/flags/congo-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/congo-flag.gif",
+        "continente": "Africa"
     },
     "Denmark": {
         "nome": [
@@ -1560,7 +1607,8 @@
         "medicos por mil": "3.6",
         "receita imposto": "32.40%",
         "emissoes co2": "666",
-        "flag": "https://www.worldometers.info/img/flags/da-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/da-flag.gif",
+        "continente": "Europa"
     },
     "Djibouti": {
         "nome": [
@@ -1593,7 +1641,8 @@
         "medicos por mil": "0.2",
         "receita imposto": "",
         "emissoes co2": "3",
-        "flag": "https://www.worldometers.info/img/flags/dj-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/dj-flag.gif",
+        "continente": "Africa"
     },
     "Dominica": {
         "nome": [
@@ -1626,7 +1675,8 @@
         "medicos por mil": "",
         "receita imposto": "22.10%",
         "emissoes co2": "0",
-        "flag": "https://www.worldometers.info/img/flags/do-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/do-flag.gif",
+        "continente": "America do Norte"
     },
     "DominicanRepublic": {
         "nome": [
@@ -1659,7 +1709,8 @@
         "medicos por mil": "1.5",
         "receita imposto": "13.00%",
         "emissoes co2": "28",
-        "flag": "https://www.worldometers.info/img/flags/dr-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/dr-flag.gif",
+        "continente": "America do Norte"
     },
     "Ecuador": {
         "nome": [
@@ -1692,7 +1743,8 @@
         "medicos por mil": "1.7",
         "receita imposto": "",
         "emissoes co2": "1247",
-        "flag": "https://www.worldometers.info/img/flags/ec-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ec-flag.gif",
+        "continente": "America do Sul"
     },
     "Egypt": {
         "nome": [
@@ -1725,7 +1777,8 @@
         "medicos por mil": "0.8",
         "receita imposto": "12.50%",
         "emissoes co2": "3509",
-        "flag": "https://www.worldometers.info/img/flags/eg-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/eg-flag.gif",
+        "continente": "Africa"
     },
     "ElSalvador": {
         "nome": [
@@ -1758,7 +1811,8 @@
         "medicos por mil": "",
         "receita imposto": "18.10%",
         "emissoes co2": "86",
-        "flag": "https://www.worldometers.info/img/flags/es-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/es-flag.gif",
+        "continente": "America do Norte"
     },
     "EquatorialGuinea": {
         "nome": [
@@ -1791,7 +1845,8 @@
         "medicos por mil": "",
         "receita imposto": "6.10%",
         "emissoes co2": "841",
-        "flag": "https://www.worldometers.info/img/flags/ek-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ek-flag.gif",
+        "continente": "Africa"
     },
     "Eritrea": {
         "nome": [
@@ -1824,7 +1879,8 @@
         "medicos por mil": "",
         "receita imposto": "",
         "emissoes co2": "27",
-        "flag": "https://www.worldometers.info/img/flags/er-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/er-flag.gif",
+        "continente": "Africa"
     },
     "Estonia": {
         "nome": [
@@ -1857,7 +1913,8 @@
         "medicos por mil": "3.3",
         "receita imposto": "20.90%",
         "emissoes co2": "242",
-        "flag": "https://www.worldometers.info/img/flags/en-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/en-flag.gif",
+        "continente": "Europa"
     },
     "Eswatini": {
         "nome": [
@@ -1891,7 +1948,8 @@
         "medicos por mil": "",
         "receita imposto": "28.60%",
         "emissoes co2": "39",
-        "flag": "https://www.worldometers.info/img/flags/wz-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/wz-flag.gif",
+        "continente": "Africa"
     },
     "Ethiopia": {
         "nome": [
@@ -1924,7 +1982,8 @@
         "medicos por mil": "",
         "receita imposto": "7.50%",
         "emissoes co2": "1308",
-        "flag": "https://www.worldometers.info/img/flags/et-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/et-flag.gif",
+        "continente": "Africa"
     },
     "Fiji": {
         "nome": [
@@ -1957,7 +2016,8 @@
         "medicos por mil": "",
         "receita imposto": "24.20%",
         "emissoes co2": "8",
-        "flag": "https://www.worldometers.info/img/flags/fj-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/fj-flag.gif",
+        "continente": "Oceania"
     },
     "Finland": {
         "nome": [
@@ -1990,7 +2050,8 @@
         "medicos por mil": "3.0",
         "receita imposto": "20.80%",
         "emissoes co2": "757",
-        "flag": "https://www.worldometers.info/img/flags/fi-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/fi-flag.gif",
+        "continente": "Europa"
     },
     "France": {
         "nome": [
@@ -2023,7 +2084,8 @@
         "medicos por mil": "3.2",
         "receita imposto": "24.20%",
         "emissoes co2": "5694",
-        "flag": "https://www.worldometers.info/img/flags/fr-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/fr-flag.gif",
+        "continente": "Europa"
     },
     "Gabon": {
         "nome": [
@@ -2056,7 +2118,8 @@
         "medicos por mil": "",
         "receita imposto": "10.20%",
         "emissoes co2": "559",
-        "flag": "https://www.worldometers.info/img/flags/gb-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/gb-flag.gif",
+        "continente": "Africa"
     },
     "TheGambia": {
         "nome": [
@@ -2091,7 +2154,8 @@
         "medicos por mil": "",
         "receita imposto": "9.40%",
         "emissoes co2": "7",
-        "flag": "https://www.worldometers.info/img/flags/ga-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ga-flag.gif",
+        "continente": "Africa"
     },
     "Georgia": {
         "nome": [
@@ -2124,7 +2188,8 @@
         "medicos por mil": "4.8",
         "receita imposto": "21.70%",
         "emissoes co2": "61",
-        "flag": "https://www.worldometers.info/img/flags/gg-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/gg-flag.gif",
+        "continente": "Europa"
     },
     "Germany": {
         "nome": [
@@ -2157,7 +2222,8 @@
         "medicos por mil": "4.1",
         "receita imposto": "11.50%",
         "emissoes co2": "5004",
-        "flag": "https://www.worldometers.info/img/flags/gm-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/gm-flag.gif",
+        "continente": "Europa"
     },
     "Ghana": {
         "nome": [
@@ -2190,7 +2256,8 @@
         "medicos por mil": "",
         "receita imposto": "12.60%",
         "emissoes co2": "410",
-        "flag": "https://www.worldometers.info/img/flags/gh-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/gh-flag.gif",
+        "continente": "Africa"
     },
     "Greece": {
         "nome": [
@@ -2223,7 +2290,8 @@
         "medicos por mil": "6.3",
         "receita imposto": "26.20%",
         "emissoes co2": "368",
-        "flag": "https://www.worldometers.info/img/flags/gr-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/gr-flag.gif",
+        "continente": "Europa"
     },
     "Grenada": {
         "nome": [
@@ -2256,7 +2324,8 @@
         "medicos por mil": "",
         "receita imposto": "19.40%",
         "emissoes co2": "0",
-        "flag": "https://www.worldometers.info/img/flags/gj-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/gj-flag.gif",
+        "continente": "America do Norte"
     },
     "Guatemala": {
         "nome": [
@@ -2289,7 +2358,8 @@
         "medicos por mil": "",
         "receita imposto": "10.60%",
         "emissoes co2": "327",
-        "flag": "https://www.worldometers.info/img/flags/gt-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/gt-flag.gif",
+        "continente": "America do Norte"
     },
     "Guinea": {
         "nome": [
@@ -2322,7 +2392,8 @@
         "medicos por mil": "",
         "receita imposto": "10.80%",
         "emissoes co2": "113",
-        "flag": "https://www.worldometers.info/img/flags/gv-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/gv-flag.gif",
+        "continente": "Africa"
     },
     "Guinea-Bissau": {
         "nome": [
@@ -2355,7 +2426,8 @@
         "medicos por mil": "",
         "receita imposto": "10.30%",
         "emissoes co2": "25",
-        "flag": "https://www.worldometers.info/img/flags/pu-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/pu-flag.gif",
+        "continente": "Africa"
     },
     "Guyana": {
         "nome": [
@@ -2388,7 +2460,8 @@
         "medicos por mil": "",
         "receita imposto": "",
         "emissoes co2": "7",
-        "flag": "https://www.worldometers.info/img/flags/gy-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/gy-flag.gif",
+        "continente": "America do Sul"
     },
     "Haiti": {
         "nome": [
@@ -2421,7 +2494,8 @@
         "medicos por mil": "",
         "receita imposto": "",
         "emissoes co2": "136",
-        "flag": "https://www.worldometers.info/img/flags/ha-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ha-flag.gif",
+        "continente": "America do Norte"
     },
     "HolySee": {
         "nome": [
@@ -2455,7 +2529,8 @@
         "medicos por mil": "",
         "receita imposto": "",
         "emissoes co2": 0,
-        "flag": "https://www.worldometers.info/img/flags/vt-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/vt-flag.gif",
+        "continente": "Europa"
     },
     "Honduras": {
         "nome": [
@@ -2488,7 +2563,8 @@
         "medicos por mil": "",
         "receita imposto": "17.30%",
         "emissoes co2": "105",
-        "flag": "https://www.worldometers.info/img/flags/ho-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ho-flag.gif",
+        "continente": "America do Norte"
     },
     "Hungary": {
         "nome": [
@@ -2521,7 +2597,8 @@
         "medicos por mil": "3.3",
         "receita imposto": "23.00%",
         "emissoes co2": "423",
-        "flag": "https://www.worldometers.info/img/flags/hu-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/hu-flag.gif",
+        "continente": "Europa"
     },
     "Iceland": {
         "nome": [
@@ -2554,7 +2631,8 @@
         "medicos por mil": "3.8",
         "receita imposto": "23.30%",
         "emissoes co2": "284",
-        "flag": "https://www.worldometers.info/img/flags/ic-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ic-flag.gif",
+        "continente": "Europa"
     },
     "India": {
         "nome": [
@@ -2587,7 +2665,8 @@
         "medicos por mil": "0.7",
         "receita imposto": "11.20%",
         "emissoes co2": "23103",
-        "flag": "https://www.worldometers.info/img/flags/in-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/in-flag.gif",
+        "continente": "Asia"
     },
     "Indonesia": {
         "nome": [
@@ -2620,7 +2699,8 @@
         "medicos por mil": "0.2",
         "receita imposto": "10.20%",
         "emissoes co2": "19481",
-        "flag": "https://www.worldometers.info/img/flags/id-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/id-flag.gif",
+        "continente": "Asia"
     },
     "Iran": {
         "nome": [
@@ -2654,7 +2734,8 @@
         "medicos por mil": "1.5",
         "receita imposto": "7.40%",
         "emissoes co2": "13291",
-        "flag": "https://www.worldometers.info/img/flags/ir-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ir-flag.gif",
+        "continente": "Asia"
     },
     "Iraq": {
         "nome": [
@@ -2687,7 +2768,8 @@
         "medicos por mil": "0.9",
         "receita imposto": "2.00%",
         "emissoes co2": "6744",
-        "flag": "https://www.worldometers.info/img/flags/iz-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/iz-flag.gif",
+        "continente": "Asia"
     },
     "Ireland": {
         "nome": [
@@ -2721,7 +2803,8 @@
         "medicos por mil": "2.8",
         "receita imposto": "18.30%",
         "emissoes co2": "84",
-        "flag": "https://www.worldometers.info/img/flags/ei-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ei-flag.gif",
+        "continente": "Europa"
     },
     "Israel": {
         "nome": [
@@ -2754,7 +2837,8 @@
         "medicos por mil": "3.6",
         "receita imposto": "23.10%",
         "emissoes co2": "313",
-        "flag": "https://www.worldometers.info/img/flags/is-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/is-flag.gif",
+        "continente": "Asia"
     },
     "Italy": {
         "nome": [
@@ -2787,7 +2871,8 @@
         "medicos por mil": "3.9",
         "receita imposto": "24.30%",
         "emissoes co2": "1539",
-        "flag": "https://www.worldometers.info/img/flags/it-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/it-flag.gif",
+        "continente": "Europa"
     },
     "Jamaica": {
         "nome": [
@@ -2820,7 +2905,8 @@
         "medicos por mil": "",
         "receita imposto": "26.80%",
         "emissoes co2": "8",
-        "flag": "https://www.worldometers.info/img/flags/jm-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/jm-flag.gif",
+        "continente": "America do Norte"
     },
     "Japan": {
         "nome": [
@@ -2853,7 +2939,8 @@
         "medicos por mil": "2.3",
         "receita imposto": "11.90%",
         "emissoes co2": "1114",
-        "flag": "https://www.worldometers.info/img/flags/ja-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ja-flag.gif",
+        "continente": "Asia"
     },
     "Jordan": {
         "nome": [
@@ -2886,7 +2973,8 @@
         "medicos por mil": "2.6",
         "receita imposto": "15.10%",
         "emissoes co2": "7",
-        "flag": "https://www.worldometers.info/img/flags/jo-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/jo-flag.gif",
+        "continente": "Asia"
     },
     "Kazakhstan": {
         "nome": [
@@ -2919,7 +3007,8 @@
         "medicos por mil": "3.3",
         "receita imposto": "11.70%",
         "emissoes co2": "7091",
-        "flag": "https://www.worldometers.info/img/flags/kz-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/kz-flag.gif",
+        "continente": "Asia"
     },
     "Kenya": {
         "nome": [
@@ -2952,7 +3041,8 @@
         "medicos por mil": "0.2",
         "receita imposto": "15.10%",
         "emissoes co2": "750",
-        "flag": "https://www.worldometers.info/img/flags/ke-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ke-flag.gif",
+        "continente": "Africa"
     },
     "Kiribati": {
         "nome": [
@@ -2985,7 +3075,8 @@
         "medicos por mil": "0.2",
         "receita imposto": "22.00%",
         "emissoes co2": "0",
-        "flag": "https://www.worldometers.info/img/flags/kr-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/kr-flag.gif",
+        "continente": "Oceania"
     },
     "Kuwait": {
         "nome": [
@@ -3018,7 +3109,8 @@
         "medicos por mil": "1.9",
         "receita imposto": "1.40%",
         "emissoes co2": "6941",
-        "flag": "https://www.worldometers.info/img/flags/ku-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ku-flag.gif",
+        "continente": "Asia"
     },
     "Kyrgyzstan": {
         "nome": [
@@ -3051,7 +3143,8 @@
         "medicos por mil": "1.9",
         "receita imposto": "18.00%",
         "emissoes co2": "80",
-        "flag": "https://www.worldometers.info/img/flags/kg-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/kg-flag.gif",
+        "continente": "Asia"
     },
     "Laos": {
         "nome": [
@@ -3085,7 +3178,8 @@
         "medicos por mil": "0.2",
         "receita imposto": "12.90%",
         "emissoes co2": "72",
-        "flag": "https://www.worldometers.info/img/flags/la-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/la-flag.gif",
+        "continente": "Asia"
     },
     "Latvia": {
         "nome": [
@@ -3118,7 +3212,8 @@
         "medicos por mil": "3.2",
         "receita imposto": "22.90%",
         "emissoes co2": "108",
-        "flag": "https://www.worldometers.info/img/flags/lg-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/lg-flag.gif",
+        "continente": "Europa"
     },
     "Lebanon": {
         "nome": [
@@ -3151,7 +3246,8 @@
         "medicos por mil": "2.4",
         "receita imposto": "15.30%",
         "emissoes co2": "7",
-        "flag": "https://www.worldometers.info/img/flags/le-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/le-flag.gif",
+        "continente": "Asia"
     },
     "Lesotho": {
         "nome": [
@@ -3184,7 +3280,8 @@
         "medicos por mil": "",
         "receita imposto": "31.60%",
         "emissoes co2": "31",
-        "flag": "https://www.worldometers.info/img/flags/lt-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/lt-flag.gif",
+        "continente": "Africa"
     },
     "Liberia": {
         "nome": [
@@ -3217,7 +3314,8 @@
         "medicos por mil": "",
         "receita imposto": "12.90%",
         "emissoes co2": "73",
-        "flag": "https://www.worldometers.info/img/flags/li-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/li-flag.gif",
+        "continente": "Africa"
     },
     "Libya": {
         "nome": [
@@ -3250,7 +3348,8 @@
         "medicos por mil": "2.1",
         "receita imposto": "",
         "emissoes co2": "1505",
-        "flag": "https://www.worldometers.info/img/flags/ly-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ly-flag.gif",
+        "continente": "Africa"
     },
     "Liechtenstein": {
         "nome": [
@@ -3283,7 +3382,8 @@
         "medicos por mil": "",
         "receita imposto": "",
         "emissoes co2": "1",
-        "flag": "https://www.worldometers.info/img/flags/ls-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ls-flag.gif",
+        "continente": "Europa"
     },
     "Lithuania": {
         "nome": [
@@ -3316,7 +3416,8 @@
         "medicos por mil": "4.3",
         "receita imposto": "16.90%",
         "emissoes co2": "74",
-        "flag": "https://www.worldometers.info/img/flags/lh-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/lh-flag.gif",
+        "continente": "Europa"
     },
     "Luxembourg": {
         "nome": [
@@ -3349,7 +3450,8 @@
         "medicos por mil": "2.9",
         "receita imposto": "26.50%",
         "emissoes co2": "6",
-        "flag": "https://www.worldometers.info/img/flags/lu-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/lu-flag.gif",
+        "continente": "Europa"
     },
     "Madagascar": {
         "nome": [
@@ -3382,7 +3484,8 @@
         "medicos por mil": "0.1",
         "receita imposto": "10.20%",
         "emissoes co2": "129",
-        "flag": "https://www.worldometers.info/img/flags/ma-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ma-flag.gif",
+        "continente": "Africa"
     },
     "Malawi": {
         "nome": [
@@ -3415,7 +3518,8 @@
         "medicos por mil": "",
         "receita imposto": "17.30%",
         "emissoes co2": "89",
-        "flag": "https://www.worldometers.info/img/flags/mi-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/mi-flag.gif",
+        "continente": "Africa"
     },
     "Malaysia": {
         "nome": [
@@ -3448,7 +3552,8 @@
         "medicos por mil": "1.3",
         "receita imposto": "12.00%",
         "emissoes co2": "3738",
-        "flag": "https://www.worldometers.info/img/flags/my-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/my-flag.gif",
+        "continente": "Asia"
     },
     "Maldives": {
         "nome": [
@@ -3481,7 +3586,8 @@
         "medicos por mil": "",
         "receita imposto": "19.50%",
         "emissoes co2": "0",
-        "flag": "https://www.worldometers.info/img/flags/mv-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/mv-flag.gif",
+        "continente": "Asia"
     },
     "Mali": {
         "nome": [
@@ -3514,7 +3620,8 @@
         "medicos por mil": "",
         "receita imposto": "11.60%",
         "emissoes co2": "55",
-        "flag": "https://www.worldometers.info/img/flags/ml-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ml-flag.gif",
+        "continente": "Africa"
     },
     "Malta": {
         "nome": [
@@ -3547,7 +3654,8 @@
         "medicos por mil": "3.9",
         "receita imposto": "26.20%",
         "emissoes co2": "1",
-        "flag": "https://www.worldometers.info/img/flags/mt-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/mt-flag.gif",
+        "continente": "Europa"
     },
     "MarshallIslands": {
         "nome": [
@@ -3580,7 +3688,8 @@
         "medicos por mil": "0.5",
         "receita imposto": "17.80%",
         "emissoes co2": "0",
-        "flag": "https://www.worldometers.info/img/flags/rm-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/rm-flag.gif",
+        "continente": "Oceania"
     },
     "Mauritania": {
         "nome": [
@@ -3613,7 +3722,8 @@
         "medicos por mil": "",
         "receita imposto": "",
         "emissoes co2": "31",
-        "flag": "https://www.worldometers.info/img/flags/mr-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/mr-flag.gif",
+        "continente": "Africa"
     },
     "Mauritius": {
         "nome": [
@@ -3646,7 +3756,8 @@
         "medicos por mil": "",
         "receita imposto": "19.10%",
         "emissoes co2": "10",
-        "flag": "https://www.worldometers.info/img/flags/mp-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/mp-flag.gif",
+        "continente": "Africa"
     },
     "Mexico": {
         "nome": [
@@ -3679,7 +3790,8 @@
         "medicos por mil": "2.1",
         "receita imposto": "13.10%",
         "emissoes co2": "8514",
-        "flag": "https://www.worldometers.info/img/flags/mx-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/mx-flag.gif",
+        "continente": "America do Norte"
     },
     "Micronesia": {
         "nome": [
@@ -3714,7 +3826,8 @@
         "medicos por mil": "",
         "receita imposto": "25.20%",
         "emissoes co2": "0",
-        "flag": "https://www.worldometers.info/img/flags/fm-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/fm-flag.gif",
+        "continente": "Oceania"
     },
     "Moldova": {
         "nome": [
@@ -3748,7 +3861,8 @@
         "medicos por mil": "2.5",
         "receita imposto": "17.70%",
         "emissoes co2": "15",
-        "flag": "https://www.worldometers.info/img/flags/md-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/md-flag.gif",
+        "continente": "Europa"
     },
     "Monaco": {
         "nome": [
@@ -3781,7 +3895,8 @@
         "medicos por mil": "6.6",
         "receita imposto": "",
         "emissoes co2": 4.2,
-        "flag": "https://www.worldometers.info/img/flags/mn-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/mn-flag.gif",
+        "continente": "Europa"
     },
     "Mongolia": {
         "nome": [
@@ -3814,7 +3929,8 @@
         "medicos por mil": "2.9",
         "receita imposto": "16.80%",
         "emissoes co2": "677",
-        "flag": "https://www.worldometers.info/img/flags/mg-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/mg-flag.gif",
+        "continente": "Asia"
     },
     "Montenegro": {
         "nome": [
@@ -3847,7 +3963,8 @@
         "medicos por mil": "2.3",
         "receita imposto": "",
         "emissoes co2": "29",
-        "flag": "https://www.worldometers.info/img/flags/mj-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/mj-flag.gif",
+        "continente": "Europa"
     },
     "Morocco": {
         "nome": [
@@ -3880,7 +3997,8 @@
         "medicos por mil": "0.6",
         "receita imposto": "21.90%",
         "emissoes co2": "78",
-        "flag": "https://www.worldometers.info/img/flags/mo-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/mo-flag.gif",
+        "continente": "Africa"
     },
     "Mozambique": {
         "nome": [
@@ -3913,7 +4031,8 @@
         "medicos por mil": "0.1",
         "receita imposto": "0.00%",
         "emissoes co2": "779",
-        "flag": "https://www.worldometers.info/img/flags/mz-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/mz-flag.gif",
+        "continente": "Africa"
     },
     "Myanmar": {
         "nome": [
@@ -3947,7 +4066,8 @@
         "medicos por mil": "0.6",
         "receita imposto": "5.40%",
         "emissoes co2": "1078",
-        "flag": "https://www.worldometers.info/img/flags/bm-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/bm-flag.gif",
+        "continente": "Asia"
     },
     "Namibia": {
         "nome": [
@@ -3980,7 +4100,8 @@
         "medicos por mil": "",
         "receita imposto": "27.10%",
         "emissoes co2": "19",
-        "flag": "https://www.worldometers.info/img/flags/wa-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/wa-flag.gif",
+        "continente": "Africa"
     },
     "Nauru": {
         "nome": [
@@ -4013,7 +4134,8 @@
         "medicos por mil": "",
         "receita imposto": "",
         "emissoes co2": "0",
-        "flag": "https://www.worldometers.info/img/flags/nr-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/nr-flag.gif",
+        "continente": "Oceania"
     },
     "Nepal": {
         "nome": [
@@ -4046,7 +4168,8 @@
         "medicos por mil": "",
         "receita imposto": "20.70%",
         "emissoes co2": "451",
-        "flag": "https://www.worldometers.info/img/flags/np-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/np-flag.gif",
+        "continente": "Asia"
     },
     "Netherlands": {
         "nome": [
@@ -4079,7 +4202,8 @@
         "medicos por mil": "3.4",
         "receita imposto": "23.00%",
         "emissoes co2": "2447",
-        "flag": "https://www.worldometers.info/img/flags/nl-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/nl-flag.gif",
+        "continente": "Europa"
     },
     "NewZealand": {
         "nome": [
@@ -4112,7 +4236,8 @@
         "medicos por mil": "2.9",
         "receita imposto": "29.00%",
         "emissoes co2": "783",
-        "flag": "https://www.worldometers.info/img/flags/nz-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/nz-flag.gif",
+        "continente": "Oceania"
     },
     "Nicaragua": {
         "nome": [
@@ -4145,7 +4270,8 @@
         "medicos por mil": "0.9",
         "receita imposto": "15.60%",
         "emissoes co2": "91",
-        "flag": "https://www.worldometers.info/img/flags/nu-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/nu-flag.gif",
+        "continente": "America do Norte"
     },
     "Niger": {
         "nome": [
@@ -4178,7 +4304,8 @@
         "medicos por mil": "",
         "receita imposto": "11.80%",
         "emissoes co2": "101",
-        "flag": "https://www.worldometers.info/img/flags/ng-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ng-flag.gif",
+        "continente": "Africa"
     },
     "Nigeria": {
         "nome": [
@@ -4211,7 +4338,8 @@
         "medicos por mil": "",
         "receita imposto": "1.50%",
         "emissoes co2": "10851",
-        "flag": "https://www.worldometers.info/img/flags/ni-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ni-flag.gif",
+        "continente": "Africa"
     },
     "NorthKorea": {
         "nome": [
@@ -4246,7 +4374,8 @@
         "medicos por mil": "2.8",
         "receita imposto": "",
         "emissoes co2": "871",
-        "flag": "https://www.worldometers.info/img/flags/kn-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/kn-flag.gif",
+        "continente": "Asia"
     },
     "NorthMacedonia": {
         "nome": [
@@ -4281,7 +4410,8 @@
         "medicos por mil": "2.8",
         "receita imposto": "",
         "emissoes co2": "53",
-        "flag": "https://www.worldometers.info/img/flags/mk-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/mk-flag.gif",
+        "continente": "Europa"
     },
     "Norway": {
         "nome": [
@@ -4314,7 +4444,8 @@
         "medicos por mil": "4.4",
         "receita imposto": "23.90%",
         "emissoes co2": "8204",
-        "flag": "https://www.worldometers.info/img/flags/no-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/no-flag.gif",
+        "continente": "Europa"
     },
     "Oman": {
         "nome": [
@@ -4347,7 +4478,8 @@
         "medicos por mil": "1.5",
         "receita imposto": "2.50%",
         "emissoes co2": "3101",
-        "flag": "https://www.worldometers.info/img/flags/mu-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/mu-flag.gif",
+        "continente": "Asia"
     },
     "Pakistan": {
         "nome": [
@@ -4380,7 +4512,8 @@
         "medicos por mil": "0.8",
         "receita imposto": "9.20%",
         "emissoes co2": "2202",
-        "flag": "https://www.worldometers.info/img/flags/pk-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/pk-flag.gif",
+        "continente": "Asia"
     },
     "Palau": {
         "nome": [
@@ -4413,7 +4546,8 @@
         "medicos por mil": "",
         "receita imposto": "21.30%",
         "emissoes co2": 15.8,
-        "flag": "https://www.worldometers.info/img/flags/ps-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ps-flag.gif",
+        "continente": "Oceania"
     },
     "Palestine": {
         "nome": [
@@ -4447,7 +4581,8 @@
         "medicos por mil": "",
         "receita imposto": "",
         "emissoes co2": "9",
-        "flag": "https://www.worldometers.info/img/flags/palestine-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/palestine-flag.gif",
+        "continente": "Asia"
     },
     "Panama": {
         "nome": [
@@ -4480,7 +4615,8 @@
         "medicos por mil": "1.6",
         "receita imposto": "",
         "emissoes co2": "31",
-        "flag": "https://www.worldometers.info/img/flags/pm-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/pm-flag.gif",
+        "continente": "America do Norte"
     },
     "PapuaNewGuinea": {
         "nome": [
@@ -4513,7 +4649,8 @@
         "medicos por mil": "",
         "receita imposto": "13.60%",
         "emissoes co2": "114",
-        "flag": "https://www.worldometers.info/img/flags/pp-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/pp-flag.gif",
+        "continente": "Oceania"
     },
     "Paraguay": {
         "nome": [
@@ -4546,7 +4683,8 @@
         "medicos por mil": "1.3",
         "receita imposto": "10.00%",
         "emissoes co2": "325",
-        "flag": "https://www.worldometers.info/img/flags/pa-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/pa-flag.gif",
+        "continente": "America do Sul"
     },
     "Peru": {
         "nome": [
@@ -4579,7 +4717,8 @@
         "medicos por mil": "1.1",
         "receita imposto": "14.30%",
         "emissoes co2": "1020",
-        "flag": "https://www.worldometers.info/img/flags/pe-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/pe-flag.gif",
+        "continente": "America do Sul"
     },
     "Philippines": {
         "nome": [
@@ -4612,7 +4751,8 @@
         "medicos por mil": "",
         "receita imposto": "14.00%",
         "emissoes co2": "991",
-        "flag": "https://www.worldometers.info/img/flags/rp-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/rp-flag.gif",
+        "continente": "Asia"
     },
     "Poland": {
         "nome": [
@@ -4645,7 +4785,8 @@
         "medicos por mil": "2.3",
         "receita imposto": "17.40%",
         "emissoes co2": "2819",
-        "flag": "https://www.worldometers.info/img/flags/pl-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/pl-flag.gif",
+        "continente": "Europa"
     },
     "Portugal": {
         "nome": [
@@ -4678,7 +4819,8 @@
         "medicos por mil": "4.4",
         "receita imposto": "22.80%",
         "emissoes co2": "250",
-        "flag": "https://www.worldometers.info/img/flags/po-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/po-flag.gif",
+        "continente": "Europa"
     },
     "Qatar": {
         "nome": [
@@ -4711,7 +4853,8 @@
         "medicos por mil": "2.0",
         "receita imposto": "14.70%",
         "emissoes co2": "9166",
-        "flag": "https://www.worldometers.info/img/flags/qa-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/qa-flag.gif",
+        "continente": "Asia"
     },
     "Romania": {
         "nome": [
@@ -4744,7 +4887,8 @@
         "medicos por mil": "2.7",
         "receita imposto": "14.60%",
         "emissoes co2": "1109",
-        "flag": "https://www.worldometers.info/img/flags/ro-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ro-flag.gif",
+        "continente": "Europa"
     },
     "Russia": {
         "nome": [
@@ -4778,7 +4922,8 @@
         "medicos por mil": "3.3",
         "receita imposto": "11.40%",
         "emissoes co2": "54829",
-        "flag": "https://www.worldometers.info/img/flags/rs-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/rs-flag.gif",
+        "continente": "Europa"
     },
     "Rwanda": {
         "nome": [
@@ -4811,7 +4956,8 @@
         "medicos por mil": "",
         "receita imposto": "14.30%",
         "emissoes co2": "84",
-        "flag": "https://www.worldometers.info/img/flags/rw-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/rw-flag.gif",
+        "continente": "Africa"
     },
     "SaintKittsandNevis": {
         "nome": [
@@ -4845,7 +4991,8 @@
         "medicos por mil": "",
         "receita imposto": "18.50%",
         "emissoes co2": "0",
-        "flag": "https://www.worldometers.info/img/flags/sc-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/sc-flag.gif",
+        "continente": "America do Norte"
     },
     "SaintLucia": {
         "nome": [
@@ -4878,7 +5025,8 @@
         "medicos por mil": "",
         "receita imposto": "18.20%",
         "emissoes co2": "0",
-        "flag": "https://www.worldometers.info/img/flags/st-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/st-flag.gif",
+        "continente": "America do Norte"
     },
     "SaintVincentandtheGrenadines": {
         "nome": [
@@ -4911,7 +5059,8 @@
         "medicos por mil": "",
         "receita imposto": "25.40%",
         "emissoes co2": "0",
-        "flag": "https://www.worldometers.info/img/flags/vc-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/vc-flag.gif",
+        "continente": "America do Norte"
     },
     "Samoa": {
         "nome": [
@@ -4944,7 +5093,8 @@
         "medicos por mil": "",
         "receita imposto": "25.50%",
         "emissoes co2": "2",
-        "flag": "https://www.worldometers.info/img/flags/ws-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ws-flag.gif",
+        "continente": "Oceania"
     },
     "SanMarino": {
         "nome": [
@@ -4977,7 +5127,8 @@
         "medicos por mil": "6.4",
         "receita imposto": "18.10%",
         "emissoes co2": 1.8,
-        "flag": "https://www.worldometers.info/img/flags/sm-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/sm-flag.gif",
+        "continente": "Europa"
     },
     "SaudiArabia": {
         "nome": [
@@ -5010,7 +5161,8 @@
         "medicos por mil": "2.6",
         "receita imposto": "8.90%",
         "emissoes co2": "25904",
-        "flag": "https://www.worldometers.info/img/flags/sa-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/sa-flag.gif",
+        "continente": "Asia"
     },
     "Senegal": {
         "nome": [
@@ -5043,7 +5195,8 @@
         "medicos por mil": "",
         "receita imposto": "16.30%",
         "emissoes co2": "77",
-        "flag": "https://www.worldometers.info/img/flags/sg-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/sg-flag.gif",
+        "continente": "Africa"
     },
     "Serbia": {
         "nome": [
@@ -5076,7 +5229,8 @@
         "medicos por mil": "2.5",
         "receita imposto": "18.60%",
         "emissoes co2": "393",
-        "flag": "https://www.worldometers.info/img/flags/ri-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ri-flag.gif",
+        "continente": "Europa"
     },
     "Seychelles": {
         "nome": [
@@ -5109,7 +5263,8 @@
         "medicos por mil": "1.0",
         "receita imposto": "34.10%",
         "emissoes co2": "0",
-        "flag": "https://www.worldometers.info/img/flags/se-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/se-flag.gif",
+        "continente": "Africa"
     },
     "SierraLeone": {
         "nome": [
@@ -5142,7 +5297,8 @@
         "medicos por mil": "",
         "receita imposto": "8.60%",
         "emissoes co2": "53",
-        "flag": "https://www.worldometers.info/img/flags/sl-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/sl-flag.gif",
+        "continente": "Africa"
     },
     "Singapore": {
         "nome": [
@@ -5175,7 +5331,8 @@
         "medicos por mil": "1.9",
         "receita imposto": "13.10%",
         "emissoes co2": "27",
-        "flag": "https://www.worldometers.info/img/flags/sn-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/sn-flag.gif",
+        "continente": "Asia"
     },
     "Slovakia": {
         "nome": [
@@ -5208,7 +5365,8 @@
         "medicos por mil": "3.4",
         "receita imposto": "18.70%",
         "emissoes co2": "264",
-        "flag": "https://www.worldometers.info/img/flags/lo-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/lo-flag.gif",
+        "continente": "Europa"
     },
     "Slovenia": {
         "nome": [
@@ -5241,7 +5399,8 @@
         "medicos por mil": "2.8",
         "receita imposto": "18.60%",
         "emissoes co2": "154",
-        "flag": "https://www.worldometers.info/img/flags/si-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/si-flag.gif",
+        "continente": "Europa"
     },
     "SolomonIslands": {
         "nome": [
@@ -5274,7 +5433,8 @@
         "medicos por mil": "0.2",
         "receita imposto": "29.50%",
         "emissoes co2": "3",
-        "flag": "https://www.worldometers.info/img/flags/bp-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/bp-flag.gif",
+        "continente": "Oceania"
     },
     "Somalia": {
         "nome": [
@@ -5307,7 +5467,8 @@
         "medicos por mil": "",
         "receita imposto": "0.00%",
         "emissoes co2": "129",
-        "flag": "https://www.worldometers.info/img/flags/so-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/so-flag.gif",
+        "continente": "Africa"
     },
     "SouthAfrica": {
         "nome": [
@@ -5340,7 +5501,8 @@
         "medicos por mil": "0.8",
         "receita imposto": "27.50%",
         "emissoes co2": "7102",
-        "flag": "https://www.worldometers.info/img/flags/sf-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/sf-flag.gif",
+        "continente": "Africa"
     },
     "SouthKorea": {
         "nome": [
@@ -5375,7 +5537,8 @@
         "medicos por mil": "2.2",
         "receita imposto": "15.60%",
         "emissoes co2": "2023",
-        "flag": "https://www.worldometers.info/img/flags/ks-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ks-flag.gif",
+        "continente": "Asia"
     },
     "SouthSudan": {
         "nome": [
@@ -5408,7 +5571,8 @@
         "medicos por mil": "",
         "receita imposto": "",
         "emissoes co2": "337",
-        "flag": "https://www.worldometers.info/img/flags/od-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/od-flag.gif",
+        "continente": "Africa"
     },
     "Spain": {
         "nome": [
@@ -5441,7 +5605,8 @@
         "medicos por mil": "3.8",
         "receita imposto": "14.20%",
         "emissoes co2": "1432",
-        "flag": "https://www.worldometers.info/img/flags/sp-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/sp-flag.gif",
+        "continente": "Europa"
     },
     "SriLanka": {
         "nome": [
@@ -5474,7 +5639,8 @@
         "medicos por mil": "",
         "receita imposto": "11.90%",
         "emissoes co2": "179",
-        "flag": "https://www.worldometers.info/img/flags/ce-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ce-flag.gif",
+        "continente": "Asia"
     },
     "Sudan": {
         "nome": [
@@ -5507,7 +5673,8 @@
         "medicos por mil": "3.1",
         "receita imposto": "8.00%",
         "emissoes co2": "682",
-        "flag": "https://www.worldometers.info/img/flags/su-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/su-flag.gif",
+        "continente": "Africa"
     },
     "Suriname": {
         "nome": [
@@ -5540,7 +5707,8 @@
         "medicos por mil": "",
         "receita imposto": "19.50%",
         "emissoes co2": "44",
-        "flag": "https://www.worldometers.info/img/flags/ns-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ns-flag.gif",
+        "continente": "America do Sul"
     },
     "Sweden": {
         "nome": [
@@ -5573,7 +5741,8 @@
         "medicos por mil": "4.1",
         "receita imposto": "27.90%",
         "emissoes co2": "1428",
-        "flag": "https://www.worldometers.info/img/flags/sw-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/sw-flag.gif",
+        "continente": "Europa"
     },
     "Switzerland": {
         "nome": [
@@ -5606,7 +5775,8 @@
         "medicos por mil": "4.1",
         "receita imposto": "10.10%",
         "emissoes co2": "552",
-        "flag": "https://www.worldometers.info/img/flags/sz-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/sz-flag.gif",
+        "continente": "Europa"
     },
     "Syria": {
         "nome": [
@@ -5640,7 +5810,8 @@
         "medicos por mil": "1.5",
         "receita imposto": "14.20%",
         "emissoes co2": "237",
-        "flag": "https://www.worldometers.info/img/flags/sy-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/sy-flag.gif",
+        "continente": "Asia"
     },
     "Tajikistan": {
         "nome": [
@@ -5673,7 +5844,8 @@
         "medicos por mil": "1.7",
         "receita imposto": "9.80%",
         "emissoes co2": "76",
-        "flag": "https://www.worldometers.info/img/flags/ti-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ti-flag.gif",
+        "continente": "Asia"
     },
     "Tanzania": {
         "nome": [
@@ -5707,7 +5879,8 @@
         "medicos por mil": "",
         "receita imposto": "11.50%",
         "emissoes co2": "935",
-        "flag": "https://www.worldometers.info/img/flags/tz-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/tz-flag.gif",
+        "continente": "Africa"
     },
     "Thailand": {
         "nome": [
@@ -5740,7 +5913,8 @@
         "medicos por mil": "",
         "receita imposto": "14.90%",
         "emissoes co2": "3338",
-        "flag": "https://www.worldometers.info/img/flags/th-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/th-flag.gif",
+        "continente": "Asia"
     },
     "EastTimor": {
         "nome": [
@@ -5774,7 +5948,8 @@
         "medicos por mil": "0.1",
         "receita imposto": "25.00%",
         "emissoes co2": "143",
-        "flag": "https://www.worldometers.info/img/flags/tt-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/tt-flag.gif",
+        "continente": "Asia"
     },
     "Togo": {
         "nome": [
@@ -5807,7 +5982,8 @@
         "medicos por mil": "",
         "receita imposto": "16.90%",
         "emissoes co2": "111",
-        "flag": "https://www.worldometers.info/img/flags/to-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/to-flag.gif",
+        "continente": "Africa"
     },
     "Tonga": {
         "nome": [
@@ -5840,7 +6016,8 @@
         "medicos por mil": "",
         "receita imposto": "22.30%",
         "emissoes co2": "0",
-        "flag": "https://www.worldometers.info/img/flags/tn-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/tn-flag.gif",
+        "continente": "Oceania"
     },
     "TrinidadandTobago": {
         "nome": [
@@ -5874,7 +6051,8 @@
         "medicos por mil": "",
         "receita imposto": "19.50%",
         "emissoes co2": "1663",
-        "flag": "https://www.worldometers.info/img/flags/td-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/td-flag.gif",
+        "continente": "America do Norte"
     },
     "Tunisia": {
         "nome": [
@@ -5907,7 +6085,8 @@
         "medicos por mil": "1.6",
         "receita imposto": "21.10%",
         "emissoes co2": "274",
-        "flag": "https://www.worldometers.info/img/flags/ts-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ts-flag.gif",
+        "continente": "Africa"
     },
     "Turkey": {
         "nome": [
@@ -5940,7 +6119,8 @@
         "medicos por mil": "1.7",
         "receita imposto": "17.90%",
         "emissoes co2": "1303",
-        "flag": "https://www.worldometers.info/img/flags/tu-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/tu-flag.gif",
+        "continente": "Asia"
     },
     "Turkmenistan": {
         "nome": [
@@ -5973,7 +6153,8 @@
         "medicos por mil": "2.3",
         "receita imposto": "",
         "emissoes co2": "3270",
-        "flag": "https://www.worldometers.info/img/flags/tx-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/tx-flag.gif",
+        "continente": "Asia"
     },
     "Tuvalu": {
         "nome": [
@@ -6006,7 +6187,8 @@
         "medicos por mil": "",
         "receita imposto": "",
         "emissoes co2": 0.1,
-        "flag": "https://www.worldometers.info/img/flags/tv-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/tv-flag.gif",
+        "continente": "Oceania"
     },
     "Uganda": {
         "nome": [
@@ -6039,7 +6221,8 @@
         "medicos por mil": "",
         "receita imposto": "11.70%",
         "emissoes co2": "409",
-        "flag": "https://www.worldometers.info/img/flags/ug-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ug-flag.gif",
+        "continente": "Africa"
     },
     "Ukraine": {
         "nome": [
@@ -6072,7 +6255,8 @@
         "medicos por mil": "3.0",
         "receita imposto": "20.10%",
         "emissoes co2": "3203",
-        "flag": "https://www.worldometers.info/img/flags/up-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/up-flag.gif",
+        "continente": "Europa"
     },
     "UnitedArabEmirates": {
         "nome": [
@@ -6105,7 +6289,8 @@
         "medicos por mil": "1.6",
         "receita imposto": "0.10%",
         "emissoes co2": "8642",
-        "flag": "https://www.worldometers.info/img/flags/ae-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ae-flag.gif",
+        "continente": "Asia"
     },
     "UnitedKingdom": {
         "nome": [
@@ -6138,7 +6323,8 @@
         "medicos por mil": "2.8",
         "receita imposto": "25.50%",
         "emissoes co2": "4482",
-        "flag": "https://www.worldometers.info/img/flags/uk-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/uk-flag.gif",
+        "continente": "Europa"
     },
     "UnitedStates": {
         "nome": [
@@ -6173,7 +6359,8 @@
         "medicos por mil": "2.6",
         "receita imposto": "9.60%",
         "emissoes co2": "83887",
-        "flag": "https://www.worldometers.info/img/flags/us-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/us-flag.gif",
+        "continente": "America do Norte"
     },
     "Uruguay": {
         "nome": [
@@ -6206,7 +6393,8 @@
         "medicos por mil": "",
         "receita imposto": "20.10%",
         "emissoes co2": "113",
-        "flag": "https://www.worldometers.info/img/flags/uy-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/uy-flag.gif",
+        "continente": "America do Sul"
     },
     "Uzbekistan": {
         "nome": [
@@ -6239,7 +6427,8 @@
         "medicos por mil": "2.5",
         "receita imposto": "14.80%",
         "emissoes co2": "2339",
-        "flag": "https://www.worldometers.info/img/flags/uz-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/uz-flag.gif",
+        "continente": "Asia"
     },
     "Vanuatu": {
         "nome": [
@@ -6272,7 +6461,8 @@
         "medicos por mil": "0.2",
         "receita imposto": "17.80%",
         "emissoes co2": "1",
-        "flag": "https://www.worldometers.info/img/flags/nh-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/nh-flag.gif",
+        "continente": "Oceania"
     },
     "Venezuela": {
         "nome": [
@@ -6306,7 +6496,8 @@
         "medicos por mil": "",
         "receita imposto": "",
         "emissoes co2": "7460",
-        "flag": "https://www.worldometers.info/img/flags/ve-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ve-flag.gif",
+        "continente": "America do Sul"
     },
     "Vietnam": {
         "nome": [
@@ -6339,7 +6530,8 @@
         "medicos por mil": "1.2",
         "receita imposto": "19.10%",
         "emissoes co2": "2977",
-        "flag": "https://www.worldometers.info/img/flags/vm-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/vm-flag.gif",
+        "continente": "Asia"
     },
     "Yemen": {
         "nome": [
@@ -6372,7 +6564,8 @@
         "medicos por mil": "0.3",
         "receita imposto": "",
         "emissoes co2": "668",
-        "flag": "https://www.worldometers.info/img/flags/ym-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/ym-flag.gif",
+        "continente": "Asia"
     },
     "Zambia": {
         "nome": [
@@ -6405,7 +6598,8 @@
         "medicos por mil": "0.2",
         "receita imposto": "16.20%",
         "emissoes co2": "374",
-        "flag": "https://www.worldometers.info/img/flags/za-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/za-flag.gif",
+        "continente": "Africa"
     },
     "Zimbabwe": {
         "nome": [
@@ -6438,7 +6632,8 @@
         "medicos por mil": "0.1",
         "receita imposto": "20.70%",
         "emissoes co2": "482",
-        "flag": "https://www.worldometers.info/img/flags/zi-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/zi-flag.gif",
+        "continente": "Africa"
     },
     "SãoToméandPríncipe": {
         "nome": [
@@ -6472,6 +6667,7 @@
         "medicos por mil": "",
         "receita imposto": "",
         "emissoes co2": "1",
-        "flag": "https://www.worldometers.info/img/flags/tp-flag.gif"
+        "flag": "https://www.worldometers.info/img/flags/tp-flag.gif",
+        "continente": "Africa"
     }
 }

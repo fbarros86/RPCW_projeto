@@ -18,6 +18,8 @@ def ESTUPIDEZ(name):
         return "UnitedStates"
     if name == "U.A.E.":
         return "UnitedArabEmirates"
+    if name == "Côte d'Ivoire":
+        return "IvoryCoast"
     return name
 
 def get_flags():

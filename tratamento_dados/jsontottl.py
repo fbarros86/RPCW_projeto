@@ -163,6 +163,10 @@ lines = """
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#flag
 :flag rdf:type owl:DatatypeProperty ;
                   rdfs:domain :Pais .
+                  
+###  http://www.rpcw.pt/rafa/ontologies/2024/paises#continente
+:continente rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Pais .
 
 #################################################################
 #    Classes
@@ -222,6 +226,7 @@ with open('datasets/countriesInfo.json', encoding='UTF-8') as f:
             {receita_imposto}
             :taxa_desemprego "{attributes.get('taxa desemprego', '')}" ;
             :flag "{attributes.get('flag', '')}" ;
+            :continente "{attributes.get('continente', '')}" ;
             :taxa_fertilidade "{attributes.get('taxa fertilidade', '')}" .
 """
 

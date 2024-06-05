@@ -160,6 +160,10 @@
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#flag
 :flag rdf:type owl:DatatypeProperty ;
                   rdfs:domain :Pais .
+                  
+###  http://www.rpcw.pt/rafa/ontologies/2024/paises#continente
+:continente rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Pais .
 
 #################################################################
 #    Classes
@@ -206,6 +210,7 @@
             :receita_imposto "9.30%";
             :taxa_desemprego "8.6" ;
             :flag "https://www.worldometers.info/img/flags/af-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "5.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Albania
@@ -239,6 +244,7 @@
             :receita_imposto "18.60%";
             :taxa_desemprego "15.8" ;
             :flag "https://www.worldometers.info/img/flags/al-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Algeria
@@ -272,6 +278,7 @@
             :receita_imposto "37.20%";
             :taxa_desemprego "11.4" ;
             :flag "https://www.worldometers.info/img/flags/ag-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "3.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Andorra
@@ -305,6 +312,7 @@
             
             :taxa_desemprego "3.7" ;
             :flag "https://www.worldometers.info/img/flags/an-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Angola
@@ -338,6 +346,7 @@
             :receita_imposto "9.20%";
             :taxa_desemprego "6.6" ;
             :flag "https://www.worldometers.info/img/flags/ao-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "6.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#AntiguaandBarbuda
@@ -372,6 +381,7 @@
             :receita_imposto "16.50%";
             :taxa_desemprego "11.0" ;
             :flag "https://www.worldometers.info/img/flags/ac-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Argentina
@@ -405,6 +415,7 @@
             :receita_imposto "10.10%";
             :taxa_desemprego "6.5" ;
             :flag "https://www.worldometers.info/img/flags/ar-flag.gif" ;
+            :continente "America do Sul" ;
             :taxa_fertilidade "2.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Armenia
@@ -438,6 +449,7 @@
             :receita_imposto "20.90%";
             :taxa_desemprego "16.6" ;
             :flag "https://www.worldometers.info/img/flags/am-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Australia
@@ -471,6 +483,7 @@
             :receita_imposto "23.00%";
             :taxa_desemprego "5.5" ;
             :flag "https://www.worldometers.info/img/flags/as-flag.gif" ;
+            :continente "Oceania" ;
             :taxa_fertilidade "1.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Austria
@@ -504,6 +517,7 @@
             :receita_imposto "25.40%";
             :taxa_desemprego "6.2" ;
             :flag "https://www.worldometers.info/img/flags/au-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Azerbaijan
@@ -537,6 +551,7 @@
             :receita_imposto "13.00%";
             :taxa_desemprego "5.2" ;
             :flag "https://www.worldometers.info/img/flags/aj-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#TheBahamas
@@ -572,6 +587,7 @@
             :receita_imposto "14.80%";
             :taxa_desemprego "14.7" ;
             :flag "https://www.worldometers.info/img/flags/bf-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Bahrain
@@ -605,6 +621,7 @@
             :receita_imposto "4.20%";
             :taxa_desemprego "1.3" ;
             :flag "https://www.worldometers.info/img/flags/ba-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Bangladesh
@@ -638,6 +655,7 @@
             :receita_imposto "8.80%";
             :taxa_desemprego "4.0" ;
             :flag "https://www.worldometers.info/img/flags/bg-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Barbados
@@ -671,6 +689,7 @@
             :receita_imposto "27.50%";
             :taxa_desemprego "11.3" ;
             :flag "https://www.worldometers.info/img/flags/bb-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Belarus
@@ -704,6 +723,7 @@
             :receita_imposto "14.70%";
             :taxa_desemprego "0.5" ;
             :flag "https://www.worldometers.info/img/flags/bo-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Belgium
@@ -737,6 +757,7 @@
             :receita_imposto "24.00%";
             :taxa_desemprego "8.3" ;
             :flag "https://www.worldometers.info/img/flags/be-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Belize
@@ -770,6 +791,7 @@
             :receita_imposto "26.30%";
             :taxa_desemprego "11.5" ;
             :flag "https://www.worldometers.info/img/flags/bh-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Benin
@@ -803,6 +825,7 @@
             :receita_imposto "10.80%";
             :taxa_desemprego "1.0" ;
             :flag "https://www.worldometers.info/img/flags/bn-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "5.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Bhutan
@@ -836,6 +859,7 @@
             :receita_imposto "16.00%";
             :taxa_desemprego "2.4" ;
             :flag "https://www.worldometers.info/img/flags/bt-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Bolivia
@@ -870,6 +894,7 @@
             :receita_imposto "17.00%";
             :taxa_desemprego "3.8" ;
             :flag "https://www.worldometers.info/img/flags/bl-flag.gif" ;
+            :continente "America do Sul" ;
             :taxa_fertilidade "3.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#BosniaandHerzegovina
@@ -904,6 +929,7 @@
             :receita_imposto "20.40%";
             :taxa_desemprego "25.4" ;
             :flag "https://www.worldometers.info/img/flags/bk-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Botswana
@@ -937,6 +963,7 @@
             :receita_imposto "19.50%";
             :taxa_desemprego "18.6" ;
             :flag "https://www.worldometers.info/img/flags/bc-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "2.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Brazil
@@ -970,6 +997,7 @@
             :receita_imposto "14.20%";
             :taxa_desemprego "12.4" ;
             :flag "https://www.worldometers.info/img/flags/br-flag.gif" ;
+            :continente "America do Sul" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Brunei
@@ -1004,6 +1032,7 @@
             
             :taxa_desemprego "2.1" ;
             :flag "https://www.worldometers.info/img/flags/bx-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "1.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Bulgaria
@@ -1037,6 +1066,7 @@
             :receita_imposto "20.20%";
             :taxa_desemprego "8.1" ;
             :flag "https://www.worldometers.info/img/flags/bu-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#BurkinaFaso
@@ -1070,6 +1100,7 @@
             :receita_imposto "15.00%";
             :taxa_desemprego "2.9" ;
             :flag "https://www.worldometers.info/img/flags/uv-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "5.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Burundi
@@ -1103,6 +1134,7 @@
             :receita_imposto "13.60%";
             :taxa_desemprego "1.7" ;
             :flag "https://www.worldometers.info/img/flags/by-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "6.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#IvoryCoast
@@ -1136,7 +1168,8 @@
             :racio_sexos "98.2" ;
             :receita_imposto "11.80%";
             :taxa_desemprego "2.9" ;
-            :flag "" ;
+            :flag "https://www.worldometers.info/img/flags/iv-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "4.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#CapeVerde
@@ -1171,6 +1204,7 @@
             :receita_imposto "20.10%";
             :taxa_desemprego "10.5" ;
             :flag "https://www.worldometers.info/img/flags/cv-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "2.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Cambodia
@@ -1204,6 +1238,7 @@
             :receita_imposto "17.10%";
             :taxa_desemprego "0.3" ;
             :flag "https://www.worldometers.info/img/flags/cb-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Cameroon
@@ -1237,6 +1272,7 @@
             :receita_imposto "12.80%";
             :taxa_desemprego "4.6" ;
             :flag "https://www.worldometers.info/img/flags/cm-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "5.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Canada
@@ -1270,6 +1306,7 @@
             :receita_imposto "12.80%";
             :taxa_desemprego "7.1" ;
             :flag "https://www.worldometers.info/img/flags/ca-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#CentralAfricanRepublic
@@ -1304,6 +1341,7 @@
             :receita_imposto "8.60%";
             :taxa_desemprego "6.9" ;
             :flag "https://www.worldometers.info/img/flags/ct-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "5.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Chad
@@ -1337,6 +1375,7 @@
             
             :taxa_desemprego "5.8" ;
             :flag "https://www.worldometers.info/img/flags/cd-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "6.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Chile
@@ -1370,6 +1409,7 @@
             :receita_imposto "18.20%";
             :taxa_desemprego "6.8" ;
             :flag "https://www.worldometers.info/img/flags/ci-flag.gif" ;
+            :continente "America do Sul" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#China
@@ -1403,6 +1443,7 @@
             :receita_imposto "9.40%";
             :taxa_desemprego "4.6" ;
             :flag "https://www.worldometers.info/img/flags/ch-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Colombia
@@ -1436,6 +1477,7 @@
             :receita_imposto "14.40%";
             :taxa_desemprego "10.5" ;
             :flag "https://www.worldometers.info/img/flags/co-flag.gif" ;
+            :continente "America do Sul" ;
             :taxa_fertilidade "1.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Comoros
@@ -1469,6 +1511,7 @@
             
             :taxa_desemprego "20.0" ;
             :flag "https://www.worldometers.info/img/flags/cn-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "4.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#RepublicoftheCongo
@@ -1504,6 +1547,7 @@
             :receita_imposto "9.00%";
             :taxa_desemprego "11.5" ;
             :flag "https://www.worldometers.info/img/flags/cg-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "4.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#CostaRica
@@ -1537,6 +1581,7 @@
             :receita_imposto "13.60%";
             :taxa_desemprego "8.6" ;
             :flag "https://www.worldometers.info/img/flags/cs-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "1.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Croatia
@@ -1570,6 +1615,7 @@
             :receita_imposto "22.00%";
             :taxa_desemprego "11.7" ;
             :flag "https://www.worldometers.info/img/flags/hr-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Cuba
@@ -1603,6 +1649,7 @@
             
             :taxa_desemprego "3.0" ;
             :flag "https://www.worldometers.info/img/flags/cu-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Cyprus
@@ -1636,6 +1683,7 @@
             :receita_imposto "24.50%";
             :taxa_desemprego "10.3" ;
             :flag "https://www.worldometers.info/img/flags/cy-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#CzechRepublic
@@ -1670,6 +1718,7 @@
             :receita_imposto "14.90%";
             :taxa_desemprego "3.9" ;
             :flag "https://www.worldometers.info/img/flags/ez-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#DemocraticRepublicoftheCongo
@@ -1704,6 +1753,7 @@
             :receita_imposto "10.70%";
             :taxa_desemprego "3.6" ;
             :flag "https://www.worldometers.info/img/flags/congo-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "6.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Denmark
@@ -1737,6 +1787,7 @@
             :receita_imposto "32.40%";
             :taxa_desemprego "6.0" ;
             :flag "https://www.worldometers.info/img/flags/da-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Djibouti
@@ -1770,6 +1821,7 @@
             
             :taxa_desemprego "6.6" ;
             :flag "https://www.worldometers.info/img/flags/dj-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "3.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Dominica
@@ -1803,6 +1855,7 @@
             :receita_imposto "22.10%";
             :taxa_desemprego "23.0" ;
             :flag "https://www.worldometers.info/img/flags/do-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#DominicanRepublic
@@ -1836,6 +1889,7 @@
             :receita_imposto "13.00%";
             :taxa_desemprego "14.4" ;
             :flag "https://www.worldometers.info/img/flags/dr-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "2.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Ecuador
@@ -1869,6 +1923,7 @@
             
             :taxa_desemprego "5.8" ;
             :flag "https://www.worldometers.info/img/flags/ec-flag.gif" ;
+            :continente "America do Sul" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Egypt
@@ -1902,6 +1957,7 @@
             :receita_imposto "12.50%";
             :taxa_desemprego "11.5" ;
             :flag "https://www.worldometers.info/img/flags/eg-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "3.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#ElSalvador
@@ -1935,6 +1991,7 @@
             :receita_imposto "18.10%";
             :taxa_desemprego "6.4" ;
             :flag "https://www.worldometers.info/img/flags/es-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "2.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#EquatorialGuinea
@@ -1968,6 +2025,7 @@
             :receita_imposto "6.10%";
             :taxa_desemprego "7.7" ;
             :flag "https://www.worldometers.info/img/flags/ek-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "5.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Eritrea
@@ -2001,6 +2059,7 @@
             
             :taxa_desemprego "7.3" ;
             :flag "https://www.worldometers.info/img/flags/er-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "4.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Estonia
@@ -2034,6 +2093,7 @@
             :receita_imposto "20.90%";
             :taxa_desemprego "7.2" ;
             :flag "https://www.worldometers.info/img/flags/en-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Eswatini
@@ -2068,6 +2128,7 @@
             :receita_imposto "28.60%";
             :taxa_desemprego "25.1" ;
             :flag "https://www.worldometers.info/img/flags/wz-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "3.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Ethiopia
@@ -2101,6 +2162,7 @@
             :receita_imposto "7.50%";
             :taxa_desemprego "5.7" ;
             :flag "https://www.worldometers.info/img/flags/et-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "4.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Fiji
@@ -2134,6 +2196,7 @@
             :receita_imposto "24.20%";
             :taxa_desemprego "7.7" ;
             :flag "https://www.worldometers.info/img/flags/fj-flag.gif" ;
+            :continente "Oceania" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Finland
@@ -2167,6 +2230,7 @@
             :receita_imposto "20.80%";
             :taxa_desemprego "8.9" ;
             :flag "https://www.worldometers.info/img/flags/fi-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#France
@@ -2200,6 +2264,7 @@
             :receita_imposto "24.20%";
             :taxa_desemprego "9.8" ;
             :flag "https://www.worldometers.info/img/flags/fr-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Gabon
@@ -2233,6 +2298,7 @@
             :receita_imposto "10.20%";
             :taxa_desemprego "18.1" ;
             :flag "https://www.worldometers.info/img/flags/gb-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "4.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#TheGambia
@@ -2268,6 +2334,7 @@
             :receita_imposto "9.40%";
             :taxa_desemprego "29.7" ;
             :flag "https://www.worldometers.info/img/flags/ga-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "5.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Georgia
@@ -2301,6 +2368,7 @@
             :receita_imposto "21.70%";
             :taxa_desemprego "11.4" ;
             :flag "https://www.worldometers.info/img/flags/gg-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Germany
@@ -2334,6 +2402,7 @@
             :receita_imposto "11.50%";
             :taxa_desemprego "4.2" ;
             :flag "https://www.worldometers.info/img/flags/gm-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Ghana
@@ -2367,6 +2436,7 @@
             :receita_imposto "12.60%";
             :taxa_desemprego "5.9" ;
             :flag "https://www.worldometers.info/img/flags/gh-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "4.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Greece
@@ -2400,6 +2470,7 @@
             :receita_imposto "26.20%";
             :taxa_desemprego "23.0" ;
             :flag "https://www.worldometers.info/img/flags/gr-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Grenada
@@ -2433,6 +2504,7 @@
             :receita_imposto "19.40%";
             :taxa_desemprego "15.0" ;
             :flag "https://www.worldometers.info/img/flags/gj-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "2.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Guatemala
@@ -2466,6 +2538,7 @@
             :receita_imposto "10.60%";
             :taxa_desemprego "2.4" ;
             :flag "https://www.worldometers.info/img/flags/gt-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "3.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Guinea
@@ -2499,6 +2572,7 @@
             :receita_imposto "10.80%";
             :taxa_desemprego "6.8" ;
             :flag "https://www.worldometers.info/img/flags/gv-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "5.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Guinea-Bissau
@@ -2532,6 +2606,7 @@
             :receita_imposto "10.30%";
             :taxa_desemprego "6.5" ;
             :flag "https://www.worldometers.info/img/flags/pu-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "4.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Guyana
@@ -2565,6 +2640,7 @@
             
             :taxa_desemprego "11.3" ;
             :flag "https://www.worldometers.info/img/flags/gy-flag.gif" ;
+            :continente "America do Sul" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Haiti
@@ -2598,6 +2674,7 @@
             
             :taxa_desemprego "12.9" ;
             :flag "https://www.worldometers.info/img/flags/ha-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "3.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#HolySee
@@ -2632,6 +2709,7 @@
             
             :taxa_desemprego "0" ;
             :flag "https://www.worldometers.info/img/flags/vt-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Honduras
@@ -2665,6 +2743,7 @@
             :receita_imposto "17.30%";
             :taxa_desemprego "5.6" ;
             :flag "https://www.worldometers.info/img/flags/ho-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Hungary
@@ -2698,6 +2777,7 @@
             :receita_imposto "23.00%";
             :taxa_desemprego "4.5" ;
             :flag "https://www.worldometers.info/img/flags/hu-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Iceland
@@ -2731,6 +2811,7 @@
             :receita_imposto "23.30%";
             :taxa_desemprego "3.6" ;
             :flag "https://www.worldometers.info/img/flags/ic-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#India
@@ -2764,6 +2845,7 @@
             :receita_imposto "11.20%";
             :taxa_desemprego "3.4" ;
             :flag "https://www.worldometers.info/img/flags/in-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Indonesia
@@ -2797,6 +2879,7 @@
             :receita_imposto "10.20%";
             :taxa_desemprego "5.8" ;
             :flag "https://www.worldometers.info/img/flags/id-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Iran
@@ -2831,6 +2914,7 @@
             :receita_imposto "7.40%";
             :taxa_desemprego "11.3" ;
             :flag "https://www.worldometers.info/img/flags/ir-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Iraq
@@ -2864,6 +2948,7 @@
             :receita_imposto "2.00%";
             :taxa_desemprego "16.1" ;
             :flag "https://www.worldometers.info/img/flags/iz-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "4.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Ireland
@@ -2898,6 +2983,7 @@
             :receita_imposto "18.30%";
             :taxa_desemprego "7.6" ;
             :flag "https://www.worldometers.info/img/flags/ei-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Israel
@@ -2931,6 +3017,7 @@
             :receita_imposto "23.10%";
             :taxa_desemprego "5.9" ;
             :flag "https://www.worldometers.info/img/flags/is-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "3.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Italy
@@ -2964,6 +3051,7 @@
             :receita_imposto "24.30%";
             :taxa_desemprego "11.4" ;
             :flag "https://www.worldometers.info/img/flags/it-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Jamaica
@@ -2997,6 +3085,7 @@
             :receita_imposto "26.80%";
             :taxa_desemprego "13.1" ;
             :flag "https://www.worldometers.info/img/flags/jm-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Japan
@@ -3030,6 +3119,7 @@
             :receita_imposto "11.90%";
             :taxa_desemprego "3.0" ;
             :flag "https://www.worldometers.info/img/flags/ja-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Jordan
@@ -3063,6 +3153,7 @@
             :receita_imposto "15.10%";
             :taxa_desemprego "13.4" ;
             :flag "https://www.worldometers.info/img/flags/jo-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "3.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Kazakhstan
@@ -3096,6 +3187,7 @@
             :receita_imposto "11.70%";
             :taxa_desemprego "5.6" ;
             :flag "https://www.worldometers.info/img/flags/kz-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Kenya
@@ -3129,6 +3221,7 @@
             :receita_imposto "15.10%";
             :taxa_desemprego "10.8" ;
             :flag "https://www.worldometers.info/img/flags/ke-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "4.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Kiribati
@@ -3162,6 +3255,7 @@
             :receita_imposto "22.00%";
             :taxa_desemprego "30.6" ;
             :flag "https://www.worldometers.info/img/flags/kr-flag.gif" ;
+            :continente "Oceania" ;
             :taxa_fertilidade "3.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Kuwait
@@ -3195,6 +3289,7 @@
             :receita_imposto "1.40%";
             :taxa_desemprego "2.2" ;
             :flag "https://www.worldometers.info/img/flags/ku-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Kyrgyzstan
@@ -3228,6 +3323,7 @@
             :receita_imposto "18.00%";
             :taxa_desemprego "7.7" ;
             :flag "https://www.worldometers.info/img/flags/kg-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "3.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Laos
@@ -3262,6 +3358,7 @@
             :receita_imposto "12.90%";
             :taxa_desemprego "1.5" ;
             :flag "https://www.worldometers.info/img/flags/la-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Latvia
@@ -3295,6 +3392,7 @@
             :receita_imposto "22.90%";
             :taxa_desemprego "9.6" ;
             :flag "https://www.worldometers.info/img/flags/lg-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Lebanon
@@ -3328,6 +3426,7 @@
             :receita_imposto "15.30%";
             :taxa_desemprego "7.0" ;
             :flag "https://www.worldometers.info/img/flags/le-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Lesotho
@@ -3361,6 +3460,7 @@
             :receita_imposto "31.60%";
             :taxa_desemprego "27.5" ;
             :flag "https://www.worldometers.info/img/flags/lt-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "3.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Liberia
@@ -3394,6 +3494,7 @@
             :receita_imposto "12.90%";
             :taxa_desemprego "4.1" ;
             :flag "https://www.worldometers.info/img/flags/li-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "4.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Libya
@@ -3427,6 +3528,7 @@
             
             :taxa_desemprego "19.2" ;
             :flag "https://www.worldometers.info/img/flags/ly-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "2.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Liechtenstein
@@ -3460,6 +3562,7 @@
             
             :taxa_desemprego "2.6" ;
             :flag "https://www.worldometers.info/img/flags/ls-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Lithuania
@@ -3493,6 +3596,7 @@
             :receita_imposto "16.90%";
             :taxa_desemprego "9.2" ;
             :flag "https://www.worldometers.info/img/flags/lh-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Luxembourg
@@ -3526,6 +3630,7 @@
             :receita_imposto "26.50%";
             :taxa_desemprego "5.6" ;
             :flag "https://www.worldometers.info/img/flags/lu-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Madagascar
@@ -3559,6 +3664,7 @@
             :receita_imposto "10.20%";
             :taxa_desemprego "2.3" ;
             :flag "https://www.worldometers.info/img/flags/ma-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "4.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Malawi
@@ -3592,6 +3698,7 @@
             :receita_imposto "17.30%";
             :taxa_desemprego "6.8" ;
             :flag "https://www.worldometers.info/img/flags/mi-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "4.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Malaysia
@@ -3625,6 +3732,7 @@
             :receita_imposto "12.00%";
             :taxa_desemprego "3.3" ;
             :flag "https://www.worldometers.info/img/flags/my-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Maldives
@@ -3658,6 +3766,7 @@
             :receita_imposto "19.50%";
             :taxa_desemprego "2.9" ;
             :flag "https://www.worldometers.info/img/flags/mv-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Mali
@@ -3691,6 +3800,7 @@
             :receita_imposto "11.60%";
             :taxa_desemprego "8.1" ;
             :flag "https://www.worldometers.info/img/flags/ml-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "6.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Malta
@@ -3724,6 +3834,7 @@
             :receita_imposto "26.20%";
             :taxa_desemprego "5.4" ;
             :flag "https://www.worldometers.info/img/flags/mt-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#MarshallIslands
@@ -3757,6 +3868,7 @@
             :receita_imposto "17.80%";
             :taxa_desemprego "4.7" ;
             :flag "https://www.worldometers.info/img/flags/rm-flag.gif" ;
+            :continente "Oceania" ;
             :taxa_fertilidade "4.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Mauritania
@@ -3790,6 +3902,7 @@
             
             :taxa_desemprego "12.0" ;
             :flag "https://www.worldometers.info/img/flags/mr-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "4.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Mauritius
@@ -3823,6 +3936,7 @@
             :receita_imposto "19.10%";
             :taxa_desemprego "7.6" ;
             :flag "https://www.worldometers.info/img/flags/mp-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Mexico
@@ -3856,6 +3970,7 @@
             :receita_imposto "13.10%";
             :taxa_desemprego "4.1" ;
             :flag "https://www.worldometers.info/img/flags/mx-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "2.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Micronesia
@@ -3891,6 +4006,7 @@
             :receita_imposto "25.20%";
             :taxa_desemprego "16.2" ;
             :flag "https://www.worldometers.info/img/flags/fm-flag.gif" ;
+            :continente "Oceania" ;
             :taxa_fertilidade "3.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Moldova
@@ -3925,6 +4041,7 @@
             :receita_imposto "17.70%";
             :taxa_desemprego "5.0" ;
             :flag "https://www.worldometers.info/img/flags/md-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Monaco
@@ -3958,6 +4075,7 @@
             
             :taxa_desemprego "2.0" ;
             :flag "https://www.worldometers.info/img/flags/mn-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Mongolia
@@ -3991,6 +4109,7 @@
             :receita_imposto "16.80%";
             :taxa_desemprego "6.3" ;
             :flag "https://www.worldometers.info/img/flags/mg-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Montenegro
@@ -4024,6 +4143,7 @@
             
             :taxa_desemprego "17.4" ;
             :flag "https://www.worldometers.info/img/flags/mj-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Morocco
@@ -4057,6 +4177,7 @@
             :receita_imposto "21.90%";
             :taxa_desemprego "10.4" ;
             :flag "https://www.worldometers.info/img/flags/mo-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Mozambique
@@ -4090,6 +4211,7 @@
             :receita_imposto "0.00%";
             :taxa_desemprego "24.1" ;
             :flag "https://www.worldometers.info/img/flags/mz-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "5.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Myanmar
@@ -4124,6 +4246,7 @@
             :receita_imposto "5.40%";
             :taxa_desemprego "0.8" ;
             :flag "https://www.worldometers.info/img/flags/bm-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Namibia
@@ -4157,6 +4280,7 @@
             :receita_imposto "27.10%";
             :taxa_desemprego "24.9" ;
             :flag "https://www.worldometers.info/img/flags/wa-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "3.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Nauru
@@ -4190,6 +4314,7 @@
             
             :taxa_desemprego "23.0" ;
             :flag "https://www.worldometers.info/img/flags/nr-flag.gif" ;
+            :continente "Oceania" ;
             :taxa_fertilidade "3.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Nepal
@@ -4223,6 +4348,7 @@
             :receita_imposto "20.70%";
             :taxa_desemprego "3.0" ;
             :flag "https://www.worldometers.info/img/flags/np-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Netherlands
@@ -4256,6 +4382,7 @@
             :receita_imposto "23.00%";
             :taxa_desemprego "5.6" ;
             :flag "https://www.worldometers.info/img/flags/nl-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#NewZealand
@@ -4289,6 +4416,7 @@
             :receita_imposto "29.00%";
             :taxa_desemprego "5.5" ;
             :flag "https://www.worldometers.info/img/flags/nz-flag.gif" ;
+            :continente "Oceania" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Nicaragua
@@ -4322,6 +4450,7 @@
             :receita_imposto "15.60%";
             :taxa_desemprego "6.1" ;
             :flag "https://www.worldometers.info/img/flags/nu-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "2.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Niger
@@ -4355,6 +4484,7 @@
             :receita_imposto "11.80%";
             :taxa_desemprego "2.7" ;
             :flag "https://www.worldometers.info/img/flags/ng-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "7.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Nigeria
@@ -4388,6 +4518,7 @@
             :receita_imposto "1.50%";
             :taxa_desemprego "5.4" ;
             :flag "https://www.worldometers.info/img/flags/ni-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "5.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#NorthKorea
@@ -4423,6 +4554,7 @@
             
             :taxa_desemprego "4.3" ;
             :flag "https://www.worldometers.info/img/flags/kn-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#NorthMacedonia
@@ -4458,6 +4590,7 @@
             
             :taxa_desemprego "27.3" ;
             :flag "https://www.worldometers.info/img/flags/mk-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Norway
@@ -4491,6 +4624,7 @@
             :receita_imposto "23.90%";
             :taxa_desemprego "5.1" ;
             :flag "https://www.worldometers.info/img/flags/no-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Oman
@@ -4524,6 +4658,7 @@
             :receita_imposto "2.50%";
             :taxa_desemprego "17.8" ;
             :flag "https://www.worldometers.info/img/flags/mu-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Pakistan
@@ -4557,6 +4692,7 @@
             :receita_imposto "9.20%";
             :taxa_desemprego "5.9" ;
             :flag "https://www.worldometers.info/img/flags/pk-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "3.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Palau
@@ -4590,6 +4726,7 @@
             :receita_imposto "21.30%";
             :taxa_desemprego "1.7" ;
             :flag "https://www.worldometers.info/img/flags/ps-flag.gif" ;
+            :continente "Oceania" ;
             :taxa_fertilidade "2.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Palestine
@@ -4624,6 +4761,7 @@
             
             :taxa_desemprego "24.2" ;
             :flag "https://www.worldometers.info/img/flags/palestine-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "4.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Panama
@@ -4657,6 +4795,7 @@
             
             :taxa_desemprego "6.2" ;
             :flag "https://www.worldometers.info/img/flags/pm-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#PapuaNewGuinea
@@ -4690,6 +4829,7 @@
             :receita_imposto "13.60%";
             :taxa_desemprego "2.5" ;
             :flag "https://www.worldometers.info/img/flags/pp-flag.gif" ;
+            :continente "Oceania" ;
             :taxa_fertilidade "3.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Paraguay
@@ -4723,6 +4863,7 @@
             :receita_imposto "10.00%";
             :taxa_desemprego "5.5" ;
             :flag "https://www.worldometers.info/img/flags/pa-flag.gif" ;
+            :continente "America do Sul" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Peru
@@ -4756,6 +4897,7 @@
             :receita_imposto "14.30%";
             :taxa_desemprego "5.3" ;
             :flag "https://www.worldometers.info/img/flags/pe-flag.gif" ;
+            :continente "America do Sul" ;
             :taxa_fertilidade "2.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Philippines
@@ -4789,6 +4931,7 @@
             :receita_imposto "14.00%";
             :taxa_desemprego "5.9" ;
             :flag "https://www.worldometers.info/img/flags/rp-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "3.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Poland
@@ -4822,6 +4965,7 @@
             :receita_imposto "17.40%";
             :taxa_desemprego "5.3" ;
             :flag "https://www.worldometers.info/img/flags/pl-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Portugal
@@ -4855,6 +4999,7 @@
             :receita_imposto "22.80%";
             :taxa_desemprego "10.5" ;
             :flag "https://www.worldometers.info/img/flags/po-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Qatar
@@ -4888,6 +5033,7 @@
             :receita_imposto "14.70%";
             :taxa_desemprego "0.3" ;
             :flag "https://www.worldometers.info/img/flags/qa-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Romania
@@ -4921,6 +5067,7 @@
             :receita_imposto "14.60%";
             :taxa_desemprego "7.1" ;
             :flag "https://www.worldometers.info/img/flags/ro-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Russia
@@ -4955,6 +5102,7 @@
             :receita_imposto "11.40%";
             :taxa_desemprego "5.8" ;
             :flag "https://www.worldometers.info/img/flags/rs-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Rwanda
@@ -4988,6 +5136,7 @@
             :receita_imposto "14.30%";
             :taxa_desemprego "2.4" ;
             :flag "https://www.worldometers.info/img/flags/rw-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "4.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SaintKittsandNevis
@@ -5022,6 +5171,7 @@
             :receita_imposto "18.50%";
             :taxa_desemprego "4.5" ;
             :flag "https://www.worldometers.info/img/flags/sc-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "2.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SaintLucia
@@ -5055,6 +5205,7 @@
             :receita_imposto "18.20%";
             :taxa_desemprego "19.0" ;
             :flag "https://www.worldometers.info/img/flags/st-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SaintVincentandtheGrenadines
@@ -5088,6 +5239,7 @@
             :receita_imposto "25.40%";
             :taxa_desemprego "19.1" ;
             :flag "https://www.worldometers.info/img/flags/vc-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Samoa
@@ -5121,6 +5273,7 @@
             :receita_imposto "25.50%";
             :taxa_desemprego "6.5" ;
             :flag "https://www.worldometers.info/img/flags/ws-flag.gif" ;
+            :continente "Oceania" ;
             :taxa_fertilidade "4.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SanMarino
@@ -5154,6 +5307,7 @@
             :receita_imposto "18.10%";
             :taxa_desemprego "6.6" ;
             :flag "https://www.worldometers.info/img/flags/sm-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SaudiArabia
@@ -5187,6 +5341,7 @@
             :receita_imposto "8.90%";
             :taxa_desemprego "5.5" ;
             :flag "https://www.worldometers.info/img/flags/sa-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Senegal
@@ -5220,6 +5375,7 @@
             :receita_imposto "16.30%";
             :taxa_desemprego "9.3" ;
             :flag "https://www.worldometers.info/img/flags/sg-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "5.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Serbia
@@ -5253,6 +5409,7 @@
             :receita_imposto "18.60%";
             :taxa_desemprego "15.5" ;
             :flag "https://www.worldometers.info/img/flags/ri-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Seychelles
@@ -5286,6 +5443,7 @@
             :receita_imposto "34.10%";
             :taxa_desemprego "4.1" ;
             :flag "https://www.worldometers.info/img/flags/se-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "2.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SierraLeone
@@ -5319,6 +5477,7 @@
             :receita_imposto "8.60%";
             :taxa_desemprego "3.1" ;
             :flag "https://www.worldometers.info/img/flags/sl-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "4.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Singapore
@@ -5352,6 +5511,7 @@
             :receita_imposto "13.10%";
             :taxa_desemprego "2.0" ;
             :flag "https://www.worldometers.info/img/flags/sn-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "1.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Slovakia
@@ -5385,6 +5545,7 @@
             :receita_imposto "18.70%";
             :taxa_desemprego "9.9" ;
             :flag "https://www.worldometers.info/img/flags/lo-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Slovenia
@@ -5418,6 +5579,7 @@
             :receita_imposto "18.60%";
             :taxa_desemprego "8.1" ;
             :flag "https://www.worldometers.info/img/flags/si-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SolomonIslands
@@ -5451,6 +5613,7 @@
             :receita_imposto "29.50%";
             :taxa_desemprego "31.4" ;
             :flag "https://www.worldometers.info/img/flags/bp-flag.gif" ;
+            :continente "Oceania" ;
             :taxa_fertilidade "4.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Somalia
@@ -5484,6 +5647,7 @@
             :receita_imposto "0.00%";
             :taxa_desemprego "6.6" ;
             :flag "https://www.worldometers.info/img/flags/so-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "6.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SouthAfrica
@@ -5517,6 +5681,7 @@
             :receita_imposto "27.50%";
             :taxa_desemprego "26.0" ;
             :flag "https://www.worldometers.info/img/flags/sf-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "2.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SouthKorea
@@ -5552,6 +5717,7 @@
             :receita_imposto "15.60%";
             :taxa_desemprego "3.6" ;
             :flag "https://www.worldometers.info/img/flags/ks-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "1.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SouthSudan
@@ -5585,6 +5751,7 @@
             
             :taxa_desemprego "12.0" ;
             :flag "https://www.worldometers.info/img/flags/od-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "5.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Spain
@@ -5618,6 +5785,7 @@
             :receita_imposto "14.20%";
             :taxa_desemprego "18.3" ;
             :flag "https://www.worldometers.info/img/flags/sp-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SriLanka
@@ -5651,6 +5819,7 @@
             :receita_imposto "11.90%";
             :taxa_desemprego "5.2" ;
             :flag "https://www.worldometers.info/img/flags/ce-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Sudan
@@ -5684,6 +5853,7 @@
             :receita_imposto "8.00%";
             :taxa_desemprego "13.4" ;
             :flag "https://www.worldometers.info/img/flags/su-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "4.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Suriname
@@ -5717,6 +5887,7 @@
             :receita_imposto "19.50%";
             :taxa_desemprego "9.9" ;
             :flag "https://www.worldometers.info/img/flags/ns-flag.gif" ;
+            :continente "America do Sul" ;
             :taxa_fertilidade "2.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Sweden
@@ -5750,6 +5921,7 @@
             :receita_imposto "27.90%";
             :taxa_desemprego "7.3" ;
             :flag "https://www.worldometers.info/img/flags/sw-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Switzerland
@@ -5783,6 +5955,7 @@
             :receita_imposto "10.10%";
             :taxa_desemprego "4.6" ;
             :flag "https://www.worldometers.info/img/flags/sz-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Syria
@@ -5817,6 +5990,7 @@
             :receita_imposto "14.20%";
             :taxa_desemprego "13.8" ;
             :flag "https://www.worldometers.info/img/flags/sy-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "3.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Tajikistan
@@ -5850,6 +6024,7 @@
             :receita_imposto "9.80%";
             :taxa_desemprego "10.8" ;
             :flag "https://www.worldometers.info/img/flags/ti-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "3.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Tanzania
@@ -5884,6 +6059,7 @@
             :receita_imposto "11.50%";
             :taxa_desemprego "2.7" ;
             :flag "https://www.worldometers.info/img/flags/tz-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "5.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Thailand
@@ -5917,6 +6093,7 @@
             :receita_imposto "14.90%";
             :taxa_desemprego "0.6" ;
             :flag "https://www.worldometers.info/img/flags/th-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#EastTimor
@@ -5951,6 +6128,7 @@
             :receita_imposto "25.00%";
             :taxa_desemprego "4.3" ;
             :flag "https://www.worldometers.info/img/flags/tt-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "5.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Togo
@@ -5984,6 +6162,7 @@
             :receita_imposto "16.90%";
             :taxa_desemprego "6.8" ;
             :flag "https://www.worldometers.info/img/flags/to-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "4.7" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Tonga
@@ -6017,6 +6196,7 @@
             :receita_imposto "22.30%";
             :taxa_desemprego "4.8" ;
             :flag "https://www.worldometers.info/img/flags/tn-flag.gif" ;
+            :continente "Oceania" ;
             :taxa_fertilidade "3.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#TrinidadandTobago
@@ -6051,6 +6231,7 @@
             :receita_imposto "19.50%";
             :taxa_desemprego "4.2" ;
             :flag "https://www.worldometers.info/img/flags/td-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Tunisia
@@ -6084,6 +6265,7 @@
             :receita_imposto "21.10%";
             :taxa_desemprego "14.6" ;
             :flag "https://www.worldometers.info/img/flags/ts-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "2.3" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Turkey
@@ -6117,6 +6299,7 @@
             :receita_imposto "17.90%";
             :taxa_desemprego "10.8" ;
             :flag "https://www.worldometers.info/img/flags/tu-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.1" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Turkmenistan
@@ -6150,6 +6333,7 @@
             
             :taxa_desemprego "8.6" ;
             :flag "https://www.worldometers.info/img/flags/tx-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "3.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Tuvalu
@@ -6183,6 +6367,7 @@
             
             :taxa_desemprego "6.0" ;
             :flag "https://www.worldometers.info/img/flags/tv-flag.gif" ;
+            :continente "Oceania" ;
             :taxa_fertilidade "3.6" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Uganda
@@ -6216,6 +6401,7 @@
             :receita_imposto "11.70%";
             :taxa_desemprego "2.4" ;
             :flag "https://www.worldometers.info/img/flags/ug-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "5.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Ukraine
@@ -6249,6 +6435,7 @@
             :receita_imposto "20.10%";
             :taxa_desemprego "8.8" ;
             :flag "https://www.worldometers.info/img/flags/up-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.5" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#UnitedArabEmirates
@@ -6282,6 +6469,7 @@
             :receita_imposto "0.10%";
             :taxa_desemprego "3.7" ;
             :flag "https://www.worldometers.info/img/flags/ae-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "1.8" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#UnitedKingdom
@@ -6315,6 +6503,7 @@
             :receita_imposto "25.50%";
             :taxa_desemprego "5.0" ;
             :flag "https://www.worldometers.info/img/flags/uk-flag.gif" ;
+            :continente "Europa" ;
             :taxa_fertilidade "1.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#UnitedStates
@@ -6350,6 +6539,7 @@
             :receita_imposto "9.60%";
             :taxa_desemprego "4.9" ;
             :flag "https://www.worldometers.info/img/flags/us-flag.gif" ;
+            :continente "America do Norte" ;
             :taxa_fertilidade "1.9" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Uruguay
@@ -6383,6 +6573,7 @@
             :receita_imposto "20.10%";
             :taxa_desemprego "8.8" ;
             :flag "https://www.worldometers.info/img/flags/uy-flag.gif" ;
+            :continente "America do Sul" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Uzbekistan
@@ -6416,6 +6607,7 @@
             :receita_imposto "14.80%";
             :taxa_desemprego "8.9" ;
             :flag "https://www.worldometers.info/img/flags/uz-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Vanuatu
@@ -6449,6 +6641,7 @@
             :receita_imposto "17.80%";
             :taxa_desemprego "5.3" ;
             :flag "https://www.worldometers.info/img/flags/nh-flag.gif" ;
+            :continente "Oceania" ;
             :taxa_fertilidade "3.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Venezuela
@@ -6483,6 +6676,7 @@
             
             :taxa_desemprego "6.6" ;
             :flag "https://www.worldometers.info/img/flags/ve-flag.gif" ;
+            :continente "America do Sul" ;
             :taxa_fertilidade "2.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Vietnam
@@ -6516,6 +6710,7 @@
             :receita_imposto "19.10%";
             :taxa_desemprego "2.2" ;
             :flag "https://www.worldometers.info/img/flags/vm-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "2.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Yemen
@@ -6549,6 +6744,7 @@
             
             :taxa_desemprego "16.1" ;
             :flag "https://www.worldometers.info/img/flags/ym-flag.gif" ;
+            :continente "Asia" ;
             :taxa_fertilidade "4.4" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Zambia
@@ -6582,6 +6778,7 @@
             :receita_imposto "16.20%";
             :taxa_desemprego "7.4" ;
             :flag "https://www.worldometers.info/img/flags/za-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "5.2" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#Zimbabwe
@@ -6615,6 +6812,7 @@
             :receita_imposto "20.70%";
             :taxa_desemprego "5.0" ;
             :flag "https://www.worldometers.info/img/flags/zi-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "4.0" .
 
 ###  http://www.rpcw.pt/rafa/ontologies/2024/paises#SãoToméandPríncipe
@@ -6649,4 +6847,5 @@
             
             :taxa_desemprego "13.6" ;
             :flag "https://www.worldometers.info/img/flags/tp-flag.gif" ;
+            :continente "Africa" ;
             :taxa_fertilidade "4.7" .

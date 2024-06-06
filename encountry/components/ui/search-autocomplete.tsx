@@ -6,6 +6,7 @@ import useClickOutside from "../../hooks/click-outside"
 import SearchContent from "./search-content"
 import { useDebounce } from "use-debounce"
 import { searchQuery } from "../../lib/encode"
+import { getCountriesSearch, getCountryInfo } from "../../lib/api" // Adjust the path as necessary
 
 interface SearchAutocompleteProps {
   onSelect: (name: string) => void // Add onSelect prop
@@ -25,20 +26,17 @@ const SearchAutocomplete: React.FC<SearchAutocompleteProps> = ({
   const fetchData = async () => {
     if (!searchParams || searchParams.trim() === "") return
     setLoading(true)
+
     try {
-      const url = searchQuery(searchParams)
-      const response = await fetch(url)
-
-      if (response) {
-        const dataResponse = await response.json()
-        if (dataResponse.length === 0) {
-          setNoData(true)
-        } else {
-          setNoData(false)
-        }
-
-        setAutocomplete(dataResponse)
+      const countryInfo = await getCountriesSearch(searchParams) // Fetch data using the new function
+      console.log("Country info:", countryInfo)
+      if (countryInfo.length === 0) {
+        setNoData(true)
+      } else {
+        setNoData(false)
       }
+
+      setAutocomplete(countryInfo) // Update autocomplete state with the fetched data
     } catch (error) {
       console.log("Something went wrong", error)
     } finally {
@@ -86,7 +84,7 @@ const SearchAutocomplete: React.FC<SearchAutocompleteProps> = ({
       <div
         className={`absolute left-0 right-0 top-full mt-1 max-h-[20rem] w-full rounded-md bg-card shadow-md transition-all duration-300 ${
           isExpanded ? "max-h-[15rem] opacity-100" : "max-h-0 opacity-0"
-        } overflow-y-auto scrollbar scrollbar-track-card scrollbar-thumb-muted hover:scrollbar-thumb-border dark:hover:scrollbar-thumb-zinc-700 active:scrollbar-thumb-primary hover:cursor-pointer  scrollbar-thumb-rounded-full`}
+        } overflow-y-auto scrollbar scrollbar-track-card scrollbar-thumb-muted scrollbar-thumb-rounded-full hover:cursor-pointer hover:scrollbar-thumb-border active:scrollbar-thumb-primary dark:hover:scrollbar-thumb-zinc-700`}
       >
         {loading && (
           <div className="absolute right-4 top-8 -translate-y-1/2">

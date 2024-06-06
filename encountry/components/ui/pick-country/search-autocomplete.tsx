@@ -1,12 +1,9 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { AiOutlineSearch } from "react-icons/ai"
-import useClickOutside from "../../hooks/click-outside"
+import useClickOutside from "./hooks/click-outside"
 import SearchContent from "./search-content"
 import { useDebounce } from "use-debounce"
-import { searchQuery } from "../../lib/encode"
-import { getCountriesSearch, getCountryInfo } from "../../lib/api" // Adjust the path as necessary
 
 interface SearchAutocompleteProps {
   onSelect: (name: string) => void // Add onSelect prop
@@ -23,26 +20,37 @@ const SearchAutocomplete: React.FC<SearchAutocompleteProps> = ({
   const [value] = useDebounce(searchParams, 1000)
   const isEmpty = !autocomplete || autocomplete.length === 0
 
-  const fetchData = async () => {
-    if (!searchParams || searchParams.trim() === "") return
-    setLoading(true)
+  useEffect(() => {
+    const fetchData = async () => {
+      if (!searchParams || searchParams.trim() === "") return
+      setLoading(true)
 
-    try {
-      const countryInfo = await getCountriesSearch(searchParams) // Fetch data using the new function
-      console.log("Country info:", countryInfo)
-      if (countryInfo.length === 0) {
-        setNoData(true)
-      } else {
-        setNoData(false)
+      try {
+        const res = await fetch(`/api/search?searchTerm=${searchParams}`)
+        const data = await res.json()
+
+        const countryInfo = data.map((item: any) => ({
+          country: {
+            name: item.country.value,
+            flag: item.flag.value,
+          },
+        }))
+
+        if (countryInfo.length === 0) {
+          setNoData(true)
+        } else {
+          setNoData(false)
+        }
+        setAutocomplete(countryInfo)
+      } catch (error) {
+        console.log("Something went wrong", error)
+      } finally {
+        setLoading(false)
       }
-
-      setAutocomplete(countryInfo) // Update autocomplete state with the fetched data
-    } catch (error) {
-      console.log("Something went wrong", error)
-    } finally {
-      setLoading(false)
     }
-  }
+
+    fetchData()
+  }, [value, searchParams])
 
   const collapes = () => {
     setIsExpanded(false)
@@ -62,10 +70,6 @@ const SearchAutocomplete: React.FC<SearchAutocompleteProps> = ({
     onSelect(name)
   }
 
-  useEffect(() => {
-    fetchData()
-  }, [value])
-
   return (
     <form
       onSubmit={(e) => e.preventDefault()}
@@ -82,7 +86,7 @@ const SearchAutocomplete: React.FC<SearchAutocompleteProps> = ({
       />
 
       <div
-        className={`absolute left-0 right-0 top-full mt-1 max-h-[20rem] w-full rounded-md bg-card shadow-md transition-all duration-300 ${
+        className={`absolute left-0 right-0 top-full mt-1 max-h-[15rem] w-full rounded-md bg-card shadow-md transition-all duration-300 ${
           isExpanded ? "max-h-[15rem] opacity-100" : "max-h-0 opacity-0"
         } overflow-y-auto scrollbar scrollbar-track-card scrollbar-thumb-muted scrollbar-thumb-rounded-full hover:cursor-pointer hover:scrollbar-thumb-border active:scrollbar-thumb-primary dark:hover:scrollbar-thumb-zinc-700`}
       >

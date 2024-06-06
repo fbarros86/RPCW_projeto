@@ -7,8 +7,8 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table"
-import GuessCard from "./ui/guess-card"
+} from "@/components/ui/shadcn/table"
+import GuessCard from "./ui/guess-card/guess-card"
 
 const CountriesTable = () => {
   const countriesData = [

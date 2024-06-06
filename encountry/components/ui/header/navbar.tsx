@@ -2,7 +2,7 @@
 
 import React, { createContext, useEffect, useState } from "react"
 import { cn } from "@/lib/utils"
-import { Icons } from "../icons"
+import { Icons } from "./icons"
 
 import {
   NavigationMenu,
@@ -14,10 +14,10 @@ import {
   NavigationMenuTrigger,
   NavigationMenuViewport,
   navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu"
+} from "@/components/ui/shadcn/navigation-menu"
 import Link from "next/link"
-import CursorAnimation from "./cursor-animation"
 import { usePathname } from "next/navigation"
+import CursorAnimation from "../misc/cursor-animation"
 
 export function Navbar() {
   const pathname = usePathname()

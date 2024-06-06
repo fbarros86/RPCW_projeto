@@ -26,7 +26,7 @@ const WorldMap: React.FC<WorldMapProps> = ({ onCountrySelect }) => {
       if (classNames) {
         const classList = classNames.split(" ")
         if (classList[0] === "country-hover") {
-          const countryName = classList.slice(1).join(" ").replace("_", " ")
+          const countryName = classList.slice(1).join(" ").replace(/_/g, " ")
           console.log("Clicked country:", countryName)
           onCountrySelect(countryName) // Pass the countryName to the parent function
         }

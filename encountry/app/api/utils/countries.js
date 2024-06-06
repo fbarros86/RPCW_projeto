@@ -6,49 +6,8 @@ const rows_facil = ["continente","hemisferio","latitude","longitude","temperatur
 const rows_medio = ["gdp","area","densidade_populacional","lado_em_que_conduz","populacao"]
 const rows_dificil = ["taxa_desemprego","taxa_fertilidade","racio_sexos","emissoes_co2","telefones_por_1000","taxa_de_natalidade","taxa_de_mortalidade","costa","espetativa_de_vida","exportacoes","importacoes","literacia","migracao_liquida","mortalidade_infantil"]
 
-async function getCountriesSearch(searchString) {
-    // Convert the search string to lowercase and split it into individual characters
-    const searchChars = searchString.toLowerCase().split('');
-  
-    // Construct the FILTER part of the query dynamically
-    const filters = searchChars.map(char => `CONTAINS(LCASE(?name), "${char}")`).join(' && ');
-  
-    const sparqlQuery = `
-      PREFIX : <http://www.rpcw.pt/rafa/ontologies/2024/paises/>
-      SELECT (SAMPLE(?name) AS ?country) ?flag WHERE {
-          ?c a :Pais.
-          ?c :nome ?name.
-          ?c :flag ?flag.
-          FILTER(${filters})
-      } GROUP BY ?flag
-    `;
-  
-    try {
-      const response = await axios.get(graphdbEndpoint, {
-        params: { query: sparqlQuery },
-        headers: { 'Accept': 'application/sparql-results+json' },
-      });
-      const countryInfo = response.data.results.bindings.map(binding => ({
-        country: binding.country.value,
-        flag: binding.flag.value,
-      }));
-      return countryInfo;
-    } catch (error) {
-      console.error('Error making SPARQL query:', error.message);
-      if (error.response) {
-        console.error('Response data:', error.response.data);
-        console.error('Response status:', error.response.status);
-        console.error('Response headers:', error.response.headers);
-      } else if (error.request) {
-        console.error('No response received:', error.request);
-      } else {
-        console.error('Error message:', error.message);
-      }
-      return null;
-    }
-  }
 
-function getRandomColumns(){
+export function getRandomColumns(){
     // get 3 from rows_facil 1 from the others
     var columns = []
     var random = Math.floor(Math.random() * 4);
@@ -73,7 +32,7 @@ function getRandomColumns(){
 }
 
 
-function getAllFlags(){
+export function getAllFlags(){
     const sparqlQuery = `
     PREFIX : <http://www.rpcw.pt/rafa/ontologies/2024/paises/>
     SELECT (SAMPLE(?name) AS ?country) ?flag WHERE{
@@ -107,7 +66,7 @@ function getAllFlags(){
         });
 }
 
-function getCountryInfo(country) {
+export function getCountryInfo(country) {
     const sparqlQuery = `
     PREFIX : <http://www.rpcw.pt/rafa/ontologies/2024/paises/>
     SELECT ?verbo ?cena WHERE{
@@ -152,7 +111,7 @@ function getCountryInfo(country) {
 }
 
 
-function compareCountries(country1, country2,row) {
+export function compareCountries(country1, country2,row) {
     const sparqlQuery = `
     PREFIX : <http://www.rpcw.pt/rafa/ontologies/2024/paises/>
 SELECT ?valor1 ?valor2 WHERE{
@@ -200,7 +159,7 @@ SELECT ?valor1 ?valor2 WHERE{
 }
 
 
-function addCountry(country) {
+export function addCountry(country) {
     countryString = ""
     for (const [key, value] of Object.entries(country)) {
         countryString += `:${key} "${value}" ;\n`
@@ -242,7 +201,7 @@ function addCountry(country) {
 
 }
 
-function deleteCountry(country) {
+export function deleteCountry(country) {
     const sparqlQuery = `
     PREFIX : <http://www.rpcw.pt/rafa/ontologies/2024/paises/>
     DELETE{
@@ -283,7 +242,7 @@ function deleteCountry(country) {
 
 }
 
-function editCountry(country) {
+export function editCountry(country) {
     triplos = ""
     triposapagar = ""
     countryName = country.nome.replace(" ","_")
@@ -370,7 +329,4 @@ getAllFlags()
             console.error('Error getting flag info:', error.message);
         }
         );
-
-module.exports = {getCountriesSearch, getRandomColumns, getAllFlags,getCountryInfo, compareCountries, addCountry, deleteCountry, editCountry};
-
 

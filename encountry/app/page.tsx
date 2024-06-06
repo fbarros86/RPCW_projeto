@@ -1,11 +1,13 @@
+import AllGuesses from "@/components/all-guesses"
 import Header from "@/components/header"
-import { ResizableDemo } from "@/components/search-country"
+import { SearchCountry } from "@/components/search-country"
 
 export default function Home() {
-    return (
-        <>
-            <Header></Header>
-            <ResizableDemo />
-        </>
-    )
+  return (
+    <>
+      <Header />
+      <SearchCountry />
+      <AllGuesses />
+    </>
+  )
 }

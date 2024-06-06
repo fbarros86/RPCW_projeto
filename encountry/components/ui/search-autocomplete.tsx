@@ -5,9 +5,15 @@ import { AiOutlineSearch } from "react-icons/ai"
 import useClickOutside from "../../hooks/click-outside"
 import SearchContent from "./search-content"
 import { useDebounce } from "use-debounce"
-import { searchQuery } from "../../hooks/encode"
+import { searchQuery } from "../../lib/encode"
 
-const SearchAutocomplete = () => {
+interface SearchAutocompleteProps {
+  onSelect: (name: string) => void // Add onSelect prop
+}
+
+const SearchAutocomplete: React.FC<SearchAutocompleteProps> = ({
+  onSelect,
+}) => {
   const [isExpanded, setIsExpanded] = useState(false)
   const [loading, setLoading] = useState(false)
   const [noData, setNoData] = useState(false)
@@ -15,21 +21,6 @@ const SearchAutocomplete = () => {
   const [searchParams, setSearchParams] = useState("")
   const [value] = useDebounce(searchParams, 1000)
   const isEmpty = !autocomplete || autocomplete.length === 0
-
-  const collapes = () => {
-    setIsExpanded(false)
-    setSearchParams("")
-    setAutocomplete([])
-    setNoData(false)
-  }
-  const handleOutsideClick = () => {
-    console.log("Clicked outside")
-  }
-
-  const ref = useClickOutside(handleOutsideClick)
-  const expand = () => {
-    setIsExpanded(true)
-  }
 
   const fetchData = async () => {
     if (!searchParams || searchParams.trim() === "") return
@@ -55,6 +46,24 @@ const SearchAutocomplete = () => {
     }
   }
 
+  const collapes = () => {
+    setIsExpanded(false)
+    setSearchParams("")
+    setAutocomplete([])
+    setNoData(false)
+  }
+
+  const ref = useClickOutside(collapes)
+
+  const expand = () => {
+    setIsExpanded(true)
+  }
+
+  const handleSelect = (name: string) => {
+    setSearchParams(name)
+    onSelect(name)
+  }
+
   useEffect(() => {
     fetchData()
   }, [value])
@@ -63,44 +72,48 @@ const SearchAutocomplete = () => {
     <form
       onSubmit={(e) => e.preventDefault()}
       ref={ref}
-      className="relative mx-auto w-full max-w-[700px] shadow-xl sm:w-[500px]"
+      className="relative flex h-full w-full flex-col"
     >
-      <button className="absolute left-4 top-1/2 -translate-y-1/2 text-xl text-gray-600 transition-colors hover:text-black">
-        <AiOutlineSearch />
-      </button>
       <input
         type="text"
-        placeholder="Find..."
+        placeholder="Insert country name..."
         onFocus={expand}
-        className="w-full rounded-md border px-12 py-2 text-lg outline-none"
+        className="w-full rounded-md border border-foreground px-3 py-2 text-base outline-none focus:ring focus:ring-primary"
         value={searchParams}
         onChange={(e) => setSearchParams(e.target.value)}
       />
-      {loading && (
-        <div className="absolute right-4 top-1/2 -translate-y-1/2">
-          <span className="block h-4 w-4 animate-spin rounded-full border-l-2 border-t-2 border-black"></span>
-        </div>
-      )}
 
       <div
-        className={`absolute w-full overflow-y-scroll rounded-md bg-white shadow-md transition-all ${
-          isExpanded ? "h-[20rem] opacity-100" : "h-0 opacity-0"
-        }`}
+        className={`absolute left-0 right-0 top-full mt-1 max-h-[20rem] w-full rounded-md bg-card shadow-md transition-all duration-300 ${
+          isExpanded ? "max-h-[15rem] opacity-100" : "max-h-0 opacity-0"
+        } overflow-y-auto scrollbar scrollbar-track-card scrollbar-thumb-muted hover:scrollbar-thumb-border dark:hover:scrollbar-thumb-zinc-700 active:scrollbar-thumb-primary hover:cursor-pointer  scrollbar-thumb-rounded-full`}
       >
-        {noData && (
-          <h1 className="mt-6 text-center text-lg text-gray-400">
-            Nothing found...
-          </h1>
-        )}
-        {isEmpty && !noData && (
-          <h1 className="text-lf mt-6 text-center text-gray-400">
-            Start Searching...
-          </h1>
+        {loading && (
+          <div className="absolute right-4 top-8 -translate-y-1/2">
+            <span className="block h-4 w-4 animate-spin rounded-full border-l-2 border-t-2 border-muted-foreground"></span>
+          </div>
         )}
 
-        {!isEmpty && <SearchContent autocomplete={autocomplete} />}
+        {noData && (
+          <div className="mt-6 h-[15rem] overflow-hidden text-center text-base text-muted-foreground">
+            <h1>Country not found...</h1>
+          </div>
+        )}
+        {isEmpty && !noData && (
+          <div className="mt-6 h-[15rem] overflow-hidden text-center text-base text-muted-foreground">
+            <h1>Guess a country ...</h1>
+          </div>
+        )}
+
+        {!isEmpty && (
+          <SearchContent
+            autocomplete={autocomplete}
+            handleSelect={handleSelect}
+          />
+        )}
       </div>
     </form>
   )
 }
+
 export default SearchAutocomplete

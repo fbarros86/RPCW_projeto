@@ -6,9 +6,6 @@ interface Show {
   image?: {
     medium: string
   }
-  rating: {
-    average: number | null
-  }
 }
 
 interface AutocompleteItem {
@@ -17,9 +14,13 @@ interface AutocompleteItem {
 
 interface SearchContentProps {
   autocomplete: AutocompleteItem[]
+  handleSelect: (name: string) => void
 }
 
-const SearchContent: React.FC<SearchContentProps> = ({ autocomplete }) => {
+const SearchContent: React.FC<SearchContentProps> = ({
+  autocomplete,
+  handleSelect,
+}) => {
   return (
     <div className="py-2">
       <ul>
@@ -28,7 +29,8 @@ const SearchContent: React.FC<SearchContentProps> = ({ autocomplete }) => {
           return (
             <li
               key={show.id}
-              className="flex cursor-pointer items-center justify-between px-5 py-2 text-gray-600 transition duration-500 hover:bg-gray-200"
+              className="flex cursor-pointer items-center justify-between px-5 py-2 text-muted-foreground transition duration-500 hover:bg-input hover:text-muted-foreground"
+              onClick={() => handleSelect(show.name)}
             >
               <div className="flex items-center gap-8">
                 <img
@@ -38,7 +40,6 @@ const SearchContent: React.FC<SearchContentProps> = ({ autocomplete }) => {
                 />
                 <h2 className="text-lg">{show?.name}</h2>
               </div>
-              <h2>{show.rating.average || "N/A"}</h2>
             </li>
           )
         })}

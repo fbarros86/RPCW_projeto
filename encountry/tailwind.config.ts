@@ -2,6 +2,7 @@ import type { Config } from "tailwindcss"
 
 const config = {
     darkMode: ["class"],
+    mode: "jit",
     content: [
         "./pages/**/*.{ts,tsx}",
         "./components/**/*.{ts,tsx}",
@@ -74,7 +75,8 @@ const config = {
             },
         },
     },
-    plugins: [require("tailwindcss-animate")],
+    plugins: [require("tailwindcss-animate"),require('tailwind-scrollbar')({ nocompatible: true , preferredStrategy: 'pseudoelements'}),
+],
 } satisfies Config
 
 export default config

@@ -6,14 +6,23 @@ import {
   ResizablePanel,
   ResizablePanelGroup,
 } from "@/components/ui/shadcn/resizable"
-import { Button } from "./ui/shadcn/button"
-import WorldMap from "./ui/pick-country/world-map"
-import SearchAutocomplete from "./ui/pick-country/search-autocomplete"
-import CursorAnimation from "./ui/misc/cursor-animation"
-import AllGuesses from "./all-guesses"
-import { CountryData } from "./all-guesses"
+import { Button } from "../shadcn/button"
+import WorldMap from "./world-map"
+import SearchAutocomplete from "./search-autocomplete"
+import CursorAnimation from "../misc/cursor-animation"
+import { AllGuesses } from "../guess-card/all-guesses"
+import { CountryData } from "../guess-card/all-guesses"
+import { TileProps } from "../guess-card/tile"
 
-export function SearchCountry() {
+interface SearchCountryProps {
+  targetCountry: CountryData
+  gameHints: TileProps["type"][]
+}
+
+export const SearchCountry = ({
+  targetCountry,
+  gameHints,
+}: SearchCountryProps) => {
   const [selectedName, setSelectedName] = useState("")
   const [countryDataList, setCountryDataList] = useState<CountryData[]>([])
   const [buttonDisabled, setButtonDisabled] = useState(false)
@@ -78,7 +87,11 @@ export function SearchCountry() {
         </ResizablePanel>
       </ResizablePanelGroup>
       {countryDataList.length > 0 && (
-        <AllGuesses countryDataList={countryDataList} />
+        <AllGuesses
+          countryDataList={countryDataList}
+          gameHints={gameHints}
+          targetCountry={targetCountry}
+        />
       )}
     </>
   )

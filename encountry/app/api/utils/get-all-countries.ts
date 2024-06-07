@@ -1,29 +1,27 @@
 import axios from "axios"
 import { graphdbEndpoint } from "./endpoint"
 
-export async function getAllFlags() {
+export async function getAllCountries(): Promise<string[]> {
   const sparqlQuery = `
     PREFIX : <http://www.rpcw.pt/rafa/ontologies/2024/paises/>
-    SELECT (SAMPLE(?name) AS ?country) ?flag WHERE{
+    SELECT ?country_name WHERE{
         ?c a :Pais.
-        ?c :nome ?name.
-        ?c :flag ?flag
-    } GROUP BY ?flag
-    `
+        ?c :nome ?country_name.
+    }
+  `
 
   try {
-    await axios
-      .get(graphdbEndpoint, {
-        params: { query: sparqlQuery },
-        headers: { Accept: "application/sparql-results+json" },
-      })
-      .then((response) => {
-        const flags: { [key: string]: string } = {}
-        for (let binding of response.data.results.bindings) {
-          flags[binding.country.value] = binding.flag.value
-        }
-        return flags
-      })
+    const response = await axios.get(graphdbEndpoint, {
+      params: { query: sparqlQuery },
+      headers: { Accept: "application/sparql-results+json" },
+    })
+
+    const countries: string[] = []
+    for (let binding of response.data.results.bindings) {
+      countries.push(binding.country_name.value)
+    }
+
+    return countries
   } catch (error: any) {
     console.error("Error making SPARQL query:", error.message)
     if (error.response) {
@@ -35,6 +33,6 @@ export async function getAllFlags() {
     } else {
       console.error("Error message:", error.message)
     }
-    return null
+    return []
   }
 }

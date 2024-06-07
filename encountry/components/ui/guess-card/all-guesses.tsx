@@ -1,6 +1,6 @@
 import React from "react"
-import GuessCard from "./ui/guess-card/guess-card"
-import { TileProps } from "./ui/guess-card/tile"
+import GuessCard from "./guess-card"
+import { TileProps } from "./tile"
 
 export interface CountryData {
   area: string
@@ -33,19 +33,21 @@ export interface CountryData {
   taxa_fertilidade: string
   telefones_por_1000: string
   temperatura_media: string
+
+  gameHints: TileProps["type"][]
 }
 
-const AllGuesses: React.FC<{ countryDataList: CountryData[] }> = ({
-  countryDataList,
-}) => {
-  const types: TileProps["type"][] = [
-    "area",
-    "hemisferio",
-    "populacao",
-    "temperatura_media",
-    "continente",
-  ]
+interface AllGuessesProps {
+  countryDataList: CountryData[]
+  gameHints: TileProps["type"][]
+  targetCountry: CountryData
+}
 
+export const AllGuesses = ({
+  countryDataList,
+  gameHints,
+  targetCountry,
+}: AllGuessesProps) => {
   if (countryDataList.length === 0) {
     return (
       <div className="flex w-full flex-col items-center gap-5 py-10">
@@ -59,16 +61,14 @@ const AllGuesses: React.FC<{ countryDataList: CountryData[] }> = ({
       {countryDataList.reverse().map((countryData, index) => (
         <GuessCard
           key={index}
-          country={countryData.nome[0]}
-          types={types}
-          data={countryData}
+          selectedCountry={countryData}
+          types={gameHints}
+          targetCountry={targetCountry}
         />
       ))}
     </div>
   )
 }
-
-export default AllGuesses
 
 /*
 const types1: TileProps["type"][] = [

@@ -20,9 +20,8 @@ const Game = ({ targetCountry, error, gameHints }: GameProps) => {
 
   if (!targetCountry) {
     return (
-      <div className="flex flex-col min-h-[30rem] content-center items-center justify-center text-center text-md text-muted-foreground">
-        <span className="block h-10 w-10 animate-spin rounded-full border-l-3 border-b-2 border-muted-foreground"></span>
-        <div className="py-5">Loading, please wait :)</div>
+      <div className="text-md flex min-h-[30rem] flex-col content-center items-center justify-center text-center text-muted-foreground">
+        <span className="border-l-3 block h-10 w-10 animate-spin rounded-full border-b-2 border-muted-foreground text-2xl"></span>
       </div>
     )
   }

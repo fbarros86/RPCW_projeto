@@ -960,7 +960,8 @@
     "IvoryCoast": {
         "nome": [
             "Ivory Coast",
-            "Cote d'Ivoire"
+            "Cote d'Ivoire",
+            "Côte d'Ivoire"
         ],
         "area": "322,463",
         "capital": "Yamoussoukro",
@@ -1338,7 +1339,8 @@
         "nome": [
             "Republic of the Congo",
             "Congo",
-            "Congo, Repub. of the"
+            "Congo, Repub. of the",
+            "Republic of Congo"
         ],
         "area": "342,000",
         "capital": "Brazzaville",
@@ -3149,7 +3151,8 @@
     "Laos": {
         "nome": [
             "Laos",
-            "Lao People's Democratic Republic"
+            "Lao People's Democratic Republic",
+            "Lao PDR"
         ],
         "area": "236,800",
         "capital": "Vientiane",
@@ -4345,7 +4348,8 @@
         "nome": [
             "North Korea",
             "Democratic People's Republic of Korea",
-            "Korea, North"
+            "Korea, North",
+            "Dem. Rep. Korea"
         ],
         "area": "120,538",
         "capital": "Pyongyang",
@@ -4552,7 +4556,8 @@
     "Palestine": {
         "nome": [
             "Palestinian National Authority",
-            "State of Palestine"
+            "State of Palestine",
+            "Palestine"
         ],
         "area": "6020",
         "capital": "Jerusalem",
@@ -6638,7 +6643,8 @@
     "SãoToméandPríncipe": {
         "nome": [
             "Sao Tome and Principe",
-            "Sao Tome & Principe"
+            "Sao Tome & Principe",
+            "São Tomé and Principe"
         ],
         "area": "964",
         "capital": "São Tomé",

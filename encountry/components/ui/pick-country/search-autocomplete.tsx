@@ -78,7 +78,7 @@ const SearchAutocomplete: React.FC<SearchAutocompleteProps> = ({
     >
       <input
         type="text"
-        placeholder="Insert country name..."
+        placeholder="Insert country name... "
         onFocus={expand}
         className="w-full rounded-md border border-foreground px-3 py-2 text-base outline-none focus:ring focus:ring-primary"
         value={searchParams}
@@ -98,12 +98,12 @@ const SearchAutocomplete: React.FC<SearchAutocompleteProps> = ({
 
         {noData && (
           <div className="mt-6 h-[15rem] overflow-hidden text-center text-base text-muted-foreground">
-            <h1>Country not found...</h1>
+            <h1>Country not found... 😥</h1>
           </div>
         )}
         {isEmpty && !noData && (
           <div className="mt-6 h-[15rem] overflow-hidden text-center text-base text-muted-foreground">
-            <h1>Guess a country ...</h1>
+            <h1>Guess a country... 🌍</h1>
           </div>
         )}
 

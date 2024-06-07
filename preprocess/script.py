@@ -20,7 +20,7 @@ def replace_spaces_with_underscore(svg_content):
             return f'className= "not-country {country_name}"'
         else:
             country_name = country_name.replace(' ', '_')
-            return f'className={{hoveredCountry === "country {country_name}" ? "country-hover": "country {country_name}"}}\nonMouseOver={{handleMouseOver}}\nonMouseLeave={{handleMouseLeave}}'
+            return f'className={{getCountryClassName("{country_name}")}}\nonMouseOver={{handleMouseOver}}\nonMouseLeave={{handleMouseLeave}}'
 
     # Perform the replacement using regular expressions
     modified_svg_content = re.sub(pattern, replace_spaces, svg_content)

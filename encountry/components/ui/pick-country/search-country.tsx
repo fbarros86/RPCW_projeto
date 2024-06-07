@@ -53,12 +53,17 @@ export const SearchCountry = ({
     }
   }
 
+  const guessedCountries = countryDataList.map((country) => country.nome[0])
+
   return (
     <>
       <ResizablePanelGroup direction="horizontal" className="min-h-[30rem]">
         <ResizablePanel defaultSize={75} minSize={40} maxSize={80}>
           <div className="flex h-full items-center justify-center p-6">
-            <WorldMap onCountrySelect={setSelectedName} />
+            <WorldMap
+              onCountrySelect={setSelectedName}
+              guessedCountries={guessedCountries}
+            />
           </div>
         </ResizablePanel>
         <ResizableHandle withHandle className="z-0" />

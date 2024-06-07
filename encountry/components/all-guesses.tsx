@@ -35,20 +35,18 @@ export interface CountryData {
   temperatura_media: string
 }
 
-interface AllGuessesProps {
-  countryData: CountryData | null
-}
-
-const AllGuesses: React.FC<AllGuessesProps> = ({ countryData }) => {
-  /*const types: TileProps["type"][] = [
+const AllGuesses: React.FC<{ countryDataList: CountryData[] }> = ({
+  countryDataList,
+}) => {
+  const types: TileProps["type"][] = [
     "area",
     "hemisferio",
     "populacao",
     "temperatura_media",
     "continente",
-  ]*/
+  ]
 
-  if (!countryData || !countryData.nome || countryData.nome.length === 0) {
+  if (countryDataList.length === 0) {
     return (
       <div className="flex w-full flex-col items-center gap-5 py-10">
         No country data available.
@@ -56,81 +54,16 @@ const AllGuesses: React.FC<AllGuessesProps> = ({ countryData }) => {
     )
   }
 
-  const types1: TileProps["type"][] = [
-    "area",
-    "capital",
-    "densidade_populacional",
-    "espetativa_de_vida",
-    "exportacoes",
-  ]
-  const types2: TileProps["type"][] = [
-    "gdp",
-    "hemisferio",
-    "importacoes",
-    "lado_em_que_conduz",
-    "latitude",
-  ]
-  const types3: TileProps["type"][] = [
-    "literacia",
-    "longitude",
-    "migracao_liquida",
-    "moeda",
-    "mortalidade_infantil",
-  ]
-  const types4: TileProps["type"][] = [
-    "populacao",
-    "taxa_de_mortalidade",
-    "taxa_de_natalidade",
-    "telefones_por_1000",
-    "costa",
-  ]
-  const types5: TileProps["type"][] = [
-    "temperatura_media",
-    "racio_sexos",
-    "taxa_desemprego",
-    "taxa_fertilidade",
-    "medicos_por_mil",
-  ]
-  const types6: TileProps["type"][] = [
-    "receita_imposto",
-    "emissoes_co2",
-    "capital",
-    "continente",
-    "area",
-  ]
-
   return (
     <div className="flex w-full flex-col items-center gap-5 py-10">
-      <GuessCard
-        country={countryData.nome[0]}
-        types={types1}
-        data={countryData}
-      />
-      <GuessCard
-        country={countryData.nome[0]}
-        types={types2}
-        data={countryData}
-      />
-      <GuessCard
-        country={countryData.nome[0]}
-        types={types3}
-        data={countryData}
-      />
-      <GuessCard
-        country={countryData.nome[0]}
-        types={types4}
-        data={countryData}
-      />
-      <GuessCard
-        country={countryData.nome[0]}
-        types={types5}
-        data={countryData}
-      />
-      <GuessCard
-        country={countryData.nome[0]}
-        types={types6}
-        data={countryData}
-      />
+      {countryDataList.reverse().map((countryData, index) => (
+        <GuessCard
+          key={index}
+          country={countryData.nome[0]}
+          types={types}
+          data={countryData}
+        />
+      ))}
     </div>
   )
 }

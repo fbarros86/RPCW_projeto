@@ -1,6 +1,5 @@
 import axios from "axios"
-
-const graphdbEndpoint = "http://localhost:7200/repositories/paises"
+import { graphdbEndpoint } from "./endpoint"
 
 export async function getCountryInfo(country: string) {
   const sparqlQuery = `

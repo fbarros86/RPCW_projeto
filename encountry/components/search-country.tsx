@@ -1,5 +1,6 @@
 "use client"
 
+import React, { useEffect, useState } from "react"
 import {
   ResizableHandle,
   ResizablePanel,
@@ -8,28 +9,36 @@ import {
 import { Button } from "./ui/shadcn/button"
 import WorldMap from "./ui/pick-country/world-map"
 import SearchAutocomplete from "./ui/pick-country/search-autocomplete"
-import { useState } from "react"
 import CursorAnimation from "./ui/misc/cursor-animation"
 import AllGuesses from "./all-guesses"
 import { CountryData } from "./all-guesses"
 
 export function SearchCountry() {
   const [selectedName, setSelectedName] = useState("")
-  const [countryData, setCountryData] = useState<CountryData | null>(null)
+  const [countryDataList, setCountryDataList] = useState<CountryData[]>([])
+  const [buttonDisabled, setButtonDisabled] = useState(false)
 
   const handleSelect = (name: string) => {
     setSelectedName(name)
     console.log("Selected name:", name)
   }
 
+  useEffect(() => {
+    if (countryDataList.some((data) => data.nome[0] === selectedName)) {
+      setButtonDisabled(true)
+    } else {
+      setButtonDisabled(false)
+    }
+  }, [selectedName, countryDataList])
+
   const handleButtonClick = async () => {
-    if (!selectedName) return
+    if (!selectedName || buttonDisabled) return
 
     try {
       const res = await fetch(`/api/country?country=${selectedName}`)
       const data: CountryData = await res.json()
       console.log("Fetched country data:", data)
-      setCountryData(data)
+      setCountryDataList((prevList) => [data, ...prevList])
     } catch (error) {
       console.error("Error fetching country data:", error)
     }
@@ -54,16 +63,23 @@ export function SearchCountry() {
               classes="relative flex w-full flex-col items-center"
             >
               <Button
-                className="h-[5rem] max-h-[5rem] w-[80%] max-w-[100%] text-wrap text-[100%] font-bold text-white transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+                className={`h-[5rem] max-h-[5rem] w-[80%] max-w-[100%] text-wrap text-[100%] font-bold text-white ${buttonDisabled ? "" : "transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"}`}
                 onClick={handleButtonClick}
+                disabled={buttonDisabled}
               >
-                {selectedName === "" ? "Take a guess!" : selectedName}
+                {buttonDisabled
+                  ? "Try another one!"
+                  : selectedName === ""
+                    ? "Take a guess!"
+                    : selectedName}
               </Button>
             </CursorAnimation>
           </div>
         </ResizablePanel>
       </ResizablePanelGroup>
-      {countryData && <AllGuesses countryData={countryData} />}
+      {countryDataList.length > 0 && (
+        <AllGuesses countryDataList={countryDataList} />
+      )}
     </>
   )
 }

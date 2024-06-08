@@ -45,7 +45,7 @@ const GameEnd = ({ countryName }: GameEndProps) => {
           <Button
             type="button"
             variant="secondary"
-            onClick={() => (window.location.href = `/country/${countryName}`)}
+            onClick={() => (window.location.href = `/countries/${countryName}`)}
           >
             Learn more about {countryName}
           </Button>

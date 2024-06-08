@@ -7,18 +7,17 @@ import { Icons } from "./icons"
 import {
   NavigationMenu,
   NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
-  NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuViewport,
   navigationMenuTriggerStyle,
 } from "@/components/ui/shadcn/navigation-menu"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import CursorAnimation from "../misc/cursor-animation"
 import { CountryData } from "../guess-card/all-guesses"
+import { Button } from "../shadcn/button"
+import { CountryDialog } from "@/components/country-dialog"
 
 interface NavbarProps {
   targetCountry?: CountryData | null
@@ -28,6 +27,7 @@ export function Navbar({ targetCountry }: NavbarProps) {
   const [clicked, setClicked] = useState(false)
   const pathname = usePathname()
   const isCountriesPage = pathname === "/countries"
+  const isCountryPage = /^\/countries\/[^/]+$/.test(pathname)
 
   return (
     <NavigationMenu className="flex list-none justify-items-center space-x-4">
@@ -91,15 +91,44 @@ export function Navbar({ targetCountry }: NavbarProps) {
       )}
       <NavigationMenuItem>
         <Link
-          href={isCountriesPage ? "/" : "/countries"}
+          href={isCountriesPage || isCountryPage ? "/" : "/countries"}
           legacyBehavior
           passHref
         >
           <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-            {isCountriesPage ? "Play" : "Countries"}
+            {isCountriesPage || isCountryPage ? "Play" : "Countries"}
           </NavigationMenuLink>
         </Link>
       </NavigationMenuItem>
+      {isCountryPage && (
+        <NavigationMenuItem>
+          <Link href="/countries" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              Back
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+      )}
+      {isCountriesPage && (
+        <>
+          <NavigationMenuItem>
+            <CountryDialog action="Add" />
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <CountryDialog action="Remove" />
+          </NavigationMenuItem>
+        </>
+      )}
+      {isCountryPage && (
+        <>
+          <NavigationMenuItem>
+            <CountryDialog
+              action="Edit"
+              //countryData={/* Pass country data here */}
+            />
+          </NavigationMenuItem>
+        </>
+      )}
     </NavigationMenu>
   )
 }

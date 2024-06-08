@@ -16,7 +16,7 @@ import { getIcon } from "./guess-icons"
 import { TileProps } from "./tile"
 import styles from "./hovercard.module.css"
 
-const keyMappings: Record<string, string> = {
+export const keyMappings: Record<string, string> = {
   nome: "Name",
   continente: "Continent",
   area: "Area",

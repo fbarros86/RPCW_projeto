@@ -1,5 +1,5 @@
 import React from "react"
-import { SearchCountry } from "./ui/pick-country/search-country"
+import { SearchCountry } from "./ui/guess-card/search-main"
 import { CountryData } from "./ui/guess-card/all-guesses"
 import { TileProps } from "./ui/guess-card/tile"
 
@@ -26,14 +26,7 @@ const Game = ({ targetCountry, error, gameHints }: GameProps) => {
     )
   }
 
-  return (
-    <>
-      <div className="mb-5 text-center text-2xl font-bold">
-        Target country: {targetCountry.nome[0]}
-      </div>
-      <SearchCountry targetCountry={targetCountry} gameHints={gameHints} />
-    </>
-  )
+  return <SearchCountry targetCountry={targetCountry} gameHints={gameHints} />
 }
 
 export default Game

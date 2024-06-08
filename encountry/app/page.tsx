@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from "react"
 import Header from "@/components/header"
 import Game, { GameProps } from "@/components/game"
-import { CountryData } from "./api/utils/get-country-info"
 import { getRandomColumns } from "./api/utils/get-random-columns"
 import { TileProps } from "@/components/ui/guess-card/tile"
 
@@ -32,14 +31,9 @@ const Home: React.FC = () => {
     fetchData()
   }, [])
 
-  useEffect(() => {
-    console.log("Target country:", targetCountry)
-    console.log("Game hints:", gameHints)
-  }, [targetCountry])
-
   return (
     <>
-      <Header />
+      <Header targetCountry={targetCountry} />
       <Game targetCountry={targetCountry} error={error} gameHints={gameHints} />
     </>
   )

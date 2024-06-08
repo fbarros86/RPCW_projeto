@@ -1,5 +1,3 @@
-"use client"
-
 import { useEffect, useState } from "react"
 import useClickOutside from "./hooks/click-outside"
 import SearchContent from "./search-content"

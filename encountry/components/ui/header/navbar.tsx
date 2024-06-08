@@ -18,8 +18,14 @@ import {
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import CursorAnimation from "../misc/cursor-animation"
+import { CountryData } from "../guess-card/all-guesses"
 
-export function Navbar() {
+interface NavbarProps {
+  targetCountry?: CountryData | null
+}
+
+export function Navbar({ targetCountry }: NavbarProps) {
+  const [clicked, setClicked] = useState(false)
   const pathname = usePathname()
   const isCountriesPage = pathname === "/countries"
 
@@ -67,6 +73,22 @@ export function Navbar() {
           </ul>
         </NavigationMenuContent>
       </NavigationMenuItem>
+      {!isCountriesPage && (
+        <NavigationMenuItem>
+          <NavigationMenuTrigger>Solution</NavigationMenuTrigger>
+          <NavigationMenuContent>
+            <ul className="flex list-none items-center justify-center gap-8 px-4 py-8 md:w-[600px] lg:w-[400px]">
+              <ListItem
+                title="Target country:"
+                className={`w-[15em] text-center transition delay-150 ease-in-out hover:bg-yellow-200 hover:text-foreground dark:hover:bg-green-600 dark:hover:bg-opacity-30`}
+                onClick={() => setClicked(!clicked)}
+              >
+                {clicked ? targetCountry?.nome[0] + "🔓" : "🔐"}
+              </ListItem>
+            </ul>
+          </NavigationMenuContent>
+        </NavigationMenuItem>
+      )}
       <NavigationMenuItem>
         <Link
           href={isCountriesPage ? "/" : "/countries"}

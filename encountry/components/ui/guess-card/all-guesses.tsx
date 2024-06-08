@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import GuessCard from "./guess-card"
 import { TileProps } from "./tile"
 
@@ -48,6 +48,20 @@ export const AllGuesses = ({
   gameHints,
   targetCountry,
 }: AllGuessesProps) => {
+  const [comparisonCache, setComparisonCache] = useState<
+    Record<string, Record<string, TileProps["hint"]>>
+  >({})
+
+  const updateComparisonCache = (
+    key: string,
+    data: Record<string, TileProps["hint"]>,
+  ) => {
+    setComparisonCache((prevCache) => ({
+      ...prevCache,
+      [key]: data,
+    }))
+  }
+
   if (countryDataList.length === 0) {
     return (
       <div className="flex w-full flex-col items-center gap-5 py-10">
@@ -64,6 +78,8 @@ export const AllGuesses = ({
           selectedCountry={countryData}
           types={gameHints}
           targetCountry={targetCountry}
+          comparisonCache={comparisonCache}
+          updateComparisonCache={updateComparisonCache}
         />
       ))}
     </div>

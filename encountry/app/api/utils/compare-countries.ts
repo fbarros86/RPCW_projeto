@@ -37,6 +37,23 @@ export async function compareCountries(
       row === "continente"
     ) {
       return v1 === v2 ? "right" : "wrong"
+    } else if (row === "longitude") {
+      const longitude1 = parseFloat(v1)
+      const longitude2 = parseFloat(v2)
+
+      if (isNaN(longitude1) || isNaN(longitude2)) {
+        console.error("Parsed values are not numbers:", {
+          longitude1,
+          longitude2,
+        })
+        return null
+      }
+
+      return longitude1 < longitude2
+        ? "r"
+        : longitude1 > longitude2
+          ? "l"
+          : "right"
     } else {
       v1 = parseFloat(v1.replace(/[$%]/g, ""))
       v2 = parseFloat(v2.replace(/[$%]/g, ""))

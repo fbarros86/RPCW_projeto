@@ -1,26 +1,45 @@
-"use client"
-
 import React, { useEffect, useState } from "react"
 import Tile, { TileProps } from "./tile"
 import { CountryData } from "./all-guesses"
 import GameEnd from "./game-end"
+import {
+  formatCurrency,
+  isCurrencyString,
+  isNumericString,
+  roundNumber,
+} from "./formatting-values"
 
 interface GuessCardProps {
   selectedCountry: CountryData
   types: TileProps["type"][]
   targetCountry: CountryData
+  comparisonCache: Record<string, Record<string, TileProps["hint"]>>
+  updateComparisonCache: (
+    key: string,
+    data: Record<string, TileProps["hint"]>,
+  ) => void
 }
 
 const GuessCard: React.FC<GuessCardProps> = ({
   selectedCountry,
   types,
   targetCountry,
+  comparisonCache,
+  updateComparisonCache,
 }) => {
   const [hints, setHints] = useState<Record<string, TileProps["hint"]>>({})
   const [showDialog, setShowDialog] = useState(false)
 
   useEffect(() => {
+    const cacheKey = `${selectedCountry.nome[0]}-${targetCountry.nome[0]}`
+
     const fetchData = async () => {
+      if (comparisonCache[cacheKey]) {
+        setHints(comparisonCache[cacheKey])
+        checkAllRight(comparisonCache[cacheKey])
+        return
+      }
+
       try {
         const hintsData: Record<string, TileProps["hint"]> = {}
         for (const type of types) {
@@ -31,22 +50,25 @@ const GuessCard: React.FC<GuessCardProps> = ({
           hintsData[type] = data.result
         }
         setHints(hintsData)
-
-        // Check if all hints are "right"
-        const allRight = Object.values(hintsData).every(
-          (hint) => hint === "right",
-        )
-        if (allRight) {
-          console.log("All guesses are right")
-          setShowDialog(true)
-        }
+        updateComparisonCache(cacheKey, hintsData)
+        checkAllRight(hintsData)
       } catch (error) {
         console.error("Error fetching hints:", error)
       }
     }
 
+    const checkAllRight = (hintsData: Record<string, TileProps["hint"]>) => {
+      const allRight = Object.values(hintsData).every(
+        (hint) => hint === "right",
+      )
+      if (allRight) {
+        console.log("All guesses are right")
+        setShowDialog(true)
+      }
+    }
+
     fetchData()
-  }, [selectedCountry])
+  }, [selectedCountry, targetCountry, types])
 
   const countryName = selectedCountry.nome[0]
   const countryFlag = selectedCountry.flag
@@ -73,7 +95,13 @@ const GuessCard: React.FC<GuessCardProps> = ({
               type={type}
               hint={hints[type] === undefined ? "wrong" : hints[type]}
             >
-              {type !== "nome" ? selectedCountry[type] : undefined}
+              {type !== "nome"
+                ? isCurrencyString(selectedCountry[type])
+                  ? formatCurrency(selectedCountry[type])
+                  : isNumericString(selectedCountry[type])
+                    ? roundNumber(selectedCountry[type])
+                    : selectedCountry[type]
+                : undefined}
             </Tile>
           ))}
         </div>

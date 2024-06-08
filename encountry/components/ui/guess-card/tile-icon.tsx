@@ -81,7 +81,7 @@ const TileIcon = ({ type }: TileIconProps) => {
       <DrawerContent>
         <DrawerHeader>
           <DrawerTitle>{type}</DrawerTitle>
-          <DrawerDescription>LIXO :)</DrawerDescription>
+          <DrawerDescription>{type} description...</DrawerDescription>
         </DrawerHeader>
         <DrawerFooter>
           <DrawerClose>

@@ -38,7 +38,7 @@ export interface TileProps {
 
 const Tile = ({ children = "", type, hint }: TileProps) => {
   const base =
-    "aspect-square min-h-[30%] min-w-[30%] max-h-[80%] max-w-[80%] h-[60%] w-[60%] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 relative content-center rounded-lg"
+    "aspect-square min-h-[30%] min-w-[30%] max-h-[80%] max-w-[80%] h-[60%] w-[60%] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 relative content-center items-center justify-center text-center rounded-lg"
   const gradient1 = "from-red-500 via-yellow-500 to-primary"
   const gradient2 = "from-red-500 from-2% via-yellow-500 via-40% to-primary"
 
@@ -87,7 +87,7 @@ const Tile = ({ children = "", type, hint }: TileProps) => {
       <TileIcon type={type} />
       <div className="relative flex h-full w-full justify-center">
         <div className={getTypeClass()}>
-          <div className="flex cursor-default justify-center text-[100%] font-extrabold text-white drop-shadow-lg">
+          <div className="flex h-24 w-24 cursor-default content-center items-center justify-center text-[100%] font-extrabold text-white drop-shadow-lg">
             {children}
           </div>
         </div>

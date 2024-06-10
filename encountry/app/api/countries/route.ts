@@ -1,11 +1,11 @@
 import { NextResponse } from "next/server"
-import { getAllCountries } from "../utils/get-all-countries"
+import { getAllCountryUniqueNames } from "../utils/get-all-countries"
 import { getCountryInfo, CountryData } from "../utils/get-country-info"
 
 export async function GET() {
   try {
     // Get all country names
-    const countries = await getAllCountries()
+    const countries = await getAllCountryUniqueNames()
 
     if (!countries || countries.length === 0) {
       return NextResponse.json({ error: "No countries found" }, { status: 404 })
@@ -26,14 +26,10 @@ export async function GET() {
 
     // Remove duplicates based on country name
     const uniqueCountriesData: CountryData[] = []
-    const seenCountries = new Set<string>()
 
     filteredCountriesData.forEach((country) => {
-      const countryName = country.nome.join(", ")
-      if (!seenCountries.has(countryName)) {
-        seenCountries.add(countryName)
-        uniqueCountriesData.push(country)
-      }
+      country.nome = [country.nome[0]]
+      uniqueCountriesData.push(country)
     })
 
     // Return the detailed information as JSON

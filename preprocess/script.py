@@ -3,7 +3,7 @@ import csv
 import json
 
 # open not_country.csv file and create a list of countries
-with open('not_country.csv', 'r') as f:
+with open('../preprocess/not_country.csv', 'r') as f:
     reader = csv.reader(f)
     not_country = reader.__next__()
     # print(not_country)
@@ -30,7 +30,7 @@ def replace_spaces_with_underscore(svg_content):
 
 def get_name_list():
     name_list = []
-    with open('../tratamento_dados/datasets/countriesInfo.json', 'r', encoding='utf-8') as f:
+    with open('datasets/countriesInfo.json', 'r', encoding='utf-8') as f:
         content = json.load(f)
         for country in content:
             names = content[country]["nome"]
@@ -55,7 +55,7 @@ def name_treatment(names_not_in_list):
     #Lao PDR -> Laos
     #for each of these comments, add the name to the countriesInfo.json file, knowing that the comments here are formatted as name_to_add -> name_in_json_file
 
-    with open('../tratamento_dados/datasets/countriesInfo.json', 'r', encoding='utf-8') as f:
+    with open('datasets/countriesInfo.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     # Modify the JSON data based on the provided names
@@ -76,15 +76,15 @@ def name_treatment(names_not_in_list):
             print("Name not treated:", name)
     
     # Save the changes back to the JSON file
-    with open('../tratamento_dados/datasets/countriesInfo.json', 'w', encoding='utf-8') as f:
+    with open('datasets/countriesInfo.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
     
     
 def main():
     # Input SVG file name
-    input_svg_file = 'map.svg'
+    input_svg_file = '../preprocess/map.svg'
     # Output SVG file name
-    output_svg_file = 'output.svg'
+    output_svg_file = '../preprocess/output.svg'
 
     # Read the content of the input SVG file
     with open(input_svg_file, 'r', encoding='utf-8') as f:

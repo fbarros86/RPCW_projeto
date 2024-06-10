@@ -7,12 +7,12 @@ import {
   ResizablePanelGroup,
 } from "@/components/ui/shadcn/resizable"
 import { Button } from "../shadcn/button"
-import WorldMap from "../pick-country/world-map"
-import SearchAutocomplete from "../pick-country/search-autocomplete"
+import WorldMap from "./world-map"
+import SearchAutocomplete from "./search-autocomplete"
 import CursorAnimation from "../misc/cursor-animation"
-import { AllGuesses } from "./all-guesses"
-import { CountryData } from "./all-guesses"
-import { TileProps } from "./tile"
+import { AllGuesses } from "../guess-card/all-guesses"
+import { CountryData } from "../guess-card/all-guesses"
+import { TileProps } from "../guess-card/tile"
 
 interface SearchCountryProps {
   targetCountry: CountryData

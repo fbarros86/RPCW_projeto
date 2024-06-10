@@ -1,5 +1,5 @@
 import React from "react"
-import { SearchCountry } from "./ui/guess-card/search-main"
+import { SearchCountry } from "./ui/pick-country/search-main"
 import { CountryData } from "./ui/guess-card/all-guesses"
 import { TileProps } from "./ui/guess-card/tile"
 

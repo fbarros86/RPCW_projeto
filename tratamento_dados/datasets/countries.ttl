@@ -1142,6 +1142,7 @@
                       :Pais ;
             :nome "Ivory Coast";
 :nome "Cote d'Ivoire";
+:nome "Côte d'Ivoire";
             :area "322,463" ;
             :capital "Yamoussoukro" ;
             :costa "-9.93520164" ;
@@ -1520,6 +1521,7 @@
             :nome "Republic of the Congo";
 :nome "Congo";
 :nome "Congo, Repub. of the";
+:nome "Republic of Congo";
             :area "342,000" ;
             :capital "Brazzaville" ;
             :costa "-4.75522164" ;
@@ -3331,6 +3333,7 @@
                       :Pais ;
             :nome "Laos";
 :nome "Lao People's Democratic Republic";
+:nome "Lao PDR";
             :area "236,800" ;
             :capital "Vientiane" ;
             :costa "0.0" ;
@@ -4527,6 +4530,7 @@
             :nome "North Korea";
 :nome "Democratic People's Republic of Korea";
 :nome "Korea, North";
+:nome "Dem. Rep. Korea";
             :area "120,538" ;
             :capital "Pyongyang" ;
             :costa "0.0" ;
@@ -4734,6 +4738,7 @@
                       :Pais ;
             :nome "Palestinian National Authority";
 :nome "State of Palestine";
+:nome "Palestine";
             :area "6020" ;
             :capital "Jerusalem" ;
             :costa "40" ;
@@ -6820,6 +6825,7 @@
                       :Pais ;
             :nome "Sao Tome and Principe";
 :nome "Sao Tome & Principe";
+:nome "São Tomé and Principe";
             :area "964" ;
             :capital "São Tomé" ;
             :costa "-1361.05010496" ;

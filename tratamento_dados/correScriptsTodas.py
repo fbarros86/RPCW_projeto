@@ -9,6 +9,7 @@ python_programs = [
     "fillMissingData.py",
     "get_country_flags.py",
     "add_countries_continent.py",
+    "../preprocess/script.py",
     "jsontottl.py"
 ]
 

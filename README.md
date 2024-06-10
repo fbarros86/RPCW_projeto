@@ -8,9 +8,9 @@
 ## Introdução
 Para o trabalho de RPCW optámos por fazer um tema livre, pois acreditamos que isso nos permitiria ter um produto final mais interessante e mais aperfeiçoado, já que seria algo que nos interessaria mais.
 
-Para este projeto tivemos inspiração em múltiplos outros jogos, como o Geoguessr, um jogo em que é apresentada uma imagem retirada do google maps e o objetivo é adivinhar o local e jogos como Wordle, em que o objetivo é advinhar, neste caso uma palavra, a partir de pistas dadas a cada tentativa.
+Para este projeto tivemos inspiração em múltiplos outros jogos, como o Geoguessr, um jogo em que é apresentada uma imagem retirada do google maps e o objetivo é adivinhar o local e jogos como Wordle, em que o objetivo é adivinhar, neste caso uma palavra, a partir de pistas dadas a cada tentativa.
 
-Com isto, decidimos fazer um jogo cujo o objetivo é adivinhar um país consoante pistas como o GDP, a população,...
+Com isto, decidimos fazer um jogo cujo o objetivo é adivinhar um país consoante pistas como o GDP e a população.
 
 Antes de iniciarmos o desenvolvimento do projeto, fizemos alguma pesquisa com o objetivo de perceber se já existia algo semelhante e deparamo-nos com um jogo com uma ideia semelhante, o countryle. No entanto, como achamos que podíamos fazer um melhor produto, decidimos atacar este tema.
 
@@ -103,7 +103,7 @@ Infelizmente, houve sempre certas informações que escapavam às nossas scripts
 
 Estas informações todas agrupadas deram origem a um .ttl: `countries.ttl` que foi adicionado ao GraphDB para permitir à nossa aplicação consultar estes dados.
 
-## Aplicação
+## Front-end
 
 Para o desenvolvimento da nossa aplicação optámos por utilizar a framework `Next.js`, de forma a facilitar o front-end e permitir criar uma aplicação mais estética e mais apelativa, usando React.
 
@@ -150,13 +150,91 @@ Além disso, é ainda possível neste menu adicionar e remover países.
 ![listaPaises](screenshots/listaPaises.png)
 
 
+## Back-end
+
+Para obter os resultados mostrados anteriormente são feitas diversas queries ao GraphDB.
+
+**Search query**: usada na search bar para filtrar os países de acordo com o input do utilizador
+```sql
+PREFIX : <http://www.rpcw.pt/rafa/ontologies/2024/paises/>
+    SELECT (SAMPLE(?name) AS ?country) ?flag WHERE {
+      ?c a :Pais.
+      ?c :nome ?name.
+      ?c :flag ?flag.
+      FILTER(CONTAINS(LCASE(?name), "${searchTerm.toLowerCase()}"))
+    } GROUP BY ?flag
+```
+**Lista de países**: lista de todos os nomes de países (apenas um por país)
+```sql
+PREFIX : <http://www.rpcw.pt/rafa/ontologies/2024/paises/>
+SELECT ?c (SAMPLE(?name) AS ?country_name) WHERE{
+        ?c a :Pais.
+        ?c :nome ?name.
+} GROUP BY ?c
+```
+**Informação de um país**: devolve todas as propriedades de um pais (foi necessário excluir triplos que atribuiam o tipo)
+```sql
+PREFIX : <http://www.rpcw.pt/rafa/ontologies/2024/paises/>
+    SELECT ?verbo ?cena WHERE{
+        ?country :nome "${country}".
+        ?country a :Pais.
+        ?country ?verbo ?cena MINUS {?country a ?cena}
+    }
+```
+**Comparação de propriedades**: usado quando o utilizador adivinha um país para ser possível dar as pistas
+```sql
+    PREFIX : <http://www.rpcw.pt/rafa/ontologies/2024/paises/>
+    SELECT ?valor1 ?valor2 WHERE {
+      ?country2 :nome "${country2}".
+      ?country1 :${row} ?valor1.
+      ?country2 :${row} ?valor2.
+      ?country1 :nome "${country1}".
+    }
+```
+**Editar país**: Para as propriedades que são para editar são removidos os valores que já existem e substituidos por novos valores
+```sql
+PREFIX : <http://www.rpcw.pt/rafa/ontologies/2024/paises/>
+    DELETE{
+        ${triposapagar}
+    }
+    INSERT{
+        ${triplos}
+    }WHERE {
+        :${countryName} ?p ?o .
+    }
+```
+**Remover país**: são removidos todos os triplos relacionados com um país
+```sql
+ PREFIX : <http://www.rpcw.pt/rafa/ontologies/2024/paises/>
+    DELETE{
+       
+        ?country ?a ?b
+    }
+    WHERE{
+        ?country :nome "${country}".
+        ?country ?a ?b
+    }
+```
+
+
+**Inserir país**: insere triplos de um novo país
+```sql
+ PREFIX : <http://www.rpcw.pt/rafa/ontologies/2024/paises/>
+    INSERT DATA{
+        :${nome.replace(" ", "_")} rdf:type owl:NamedIndividual ,
+                      :Pais ;
+            ${countryString}
+    }
+```
+
 
 ## Execução
 
 Para correr a aplicação é necessário criar um repositório no GraphDB com o nome paises e importar a ontologia criada.
 
-Posteriormente, correr o comando:
+Posteriormente, correr os comandos (é necessário ter instalado Node.js numa versão >= 18.7):
 ```shell
+npm i
 npm run dev
 ```
 

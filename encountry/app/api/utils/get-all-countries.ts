@@ -40,11 +40,11 @@ export async function getAllCountries(): Promise<string[]> {
 
 export async function getAllCountryUniqueNames(): Promise<string[]> {
   const sparqlQuery = `
-    PREFIX : <http://www.rpcw.pt/rafa/ontologies/2024/paises/>
-    SELECT ?c (SAMPLE(?name) AS ?country_name) WHERE{
+  PREFIX : <http://www.rpcw.pt/rafa/ontologies/2024/paises/>
+SELECT ?c (SAMPLE(?name) AS ?country_name) WHERE{
         ?c a :Pais.
         ?c :nome ?name.
-    } GROUP BY ?c
+} GROUP BY ?c
   `
 
   try {

@@ -44,7 +44,8 @@ export const SearchCountry = ({
     if (!selectedName || buttonDisabled) return
 
     try {
-      const res = await fetch(`/api/country?country=${selectedName}`)
+      const correctedName = selectedName.replace(/&/g, "and")
+      const res = await fetch(`/api/country?country=${correctedName}`)
       const data: CountryData = await res.json()
       console.log("Fetched country data:", data)
       setCountryDataList((prevList) => [data, ...prevList])

@@ -52,6 +52,37 @@ interface TileIconProps {
   type: TileProps["type"]
 }
 
+
+function getDescription(type: string) {
+  const descriptions: Record<string, string> ={
+    continente: "Continente (África, América do Norte, América do Sul, Ásia, Europa, Oceania)",
+    hemisferio: "Hemisfério (Norte, Sul)",
+    latitude: "Latitude geográfica",
+    longitude: "Longitude geográfica",
+    temperatura_media: "Temperatura média anual",
+    gdp: "Produto Interno Bruto (PIB)",
+    area: "Área total em quilômetros quadrados",
+    densidade_populacional: "Densidade populacional (habitantes por km²)",
+    lado_em_que_conduz: "Lado da estrada em que se conduz",
+    populacao: "População total",
+    taxa_desemprego: "Taxa de desemprego (%)",
+    taxa_fertilidade: "Taxa de fertilidade (número médio de filhos por mulher)",
+    racio_sexos: "Racio de sexos (número de homens por 100 mulheres)",
+    emissoes_co2: "Emissões de dióxido de carbono (CO2)",
+    telefones_por_1000: "Número de telefones por 1000 habitantes",
+    taxa_de_natalidade: "Taxa de natalidade (nascimentos por 1000 habitantes)",
+    taxa_de_mortalidade: "Taxa de mortalidade (mortes por 1000 habitantes)",
+    costa: "Extensão da costa em quilômetros",
+    espetativa_de_vida: "Expectativa de vida ao nascer",
+    exportacoes: "Valor total das exportações",
+    importacoes: "Valor total das importações",
+    literacia: "Taxa de alfabetização (%)",
+    migracao_liquida: "Migração líquida (diferença entre imigração e emigração)",
+    mortalidade_infantil: "Taxa de mortalidade infantil (mortes de crianças menores de 1 ano por 1000 nascimentos)",
+  }
+  return descriptions[type];
+}
+
 const TileIcon = ({ type }: TileIconProps) => {
   return (
     <Drawer>
@@ -81,7 +112,7 @@ const TileIcon = ({ type }: TileIconProps) => {
       <DrawerContent>
         <DrawerHeader>
           <DrawerTitle>{type}</DrawerTitle>
-          <DrawerDescription>{type} description...</DrawerDescription>
+          <DrawerDescription>{getDescription(type)}</DrawerDescription>
         </DrawerHeader>
         <DrawerFooter>
           <DrawerClose>

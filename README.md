@@ -21,6 +21,7 @@ No countryle, nós vimos que eles só tinham 5 temas que nunca mudavam: Hemisfé
 Para a ontologia, tivemos de delimitar o que consideramos que é um país. Baseamos a nossa definição no que as Nações Unidas consideram um país. Esta decisão foi importante e difícil, porque não há um consenso na definição de país. No final, consideramos 195 países, ao usar a definição das Nações Unidas, isto habilitou-nos a retirar muitos "países" que não têm muitos dados disponíveis, como províncias Francesas e Inglesas.
 
 A ontologia neste momento é muito básica, mas com possibilidade para expandir no futuro, por exemplo: acrescentar cidades também e não só países. Para a entrega final a ontologia só possui uma classe: País e essa classe possui os seguintes atributos:
+- **nome** : cada pais pode ter associado mais de um nome, visto que existem várias designações (para mais tarde ser possível procurar por qualquer uma delas)
 - **longitude**
 - **receita_imposto** : % de imposto no país, ex.: 22.80%
 - **taxa_de_natalidade** : relação entre os nascimentos num ano e o número total da população.

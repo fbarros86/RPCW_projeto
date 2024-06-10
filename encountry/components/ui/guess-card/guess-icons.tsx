@@ -29,14 +29,24 @@ import { LuMountain, LuCoins } from "react-icons/lu"
 
 import { TileProps } from "@/components/ui/guess-card/tile"
 
+const getAdjustedSize = (baseSize: string, adjustment: number) => {
+  const baseValue = parseFloat(baseSize)
+  const adjustedValue = baseValue + adjustment
+  return `${adjustedValue}%`
+}
+
 export const getIcon = (type: TileProps["type"]) => {
-  const size = "30%"
+  const baseSize = 30
+  const size = `${baseSize}%`
   const color = "foreground"
+
   switch (type) {
     case "populacao":
       return <FaPeopleGroup size={size} color={color} />
     case "temperatura_media":
-      return <FaTemperatureHalf size={"20%"} color={color} />
+      return (
+        <FaTemperatureHalf size={getAdjustedSize(size, -10)} color={color} />
+      )
     case "continente":
       return <LuMountain size={size} color={color} />
     case "gdp":
@@ -62,7 +72,7 @@ export const getIcon = (type: TileProps["type"]) => {
     case "lado_em_que_conduz":
       return <MdDriveEta size={size} color={color} />
     case "literacia":
-      return <FaBookReader size={"27%"} color={color} />
+      return <FaBookReader size={getAdjustedSize(size, -3)} color={color} />
     case "migracao_liquida":
       return <FaPersonWalkingLuggage size={size} color={color} />
     case "moeda":
@@ -72,7 +82,7 @@ export const getIcon = (type: TileProps["type"]) => {
     case "taxa_de_mortalidade":
       return <IoSkullOutline size={size} color={color} />
     case "taxa_de_natalidade":
-      return <FaBaby size={"23%"} color={color} />
+      return <FaBaby size={getAdjustedSize(size, -7)} color={color} />
     case "telefones_por_1000":
       return <MdLocalPhone size={size} color={color} />
     case "costa":
@@ -84,11 +94,11 @@ export const getIcon = (type: TileProps["type"]) => {
     case "taxa_fertilidade":
       return <MdPregnantWoman size={size} color={color} />
     case "medicos_por_mil":
-      return <FaUserMd size={"25%"} color={color} />
+      return <FaUserMd size={getAdjustedSize(size, -5)} color={color} />
     case "receita_imposto":
       return <LiaMoneyBillWaveSolid size={size} color={color} />
     case "emissoes_co2":
-      return <FaCloudscale size={"27%"} color={color} />
+      return <FaCloudscale size={getAdjustedSize(size, -3)} color={color} />
     default:
       return null
   }

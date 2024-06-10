@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/shadcn/button"
 import {
   Dialog,
@@ -12,13 +12,21 @@ import {
 import { Input } from "@/components/ui/shadcn/input"
 import { Label } from "@/components/ui/shadcn/label"
 import { CountryData } from "@/app/api/utils/get-country-info"
+import { useParams } from "next/navigation"
+import { keyMappings } from "./ui/guess-card/tile-icon"
+import SearchAutocomplete from "./ui/pick-country/search-autocomplete"
 
 interface CountryDialogProps {
   action: "Add" | "Edit" | "Remove"
   countryData?: CountryData | null
+  countryName?: string | null
 }
 
-export const CountryDialog = ({ action, countryData }: CountryDialogProps) => {
+export const CountryDialog = ({
+  action,
+  countryData,
+  countryName,
+}: CountryDialogProps) => {
   const initialData: CountryData = {
     area: "",
     capital: "",
@@ -54,6 +62,38 @@ export const CountryDialog = ({ action, countryData }: CountryDialogProps) => {
   }
 
   const [formData, setFormData] = useState(initialData)
+  const [countryDataEdit, setCountryData] = useState<CountryData | null>(null)
+  const [loading, setLoading] = useState<boolean>(true)
+  const [error, setError] = useState<string | null>(null)
+  const { country } = useParams()
+  const [selectedName, setSelectedName] = useState("") // for edit
+
+  const handleSelect = (name: string) => {
+    setSelectedName(name)
+    console.log("Selected name:", name)
+  }
+
+
+  useEffect(() => {
+    if (!countryName) return
+
+    const fetchCountryData = async () => {
+      try {
+        const response = await fetch(`/api/country?country=${countryName}`)
+        if (!response.ok) {
+          throw new Error("Failed to fetch country information")
+        }
+        const data: CountryData = await response.json()
+        setCountryData(data)
+      } catch (error: any) {
+        setError(error.message)
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    fetchCountryData()
+  }, [country])
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { id, value } = e.target
@@ -74,8 +114,10 @@ export const CountryDialog = ({ action, countryData }: CountryDialogProps) => {
           {action}
         </Button>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-[425px]">
-        <DialogHeader>
+      <DialogContent
+        className={`max-h-[80%] w-[70rem] overflow-hidden ${action === "Remove" ? "sm:max-w-[625px]" : "sm:max-w-[625px]"} `}
+      >
+        <DialogHeader className="sticky left-0 right-0 top-0 z-10 bg-opacity-20">
           <DialogTitle>{action} Country</DialogTitle>
           <DialogDescription>
             {action === "Remove"
@@ -83,36 +125,38 @@ export const CountryDialog = ({ action, countryData }: CountryDialogProps) => {
               : `Please ${action.toLowerCase()} the country details.`}
           </DialogDescription>
         </DialogHeader>
-        <div className="grid gap-4 py-4">
-          {action === "Remove" ? (
-            <>
-              <Label htmlFor="name" className="text-right">
-                Country Name
-              </Label>
-              <Input
-                id="nome"
-                defaultValue={formData.nome}
-                readOnly
-                className="col-span-3"
-              />
-            </>
-          ) : (
-            Object.keys(initialData).map((key) => (
-              <div key={key} className="grid grid-cols-4 items-center gap-4">
-                <Label htmlFor={key} className="text-right">
-                  {key}
+        <div
+          className={`mtb-10 ${action === "Remove" ? "h-[15vh]" : "h-[50vh]"} overflow-y-auto scrollbar scrollbar-track-card scrollbar-thumb-muted scrollbar-thumb-rounded-full hover:cursor-pointer hover:scrollbar-thumb-border active:scrollbar-thumb-primary dark:hover:scrollbar-thumb-zinc-700`}
+        >
+          <div className={`grid gap-4 py-4`}>
+            {action === "Remove" ? (
+              <div className="mx-4 grid grid-cols-4 items-center gap-6">
+                <Label htmlFor="name" className="text-right">
+                  Country Name
                 </Label>
-                <Input
-                  id={key}
-                  //value={formData[key]}
-                  onChange={handleChange}
-                  className="col-span-3"
-                />
+                <SearchAutocomplete onSelect={handleSelect} />
               </div>
-            ))
-          )}
+            ) : (
+              Object.keys(initialData).map((key) => (
+                <div
+                  key={key}
+                  className="mx-4 grid grid-cols-4 items-center gap-6"
+                >
+                  <Label htmlFor={key} className="text-right">
+                    {keyMappings[key]}
+                  </Label>
+                  <Input
+                    id={key}
+                    // value={formData[key]}
+                    onChange={handleChange}
+                    className="col-span-3"
+                  />
+                </div>
+              ))
+            )}
+          </div>
         </div>
-        <DialogFooter>
+        <DialogFooter className="sticky bottom-0 left-0 right-0 z-10">
           <Button type="submit" onClick={handleSubmit}>
             {action === "Remove" ? "Confirm" : "Save changes"}
           </Button>

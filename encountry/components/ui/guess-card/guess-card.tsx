@@ -75,9 +75,9 @@ const GuessCard: React.FC<GuessCardProps> = ({
 
   return (
     <>
-      <div className="flex h-[20%] w-[70%] min-w-[40em] flex-row justify-around rounded-[3em] bg-card py-1 transition delay-150 ease-in-out hover:bg-stone-200 dark:hover:bg-neutral-800">
-        <div className="flex w-[20%] flex-col content-center justify-center gap-4">
-          <div className="custom-font content-center bg-clip-text text-center text-[200%] font-normal tracking-wider text-card-foreground drop-shadow-lg">
+      <div className="flex h-auto w-[70%] min-w-[30em] flex-col items-center gap-3 rounded-[3em] bg-card px-14 py-5 transition delay-150 ease-in-out hover:bg-stone-200 dark:hover:bg-neutral-800 md:flex-row md:justify-around">
+        <div className="flex w-[40%] flex-col content-center justify-center gap-4">
+          <div className="custom-font content-center bg-clip-text text-center text-[150%] font-normal tracking-wider text-card-foreground drop-shadow-lg md:text-[200%]">
             {countryName}
           </div>
           <div className="relative flex content-center justify-center rounded-md text-center transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
@@ -88,7 +88,7 @@ const GuessCard: React.FC<GuessCardProps> = ({
             />
           </div>
         </div>
-        <div className="flex h-auto w-[70%] flex-shrink flex-row items-center justify-center gap-6 pt-5">
+        <div className="flex h-auto w-full flex-shrink flex-row items-center justify-center gap-4">
           {types.map((type) => (
             <Tile
               key={type}

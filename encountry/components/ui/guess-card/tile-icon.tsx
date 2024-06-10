@@ -58,7 +58,7 @@ const TileIcon = ({ type }: TileIconProps) => {
       <DrawerTrigger>
         <HoverCard.Root>
           <HoverCard.Trigger>
-            <div className="relative flex w-full cursor-pointer justify-center pb-5 drop-shadow-lg">
+            <div className="relative flex w-full cursor-pointer justify-center drop-shadow-lg">
               {getIcon(type)}
             </div>
           </HoverCard.Trigger>

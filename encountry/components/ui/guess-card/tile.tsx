@@ -38,7 +38,7 @@ export interface TileProps {
 
 const Tile = ({ children = "", type, hint }: TileProps) => {
   const base =
-    "aspect-square min-h-[30%] min-w-[30%] max-h-[80%] max-w-[80%] h-[60%] w-[60%] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 relative content-center items-center justify-center text-center rounded-lg"
+    "aspect-square w-full max-h-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 relative flex items-center justify-center text-center rounded-lg"
   const gradient1 = "from-red-500 via-yellow-500 to-primary"
   const gradient2 = "from-red-500 from-2% via-yellow-500 via-40% to-primary"
 
@@ -53,42 +53,42 @@ const Tile = ({ children = "", type, hint }: TileProps) => {
   const hintRight = `${base} bg-primary`
   const hintWrong = `${base} bg-red-500`
 
-  var typeDesc = ""
-
   const getTypeClass = () => {
     switch (hint) {
       case "r":
-        return `${dirRight}`
+        return dirRight
       case "l":
-        return `${dirLeft}`
+        return dirLeft
       case "u":
-        return `${dirUp}`
+        return dirUp
       case "d":
-        return `${dirDown}`
+        return dirDown
       case "ul":
-        return `${dirUpLeft}`
+        return dirUpLeft
       case "ur":
-        return `${dirUpRight}`
+        return dirUpRight
       case "dl":
-        return `${dirDownLeft}`
+        return dirDownLeft
       case "dr":
-        return `${dirDownRight}`
+        return dirDownRight
       case "right":
-        return `${hintRight}`
+        return hintRight
       case "wrong":
-        return `${hintWrong}`
+        return hintWrong
       default:
         return `bg-foreground`
     }
   }
 
   return (
-    <div className="aspect-square">
+    <div className="flex aspect-square max-w-[60%] flex-grow flex-col items-center justify-center gap-4">
       <TileIcon type={type} />
-      <div className="relative flex h-full w-full justify-center">
+      <div className="flex aspect-square w-full items-center justify-center md:w-[80%]">
         <div className={getTypeClass()}>
-          <div className="flex h-24 w-24 cursor-default content-center items-center justify-center text-[100%] font-extrabold text-white drop-shadow-lg">
-            {children}
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="flex items-center justify-center text-[70%] font-extrabold text-white drop-shadow-lg md:text-[130%]">
+              {children}
+            </div>
           </div>
         </div>
       </div>

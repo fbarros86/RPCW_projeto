@@ -22,10 +22,10 @@ interface SearchCountryProps {
 export const SearchCountry = ({
   targetCountry,
   gameHints,
-}: SearchCountryProps) => {
-  const [selectedName, setSelectedName] = useState("")
-  const [countryDataList, setCountryDataList] = useState<CountryData[]>([])
-  const [buttonDisabled, setButtonDisabled] = useState(false)
+  }: SearchCountryProps) => {
+    const [countryDataList, setCountryDataList] = useState<CountryData[]>([])
+    const [buttonDisabled, setButtonDisabled] = useState(false)
+    const [selectedName, setSelectedName] = useState("")
 
   const handleSelect = (name: string) => {
     setSelectedName(name)

@@ -28,6 +28,7 @@ export function Navbar({ targetCountry }: NavbarProps) {
   const pathname = usePathname()
   const isCountriesPage = pathname === "/countries"
   const isCountryPage = /^\/countries\/[^/]+$/.test(pathname)
+  const countryName = pathname.split("/").pop()
 
   return (
     <NavigationMenu className="flex list-none justify-items-center space-x-4">
@@ -73,7 +74,7 @@ export function Navbar({ targetCountry }: NavbarProps) {
           </ul>
         </NavigationMenuContent>
       </NavigationMenuItem>
-      {!isCountriesPage && (
+      {!isCountriesPage && !isCountryPage && (
         <NavigationMenuItem>
           <NavigationMenuTrigger>Solution</NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -122,10 +123,7 @@ export function Navbar({ targetCountry }: NavbarProps) {
       {isCountryPage && (
         <>
           <NavigationMenuItem>
-            <CountryDialog
-              action="Edit"
-              //countryData={/* Pass country data here */}
-            />
+            <CountryDialog action="Edit" countryName={countryName} />
           </NavigationMenuItem>
         </>
       )}

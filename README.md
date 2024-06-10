@@ -1,9 +1,27 @@
 # Encountry
 
-#### Realizado por:
-- Francisca Barros PG53816
-- Rafael Correia PG54162
-- Robert Szabo PG54194
+#### Realizador por:
+| Nome | Número             |
+| -------- | ------- |
+| Francisca Barros | PG53816 |
+| Rafael Correia | PG54162 |
+| Robert Szabo | PG54194 |
+
+
+## Índice
+
+- [Encountry](#encountry)
+      - [Realizado por:](#realizado-por)
+  - [Índice](#índice)
+  - [Introdução](#introdução)
+  - [Ontologia](#ontologia)
+  - [Front-end](#front-end)
+    - [Página inicial](#página-inicial)
+    - [Página do país](#página-do-país)
+    - [Página dos países](#página-dos-países)
+  - [Back-end](#back-end)
+  - [Execução](#execução)
+  - [Conclusão](#conclusão)
 
 ## Introdução
 Para o trabalho de RPCW optámos por fazer um tema livre, pois acreditamos que isso nos permitiria ter um produto final mais interessante e mais aperfeiçoado, já que seria algo que nos interessaria mais.

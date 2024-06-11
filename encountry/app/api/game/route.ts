@@ -2,6 +2,14 @@ import { NextResponse } from "next/server"
 import { getAllCountries } from "../utils/get-all-countries"
 import { getCountryInfo } from "../utils/get-country-info"
 
+// Use a global variable to store the previously selected country
+let previousCountry = ""
+
+function seededRandom(seed: number) {
+  var x = Math.sin(seed) * 10000
+  return x - Math.floor(x)
+}
+
 export async function GET() {
   try {
     // Get all country names
@@ -11,9 +19,20 @@ export async function GET() {
       return NextResponse.json({ error: "No countries found" }, { status: 404 })
     }
 
-    // Pick a random country
-    const randomCountry =
-      countries[Math.floor(Math.random() * countries.length)]
+    // Generate a unique seed based on current time
+    const seed = new Date().getTime()
+    let randomIndex = Math.floor(seededRandom(seed) * countries.length)
+
+    // Ensure the new country is not the same as the previous one
+    while (countries[randomIndex] === previousCountry) {
+      randomIndex = Math.floor(seededRandom(seed + 1) * countries.length)
+    }
+
+    // Pick a random country based on the generated index
+    const randomCountry = countries[randomIndex]
+
+    // Update the previous country
+    previousCountry = randomCountry
 
     // Get detailed information about the selected country
     const countryInfo = await getCountryInfo(randomCountry)

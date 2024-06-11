@@ -21,6 +21,7 @@ export const keyMappings: Record<string, string> = {
   continente: "Continent",
   area: "Area",
   capital: "Capital",
+  flag: "Flag",
   densidade_populacional: "Population Density",
   espetativa_de_vida: "Life Expectancy",
   exportacoes: "Exports",

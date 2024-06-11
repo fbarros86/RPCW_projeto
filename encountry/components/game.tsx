@@ -1,6 +1,6 @@
 import React from "react"
 import { SearchCountry } from "./ui/pick-country/search-main"
-import { CountryData } from "./ui/guess-card/all-guesses"
+import { CountryData } from "@/lib/utils"
 import { TileProps } from "./ui/guess-card/tile"
 
 export interface GameProps {

@@ -2,7 +2,7 @@ import React from "react"
 import { Navbar } from "./ui/header/navbar"
 import Title from "./ui/header/game-title"
 import { ModeToggle } from "./ui/shadcn/mode-toggle"
-import { CountryData } from "./ui/guess-card/all-guesses"
+import { CountryData } from "@/lib/utils"
 
 interface HeaderProps {
   targetCountry?: CountryData | null

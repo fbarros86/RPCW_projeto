@@ -59,7 +59,6 @@ const WorldMap: React.FC<WorldMapProps> = ({
       return `country-hover ${country}`
     }
     if (isCountryGuessed(country)) {
-      console.log("Country guessed:", country)
       return `country-guessed ${country}`
     }
     return baseClass

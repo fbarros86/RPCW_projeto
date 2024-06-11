@@ -11,7 +11,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/shadcn/table"
-import { CountryData } from "./ui/guess-card/all-guesses"
+import { CountryData } from "@/lib/utils"
 
 const CountriesTable = () => {
   const [countriesData, setCountriesData] = useState<CountryData[]>([])

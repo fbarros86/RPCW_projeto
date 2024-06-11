@@ -1,14 +1,13 @@
-import axios from "axios"
+import axios, { AxiosResponse } from "axios"
 import { graphdbEndpoint } from "./endpoint"
-import { CountryData } from "@/components/all-guesses"
+import { CountryDataEdit } from "@/lib/utils"
 
-export async function editCountry(country: CountryData) {
+export async function editCountry(
+  country: CountryDataEdit,
+): Promise<AxiosResponse | null> {
   let triplos = ""
   let triposapagar = ""
-  const countryName =
-    typeof country.nome === "string"
-      ? country.nome.replace(" ", "_")
-      : country.nome[0].replace(" ", "_")
+  const countryName = country.nome
 
   for (const [key, value] of Object.entries(country)) {
     triplos += `:${countryName} :${key} "${value}" .\n`
@@ -24,19 +23,20 @@ export async function editCountry(country: CountryData) {
     }WHERE {
         :${countryName} ?p ?o .
     }
-    `
+  `
   try {
-    await axios
-      .post(graphdbEndpoint + "/statements", sparqlQuery, {
+    const response = await axios.post(
+      graphdbEndpoint + "/statements",
+      sparqlQuery,
+      {
         headers: {
           "Content-Type": "application/sparql-update",
           Accept: "application/sparql-results+json",
         },
-      })
-      .then((response) => {
-        console.log(response.status)
-        return response
-      })
+      },
+    )
+    console.log(response.status)
+    return response
   } catch (error: any) {
     console.error("Error making SPARQL query:", error.message)
     if (error.response) {

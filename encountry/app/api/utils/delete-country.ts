@@ -1,31 +1,32 @@
-import axios from "axios"
+import axios, { AxiosResponse } from "axios"
 import { graphdbEndpoint } from "./endpoint"
 
-export async function deleteCountry(country: string) {
+export async function deleteCountry(
+  country: string,
+): Promise<AxiosResponse | null> {
   const sparqlQuery = `
     PREFIX : <http://www.rpcw.pt/rafa/ontologies/2024/paises/>
     DELETE{
-       
         ?country ?a ?b
     }
     WHERE{
         ?country :nome "${country}".
         ?country ?a ?b
     }
-    `
-
+  `
   try {
-    await axios
-      .post(graphdbEndpoint + "/statements", sparqlQuery, {
+    const response = await axios.post(
+      graphdbEndpoint + "/statements",
+      sparqlQuery,
+      {
         headers: {
           "Content-Type": "application/sparql-update",
           Accept: "application/sparql-results+json",
         },
-      })
-      .then((response) => {
-        console.log(response.status)
-        return response
-      })
+      },
+    )
+    console.log("DELETE RESPONSE CODE", response.status)
+    return response
   } catch (error: any) {
     console.error("Error making SPARQL query:", error.message)
     if (error.response) {

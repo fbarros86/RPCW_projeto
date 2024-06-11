@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import Tile, { TileProps } from "./tile"
-import { CountryData } from "./all-guesses"
+import { CountryData } from "@/lib/utils"
 import GameEnd from "./game-end"
 import {
   formatCurrency,

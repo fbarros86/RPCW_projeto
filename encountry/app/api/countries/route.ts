@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server"
 import { getAllCountryUniqueNames } from "../utils/get-all-countries"
-import { getCountryInfo, CountryData } from "../utils/get-country-info"
+import { getCountryInfo } from "../utils/get-country-info"
+import { CountryData } from "@/lib/utils"
 
 export async function GET() {
   try {

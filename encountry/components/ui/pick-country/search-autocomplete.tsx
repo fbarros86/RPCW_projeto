@@ -101,7 +101,7 @@ const SearchAutocomplete: React.FC<SearchAutocompleteProps> = ({
         )}
         {isEmpty && !noData && (
           <div className="mt-6 h-[15rem] overflow-hidden text-center text-base text-muted-foreground">
-            <h1>Guess a country... 🌍</h1>
+            <h1>Select a country... 🌍</h1>
           </div>
         )}
 

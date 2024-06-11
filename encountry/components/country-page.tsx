@@ -11,7 +11,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/shadcn/table"
-import { CountryData } from "@/app/api/utils/get-country-info"
+import { CountryData } from "@/lib/utils"
 import { keyMappings } from "./ui/guess-card/tile-icon"
 
 const CountryPage = () => {

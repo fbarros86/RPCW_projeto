@@ -11,7 +11,7 @@ import WorldMap from "./world-map"
 import SearchAutocomplete from "./search-autocomplete"
 import CursorAnimation from "../misc/cursor-animation"
 import { AllGuesses } from "../guess-card/all-guesses"
-import { CountryData } from "../guess-card/all-guesses"
+import { CountryData } from "@/lib/utils"
 import { TileProps } from "../guess-card/tile"
 
 interface SearchCountryProps {

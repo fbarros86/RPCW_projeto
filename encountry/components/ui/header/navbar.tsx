@@ -38,14 +38,23 @@ export function Navbar({ targetCountry }: NavbarProps) {
             <ul className="grid list-none gap-8 p-10 md:w-[600px] lg:w-[1000px] lg:grid-cols-[.75fr_1fr]">
               <li className="row-span-4">
                 <NavigationMenuItem asChild>
-                  <a className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-t from-primary to-sky-400 p-6 no-underline outline-none focus:shadow-md">
+                  <a className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-t from-red-500 via-yellow-500 to-primary p-6 no-underline outline-none focus:shadow-md">
                     <Icons.globe className="h-6 w-6" />
                     <div className="mb-2 mt-4 text-4xl font-medium text-white">
                       Find the Country!
                     </div>
-                    <p className="p-4 text-sm leading-tight text-zinc-100">
+                    <p className="p-4 text-justify text-sm leading-tight text-zinc-100">
                       You get to guess the country based on hemisphere,
-                      continent, temperature, and more!
+                      continent, temperature, and more! You'll know if you're
+                      close to the right answer by the color of the tiles.
+                      Follow the direction of the gradients towards{" "}
+                      <CursorAnimation
+                        source="congrats"
+                        classes="font-bold text-primary transition delay-150 duration-300 ease-in-out hover:font-extrabold"
+                      >
+                        GREEN
+                      </CursorAnimation>{" "}
+                      to get closer!
                     </p>
                   </a>
                 </NavigationMenuItem>

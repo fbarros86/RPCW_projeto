@@ -182,13 +182,17 @@ PREFIX : <http://www.rpcw.pt/rafa/ontologies/2024/paises/>
       FILTER(CONTAINS(LCASE(?name), "${searchTerm.toLowerCase()}"))
     } GROUP BY ?flag
 ```
-**Lista de países**: lista de todos os nomes de países (apenas um por país)
+**Lista de países**: lista de todos os países, com informação necessária para a tabela
 ```sql
 PREFIX : <http://www.rpcw.pt/rafa/ontologies/2024/paises/>
-SELECT ?c (SAMPLE(?name) AS ?country_name) WHERE{
-        ?c a :Pais.
-        ?c :nome ?name.
-} GROUP BY ?c
+SELECT ?c (SAMPLE(?name) AS ?nome) ?capital ?area ?populacao ?flag WHERE{
+        ?c a :Pais;
+         :nome ?name;
+         :capital ?capital;
+         :area ?area;
+         :populacao ?populacao;
+         :flag ?flag.
+} GROUP BY ?c ?capital ?area ?populacao ?flag
 ```
 **Informação de um país**: devolve todas as propriedades de um pais (foi necessário excluir triplos que atribuiam o tipo)
 ```sql

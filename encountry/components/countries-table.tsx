@@ -73,16 +73,16 @@ const CountriesTable = () => {
           <TableRow key={index}>
             <TableCell className="font-medium">
               <Link
-                href={`/countries/${country.nome.join(", ")}`}
+                href={`/countries/${country.nome}`}
                 className="hover:underline"
               >
-                {country.nome.join(", ")}
+                {country.nome}
               </Link>
             </TableCell>
             <TableCell>
               <img
                 src={country.flag}
-                alt={`${country.nome.join(", ")} flag`}
+                alt={`${country.nome} flag`}
                 className="h-12 w-20 object-contain"
               />
             </TableCell>

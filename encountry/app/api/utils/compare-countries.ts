@@ -36,7 +36,7 @@ export async function compareCountries(
       row === "moeda" ||
       row === "continente"
     ) {
-      return v1 === v2 ? "right" : "wrong"
+      return v1.toLowerCase() === v2.toLowerCase() ? "right" : "wrong"
     } else if (row === "longitude") {
       const longitude1 = parseFloat(v1)
       const longitude2 = parseFloat(v2)
